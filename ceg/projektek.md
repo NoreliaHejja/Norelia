@@ -4,8 +4,8 @@ Cél: összesen ≥ 1 000 000 Ft/hó nettó, minél előbb. Elv: **csak olyan pr
 
 | # | Projekt | Státusz | Bevétel most | Forgalom most | Cél 6 hó (Ft/hó) |
 |---|---|---|---|---|---|
-| 1 | AureliaVenn – digitális termékek (Etsy + Amazon KDP + további csatornák) | AKTÍV – 1. eladás 2026-10-31 | ~0 | ~5 látogató/hét (Etsy heti riport) | 200 000 |
-| 2 | Reinigungsfirma Startsystem – digitális csomag német takarítócég-alapítóknak | ÉPÍTÉS – a Drive-dokumentum még üres | 0 | – | 500 000 |
+| 1 | AureliaVenn – Emily AI influenszer márka: printable-ek + POD (Etsy + Amazon KDP) | AKTÍV – 1. eladás 2026-10-31 | ~0 | ~5 látogató/hét (Etsy heti riport) | 200 000 |
+| 2 | Reinigungsfirma Startsystem – digitális csomag német takarítócég-alapítóknak, Digistore24 | ÉPÍTÉS – tartalom keresése (lásd projektek/startsystem.md) | 0 | – | 500 000 |
 | 3 | Reinigungs-Kalkulator – ajánlat- és árkalkulátor takarítócégeknek (sablon → havidíjas online eszköz) | TESZT | 0 | – | 300 000 |
 
 ## Számítás (1 € ≈ 400 Ft, becslés)
