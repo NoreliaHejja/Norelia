@@ -86,3 +86,20 @@ Személyleírás (javaslat, jóváhagyásra):
 - **Higgsfield**: állandó karakter (referenciaképek + hang), hogy minden videóban ugyanaz az arc legyen.
 
 Bizalmi szabály: Katrin **mindig AI-ként van jelölve** (a profilban és minden posztban). A hitelességet nem a hamis életrajz adja, hanem a valódi tartalom: Nóra 15 éves takarítóipari tapasztalata és a valódi számok. Kitalált „vevői véleményt” Katrin nem mond.
+
+## Digistore24 piactér – tanulságok (Nóra képernyőképe, 2026-11-02, német nyelvű top 10)
+| Termék | Ár | Jutalék | Affiliate-nek / eladás |
+|---|---|---|---|
+| KlickTipp partnerprogram | 1 072 € | 25% | ~312 € |
+| FunnelCockpit (szoftver, havidíj) | 47–297 €/hó | 25% | ~260 € |
+| KI-Komplett-System, AI-Influencer System, Umfragen, TikTok… (CyrilCash) | 165–190 € | 50–100% | ~111–142 € |
+
+**Minta**: a piactéren az nyer, ami **egy eladáson 100 € feletti jutalékot** ad az affiliate-nek. Sok terméket „GRATIS”/olcsó belépőként, 100% jutalékkal adnak el, a pénzt a ráépülő termékek hozzák.
+**Következmény nekünk**: a 29 €-s Kit önmagában (~12 € jutalék) affiliate-eknek nem vonzó.
+
+**Döntés-javaslat**
+1. **MEGCSINÁLNI** – árlépcső affiliate-ekre szabva: Kit 29 € (belépő, 50–100% jutalék) → order bump +19 € (Musterverträge) → **Komplettpaket 197–249 € videós résszel (Katrin), 50% jutalék ≈ 90–95 €/eladás az affiliate-nek**.
+2. **TESZTELNI** – Katrin-vezette rövid videómodulok (Higgsfield) a Komplettpaketben: a „Member area and video courses” típusú termékek drágábban mennek.
+3. **ELVETNI** – saját „pénzkereset online / AI-influencer” kurzus: telített, egy szereplő (CyrilCash) uralja, és rontaná a Reinigungsfirma bizalmi márkát.
+
+Számítás (Komplett 249 € brutto): nettó 209 € − Digistore-díj ~21 € = ~188 € → 50% affiliate ~94 € → **nekünk ~94 € ≈ 37 600 Ft/eladás**. 1 M Ft/hó ≈ 27 Komplett-eladás/hó.
