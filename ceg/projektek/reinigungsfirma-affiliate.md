@@ -1,4 +1,4 @@
-# Startsystem – affiliate partnerek (1. kör, 2026-11-02)
+# Reinigungsfirma – affiliate partnerek (1. kör, 2026-11-02)
 
 Jutalék-javaslat: 40–50% (Digistore24-en ez a megszokott digitális termékekre).
 
@@ -20,13 +20,13 @@ Jutalék-javaslat: 40–50% (Digistore24-en ez a megszokott digitális termékek
 | Reinigungssoftware (pl. Clean-Invoice) | partner program kérdéses → megkeresni | ajánlat/számla fejezet |
 
 ## Megkereső e-mail (német, PISZKOZAT – jóváhagyásra)
-**Betreff:** Partnerschaft: Startsystem für Reinigungsfirmen – 50 % Provision
+**Betreff:** Partnerschaft: Reinigungsfirma für Reinigungsfirmen – 50 % Provision
 
 Hallo [Name],
 
 ich habe Ihren Artikel „[Titel]“ gelesen – sehr hilfreich für Gründer in der Reinigungsbranche.
 
-Wir haben das **Reinigungsfirma Startsystem** entwickelt: Checklisten, Angebotskalkulator, Vertragsvorlagen und einen 90-Tage-Plan – aus über 15 Jahren Praxis in der Industriereinigung.
+Wir haben das **Reinigungsfirma OS** entwickelt: Checklisten, Angebotskalkulator, Vertragsvorlagen und einen 90-Tage-Plan – aus über 15 Jahren Praxis in der Industriereinigung.
 
 Für Ihre Leser bieten wir **50 % Provision** pro Verkauf über Digistore24 (automatische Auszahlung) und einen kostenlosen Zugang für Sie zum Testen.
 

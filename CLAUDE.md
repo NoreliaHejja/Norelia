@@ -1,6 +1,6 @@
-# Norelia – AI cég (agent rendszer)
+# Norelia – Startsystem (AI cég agent rendszer)
 
-Ez a repó egy "AI cég": a **Főnök** agent irányít, alatta osztály-agentek dolgoznak.
+A **Startsystem** a cégfelépítésünk neve: ez a repó egy "AI cég": a **Főnök** agent irányít, alatta osztály-agentek dolgoznak.
 Minden agent ezt a fájlt és a `ceg/` mappát olvassa közös memóriaként.
 
 ## Az egyetlen cél
@@ -10,7 +10,7 @@ Minden agent ezt a fájlt és a `ceg/` mappát olvassa közös memóriaként.
 
 ## Projektek (részletek: `ceg/projektek.md`)
 1. **AureliaVenn** – digitális termékek: Etsy + Amazon KDP + további csatornák
-2. **Reinigungsfirma Startsystem** – digitális csomag német takarítócég-alapítóknak
+2. **Reinigungsfirma OS** – digitális csomag német takarítócég-alapítóknak
 3. **Reinigungs-Kalkulator** – ajánlatkalkulátor takarítócégeknek (sablon → havidíjas eszköz)
 
 Elv: csak olyan projekt, amihez Nóra fizikailag nem kell.

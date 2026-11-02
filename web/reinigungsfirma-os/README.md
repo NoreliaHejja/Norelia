@@ -1,5 +1,7 @@
 # Reinigungsfirma OS – Landing oldal
 
+Új design szerinti verzió. A korábbi, teljes ajánlatot (Kit 29 €, Starter 49 €, OS 99 €) és Impressum/Datenschutz részt tartalmazó oldal: `../reinigungsfirma-os-v1/`.
+
 Statikus oldal (HTML + CSS + vanilla JS), nincs build lépés. Bármilyen tárhelyre feltölthető (WordPress: egyedi HTML-oldal vagy fájlfeltöltés).
 
 - `index.html` – az oldal

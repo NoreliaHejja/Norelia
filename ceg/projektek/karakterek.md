@@ -14,7 +14,7 @@ Cél: ugyanaz az arc, hang és stílus minden tartalomban (Higgsfield állandó 
 | Témák | ünnepi tervezés, heti rutin, menütervezés, gyerekszülinap, „mom hacks” → mind egy-egy AureliaVenn termékhez kötve |
 | Profil bio minta | „Mom of one, cat person, planner addict 🗓️ · AI-generated character · Printables ↓” |
 
-## Katrin – Reinigungsfirma Startsystem
+## Katrin – Reinigungsfirma OS
 | | |
 |---|---|
 | Kor | 46 év |
@@ -25,7 +25,7 @@ Cél: ugyanaz az arc, hang és stílus minden tartalomban (Higgsfield állandó 
 | Nyelv, hang | német; magázás vagy tegezés: **Nóra döntése** (javaslat: „Du” a TikTokon/IG-n, „Sie” a LinkedInen) |
 | Témák | árazás m²-re, első ügyfél, ajánlatírás, hibák az első évben, Gewerbe/Versicherung lépések |
 | Mit NEM mond | „saját cégem volt” sztori, kitalált ügyfélvélemény, jogi/adótanácsként hangzó kijelentés |
-| Profil bio minta | „Deine Mentorin für die Reinigungsfirma-Gründung · KI-generierte Figur · Wissen aus 15 Jahren Praxis · Startsystem ↓” |
+| Profil bio minta | „Deine Mentorin für die Reinigungsfirma-Gründung · KI-generierte Figur · Wissen aus 15 Jahren Praxis · Reinigungsfirma ↓” |
 
 ## Teendő a véglegesítéshez
 1. Emily meglévő képei → Drive „Norelia/AureliaVenn/Emily”.

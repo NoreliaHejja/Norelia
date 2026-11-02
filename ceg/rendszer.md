@@ -18,8 +18,8 @@ A `tartalom` agent 2026-11-02 óta él.
 | Projekt | Arc (AI, jelölve) | Csatornák | Állapot |
 |---|---|---|---|
 | AureliaVenn | **Emily** (38, anya, férj, macska, kisfiú) | Etsy, Amazon KDP, POD; IG, TikTok, Pinterest | él, 1 eladás |
-| Reinigungsfirma Startsystem | **Katrin** (46, virtuális mentor) | Digistore24 + affiliate-ek; TikTok, IG, FB, LinkedIn, YT Shorts, Pinterest | tartalom keresése / újraépítés |
-| Reinigungs-Kalkulator | Katrin (ugyanaz a márka) | Startsystem része + Etsy/Gumroad, később havidíj | terv |
+| Reinigungsfirma OS | **Katrin** (46, virtuális mentor) | Digistore24 + affiliate-ek; TikTok, IG, FB, LinkedIn, YT Shorts, Pinterest | tartalom keresése / újraépítés |
+| Reinigungs-Kalkulator | Katrin (ugyanaz a márka) | Reinigungsfirma része + Etsy/Gumroad, később havidíj | terv |
 
 ## 3. Táblák és fájlok (ami MOST megvan)
 | Hol | Mi | Ki írja |
@@ -39,11 +39,11 @@ A `tartalom` agent 2026-11-02 óta él.
 | # | Mi | Miért | Prioritás |
 |---|---|---|---|
 | 1 | AureliaVenn meglévő anyagai → Drive „Norelia/AureliaVenn” | feltöltés Etsyre/KDP-re | MAGAS |
-| 2 | Startsystem anyag (ha előkerül) → Drive „Norelia/Startsystem” | különben újraépítem | MAGAS |
-| 3 | **Digistore24** vendor fiók | Startsystem eladás | MAGAS |
+| 2 | Reinigungsfirma anyag (ha előkerül) → Drive „Norelia/Reinigungsfirma” | különben újraépítem | MAGAS |
+| 3 | **Digistore24** vendor fiók | Reinigungsfirma eladás | MAGAS |
 | 4 | **Amazon KDP** fiók (adó- és bankadatokkal) | printable-ek | MAGAS |
 | 5 | Social fiókok: Emily (IG, TikTok, Pinterest), Katrin (TikTok, IG, FB oldal, LinkedIn, YouTube, Pinterest) → mind a **Metricoolba** | ütemezett posztolás | MAGAS |
-| 6 | Domain + landing a Startsystemhez (WordPress.com van) + **Impressum, Datenschutz** (német előírás) | Digistore és hirdetés feltétele | MAGAS |
+| 6 | Domain + landing a Reinigungsfirma OS-hez (WordPress.com van) + **Impressum, Datenschutz** (német előírás) | Digistore és hirdetés feltétele | MAGAS |
 | 7 | Gumroad: felfüggesztett kifizetés rendezése (vagy Gumroad elhagyása) | pénz beragad | KÖZEPES |
 | 8 | Zapier befejezése | Etsy-adatok automatikusan | KÖZEPES |
 | 9 | POD partner (Printify vagy Printful) összekötése Etsyvel | póló, pulcsi, bögre | KÖZEPES |
