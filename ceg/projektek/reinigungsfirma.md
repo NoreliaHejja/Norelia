@@ -54,7 +54,7 @@ Hiányzik: **kontakt e-mail** (domain-es), **nyilvántartási szám**, **közös
 ⚠️ A Digistore24 (német cég) viszonteladóként tőled vásárol → számlázáshoz **közösségi adószám kell** (NAV, `T201`/`T101` bejelentés, ingyenes). A „-1-” az adószámban alanyi ÁFA-mentességet jelez: ez maradhat, de a közösségi adószámot ettől függetlenül igényelni kell. Könyvelővel egyeztetni.
 
 ## Élesítési sorrend
-1. Domain (pl. reinigungsfirma-os.de / .com) + Cloudflare Pages feltöltés (`web/reinigungsfirma-os/`).
+1. Domain: **reinigungsfirma-os.de** az **INWX**-nél (német regisztrátor, .de-re olcsó és átlátható megújítás) → DNS a Cloudflare-re (ingyenes) → Cloudflare Pages feltöltés (`web/reinigungsfirma-os/`). Tartalék: reinigungsfirma-os.com a Cloudflare Registrarnál (önköltséges ár). DENIC: nem német tulajdonos is regisztrálhat; csak a DENIC kérésére kell 2 héten belül németországi kézbesítési megbízottat megnevezni.
 2. Közösségi adószám igénylése (NAV) + kontakt e-mail a domainen.
 3. Digistore24 regisztráció → Kit termék (adatok fent) → link az oldalba: `[DIGISTORE24-LINK-KIT]`.
 4. Várólista: ingyenes hírlevél-szolgáltató (EU-s, pl. MailerLite vagy Brevo) → `[NEWSLETTER-LINK]` + Datenschutz 6. pont kitöltése.

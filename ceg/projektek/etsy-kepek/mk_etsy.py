@@ -46,11 +46,11 @@ def colours(covers,names,bgc,ink,title,name):
         lw=d.textlength(n,font=font('SemiBold',48)); text(d,(x+(pw-lw)/2,y+ph+28),n,font('SemiBold',48),ink)
     bg.save(f'{OUT}/{name}.jpg',quality=92)
 pet=[f'{E}/pet/p-{i}.png' for i in range(1,9)]
-hero(pet,'#EFE9E1','#33302B','#B98A6A',['Pet Memorial','Keepsake Journal'],['8 printable pages to remember,','grieve and celebrate a beloved pet'],'Instant download · Printable PDF','pet-01-hero')
+hero(pet,'#EFE9E1','#33302B','#B98A6A',['Pet Memorial','Keepsake Journal'],['8 printable pages to remember,','grieve and celebrate a beloved pet'],'Printable + GoodNotes · Letter & A4','pet-01-hero')
 grid(pet,'#F6F2EC','#33302B',"What's inside – 8 pages",['Cover','About Them','How We Met','Memories','Little Ways','What I Miss','A Letter','Always With Me'],'pet-02-inside')
 pp=lambda c,i: f'{E}/puppy/{c}-{i}.png'
 sage='01_New-Puppy-Starter-Kit_Sage'
-hero([pp(sage,1),pp(sage,2),pp(sage,4)],'#E9EFE8','#2E3B33','#556B5D',['New Puppy','Starter Kit'],['Health records, feeding & weight logs,','routine trackers and checklists'],'8 pages · 6 colours · Instant download','puppy-01-hero')
+hero([pp(sage,1),pp(sage,2),pp(sage,4)],'#E9EFE8','#2E3B33','#556B5D',['New Puppy','Starter Kit'],['Health records, feeding & weight logs,','routine trackers and checklists'],'6 colours · Letter & A4 · GoodNotes','puppy-01-hero')
 grid([pp(sage,i) for i in range(1,9)],'#F3F6F2','#2E3B33',"What's inside – 8 pages",['Cover','Puppy Profile','Vaccinations','Feeding & Weight','Potty & Routine','Vet Contacts','Shopping List','First Week'],'puppy-02-inside')
 cols=['01_New-Puppy-Starter-Kit_Sage','02_New-Puppy-Starter-Kit_Blush','03_New-Puppy-Starter-Kit_DustyBlue','04_New-Puppy-Starter-Kit_Terracotta','05_New-Puppy-Starter-Kit_Greige','06_New-Puppy-Starter-Kit_Charcoal']
 colours([pp(c,1) for c in cols],['Sage','Blush','Dusty Blue','Terracotta','Greige','Charcoal'],'#F5F3EF','#2E3B33','All 6 colours included','puppy-03-colours')
