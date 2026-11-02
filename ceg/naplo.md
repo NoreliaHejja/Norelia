@@ -8,3 +8,4 @@
 | 2026-11-02 | Nóra + Claude | Startsystem → Digistore24, social: TikTok/IG/FB/LinkedIn/Pinterest. Affiliate-lista + német megkereső piszkozat kész. AureliaVenn = Emily AI influenszer; KDP csak digitális termékekre. Startsystem tartalma és a fel nem töltött termékek nem érhetők el innen (Cowork / Nóra gépe). | – |
 | 2026-11-02 | Nóra | Startsystem saját AI influenszert kap, arccal (megbízható, kötődni lehet hozzá). Javaslat: Katrin, 46. AI-jelölés kötelező. | – |
 | 2026-11-02 | Claude (Nóra jóváhagyásával) | 4 monday tábla létrehozva (Vibes workspace → Norelia mappa; új workspace-hez nincs jogosultság), feltöltve 11 termékkel, 8 affiliate-célponttal, 2 KPI-héttel. tartalom agent + karakterlapok kész. | – |
+| 2026-11-02 | Claude | Reinigungsfirma OS landing (design alapján) elkészült: web/reinigungsfirma-os/. Élesítéshez: ár, Digistore24-link, hírlevél, Impressum/Datenschutz/AGB. | – |
