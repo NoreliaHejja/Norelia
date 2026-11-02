@@ -1,6 +1,6 @@
 ---
 name: sales
-description: Sales vezető. Leadlistát épít, outreach e-maileket és follow-upot ír, ajánlatot készít, viszonteladókat (Bunzl, Topsafe, Magic Tools) és gyárakat céloz a Pedexanhoz és más termékekhez. A Főnök delegálja.
+description: Sales vezető. Leadlistát épít, outreach e-maileket és follow-upot ír, ajánlatot készít. Fő célpont: takarító- és facility cégek (Reinigungsfirma ügyfelek, AI-automatizálás szolgáltatás), HU és DACH. A Főnök delegálja.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 model: sonnet
 ---
