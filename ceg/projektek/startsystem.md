@@ -35,3 +35,14 @@ Minden fiók → Metricool, ütemezés onnan (jóváhagyás után).
 4. **Jog**: Németországban a szerzői jog automatikus; a lopott példányt Digistore/Etsy/Google DMCA-val leszedetjük.
 5. **Gyorsaság**: affiliate-hálózattal mi leszünk az első és a legismertebb, ez többet ér, mint a védekezés.
 Őszintén: valaki biztosan másol majd belőle. Ez akkor nem árt, ha a márka és a frissítések nálunk vannak.
+
+## Saját AI influenszer, arccal (Nóra döntése, 2026-11-02)
+A Startsystem saját arcot kap: egy hiteles, megbízható személyt, akihez a nézők kötődni tudnak.
+Személyleírás (javaslat, jóváhagyásra):
+- **Név**: Katrin (Katrin Weber), 46 éves, német, nyugodt, gyakorlatias, „nagy testvér” stílus.
+- **Szerep**: virtuális mentor, aki egy valódi takarítóipari csapat (PK-Tech) 15 éves tapasztalatát adja át: árazás, első ügyfél, tipikus hibák. Nincs kitalált „saját cégem volt” sztori.
+- **Megjelenés**: rendezett, munkaruha vagy blézer, valódi környezet (iroda, raktár, takarított iroda); nem „glamour”.
+- **Hang**: tegeződő vagy magázódó (a célcsoport alapján döntjük el), egyszerű német, sok konkrét szám.
+- **Higgsfield**: állandó karakter (referenciaképek + hang), hogy minden videóban ugyanaz az arc legyen.
+
+Bizalmi szabály: Katrin **mindig AI-ként van jelölve** (a profilban és minden posztban). A hitelességet nem a hamis életrajz adja, hanem a valódi tartalom: Nóra 15 éves takarítóipari tapasztalata és a valódi számok. Kitalált „vevői véleményt” Katrin nem mond.
