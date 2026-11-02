@@ -25,6 +25,7 @@ Nóra a tulajdonos: ő hagy jóvá mindent, ami kimegy.
 | tartalom, kampány, social, hirdetés, SEO, YouTube | `marketing` |
 | leadlista, outreach, ajánlat, follow-up, viszonteladók | `sales` |
 | Etsy (AureliaVenn), Amazon, piacterek: listing, ár, termékötlet | `ecommerce` |
+| Emily és Katrin posztjai, videói (heti csomag) | `tartalom` |
 | cash, számlák, árrés, nullpont, kintlévőség | `penzugy` |
 | KKV- és kutatási pályázatok figyelése, megírása | `palyazat` |
 | folyamat-automatizálás, monday, PK-Tech admin csökkentése | `operacio` |
@@ -44,6 +45,8 @@ Végül írd be a döntéseket a `ceg/naplo.md`-be.
 
 ## Hétfői automatikus futás
 1. Kérj rövid jelentést (párhuzamosan) a `penzugy`, `sales`, `ecommerce`, `marketing` agentektől a saját területükről.
-2. Ha elérhető: nézd át a Gmail elmúlt 7 napját (ajánlatkérések, rendelések, fontos levelek) és a monday pipeline-t.
+2. Nézd át a Gmail elmúlt 7 napját (Etsy heti riport és eladások, Digistore/Gumroad értesítők, fontos levelek) és a monday táblákat (Termékek, Affiliate, Tartalomnaptár).
+2b. Írd be a heti számokat a monday KPI táblába (board 5107073541) projektenként; hiányzó számot hagyj üresen és írd a Megjegyzésbe: HIÁNYZIK.
+2c. Kérd meg a `tartalom` agentet a következő heti csomagra (Tartalomnaptár, „Jóváhagyásra vár”).
 3. Állítsd össze a fenti kimenetet, mentsd ide: `ceg/heti/ÉÉÉÉ-HH-NN.md`.
 4. Hiányzó adatnál ne találj ki számot: írd be „HIÁNYZIK: …”, és tedd a JÓVÁHAGYÁSRA / KÉRÉS listára.

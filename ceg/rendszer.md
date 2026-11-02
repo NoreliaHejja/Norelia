@@ -7,12 +7,12 @@
                                   FŐNÖK (fonok)
                cél: ≥ 1 M Ft/hó · rangsorol · delegál · hétfői jelentés
    ┌──────────┬──────────┬──────────┼──────────┬──────────┬──────────┬───────────┐
-marketing   sales    ecommerce   penzugy   palyazat   operacio   [tartalom]*
+marketing   sales    ecommerce   penzugy   palyazat   operacio   tartalom
 social,     affiliate, Etsy, KDP,  Ft/hó,     KKV/kut.   automati-  influenszer
 hirdetés,   megkere-   Digistore,  Ft/óra,    pályázat   zálás      videók
 SEO         sések      listingek   nullpont                         (Emily, Katrin)
 ```
-\* hiányzik – javasolt új agent (lásd 4.).
+A `tartalom` agent 2026-11-02 óta él.
 
 ## 2. Projektek és arcaik
 | Projekt | Arc (AI, jelölve) | Csatornák | Állapot |
@@ -51,10 +51,10 @@ SEO         sések      listingek   nullpont                         (Emily, Kat
 ### B) Rendszer (Claude építi, jóváhagyás után)
 | # | Mi | Hol |
 |---|---|---|
-| 1 | **monday táblák**: „Norelia – Termékek” (ötlet → kész → feltöltve → eladás), „Norelia – Tartalomnaptár” (Emily, Katrin), „Norelia – Affiliate pipeline”, „Norelia – KPI” (heti Ft/hó, látogató, eladás) | monday.com |
-| 2 | **tartalom agent**: két karakter (Emily, Katrin) heti videó- és posztcsomagja, Higgsfield-promptok, AI-címke | `.claude/agents/tartalom.md` |
+| 1 | ✅ **monday táblák kész** (NóRa HéJja Vibes → Norelia mappa): Termékek 5107073512, Tartalomnaptár 5107073533, Affiliate 5107073538, KPI 5107073541 | monday.com |
+| 2 | ✅ **tartalom agent kész** | `.claude/agents/tartalom.md` |
 | 3 | **ügyfélszolgálat**: vevői kérdések (Etsy, Digistore) → válasz-piszkozat Gmailben | sales vagy operacio bővítése |
-| 4 | Karakterlapok: Emily és Katrin állandó megjelenése, hangja, stílusa | `ceg/projektek/karakterek.md` + Higgsfield |
+| 4 | ✅ Karakterlapok vázlata kész – Katrin arcát Nóra választja ki | `ceg/projektek/karakterek.md` + Higgsfield |
 | 5 | Heti KPI-sor automatikusan a hétfői futásból | monday KPI tábla |
 | 6 | Jogi checklist: AI-jelölés, Impressum, DSGVO, KDP és Etsy szabályok | `ceg/jogi.md` |
 

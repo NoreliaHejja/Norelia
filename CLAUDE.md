@@ -22,8 +22,8 @@ Ebben a rendszerben **nincs max. 3 projekt szabály**: új projekt bármikor jö
                       Nóra (tulajdonos, jóváhagy)
                                │
                          FŐNÖK (fonok)
-   ┌─────────┬─────────┬───────┼─────────┬──────────┬──────────┐
-marketing  sales   ecommerce penzugy  palyazat   operacio
+   ┌─────────┬─────────┬─────────┼─────────┬─────────┬──────────┬──────────┐
+marketing  sales  ecommerce tartalom  penzugy  palyazat  operacio
 ```
 Definíciók: `.claude/agents/*.md`. Indítás: `claude --agent fonok`.
 Heti ritmus: hétfő reggel automatikus Főnök-futás → `ceg/heti/ÉÉÉÉ-HH-NN.md`.
@@ -35,6 +35,14 @@ Heti ritmus: hétfő reggel automatikus Főnök-futás → `ceg/heti/ÉÉÉÉ-HH
 4. **Előbb teszt**: új ötlet előbb max 1 hét és 30–50 000 Ft piaci teszt; keret max 100 000 Ft és 8 óra/hét.
 5. **Napló**: minden döntés és eredmény → `ceg/naplo.md` (dátum, ki, mit, eredmény Ft-ban).
 6. Magyarul, tömören. Döntésnél: ÉRTÉKELÉS – DÖNTÉS – MIÉRT – KÖVETKEZŐ LÉPÉS.
+
+## monday (workspace: NóRa HéJja Vibes → mappa: Norelia)
+| Tábla | ID |
+|---|---|
+| Termékek | 5107073512 |
+| Tartalomnaptár | 5107073533 |
+| Affiliate pipeline | 5107073538 |
+| KPI | 5107073541 |
 
 ## Eszközök
 Lásd `ceg/eszkozok.md` – mi van bekötve, mi hiányzik.

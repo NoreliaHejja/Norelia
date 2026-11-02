@@ -3,7 +3,7 @@
 Főnök (CEO) agent, alatta osztály-agentek. Egyetlen cél: több nettó pénz a projektekből.
 
 - `CLAUDE.md` – közös szabályok, célok, szervezet
-- `.claude/agents/` – fonok, marketing, sales, ecommerce, penzugy, palyazat, operacio
+- `.claude/agents/` – fonok, marketing, sales, ecommerce, tartalom, penzugy, palyazat, operacio
 - `ceg/` – közös memória: célok, projektek, napló, eszközök, heti jelentések (`ceg/heti/`)
 
 ## Használat
