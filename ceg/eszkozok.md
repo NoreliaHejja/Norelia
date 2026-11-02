@@ -23,7 +23,7 @@
 | Eszköz | Megoldás | Prioritás |
 |---|---|---|
 | **Etsy** | nincs hivatalos connector → **Zapier** (új rendelés/listing → Google Sheet), vagy AnythingMCP (van Etsy-modulja), vagy heti CSV export Etsyből a `ceg/adatok/` mappába | MAGAS |
-| **Amazon KDP** | nincs connector → feltöltés kézzel (Claude elkészíti a belívet, borítót, leírást) | MAGAS |
+| **Amazon** (Account ID: A1BYNK4N45CETG) | Seller Central → **Amazon Selling Partner** connector (claude.ai → Beállítások → Connectors, OAuth). **KDP-hez nincs API/connector** → feltöltés kézzel (Claude elkészíti a belívet, borítót, leírást) | MAGAS |
 | Gumroad / Digistore24 | eladási e-mailek a Gmailben → automatikusan olvasom | MAGAS |
 | TikTok Shop | AfterShip Channels for TikTok Shop | KÉSŐBB |
 | Meta/TikTok hirdetés | Adspirer Social Ads | ha lesz hirdetési keret |
