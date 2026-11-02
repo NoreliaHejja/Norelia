@@ -9,9 +9,11 @@ Minden agent ezt a fájlt és a `ceg/` mappát olvassa közös memóriaként.
 - Nóra ideje: max 30 óra/hét. Óraérték-mérce: 8 750–19 000 Ft/óra.
 
 ## Projektek (részletek: `ceg/projektek.md`)
-1. **AureliaVenn – Etsy** (online, digitális/fizikai termékek)
-2. **Reinigungsfirma** (takarítócég, DACH piac – pontosítandó)
-3. **AI-automatizálás szolgáltatás takarító- és facility cégeknek** (Claude választása)
+1. **AureliaVenn** – digitális termékek: Etsy + Amazon KDP + további csatornák
+2. **Reinigungsfirma Startsystem** – digitális csomag német takarítócég-alapítóknak
+3. **Reinigungs-Kalkulator** – ajánlatkalkulátor takarítócégeknek (sablon → havidíjas eszköz)
+
+Elv: csak olyan projekt, amihez Nóra fizikailag nem kell.
 
 Ebben a rendszerben **nincs max. 3 projekt szabály**: új projekt bármikor jöhet, ha a Ft/óra számítás igazolja.
 

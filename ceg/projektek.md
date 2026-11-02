@@ -1,25 +1,32 @@
 # Projektportfólió
 
-Cél: összesen ≥ 1 000 000 Ft/hó nettó, minél előbb.
+Cél: összesen ≥ 1 000 000 Ft/hó nettó, minél előbb. Elv: **csak olyan projekt, amihez Nóra fizikailag nem kell** (digitális termék, automatikus kiszolgálás).
 
-| # | Projekt | Státusz | Bevétel most (Ft/hó) | Nóra óra/hét | Ft/óra | Reális cél 6 hó (Ft/hó) |
-|---|---|---|---|---|---|---|
-| 1 | AureliaVenn – Etsy | AKTÍV | ? | ? | ? | 200–300 000 |
-| 2 | Reinigungsfirma (DACH) | AKTÍV – pontosítandó | ? | ? | ? | ? |
-| 3 | AI-automatizálás takarító/facility cégeknek | TESZT (1. hét) | 0 | 6–8 | – | 600–800 000 |
+| # | Projekt | Státusz | Bevétel most | Forgalom most | Cél 6 hó (Ft/hó) |
+|---|---|---|---|---|---|
+| 1 | AureliaVenn – digitális termékek (Etsy + Amazon KDP + további csatornák) | AKTÍV – 1. eladás 2026-10-31 | ~0 | ~5 látogató/hét (Etsy heti riport) | 200 000 |
+| 2 | Reinigungsfirma Startsystem – digitális csomag német takarítócég-alapítóknak | ÉPÍTÉS – a Drive-dokumentum még üres | 0 | – | 500 000 |
+| 3 | Reinigungs-Kalkulator – ajánlat- és árkalkulátor takarítócégeknek (sablon → havidíjas online eszköz) | TESZT | 0 | – | 300 000 |
 
-## 3. projekt – miért ez (Claude választása)
-- **Nincs készlet, nincs tőke**: a teszt < 30 000 Ft (domain + landing + Apollo kreditek).
-- **Gyors pénz**: havidíjas szolgáltatás. 4 ügyfél × 150–200 000 Ft/hó = 600–800 000 Ft/hó, + egyszeri 100–150 000 Ft beállítási díj.
-- **Saját tudás**: Nóra ismeri a takarítási piacot (PK-Tech, Reinigungsfirma) → hiteles, könnyebb eladni.
-- **Az agent rendszer maga a termék**: amit itt magunknak építünk (lead-gen, ajánlatkészítő, értékelés-kezelés, social), azt adjuk el.
-- Csomag-ötlet: „AI irodai asszisztens takarítócégnek” – ajánlatkérés-kezelés, automatikus ajánlat, Google értékelés-gyűjtés, heti social posztok.
+## Számítás (1 € ≈ 400 Ft, becslés)
+| Projekt | Feltevés | Ft/hó |
+|---|---|---|
+| AureliaVenn | 80 eladás × 6 € (Etsy + KDP), díjak után ~65% | ~125–200 000 |
+| Startsystem | 20 eladás × 67 €, Digistore24 díj + affiliate ~25% után | ~400–540 000 |
+| Kalkulátor | 40 előfizető × 19 €/hó | ~300 000 |
+| **Összesen** | | **~0,85–1,05 M** |
 
-Elvetett alternatívák: Amazon FBA saját márkával (300 000–1 M Ft készlet, lassú megtérülés → később, ha az Etsy termék bizonyít), Pedexan Amazon.de (forgalmazási jog kérdéses).
+## Csatornák
+- **Etsy → Amazon**: digitális letöltést az Amazon nem árul, a megfelelője az **Amazon KDP** (nyomtatott jegyzetfüzet, tervező, munkafüzet; nyomtatás rendelésre, nincs készlet). Ugyanaz a termék, két helyen.
+- További: **Pinterest** (ingyenes forgalom Etsyre), **Payhip/Gumroad** (saját bolt, nincs Etsy-díj), **Digistore24** (német piac, affiliate-ek adják el helyettünk – a Startsystemhez a legjobb), **TikTok/YouTube Shorts arc nélkül** (Higgsfield videók).
+
+## Elvetve
+- AI-automatizálás szolgáltatás: Nóra jelenléte és ideje kell hozzá (értékesítés, beállítás) → ELVETVE (Nóra döntése, 2026-11-02).
+- Amazon FBA: készlet és tőke kell hozzá, digitális termékhez nem jó → csak ha később fizikai termék jön.
 
 ## 1 hetes teszt (3. projekt)
-1. 1 oldalas landing (WordPress.com) + ajánlat 2 csomaggal.
-2. 50 célzott e-mail (Apollo): HU + DACH takarítócégek, 5–50 fő.
-3. Siker: ≥ 3 bemutató-időpont vagy ≥ 1 fizető ügyfél → MEGCSINÁLNI. 0 válasz → MÓDOSÍTANI (ajánlat/célcsoport).
+1. Google Sheets kalkulátor-sablon (német nyelvű) → Etsy + Gumroad, 19–29 €.
+2. 5 Pinterest pin + 3 rövid videó (Higgsfield) a „Reinigung Preise kalkulieren” témára.
+3. Siker: ≥ 3 eladás 14 napon belül → havidíjas webes verzió építése. 0 eladás → MÓDOSÍTANI.
 
 PK-Tech: nem Norelia-projekt, csak az admin-idő csökkentése a cél (operacio agent).
