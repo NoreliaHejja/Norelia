@@ -42,10 +42,22 @@ Számítás: 1,5 M Ft/hó csak Kitből ≈ 155 eladás/hó, ezért kell a felül
 
 Feltételek a jóváhagyáshoz: **élő, nyilvános eladási oldal** (saját domain, nem claude.ai-link), kiírt visszatérítési idő (30 nap), kiírt szállítási mód. Előrendelésről előbb a supportot kell megkérdezni. Jóváhagyás: kb. 48 óra munkanapokon.
 
-## Nyitott (2026-11-02)
-- Okt. teszt eredménye (előrendelés / várólista): **HIÁNYZIK**.
-- Domain + feltöltés (Cloudflare), EV-adatok az Impressumhoz (`[HU12345678]`, `[PLZ]` a v1 oldalon).
-- Starter és OS tartalma nov. 15-re: **13 nap van hátra**.
+## Döntés (2026-11-02): előrendelés helyett várólista
+- Az oldal még nem élt, ezért nincs teszteredmény. A nov. 15-i előrendelési szállítás **ELVETVE**.
+- **Kit (29 €)**: azonnal eladható, amint él a domain és a Digistore24.
+- **Starter (49 €) és OS (99 €)**: „bald verfügbar”, várólista Frühbucherpreisszal. Nincs határidős kötelezettség, és a Digistore előrendelési kérdése sem kell.
+- Weboldal: `web/reinigungsfirma-os/` = élesítendő verzió (új design + 3 termék + Impressum + Datenschutz, helyi fontok, nincs Google/cookie).
+
+## EV-adatok (Impressumban)
+Pócz-Héjja Nóra Aurélia, egyéni vállalkozó · 2800 Tatabánya, Farkastó utca 82 · adószám: 59581086-1-31.
+Hiányzik: **kontakt e-mail** (domain-es), **nyilvántartási szám**, **közösségi adószám** (EU VAT ID).
+⚠️ A Digistore24 (német cég) viszonteladóként tőled vásárol → számlázáshoz **közösségi adószám kell** (NAV, `T201`/`T101` bejelentés, ingyenes). A „-1-” az adószámban alanyi ÁFA-mentességet jelez: ez maradhat, de a közösségi adószámot ettől függetlenül igényelni kell. Könyvelővel egyeztetni.
+
+## Élesítési sorrend
+1. Domain (pl. reinigungsfirma-os.de / .com) + Cloudflare Pages feltöltés (`web/reinigungsfirma-os/`).
+2. Közösségi adószám igénylése (NAV) + kontakt e-mail a domainen.
+3. Digistore24 regisztráció → Kit termék (adatok fent) → link az oldalba: `[DIGISTORE24-LINK-KIT]`.
+4. Várólista: ingyenes hírlevél-szolgáltató (EU-s, pl. MailerLite vagy Brevo) → `[NEWSLETTER-LINK]` + Datenschutz 6. pont kitöltése.
 
 ## Social média (új fiókok, márka: pl. „Reinigungsfirma OS”)
 | Csatorna | Szerep | Tartalom |

@@ -1,5 +1,11 @@
 /* Reinigungsfirma OS – Landing
-   Tokens a designból (Design canvas: Reinigungsfirma OS Landing). */
+   Tokens a designból (Design canvas: Reinigungsfirma OS Landing).
+   Fontok helyben (DSGVO: nincs Google-kapcsolat). */
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/schibsted-grotesk-latin-400-normal.woff2) format('woff2');}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/schibsted-grotesk-latin-500-normal.woff2) format('woff2');}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/schibsted-grotesk-latin-600-normal.woff2) format('woff2');}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/schibsted-grotesk-latin-700-normal.woff2) format('woff2');}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:800;font-display:swap;src:url(fonts/schibsted-grotesk-latin-800-normal.woff2) format('woff2');}
 :root {
   --ink: #0F1F1A;
   --ink-soft: #3A4A44;
@@ -22,8 +28,8 @@
   --warn-ink: #4A2E00;
   --ok-bg: #E3F4EC;
   --ok-ink: #0B3D2C;
-  --font-display: 'Archivo', system-ui, sans-serif;
-  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-display: 'Schibsted Grotesk', system-ui, sans-serif;
+  --font-body: 'Schibsted Grotesk', system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -160,3 +166,27 @@ h1, h2, h3 { font-family: var(--font-display); }
   .card-result__value { font-size: 52px; }
   .h2 { font-size: 32px; }
 }
+
+/* Produkte */
+.produkte .wrap { display: flex; flex-direction: column; gap: 32px; }
+.produkte__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; align-items: stretch; }
+.produkt { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 16px; }
+.produkt--main { border: 2px solid var(--green); }
+.produkt__tag { font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); }
+.produkt__tag--soon { color: #8A5A00; }
+.produkt h3 { margin: 0; font-size: 24px; }
+.produkt .checklist { font-size: 16px; gap: 10px; flex: 1; }
+.produkt__price { display: flex; align-items: baseline; gap: 10px; }
+.produkt__price strong { font-family: var(--font-display); font-weight: 800; font-size: 44px; line-height: 1; }
+.produkt__price s { color: var(--ink-muted); font-size: 18px; }
+.produkt__terms { font-size: 14px; color: var(--ink-soft); }
+.btn--outline { border: 1.5px solid var(--green); color: var(--green); background: var(--surface); font-weight: 700; }
+.btn--outline:hover { background: var(--ground); }
+.garantie { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px 32px; font-size: 15px; line-height: 1.55; color: var(--ink-soft); }
+.garantie strong { color: var(--ink); display: block; margin-bottom: 4px; }
+
+/* Rechtliches */
+.legal .wrap { max-width: 860px; display: flex; flex-direction: column; gap: 16px; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
+.legal h2 { margin: 0 0 8px; font-size: 32px; color: var(--ink); }
+.legal h3 { margin: 16px 0 0; font-size: 18px; color: var(--ink); }
+.legal p { margin: 0; }
