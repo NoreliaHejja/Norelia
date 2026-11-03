@@ -103,3 +103,16 @@ Bizalmi szabály: Katrin **mindig AI-ként van jelölve** (a profilban és minde
 3. **ELVETNI** – saját „pénzkereset online / AI-influencer” kurzus: telített, egy szereplő (CyrilCash) uralja, és rontaná a Reinigungsfirma bizalmi márkát.
 
 Számítás (Komplett 249 € brutto): nettó 209 € − Digistore-díj ~21 € = ~188 € → 50% affiliate ~94 € → **nekünk ~94 € ≈ 37 600 Ft/eladás**. 1 M Ft/hó ≈ 27 Komplett-eladás/hó.
+
+## Digistore24 piactér – keresés (Nóra, 2026-11-03)
+| Keresőszó | Találat | Releváns termék |
+|---|---|---|
+| Angebot schreiben | 2 | **„Angebote schreiben leicht gemacht – mit Angebots-Generator”** (e-book, ~13,5 $, 40% jutalék, új: 2026-10-06, még 0% konverzió) – általános, minden szakmának; „Buying-Center Prompts” (KI-sablonok B2B-értékesítéshez, ~44 $, 67%) |
+| Selbstständig | 420 | általános (Instagram-coaching, e-book funnel, webinár); **Aivatar Academy** (KI-avatarok, 197 €, 50%) |
+| Reinigung / Gebäudereinigung | – | nincs találat (2026-11-02-i webes keresés) |
+
+**Következtetés**
+- **Takarítócég-specifikus termék nincs a piactéren** → a Reinigungsfirma OS-nek nincs közvetlen versenytársa.
+- A legközelebbi az általános ajánlatíró e-book: olcsó, friss, még nincs eladása. Mi ettől **szakmaspecifikusak** vagyunk (m²-kalkuláció, 15 Leistungswert, takarítási szerződésminták) → az árkülönbség indokolt.
+- Árazás-megerősítés: a 197 €-s „videókurzus + közösség” csomag bevett ár (Aivatar Academy) → a Komplettpaket 197–249 € reális.
+- Alapnak átvehető: a versenytárs **eladási oldalának felépítése** (Sales page nyilvános) – ingyen megnézhető, megvenni nem kell.
