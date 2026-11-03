@@ -15,3 +15,4 @@
 | 2026-11-02 | Nóra | Amazon Account ID megadva: A1BYNK4N45CETG. Bekötés: Amazon Selling Partner connector (Seller Central); KDP-hez nincs connector. | – |
 | 2026-11-02 | Claude | KDP-csomag kész: A Life Well Loved (32 oldal, 8,5×11, f/f belív, teljes borító), metaadatok + 7 kulcsszó + 3 kategória (ceg/projektek/kdp.md). Ár 8,99 $, becsült royalty ~2,5 $/db. Nóra tölti fel. | – |
 | 2026-11-02 | Nóra + Claude | Digistore24 eladói fiók él (vendor nézet). Piactér-elemzés: nyerő ajánlatok 100 €+ affiliate-jutalékot adnak → javaslat: Kit 29 € belépő + order bump + Komplett 197–249 € videóval, 50% jutalék. MMO/AI-influencer kurzus ELVETVE. | – |
+| 2026-11-03 | Nóra | Amazon KDP: Color Your Demon ebook feltöltve (első élő KDP-termék). A többi KDP-csomag még vár. | – |

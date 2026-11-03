@@ -91,3 +91,10 @@ A quiet, personal sympathy gift for a friend who has just lost their pet – or 
 1. **New Puppy Starter Kit** → „New Puppy Journal & Health Record Book” (32–48 oldal: profil, oltások ×4, súly ×4, rutin ×8, kontaktok, bevásárlólista, jegyzet). Szezon: karácsonyi kiskutya-ajándék.
 2. Karácsonyi tervező (ha előkerül a fájl) → csak dec. 10-ig érdemes.
 3. Kutyatenyésztő alom-tracker → „Dog Breeder Litter Record Book” (niche, kevés verseny).
+
+---
+
+## Élő a KDP-n
+| Termék | Formátum | Feltöltve | Megjegyzés |
+|---|---|---|---|
+| **Color Your Demon** | Kindle ebook | 2026-11-03 (Nóra) | Színezőkönyvet főleg papíron vesznek → **paperback változat kell** (ugyanaz a belív, KDP „low-content”, 8,5×11, egyoldalas nyomtatás: a lapok hátoldala üres, hogy ne üssön át a filc). |
