@@ -18,3 +18,4 @@
 | 2026-11-03 | Nóra | Amazon KDP: Color Your Demon ebook feltöltve (első élő KDP-termék). A többi KDP-csomag még vár. | – |
 | 2026-11-03 | Nóra + Claude | Digistore piactér-keresés (Angebot schreiben, Selbstständig): takarítócég-specifikus termék nincs → nincs közvetlen versenytárs. Legközelebbi: általános ajánlatíró e-book (~13,5 $). Komplett 197 € ár megerősítve. | – |
 | 2026-11-03 | Nóra + Claude | Aivatar Academy: affiliate/vásárlás ELVETVE; a tölcsér (ingyenes webinár → 197 € kurzus + partneranyagok) mintának átvéve a Reinigungsfirma OS-hez, jövedelemígéret és álszűkösség nélkül. | – |
+| 2026-11-03 | Claude | Katrin kezdő tartalom (webinár-forgatókönyv + 8 poszt, DE) → monday Tartalomnaptár. Következő termék: Komplettpaket 197 € terv (7 modul). Kész: Preiserhöhungs-Paket (order bump 19 €: Excel-kalkulátor + 2 Musterschreiben + Einwand-lista). | – |
