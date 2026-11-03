@@ -116,3 +116,9 @@ Számítás (Komplett 249 € brutto): nettó 209 € − Digistore-díj ~21 €
 - A legközelebbi az általános ajánlatíró e-book: olcsó, friss, még nincs eladása. Mi ettől **szakmaspecifikusak** vagyunk (m²-kalkuláció, 15 Leistungswert, takarítási szerződésminták) → az árkülönbség indokolt.
 - Árazás-megerősítés: a 197 €-s „videókurzus + közösség” csomag bevett ár (Aivatar Academy) → a Komplettpaket 197–249 € reális.
 - Alapnak átvehető: a versenytárs **eladási oldalának felépítése** (Sales page nyilvános) – ingyen megnézhető, megvenni nem kell.
+
+## Aivatar Academy – eladási tölcsér elemzése (Nóra képernyőképei, 2026-11-03)
+Felépítés: **ingyenes élő webinár** („60 mp alatt KI-avatar”) → 197 €-s kurzus; partnerprogram 50% jutalékkal, kész marketinganyagokkal.
+- **Átvesszük**: a tölcsér szerkezetét → Katrin-vezette ingyenes (automatizált) webinár: „In 45 Minuten zum richtigen Stundensatz – live mit dem Rechner” → ajánlat: Kit 29 € / Komplett 197–249 €. Affiliate-eknek kész anyagcsomag (bannerek, e-mail sablonok, videók).
+- **NEM vesszük át**: jövedelemígéret („Geld verdient, während du frei hast”, „5-stelliges Einkommen”), kitalált szűkösség („Nur noch 67 Plätze”) – német versenyjog (UWG) és Digistore-szabályok miatt kockázatos, és rontja a bizalmi márkát.
+- Döntés: affiliate-ként és vevőként **ELVETVE** (nincs hozzá közönségünk; Higgsfielddel a karaktereket már magunk építjük).

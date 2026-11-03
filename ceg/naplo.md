@@ -17,3 +17,4 @@
 | 2026-11-02 | Nóra + Claude | Digistore24 eladói fiók él (vendor nézet). Piactér-elemzés: nyerő ajánlatok 100 €+ affiliate-jutalékot adnak → javaslat: Kit 29 € belépő + order bump + Komplett 197–249 € videóval, 50% jutalék. MMO/AI-influencer kurzus ELVETVE. | – |
 | 2026-11-03 | Nóra | Amazon KDP: Color Your Demon ebook feltöltve (első élő KDP-termék). A többi KDP-csomag még vár. | – |
 | 2026-11-03 | Nóra + Claude | Digistore piactér-keresés (Angebot schreiben, Selbstständig): takarítócég-specifikus termék nincs → nincs közvetlen versenytárs. Legközelebbi: általános ajánlatíró e-book (~13,5 $). Komplett 197 € ár megerősítve. | – |
+| 2026-11-03 | Nóra + Claude | Aivatar Academy: affiliate/vásárlás ELVETVE; a tölcsér (ingyenes webinár → 197 € kurzus + partneranyagok) mintának átvéve a Reinigungsfirma OS-hez, jövedelemígéret és álszűkösség nélkül. | – |
