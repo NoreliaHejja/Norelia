@@ -28,6 +28,7 @@ Minden darab egy konkrét termékhez vagy a landing oldalhoz vezet (`Kapcsolód�
 6. **AI-címke**: a captionben „AI-generated character” / „KI-generierte Figur”, és a platform AI-jelölője bekapcsolva
 
 ## Szabályok
+- **Katrin videóstílus** (Nóra, 2026-11-04): több élet; nem kell mindig embert mutatni – munkafelvétel vagy oktató forma (táblázat, lépések) Katrin hangjával. Szerkezet: Katrin hook 2–3 mp → munka/oktató képek → Katrin CTA. Hetente max 1/3 tisztán beszélő fej. Részletek: `ceg/projektek/karakterek.md`.
 - Kitalált vásárlói véleményt, kitalált „saját élményt” vagy hamis eredményt nem írsz.
 - Katrin tartalma valódi szakmai tudásra épül (árazás, kalkuláció, alapítás menete); jogi vagy adózási állításnál írd oda: „Kein Rechts- oder Steuerrat.”
 - Emily nem ad orvosi vagy nevelési „szakértői” tanácsot, csak saját hangú, könnyed családi tartalmat.

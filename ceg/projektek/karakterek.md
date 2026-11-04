@@ -65,3 +65,11 @@ Videók KÉSZ (2026-11-04 14:30 UTC):
 - V2: https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261104_143001_20c3ad6a-2034-4a96-9136-e085b5cfa9b8.mp4
 - V3: https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261104_142958_c44a8119-4b3f-43d7-a8a5-46028f2e6c57.mp4
 Közzététel előtt: Nóra átnézi (német kiejtés, szájmozgás), feliratot + „KI-generierte Figur” jelölést kap.
+
+## Katrin – videóstílus (Nóra visszajelzése, 2026-11-04)
+V1–V3: kiejtés és szájmozgás **jó**. A további videókban **több élet** kell:
+- Nem kell mindig Katrint mutatni. Mehet **csak munkafelvétel** (kezek, takarítás, irodai/raktári jelenet, kisbusz) Katrin hangjával (Petra).
+- Mehet **oktató forma**: táblázat, számolás, lépések képernyőn/infografikán, Katrin hangja alatta.
+- Ha Katrin látszik: mozgás, helyszínváltás, gesztus – ne csak statikus „beszélő fej”.
+- Ajánlott szerkezet: Katrin hook (2–3 mp) → munka- vagy oktató képek → Katrin CTA (2–3 mp). Arány hetente: max 1/3 tisztán beszélő fej.
+- AI-jelölés a munkafelvételeken is kötelező („KI-generiert”), mert generált képek.
