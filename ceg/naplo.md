@@ -25,3 +25,4 @@
 | 2026-11-04 | Nóra + Claude | Domain: reinigung-kalkulieren.de (Cloudflare); Impressum kész (info@…, Reg.-Nr. 57628169, HU59581086); site csomag deployra kész. Kindness Elf KDP-n. Katrin 4 kulcskép (D arc). Pin-terv nov. 5–11 jóváhagyva – Metricoolban nincs bekötött Pinterest. TpT: TESZTELNI Classroom Elffel. | – |
 | 2026-11-04 | Claude (Nóra kérésére) | Katrin hangja (Petra) + 3 beszélő videó indítva (Intone 720p, ~504 kredit). Megosztott Mac-mappa (Norelia-termekek) a felhőből nem érhető el. | – |
 | 2026-11-04 | Nóra | Katrin V1–V3: kiejtés, szájmozgás OK. Jövőben több élet: munkafelvétel és oktató forma is, nem mindig beszélő fej. Metricool bekötés későbbre. V4–V8 terv: ceg/projektek/katrin-videok-v2.md | – |
+| 2026-11-04 | Nóra + Claude | Cél: 1 M Ft 60 nap alatt. Stratégia: fizetett forgalom + Kalkulations-Check 490 € + Reinigungsfirma fókusz; hideg e-mail DACH-ba NEM (UWG § 7). Terv: ceg/strategia-60nap.md. Jóváhagyásra vár. | – |
