@@ -36,6 +36,17 @@ Heti ritmus: hétfő reggel automatikus Főnök-futás → `ceg/heti/ÉÉÉÉ-HH
 5. **Napló**: minden döntés és eredmény → `ceg/naplo.md` (dátum, ki, mit, eredmény Ft-ban).
 6. Magyarul, tömören. Döntésnél: ÉRTÉKELÉS – DÖNTÉS – MIÉRT – KÖVETKEZŐ LÉPÉS.
 
+## Projektmappák (2026-11-04 óta egy repóban)
+| Mappa | Mi | Saját szabályok |
+|---|---|---|
+| `projects/reinigungsfirma-os/` | DACH landing (src → build → site), Kalkulations-Kit generátor, marketing, jogi doksi | `projects/reinigungsfirma-os/CLAUDE.md` |
+| `projects/aureliavenn-etsy/` | Etsy bolt (24 listing, POD + digitális), Emily, heti metrikák | `projects/aureliavenn-etsy/CLAUDE.md` |
+| `projects/pet-printables/` | kutyás/macskás printable-gyártósor (HTML → Playwright → PDF), napi ütemezés | `projects/pet-printables/CLAUDE.md` |
+| `projects/complystarterkit/`, `law-firm-websites/`, `haccp-app/`, `zanahalisi/` | további side projektek (README) | – |
+| `ceg/portfolio/` | portfólió (aktív/parkoló/elvetett), döntések, tanulságok, eszközök, feladatok – a korábbi side-projects repóból | – |
+
+Szabály: egy projektmappán belül **annak a CLAUDE.md-je az irányadó** (nyelv, design, build, jogi szabályok); a Főnök és a cél ez a fájl. Nyitott ellentmondások: `ceg/osszevonas.md`.
+
 ## monday (workspace: NóRa HéJja Vibes → mappa: Norelia)
 | Tábla | ID |
 |---|---|
