@@ -51,3 +51,12 @@ Választás után: a kiválasztott képből Soul-ID / karakterlap → minden tov
 | V3 – „Rechenbeispiel” (asztal, táblázat, kávé) | 9:16 | dbfaccae-970c-44a4-8e51-720963252a05 |
 | Webinár nyitókép | 16:9 | b47b667d-69c7-4484-88df-641d6acd0a23 |
 Következő: Nóra jóváhagyása → beszélő videó (hang + szájmozgás) a V1–V3 szövegekkel.
+
+## Katrin – hang és első videók (2026-11-04)
+Hang: Higgsfield **seed_audio**, preset **Petra** (voice_id 0c63637d-2ecb-5bda-9bbe-38894aa9a876) – ez Katrin állandó hangja.
+| Videó | Hang (job) | Videó (job, Intone 720p 9:16) |
+|---|---|---|
+| V1 – m²-ár | c7eecb70-5fe9-4323-9b01-12526f6b5f6f | 4fd314eb-76e1-40eb-a1c6-dd501502deca |
+| V2 – jede fünfte Stunde | 8d477137-36b7-410f-9d78-2e5176a82a5d | 20c3ad6a-2034-4a96-9136-e085b5cfa9b8 |
+| V3 – Rechenbeispiel | 6f0b8eee-3251-4a24-abe6-19bde5e9e886 | c44a8119-4b3f-43d7-a8a5-46028f2e6c57 |
+Költség: Intone 720p ≈ 168 kredit/videó (1080p: 384). Hang ≈ 0,6 kredit.
