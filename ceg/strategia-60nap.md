@@ -34,3 +34,8 @@ Nóra ideje: Check ~1,5 óra/db → ~100 000 Ft/óra.
 
 ## Parkoló 60 napra
 KDP új feltöltések · pet-printables napi gyártás (heti 1-re) · TpT · Komplettpaket 5–6. modul · Katrin organikus videó-sorozat (V4–V8 csak hirdetésnek).
+
+## Hideg e-mail DACH (2026-11-04)
+- **DE**: nem (UWG § 7 – B2B-ben is beleegyezés kell).
+- **AT**: nem (TKG 2021 § 174 – cégeknek is beleegyezés kell; bírság a Fernmeldebürótól).
+- **CH**: szürke zóna – az UWG Art. 3 lit. o a *tömeges* reklámot tiltja beleegyezés nélkül. Egyedi, személyre írt 1:1 levél cégnek közepes kockázat. TESZTELNI: 50 svájci cég, kézzel írt levél, napi max 10–20, valós feladó + leiratkozás, ingyenes Rechner-ajánlattal (nem eladás).
