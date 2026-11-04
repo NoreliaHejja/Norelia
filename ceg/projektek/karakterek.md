@@ -60,3 +60,8 @@ Hang: Higgsfield **seed_audio**, preset **Petra** (voice_id 0c63637d-2ecb-5bda-9
 | V2 – jede fünfte Stunde | 8d477137-36b7-410f-9d78-2e5176a82a5d | 20c3ad6a-2034-4a96-9136-e085b5cfa9b8 |
 | V3 – Rechenbeispiel | 6f0b8eee-3251-4a24-abe6-19bde5e9e886 | c44a8119-4b3f-43d7-a8a5-46028f2e6c57 |
 Költség: Intone 720p ≈ 168 kredit/videó (1080p: 384). Hang ≈ 0,6 kredit.
+Videók KÉSZ (2026-11-04 14:30 UTC):
+- V1: https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261104_142958_4fd314eb-76e1-40eb-a1c6-dd501502deca.mp4
+- V2: https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261104_143001_20c3ad6a-2034-4a96-9136-e085b5cfa9b8.mp4
+- V3: https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261104_142958_c44a8119-4b3f-43d7-a8a5-46028f2e6c57.mp4
+Közzététel előtt: Nóra átnézi (német kiejtés, szájmozgás), feliratot + „KI-generierte Figur” jelölést kap.
