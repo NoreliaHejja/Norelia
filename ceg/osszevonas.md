@@ -4,7 +4,7 @@ A korábban külön élő munkaterületek bekerültek ebbe a repóba:
 side-projects (→ `ceg/portfolio/` + `projects/*/README.md`), reinigungsfirma-os, aureliavenn-etsy, pet-printables (→ `projects/`).
 A `.git`-történetük nem jött át (csak a fájlok); jelszó/kulcs nem volt bennük.
 
-## Ellentmondások – Nóra döntése kell
+## Ellentmondások – DÖNTVE (Nóra, 2026-11-04: „mind OK”)
 | # | Téma | Régi szabály | Norelia szabály | Javaslat |
 |---|---|---|---|---|
 | 1 | **Projektszám** | side-projects: max 3 aktív (most 6+ aktív: Reinigungsfirma, ügyvédi weboldal, HACCP, ComplyStarterKit, AureliaVenn, pet-printables) | nincs korlát (2026-11-02, Nóra) | Korlát nélkül is **hetente max 3 kapjon időt**; a többi csak automatán fut. Parkolóba: HACCP (nincs specifikáció), ügyvédi weboldal (szolgáltatás, nem passzív – ellentmond a „Nóra fizikailag ne kelljen” elvnek). |
@@ -19,3 +19,5 @@ A `.git`-történetük nem jött át (csak a fájlok); jelszó/kulcs nem volt be
 - AureliaVenn: **24 aktív listing** (19 POD + 5 digitális), első eladás 2026-10-30 (Kindness Elf, €3,99), heti ~8 látogatás, Etsy-keresés 0, Pinterest 0, Etsy Ads ROAS 7,53 (30 nap, $0,62 költés).
 - ComplyStarterKit: élő, $49, Gumroad.
 - SafetyWing affiliate: passzív.
+
+**Végrehajtva 2026-11-04:** heti fókusz max 3 projekt; HACCP és ügyvédi weboldal → parkoló; KDP = másodlagos csatorna; hivatalos landing = `projects/reinigungsfirma-os/` (EV-adatok, várólista, áthúzott árak törölve, dátumok javítva); `web/` → `archiv/web-2026-11/`; Preiserhöhungs-Paket → `projects/reinigungsfirma-os/products/` + `scripts/build_preiserhoehung.py`; Katrin arca: **D**.

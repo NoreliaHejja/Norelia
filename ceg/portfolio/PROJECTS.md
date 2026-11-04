@@ -43,6 +43,8 @@ Utolsó frissítés: 2026-11-04
 - **SafetyWing Ambassador** affiliate (2026 aug., affiliate ID 26580032).
 
 ## PARKOLÓPÁLYA
+- **HACCP app** — 2026-11-04: parkolóba (nincs specifikáció).
+- **Ügyvédi irodai weboldalak** — 2026-11-04: parkolóba (szolgáltatás, Nóra ideje kell; ellentmond a passzív elvnek).
 - **ZanaHalisi** (zanahalisi.co.ke) — 2026 okt.: nem indult be. Részletek: `projects/zanahalisi/README.md`.
 - **DACH dropshipping (Stockfirmati/Griffati)** — 2026. szept. 25-én félretéve, nem indult el.
 - **ELVIS raklapfólia (Return2sender)** — jó projekt, de most nincs rá keret (nov. 4.).
@@ -57,4 +59,4 @@ Utolsó frissítés: 2026-11-04
 - Polsia.com
 - Etsy önrendelés a mutatók felpörgetésére
 - Saját szaktudás konzultációként eladása
-- KDP (telített piac), gyerek YouTube (monetizációs korlátok), régi YouTube-csatorna vásárlása (ToS-kockázat)
+- ~~KDP (telített piac)~~ → 2026-11-04: KDP **másodlagos csatornaként** visszahozva meglévő printable-ekhez; gyerek YouTube (monetizációs korlátok), régi YouTube-csatorna vásárlása (ToS-kockázat)

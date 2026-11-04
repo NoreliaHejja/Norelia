@@ -15,7 +15,7 @@ Minden agent ezt a fájlt és a `ceg/` mappát olvassa közös memóriaként.
 
 Elv: csak olyan projekt, amihez Nóra fizikailag nem kell.
 
-Ebben a rendszerben **nincs max. 3 projekt szabály**: új projekt bármikor jöhet, ha a Ft/óra számítás igazolja.
+Ebben a rendszerben **nincs max. 3 projekt szabály**: új projekt bármikor jöhet, ha a Ft/óra számítás igazolja. **De hetente max 3 projekt kap Nóra-időt** (a többi csak automatán fut). KDP: csak másodlagos csatorna meglévő printable-ekhez. (Döntés: 2026-11-04)
 
 ## Szervezet
 ```

@@ -21,7 +21,7 @@ Ez a fájl a Claude Code projektmemóriája. Minden munkamenet elején olvasd el
 - **Döntésnél ez a formátum:** ÉRTÉKELÉS – DÖNTÉS – MIÉRT (2–4 pont) – KÖVETKEZŐ LÉPÉS (max 3). Több opciónál rangsorolj, és zárd így: MEGCSINÁLNI / TESZTELNI / MÓDOSÍTANI / ELVETNI.
 - **Jóváhagyás kell** mindenhez, ami kimegy vagy tartósan változtat (deploy, e-mail küldés, közzététel, Digistore24 vagy más fiók módosítása). Előtte egysoros terv.
 - **Előbb teszt:** legfeljebb 1 hét és 30 000 Ft alatt kapjunk piaci visszajelzést, mielőtt rendszert építünk.
-- **Arctalan termék:** nincs videó a tulajdonossal, nincs ügyfélhívás, support csak e-mailben.
+- **Arctalan termék:** nincs videó a tulajdonossal, nincs ügyfélhívás, support csak e-mailben. A márka arca **Katrin, AI-karakter** (mindig jelölve: „KI-generierte Figur”), lásd `../../ceg/projektek/karakterek.md`; Nóra arca soha nem jelenik meg.
 - Számításnál röviden mutasd a levezetést.
 
 ## Repó felépítése

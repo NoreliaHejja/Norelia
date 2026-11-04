@@ -6,9 +6,9 @@ A „?” jelű pontok állapotát a tulajdonostól kell megkérdezni, mert azó
 ## P0 – élesítés előtt kötelező
 
 - [ ] **Domain** kiválasztása és megvétele (.de; ötletek: `stundensatz-rechner.de`, `reinigung-kalkulieren.de`). ?
-- [ ] **EV-adatok** az Impressumba: cím, e-mail, nyilvántartási szám, adószám, közösségi adószám. ?
+- [x] **EV-adatok** az Impressumba: cím + adószám beírva (2026-11-04). Hiányzik: kontakt e-mail, nyilvántartási szám, közösségi adószám.
 - [ ] **Közösségi adószám** az EV-re (Digistore24-kifizetéshez kell). ?
-- [ ] **Elavult dátumok javítása** a `src/landing.src.html`-ben:
+- [x] **Elavult dátumok javítása** (2026-11-04: áthúzott árak törölve, Starter/OS → várólista, szállítási dátum és Datenschutz-dátum javítva):
   - 282. sor „Frühbucherpreis sichern” + a 79/149 €-s áthúzott árak: a korai ár eredetileg okt. 31-ig szólt → új határidő, vagy az áthúzott ár törlése (német jog: kitalált „eredeti ár” nem lehet),
   - 334. sor „Auslieferung am 15. November 2026” → reális új dátum az OS/Starter elkészülte szerint,
   - 390. sor Datenschutz „Stand: Oktober 2026” → élesítés hónapja.

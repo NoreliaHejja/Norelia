@@ -40,3 +40,5 @@ Cél: ugyanaz az arc, hang és stílus minden tartalomban (Higgsfield állandó 
 | C | íróasztal, laptop, kávé | be66c9a6-1b71-498e-9f0c-9f6bf377abb6 | [link](https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261103_180305_be66c9a6-1b71-498e-9f0c-9f6bf377abb6.png) |
 | D | kint, céges kisbusz előtt | efa96396-a926-41c4-8932-9094eeadeb87 | [link](https://d8j0ntlcm91z4.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/hf_20261103_180306_efa96396-a926-41c4-8932-9094eeadeb87.png) |
 Választás után: a kiválasztott képből Soul-ID / karakterlap → minden további kép és videó ugyanazzal az arccal.
+
+**Választás (Nóra, 2026-11-04): D** – kint, céges kisbusz előtt (job efa96396-a926-41c4-8932-9094eeadeb87). Ez az alap-referencia minden további Katrin-képhez és -videóhoz.

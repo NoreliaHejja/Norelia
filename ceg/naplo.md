@@ -21,3 +21,4 @@
 | 2026-11-03 | Claude | Katrin kezdő tartalom (webinár-forgatókönyv + 8 poszt, DE) → monday Tartalomnaptár. Következő termék: Komplettpaket 197 € terv (7 modul). Kész: Preiserhöhungs-Paket (order bump 19 €: Excel-kalkulátor + 2 Musterschreiben + Einwand-lista). | – |
 | 2026-11-03 | Claude (Nóra kérésére) | Katrin 4 arcváltozata legenerálva (Higgsfield Soul 2.0) – Nóra választ (karakterek.md). | – |
 | 2026-11-04 | Nóra + Claude | Összevonás: side-projects, reinigungsfirma-os, aureliavenn-etsy, pet-printables repók → Norelia (projects/, ceg/portfolio/). Nóra jóváhagyta a feltöltést. | – |
+| 2026-11-04 | Nóra | Döntések: heti fókusz max 3 projekt, HACCP + ügyvédi weboldal parkoló, KDP másodlagos, hivatalos landing = projects/reinigungsfirma-os (EV-adatok, várólista, áthúzott árak törölve), web/ archiválva, Katrin arca: D. | – |
