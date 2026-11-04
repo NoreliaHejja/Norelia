@@ -26,3 +26,4 @@
 | 2026-11-04 | Claude (Nóra kérésére) | Katrin hangja (Petra) + 3 beszélő videó indítva (Intone 720p, ~504 kredit). Megosztott Mac-mappa (Norelia-termekek) a felhőből nem érhető el. | – |
 | 2026-11-04 | Nóra | Katrin V1–V3: kiejtés, szájmozgás OK. Jövőben több élet: munkafelvétel és oktató forma is, nem mindig beszélő fej. Metricool bekötés későbbre. V4–V8 terv: ceg/projektek/katrin-videok-v2.md | – |
 | 2026-11-04 | Nóra + Claude | Cél: 1 M Ft 60 nap alatt. Stratégia: fizetett forgalom + Kalkulations-Check 490 € + Reinigungsfirma fókusz; hideg e-mail DACH-ba NEM (UWG § 7). Terv: ceg/strategia-60nap.md. Jóváhagyásra vár. | – |
+| 2026-11-04 | Claude (Nóra kérésére) | Svájci teszt: 50 német nyelvű takarítócég (Apollo, 0 kredit) + DE-CH sablon: ceg/sales/ch-teszt.md. Küldés feltétele: élő Rechner, CHF-kompatibilitás, Nóra jóváhagyása. | – |
