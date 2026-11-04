@@ -72,6 +72,9 @@ a{color:inherit}
 .calc-top{display:flex;justify-content:space-between;align-items:center;padding:18px 22px 6px}
 .calc-top h2{font-size:1.05rem;letter-spacing:0}
 .calc-top span{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.08em}
+.cur{display:inline-flex;border:1px solid var(--line,#d9dee3);border-radius:999px;overflow:hidden;margin-left:10px;vertical-align:middle}
+.cur button{font:inherit;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;padding:3px 10px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.cur button[aria-pressed="true"]{background:var(--ink,#1d2b33);color:#fff}
 .inputs{padding:8px 22px 18px;display:grid;gap:4px}
 .inp{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding-block:10px;border-bottom:1px solid var(--line)}
 .inp:last-child{border-bottom:0}
@@ -225,11 +228,11 @@ footer a:hover{text-decoration:underline}
       </div>
 
       <form class="calc" id="calc" autocomplete="off">
-        <div class="calc-top"><h2>Stundensatz-Rechner</h2><span>NETTO · €/h</span></div>
+        <div class="calc-top"><h2>Stundensatz-Rechner</h2><span><span id="cur-lbl">NETTO · €/h</span><span class="cur" role="group" aria-label="Währung"><button type="button" data-cur="EUR" aria-pressed="true">€</button><button type="button" data-cur="CHF" aria-pressed="false">CHF</button></span></span></div>
         <div class="inputs">
           <div class="inp">
             <label for="lohn-n">Stundenlohn Mitarbeiter</label>
-            <span class="val"><input id="lohn-n" type="number" step="0.05" value="15.00" inputmode="decimal"><small>€</small></span>
+            <span class="val"><input id="lohn-n" type="number" step="0.05" value="15.00" inputmode="decimal"><small class="cs">€</small></span>
             <input id="lohn" type="range" min="12" max="25" step="0.05" value="15" aria-label="Stundenlohn Mitarbeiter">
           </div>
           <div class="inp">
@@ -245,7 +248,7 @@ footer a:hover{text-decoration:underline}
           </div>
           <div class="inp">
             <label for="gk-n">Gemeinkosten pro Monat</label>
-            <span class="val"><input id="gk-n" type="number" step="50" value="2500" inputmode="decimal"><small>€</small></span>
+            <span class="val"><input id="gk-n" type="number" step="50" value="2500" inputmode="decimal"><small class="cs">€</small></span>
             <input id="gk" type="range" min="0" max="15000" step="50" value="2500" aria-label="Gemeinkosten pro Monat">
             <span class="hint">Büro, Fahrzeuge, Versicherung, Ihr eigenes Gehalt</span>
           </div>
@@ -271,7 +274,7 @@ footer a:hover{text-decoration:underline}
             <div><span>Wagnis &amp; Gewinn</span><b id="l4">3,36 €</b></div>
             <div><span>Stundensatz netto</span><b id="l5">31,39 €</b></div>
           </div>
-          <p class="r-foot">Beispielwerte vorausgefüllt, Material mit 0,90 €/h angesetzt. Tragen Sie Ihre eigenen Zahlen ein.</p>
+          <p class="r-foot" id="r-foot">Beispielwerte vorausgefüllt, Material mit 0,90 €/h angesetzt. Tragen Sie Ihre eigenen Zahlen ein.</p>
         </div>
       </form>
     </div>
@@ -429,10 +432,17 @@ window.addEventListener("hashchange", openLegal);
 document.querySelectorAll('footer a').forEach(a => a.addEventListener("click", () => setTimeout(openLegal, 0)));
 openLegal();
 
-const MAT = 0.90;
+const CUR = {
+  EUR: { sym:"€", loc:"de-DE", mat:0.90, lohn:[12,25,15], lnk:28, gk:[0,15000,2500],
+         foot:"Beispielwerte vorausgefüllt, Material mit 0,90 €/h angesetzt. Tragen Sie Ihre eigenen Zahlen ein." },
+  CHF: { sym:"CHF", loc:"de-CH", mat:1.10, lohn:[18,40,22], lnk:20, gk:[0,20000,3500],
+         foot:"Beispielwerte für die Schweiz vorausgefüllt, Material mit CHF 1.10/h angesetzt. Tragen Sie Ihre eigenen Löhne gemäss GAV und Ihre Kosten ein." }
+};
+let cur = "EUR";
 const ids = ["lohn","lnk","prod","gk","std","gew"];
 const num = x => { const v = parseFloat(String(x).replace(",", ".")); return isFinite(v) ? v : 0; };
-const eur = n => n.toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmt = n => n.toLocaleString(CUR[cur].loc,{minimumFractionDigits:2,maximumFractionDigits:2});
+const money = n => cur === "CHF" ? "CHF " + fmt(n) : fmt(n) + " €";
 
 ids.forEach(id => {
   const r = document.getElementById(id), n = document.getElementById(id + "-n");
@@ -441,24 +451,45 @@ ids.forEach(id => {
 });
 
 function val(id){ return num(document.getElementById(id + "-n").value); }
+function setVal(id, v, min, max){
+  const r = document.getElementById(id), n = document.getElementById(id + "-n");
+  if (min !== undefined) { r.min = min; r.max = max; }
+  r.value = v; n.value = id === "lohn" ? Number(v).toFixed(2) : v;
+}
+
+function setCur(c){
+  if (!CUR[c]) return;
+  cur = c; const k = CUR[c];
+  document.querySelectorAll(".cur button").forEach(b => b.setAttribute("aria-pressed", b.dataset.cur === c));
+  document.querySelectorAll(".cs").forEach(e => e.textContent = k.sym);
+  document.getElementById("cur-lbl").textContent = "NETTO · " + k.sym + "/h";
+  document.getElementById("r-foot").textContent = k.foot;
+  setVal("lohn", k.lohn[2], k.lohn[0], k.lohn[1]);
+  setVal("lnk", k.lnk);
+  setVal("gk", k.gk[2], k.gk[0], k.gk[1]);
+  calc();
+}
+document.querySelectorAll(".cur button").forEach(b => b.addEventListener("click", () => setCur(b.dataset.cur)));
 
 function calc(){
+  const MAT = CUR[cur].mat;
   const prod = Math.min(Math.max(val("prod"), 30), 100) / 100;
   const lohn = val("lohn") * (1 + val("lnk")/100) / prod;
   const gk = val("gk") / Math.max(val("std"), 1);
   const selbst = lohn + gk + MAT;
   const gew = selbst * val("gew")/100;
   const preis = selbst + gew;
-  document.getElementById("out").innerHTML = eur(preis) + "<small>€/h</small>";
-  document.getElementById("l1").textContent = eur(lohn) + " €";
-  document.getElementById("l2").textContent = eur(gk) + " €";
-  document.getElementById("l3").textContent = eur(MAT) + " €";
-  document.getElementById("l4").textContent = eur(gew) + " €";
-  document.getElementById("l5").textContent = eur(preis) + " €";
+  document.getElementById("out").innerHTML = fmt(preis) + "<small>" + CUR[cur].sym + "/h</small>";
+  document.getElementById("l1").textContent = money(lohn);
+  document.getElementById("l2").textContent = money(gk);
+  document.getElementById("l3").textContent = money(MAT);
+  document.getElementById("l4").textContent = money(gew);
+  document.getElementById("l5").textContent = money(preis);
 }
 const form = document.getElementById("calc");
 form.addEventListener("submit", e => e.preventDefault());
-calc();
+const q = new URLSearchParams(location.search).get("w");
+if (q && q.toUpperCase() === "CHF") setCur("CHF"); else calc();
 </script>
 
 </body>
