@@ -54,3 +54,9 @@ Kész szövegek (cím, 13 tag, leírás): a claude.ai projektben `digital-varian
 ## Árazási alapszámok (POD)
 Etsy díjak ≈ 9,5% + $0,45 / tétel. Printify POD-margin a korábbi termékeken ~45–47%.
 Levezetés (Mama Saurus): $27,99 − ($11,50 alap + $4,75 szállítás) − ~$3,10 díj ≈ **$8,60 profit/db**.
+
+## Amazon KDP (másodlagos csatorna)
+| Termék | Formátum | Feltöltve |
+|---|---|---|
+| Color Your Demon | Kindle ebook | 2026-11-03 |
+| Kindness Elf | KDP | 2026-11-04 |

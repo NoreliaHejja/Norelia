@@ -21,3 +21,7 @@ Formátum: dátum — döntés — miért. Új döntés a lista tetejére.
 
 ## Kapcsolódó, de külön projekt
 - **Reinigungsfirma OS / Gründer OS** (DACH takarítócég-indítás, Digistore24, német). Nem az Etsy része; a budget-táblázat képsora sablon a Kalkulations-Kithez. AI-karakter: Nina (női/férfi változat A/B teszt). Ne keverd az Etsy-repóba.
+
+## 2026-11-04 – Teachers Pay Teachers (TpT)
+- **TESZTELNI** csak a Classroom Elffel (tanároknak készült), Basic csomaggal (egyszeri 29 $, 55% kifizetés + 0,30 $/eladás; a TpT 2026. okt. 1-jén módosított a csomagokon – regisztrációkor ellenőrizni). A családi Kindness Elf nem TpT-termék.
+- Feltétel: a Classroom Elf előbb élesedjen az Etsyn („unavailable” javítása).

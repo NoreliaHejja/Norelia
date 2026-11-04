@@ -1,6 +1,6 @@
 # Digistore24 – termékadatok (bemásolható)
 
-Minden termék: Typ = Digitales Produkt / Download · Sprache = Deutsch · Garantie = 30 Tage · Verkaufsseite = `https://[domain]/#vorverkauf`
+Minden termék: Typ = Digitales Produkt / Download · Sprache = Deutsch · Garantie = 30 Tage · Verkaufsseite = `https://reinigung-kalkulieren.de/#vorverkauf`
 
 ## 1. Kalkulations-Kit für Reinigungsfirmen – AZONNAL ELADHATÓ
 

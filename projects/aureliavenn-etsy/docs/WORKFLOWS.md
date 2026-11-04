@@ -26,16 +26,17 @@
 - **Ismert hiba:** az okt. 13–25 pinek nem jelentek meg; a `_scheduled` oldal hibára dob. Kiküldés után MINDIG ellenőrizni a Created/Scheduled lapon. Ha a módszer nem megbízható → Pinterest hivatalos ütemező vagy Metricool (connector elérhető) — eldöntendő.
 - Napi 1 pin, 7/hét. Az életkép-stílus működik, a sima termékfotó nem.
 
-### Aktuális pin-terv (nov. 3–9, 00:30 UTC) — JÓVÁHAGYÁSRA VÁR, nov. 3–4 már lejárt
+### Aktuális pin-terv (nov. 5–11, 00:30 UTC) — JÓVÁHAGYVA (Nóra, 2026-11-04); kiküldés: Metricool, ha a Pinterest be van kötve
 | Nap | Tábla | Termék | Listing | Kép (hash/id_suffix) |
 |---|---|---|---|---|
-| 11.03 | Thanksgiving Ideas for Kids | Thanksgiving Gratitude Countdown | 4586893950 | 5ae7f0/8631477930_db2s |
-| 11.04 | Christmas Printables for Kids | Kindness Elf Kit | 4586400098 | 4db7b6/8631460688_oj1f |
-| 11.05 | Christmas Family Traditions | Christmas Countdown | 4586397852 | 542a33/8679548651_kuj8 |
-| 11.06 | Gift Ideas for Families | Budget Planner | 4589530944 | 6c0954/8679253753_q3ra |
-| 11.07 | Christmas Printables for Kids | Countdown + Elf Bundle | 4586897813 | 0e5f5c/8679542389_4v56 |
-| 11.08 | Thanksgiving Ideas for Kids | Pumpkin Cat Youth Sweatshirt | 4562150299 | 642157/8476160171_tqv8 |
-| 11.09 | Cat Mom Life | Santa Hat Cat Mug | 4584553523 | 887e27/8593097366_gkzn |
+| 11.05 | Christmas Printables for Kids | Kindness Elf Kit | 4586400098 | 4db7b6/8631460688_oj1f |
+| 11.06 | Thanksgiving Ideas for Kids | Thanksgiving Gratitude Countdown | 4586893950 | 5ae7f0/8631477930_db2s |
+| 11.07 | Christmas Family Traditions | Christmas Countdown | 4586397852 | 542a33/8679548651_kuj8 |
+| 11.08 | Gift Ideas for Families | Budget Planner | 4589530944 | 6c0954/8679253753_q3ra |
+| 11.09 | Christmas Printables for Kids | Countdown + Elf Bundle | 4586897813 | 0e5f5c/8679542389_4v56 |
+| 11.10 | Thanksgiving Ideas for Kids | Pumpkin Cat Youth Sweatshirt | 4562150299 | 642157/8476160171_tqv8 |
+| 11.11 | Cat Mom Life | Santa Hat Cat Mug | 4584553523 | 887e27/8593097366_gkzn |
+Minden pinnél: Pinterest AI-jelölés (isAiGenerated) bekapcsolva, link = Etsy listing.
 
 ## 3. Új digitális termék → élő listing
 1. Tartalom + PDF (US Letter + A4) / XLSX elkészítése → `products/<slug>/`. XLSX-nél: képletek ellenőrzése (LibreOffice recalculation, 0 hiba).

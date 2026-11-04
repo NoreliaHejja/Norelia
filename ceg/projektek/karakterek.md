@@ -42,3 +42,12 @@ Cél: ugyanaz az arc, hang és stílus minden tartalomban (Higgsfield állandó 
 Választás után: a kiválasztott képből Soul-ID / karakterlap → minden további kép és videó ugyanazzal az arccal.
 
 **Választás (Nóra, 2026-11-04): D** – kint, céges kisbusz előtt (job efa96396-a926-41c4-8932-9094eeadeb87). Ez az alap-referencia minden további Katrin-képhez és -videóhoz.
+
+## Katrin – első kulcsképek (D arc referenciával, 2026-11-04)
+| Mire | Arány | Job ID |
+|---|---|---|
+| V1 – „Was kostet Büroreinigung pro m²?” (asztal, tablet) | 9:16 | 4478c31a-5fdd-47e1-aac6-6fc3fbb76551 |
+| V2 – „Jede fünfte Stunde” (raktár, munkapóló) | 9:16 | dc98cda7-5675-47fa-bb07-7266e10e2d40 |
+| V3 – „Rechenbeispiel” (asztal, táblázat, kávé) | 9:16 | dbfaccae-970c-44a4-8e51-720963252a05 |
+| Webinár nyitókép | 16:9 | b47b667d-69c7-4484-88df-641d6acd0a23 |
+Következő: Nóra jóváhagyása → beszélő videó (hang + szájmozgás) a V1–V3 szövegekkel.
