@@ -1,0 +1,29 @@
+# Döntési és eredménynapló
+
+| Dátum | Ki | Döntés / tevékenység | Eredmény (Ft / óra) |
+|---|---|---|---|
+| 2026-11-02 | Nóra + Claude | Agent rendszer váz létrehozva (fonok + 5 osztály) | – |
+| 2026-11-02 | Nóra | Projektek: Etsy (AureliaVenn), Reinigungsfirma, + AI-automatizálás szolgáltatás (Claude választása). Cél: ≥1 M Ft/hó. Max-3 szabály itt nem él. Hétfői automatikus Főnök-futás kérve. | – |
+| 2026-11-02 | Nóra + Claude | AI-szolgáltatás ELVETVE (Nóra jelenléte kell). 3. projekt: Reinigungs-Kalkulator. Amazon = KDP (digitális termék miatt). Canva helyett Higgsfield. Etsy: első eladás 10-31, ~5 látogató/hét. Gumroad kifizetés felfüggesztve – Nórának kell rendezni. | – |
+| 2026-11-02 | Nóra + Claude | Reinigungsfirma → Digistore24, social: TikTok/IG/FB/LinkedIn/Pinterest. Affiliate-lista + német megkereső piszkozat kész. AureliaVenn = Emily AI influenszer; KDP csak digitális termékekre. Reinigungsfirma tartalma és a fel nem töltött termékek nem érhetők el innen (Cowork / Nóra gépe). | – |
+| 2026-11-02 | Nóra | Reinigungsfirma saját AI influenszert kap, arccal (megbízható, kötődni lehet hozzá). Javaslat: Katrin, 46. AI-jelölés kötelező. | – |
+| 2026-11-02 | Claude (Nóra jóváhagyásával) | 4 monday tábla létrehozva (Vibes workspace → Norelia mappa; új workspace-hez nincs jogosultság), feltöltve 11 termékkel, 8 affiliate-célponttal, 2 KPI-héttel. tartalom agent + karakterlapok kész. | – |
+| 2026-11-02 | Claude | Reinigungsfirma OS landing (design alapján) elkészült: web/reinigungsfirma-os/. Élesítéshez: ár, Digistore24-link, hírlevél, Impressum/Datenschutz/AGB. | – |
+| 2026-11-02 | Nóra | Névhasználat: a projekt neve **Reinigungsfirma** (márka: Reinigungsfirma OS); a **Startsystem** a cégfelépítésünk (agent rendszer) neve. Feltöltve: Kalkulations-Kit v1.0 (xlsx), Pet Memorial Journal, New Puppy Starter Kit (6 szín), korábbi weboldal (v1). 12 hónapos ütemterv és Digistore24-beállítás rögzítve. Drive: Norelia mappa létrehozva. | – |
+| 2026-11-02 | Nóra + Claude | Oldal még nem élt → Starter/OS előrendelés helyett várólista; Kit 29 € élesítése az első. Végleges oldal: új design + 3 termék + Impressum (EV-adatokkal) + Datenschutz, helyi fontok. Etsy-listingek (Pet Memorial 6,90 €, Puppy Kit 7,90 €) + 5 listingkép kész. Teendő: közösségi adószám (NAV), domain, Digistore24. | – |
+| 2026-11-02 | Claude | Rendszertérkép (struktúra + kanban) artifactként: https://claude.ai/artifact/QAqAcAzVfrbYPo1ZoXt3ZQ. Etsy v2: A4-fájlok, könyvjelzők, Start Here útmutató, GoodNotes-kompatibilis címek. Domain-javaslat: reinigungsfirma-os.de (INWX) + Cloudflare. | – |
+| 2026-11-02 | Nóra | Amazon Account ID megadva: A1BYNK4N45CETG. Bekötés: Amazon Selling Partner connector (Seller Central); KDP-hez nincs connector. | – |
+| 2026-11-02 | Claude | KDP-csomag kész: A Life Well Loved (32 oldal, 8,5×11, f/f belív, teljes borító), metaadatok + 7 kulcsszó + 3 kategória (ceg/projektek/kdp.md). Ár 8,99 $, becsült royalty ~2,5 $/db. Nóra tölti fel. | – |
+| 2026-11-02 | Nóra + Claude | Digistore24 eladói fiók él (vendor nézet). Piactér-elemzés: nyerő ajánlatok 100 €+ affiliate-jutalékot adnak → javaslat: Kit 29 € belépő + order bump + Komplett 197–249 € videóval, 50% jutalék. MMO/AI-influencer kurzus ELVETVE. | – |
+| 2026-11-03 | Nóra | Amazon KDP: Color Your Demon ebook feltöltve (első élő KDP-termék). A többi KDP-csomag még vár. | – |
+| 2026-11-03 | Nóra + Claude | Digistore piactér-keresés (Angebot schreiben, Selbstständig): takarítócég-specifikus termék nincs → nincs közvetlen versenytárs. Legközelebbi: általános ajánlatíró e-book (~13,5 $). Komplett 197 € ár megerősítve. | – |
+| 2026-11-03 | Nóra + Claude | Aivatar Academy: affiliate/vásárlás ELVETVE; a tölcsér (ingyenes webinár → 197 € kurzus + partneranyagok) mintának átvéve a Reinigungsfirma OS-hez, jövedelemígéret és álszűkösség nélkül. | – |
+| 2026-11-03 | Claude | Katrin kezdő tartalom (webinár-forgatókönyv + 8 poszt, DE) → monday Tartalomnaptár. Következő termék: Komplettpaket 197 € terv (7 modul). Kész: Preiserhöhungs-Paket (order bump 19 €: Excel-kalkulátor + 2 Musterschreiben + Einwand-lista). | – |
+| 2026-11-03 | Claude (Nóra kérésére) | Katrin 4 arcváltozata legenerálva (Higgsfield Soul 2.0) – Nóra választ (karakterek.md). | – |
+| 2026-11-04 | Nóra + Claude | Összevonás: side-projects, reinigungsfirma-os, aureliavenn-etsy, pet-printables repók → Norelia (projects/, ceg/portfolio/). Nóra jóváhagyta a feltöltést. | – |
+| 2026-11-04 | Nóra | Döntések: heti fókusz max 3 projekt, HACCP + ügyvédi weboldal parkoló, KDP másodlagos, hivatalos landing = projects/reinigungsfirma-os (EV-adatok, várólista, áthúzott árak törölve), web/ archiválva, Katrin arca: D. | – |
+| 2026-11-04 | Nóra + Claude | Domain: reinigung-kalkulieren.de (Cloudflare); Impressum kész (info@…, Reg.-Nr. 57628169, HU59581086); site csomag deployra kész. Kindness Elf KDP-n. Katrin 4 kulcskép (D arc). Pin-terv nov. 5–11 jóváhagyva – Metricoolban nincs bekötött Pinterest. TpT: TESZTELNI Classroom Elffel. | – |
+| 2026-11-04 | Claude (Nóra kérésére) | Katrin hangja (Petra) + 3 beszélő videó indítva (Intone 720p, ~504 kredit). Megosztott Mac-mappa (Norelia-termekek) a felhőből nem érhető el. | – |
+| 2026-11-04 | Nóra | Katrin V1–V3: kiejtés, szájmozgás OK. Jövőben több élet: munkafelvétel és oktató forma is, nem mindig beszélő fej. Metricool bekötés későbbre. V4–V8 terv: ceg/projektek/katrin-videok-v2.md | – |
+| 2026-11-04 | Nóra + Claude | Cél: 1 M Ft 60 nap alatt. Stratégia: fizetett forgalom + Kalkulations-Check 490 € + Reinigungsfirma fókusz; hideg e-mail DACH-ba NEM (UWG § 7). Terv: ceg/strategia-60nap.md. Jóváhagyásra vár. | – |
+| 2026-11-04 | Claude (Nóra kérésére) | Svájci teszt: 50 német nyelvű takarítócég (Apollo, 0 kredit) + DE-CH sablon: ceg/sales/ch-teszt.md. Küldés feltétele: élő Rechner, CHF-kompatibilitás, Nóra jóváhagyása. | – |
