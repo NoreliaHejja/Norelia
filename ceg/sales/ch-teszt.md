@@ -35,3 +35,8 @@ Reinigungsfirma OS · reinigung-kalkulieren.de
 
 ## Mérés (1 hét)
 Siker: ≥ 3 válasz vagy Rechner-használat 50 levélből → folytatás 200 céggel + Check-ajánlat.
+
+## Állapot (2026-11-09)
+- CHF/€ váltó kész (link: reinigung-kalkulieren.de/?w=chf).
+- Személyes mondatok: BLOKKOLVA – a felhőkörnyezet hálózata tiltja a .ch oldalakat; az engedélyezési kérést a környezet-szolgáltatás elutasította; webes keresés nem ad e-mail címet. Megoldás: Nóra a Settingsben bővíti a hálózatot (Agent Team környezet), vagy a feladat a Macen (Claude desktop) fut.
+- Metricool: Nóra később köti be.
