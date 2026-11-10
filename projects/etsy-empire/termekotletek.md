@@ -1,6 +1,6 @@
 # Termékötletek – napi rotáció
 
-Hétfőtől péntekig naponta: 1 új termék (a legfelső „ötlet” sor → „kész”) + 1 kiegészítés (színváltozat / A4 / bundle). Hétvégén nincs futás.
+A hét minden napján: 2 új termék (a két legfelső „ötlet” sor → „kész”) + 1 kiegészítés, ha van értelme (színváltozat / A4 / bundle). 5 ötlet alatt: 10 új ötlet a persona alapján.
 
 | # | Termék | Téma | Gyerekréteg | Ár | Állapot |
 |---|---|---|---|---|---|

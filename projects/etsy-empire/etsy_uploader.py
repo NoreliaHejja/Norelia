@@ -3,12 +3,13 @@
 Etsy uploader – AureliaVenn / etsy-empire
 
 Egy termékmappát (termekek/<slug>/listing.json + PDF + képek) Etsy-n
-**piszkozatként** (draft) tölt fel az Etsy Open API v3-mal. Soha nem élesít:
-az aktiválás (0,20 $ díj, nyilvános megjelenés) Nóra kattintása az Etsy-n.
+**piszkozatként** (draft) tölt fel az Etsy Open API v3-mal; --aktival esetén
+utána élesíti is (0,20 $ díj). Nóra döntése (2026-11-10): Etsy-n automatikus élesítés.
 
 Használat
   python3 etsy_uploader.py termekek/ready-for-a-dog-kit            # száraz futás (alapértelmezés)
   python3 etsy_uploader.py termekek/ready-for-a-dog-kit --feltolt  # valódi piszkozat-feltöltés
+  python3 etsy_uploader.py termekek/ready-for-a-dog-kit --feltolt --aktival  # feltöltés + élesítés (0,20 $)
 
 Környezeti változók (élesben kellenek)
   ETSY_API_KEY       – az Etsy app keystring (developers.etsy.com → Your Apps)
@@ -54,8 +55,8 @@ def check(folder: Path, data: dict) -> list:
     for img in data.get("images", []):
         if not (folder / img).exists():
             errors.append(f"nincs meg a kép: {img}")
-    if data.get("status") != "jovahagyva":
-        errors.append(f"status = {data.get('status')} – csak 'jovahagyva' állapotú termék tölthető fel")
+    if data.get("status") not in ("kesz", "jovahagyva"):
+        errors.append(f"status = {data.get('status')} – csak 'kesz' vagy 'jovahagyva' állapotú termék tölthető fel")
     return errors
 
 
@@ -99,6 +100,14 @@ def upload(folder: Path, data: dict) -> str:
     return str(listing_id)
 
 
+def activate(listing_id: str) -> None:
+    import requests
+    h = {"x-api-key": os.environ["ETSY_API_KEY"], "Authorization": f"Bearer {os.environ['ETSY_ACCESS_TOKEN']}"}
+    shop = os.environ["ETSY_SHOP_ID"]
+    r = requests.patch(f"{API}/shops/{shop}/listings/{listing_id}", headers=h, data={"state": "active"}, timeout=60)
+    r.raise_for_status()
+
+
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
@@ -122,8 +131,12 @@ def main():
     listing_id = upload(folder, data)
     data["status"] = "etsy_piszkozat"
     data["etsy_listing_id"] = listing_id
+    if "--aktival" in sys.argv:
+        activate(listing_id)
+        data["status"] = "etsy_aktiv"
+        data["etsy_url"] = f"https://www.etsy.com/listing/{listing_id}"
     (folder / "listing.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Kész: Etsy piszkozat #{listing_id}. Élesítés: Nóra, az Etsy Shop Managerben.")
+    print(f"Kész: Etsy #{listing_id} – {data['status']}")
 
 
 if __name__ == "__main__":

@@ -31,7 +31,7 @@ Heti ritmus: hétfő reggel automatikus Főnök-futás → `ceg/heti/ÉÉÉÉ-HH
 ## Közös szabályok (minden agentre)
 1. **Végrehajtás először**: kész anyagot adj (szöveg, táblázat, e-mail piszkozat), ne tanácsot.
 2. **Pénz-mérce**: minden javaslatnál: várható Ft, ráfordított óra, Ft/óra. 8 750 Ft/óra alatt → elvetni vagy automatizálni.
-3. **Jóváhagyási kapu**: ami kimegy vagy tartósan változtat (e-mail küldés, Etsy/Amazon listing élesítése, Apollo/monday írás, közzététel, fizetés) → csak piszkozat + egysoros terv, Nóra jóváhagyása után mehet.
+3. **Jóváhagyási kapu**: ami kimegy vagy tartósan változtat (e-mail küldés, Etsy/Amazon listing élesítése, Apollo/monday írás, közzététel, fizetés) → csak piszkozat + egysoros terv, Nóra jóváhagyása után mehet. **Kivétel (Nóra, 2026-11-10):** az etsy-empire termékei minőségi kapu után jóváhagyás nélkül élesíthetők az Etsy-n.
 4. **Előbb teszt**: új ötlet előbb max 1 hét és 30–50 000 Ft piaci teszt; keret max 100 000 Ft és 8 óra/hét.
 5. **Napló**: minden döntés és eredmény → `ceg/naplo.md` (dátum, ki, mit, eredmény Ft-ban).
 6. Magyarul, tömören. Döntésnél: ÉRTÉKELÉS – DÖNTÉS – MIÉRT – KÖVETKEZŐ LÉPÉS.

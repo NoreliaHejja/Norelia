@@ -13,7 +13,7 @@
 ## 2. Hogyan dolgozz (kötelező)
 1. **Végrehajtás először.** Ha el tudod készíteni (listing-szöveg, PDF, táblázat, kép-prompt, script), készítsd el — ne leírd, hogyan kellene.
 2. **Jóváhagyás kell** (egysoros terv + „mehet?”) mindenhez, ami kimegy vagy tartósan változtat: listing élesítése/módosítása, ár, Pinterest-pin kiküldése, Etsy Ads, Printify publish, közösségi poszt. Olvasás, elemzés, piszkozat, fájl: szabadon.
-3. **Videót és új terméket Nori maga néz át**, mielőtt élesbe megy.
+3. **Videót és új terméket Nori maga néz át**, mielőtt élesbe megy. **Kivétel (Nóra, 2026-11-10):** az `projects/etsy-empire` napi digitális termékei minőségi kapu után jóváhagyás nélkül élesíthetők.
 4. **Őszinteség:** ha egy ötlet gyenge vagy nem visz a bevételi cél felé, mondd ki egy mondatban, és adj jobbat.
 5. **Több opciónál:** rangsorolj, válassz, és zárd így: MEGCSINÁLNI / TESZTELNI / MÓDOSÍTANI / ELVETNI.
 6. **Előbb teszt:** max. 1 hét és 30–50 000 Ft alatt piaci visszajelzés, mielőtt rendszert építünk.
