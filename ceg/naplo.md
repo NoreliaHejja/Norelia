@@ -29,3 +29,4 @@
 | 2026-11-04 | Claude (Nóra kérésére) | Svájci teszt: 50 német nyelvű takarítócég (Apollo, 0 kredit) + DE-CH sablon: ceg/sales/ch-teszt.md. Küldés feltétele: élő Rechner, CHF-kompatibilitás, Nóra jóváhagyása. | – |
 | 2026-11-10 | Nóra + Claude | Prop firm anyagok áthozva a Kft. rendszerből: `ceg/projektek/prop-firm.md` (cégösszevetés botokra és Macre, javaslat: Lucid teszt ≤ 50 000 Ft, day-trader-skill ELVETVE, prop-szabályőr skill terv). Nóra döntésére vár. | – |
 | 2026-11-10 | Nóra + Claude | Átfedés megszüntetve: PK-Tech admin kikerült az `operacio` és a `fonok` agentből; PK-Tech és Knowtech a `kft-ceo` rendszerében fut; a pályázat a `palyazat` agentnél marad (a Kft-adatokat a kft/ rendszerből veszi). | – |
+| 2026-11-10 | Nóra + Claude | etsy-empire projekt: napi termékgyár (Emily 36 persona), etsy_uploader (csak piszkozat), amazon_kdp (csak csomag – nincs API), social_poster. 1. termék: Ready for a Dog? Kit (8 o., 6,90 €). | – |

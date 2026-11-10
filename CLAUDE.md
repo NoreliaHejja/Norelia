@@ -41,6 +41,7 @@ Heti ritmus: hétfő reggel automatikus Főnök-futás → `ceg/heti/ÉÉÉÉ-HH
 |---|---|---|
 | `projects/reinigungsfirma-os/` | DACH landing (src → build → site), Kalkulations-Kit generátor, marketing, jogi doksi | `projects/reinigungsfirma-os/CLAUDE.md` |
 | `projects/aureliavenn-etsy/` | Etsy bolt (24 listing, POD + digitális), Emily, heti metrikák | `projects/aureliavenn-etsy/CLAUDE.md` |
+| `projects/etsy-empire/` | napi digitális termékgyár (Emily persona): termékek, Etsy-piszkozat API, KDP-csomag, social csomag | `projects/etsy-empire/CLAUDE.md` |
 | `projects/pet-printables/` | kutyás/macskás printable-gyártósor (HTML → Playwright → PDF), napi ütemezés | `projects/pet-printables/CLAUDE.md` |
 | `projects/complystarterkit/`, `law-firm-websites/`, `haccp-app/`, `zanahalisi/` | további side projektek (README) | – |
 | `ceg/portfolio/` | portfólió (aktív/parkoló/elvetett), döntések, tanulságok, eszközök, feladatok – a korábbi side-projects repóból | – |
