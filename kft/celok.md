@@ -12,6 +12,11 @@ Havi átlag 2027-ben:
 - PK-Tech: 100 M ÷ 12 = **8,33 M Ft/hó**
 - Knowtech: 30 M ÷ 12 = **2,5 M Ft/hó**
 
+**Ami már ismert (2026-11-10, monday + Drive):**
+- PK-Tech, monday „PK-Tech 20 M Ft cél” tábla: 8 tétel „Megvan”, összesen 14,1 M Ft. Ez egy korábbi, **20 M Ft-os** cél követése, nem teljes árbevétel. Benne nem árbevétel jellegű tételek is vannak (pl. „Revolut – váltás és utalás” 2 M Ft). **A 80 M Ft-os új cél és a 20 M Ft-os régi tábla közti különbséget Nórának kell tisztáznia.**
+- PK-Tech számlaimport a monday-ben: 41 ügyfél, 45 számla, 56,55 M Ft (időszak: HIÁNYZIK).
+- Knowtech: 2026-76 számla 10-29-én, 2 960 385 Ft nettó (Nemess Holding, beszámítással).
+
 **2026 vége, gyors ellenőrzés.** Ha a jan–okt bevétel × 12/10 kevesebb, mint az éves cél, a hiányt nov–dec alatt kell behozni. A CEO ilyenkor csak gyors pénzt hozó lépéseket enged: kiszámlázatlan munka, kintlévőség, év végi karbantartási megrendelések, viszonteladói feltöltő rendelés.
 
 ## 2. PK-Tech 2027 – miből jön a 100 M Ft
@@ -24,7 +29,8 @@ Havi átlag 2027-ben:
 | Új ügyfelek | HIÁNYZIK | = 100 M − visszatérő | |
 
 **Hány új munka kell?** (100 M − visszatérő bázis) ÷ átlagos munkaérték = szükséges új megrendelés/év. Ezt elosztjuk a nyerési aránnyal, és megkapjuk a szükséges ajánlatszámot.
-Példa, ha a visszatérő bázis 60 M Ft, az átlagos munka 1,5 M Ft, a nyerési arány 30%: (100 − 60) ÷ 1,5 ≈ 27 új munka, ehhez 27 ÷ 0,3 ≈ **90 ajánlat/év**, azaz kb. 8 ajánlat/hónap. Ez csak példa, a valós számokat a pénzügy adja.
+Valós kiindulópontok: a számlaimport alapján egy átlagos számla 0,88 M Ft (a BIODRY 18 M Ft-os tétele nélkül). 2026-ban kb. 130 ajánlat ment ki (ajánlatszám 2026-130, 11-05-ig).
+Példa: ha a visszatérő bázis 60 M Ft, az átlagos munka 0,9 M Ft, a nyerési arány 30%, akkor (100 − 60) ÷ 0,9 ≈ 44 új munka kell, ehhez 44 ÷ 0,3 ≈ **150 ajánlat/év**, azaz kb. 12–13 ajánlat/hónap. Ez elérhető, mert 2026-ban már ~130 ajánlat ment ki. A **nyerési arány** viszont nem ismert, mert az ajánlatnyilvántartás üres. Ezt kell először mérni.
 
 **Kapacitáskorlát.** 4 alkalmazott + alkalmi munkavállalók. A HR és a pénzügy minden negyedévben kiszámolja, hány munkanap kell a 100 M Ft-hoz, és mennyi hiányzik belőle.
 

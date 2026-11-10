@@ -60,6 +60,7 @@ Definíciók: `.claude/agents/kft-*.md`. Indítás: `claude --agent kft-ceo`.
 | `.claude/skills/` | Knowtech skillek: gyári outreach, piactéri listing |
 
 ## Rendszerek
-- **monday.com**: pipeline és feladatok. Táblák: HIÁNYZIK (a CEO első futásakor feltérképezi, írni csak jóváhagyás után lehet).
+- **monday.com**: „PK-Tech operáció” workspace (6695493) és „Knowtech” workspace (6797572). A táblák listája a cégprofilokban van. Írni csak jóváhagyás után lehet.
+- **Pályázat**: a Startsystem `palyazat` agentje figyeli és írja a pályázatokat (a Kft-ket is). Itt a `kft-penzugy` csak a cégadatokat adja hozzá.
 - **Számlázás**: Számlázz.hu, Billingo (nincs konnektor: exportot kérünk).
 - **Outreach**: Apollo.io. **Grafika**: Canva. **Levelezés**: Gmail.

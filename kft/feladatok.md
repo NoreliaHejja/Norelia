@@ -12,7 +12,12 @@ Státuszok: ÚJ → FOLYAMATBAN → JÓVÁHAGYÁSRA VÁR → KÉSZ / ELVETVE. A 
 | P-02 | PK | pénzügy | kiszámlázatlan munkák (TIG megvan, számla nincs) + lejárt számlák listája, emlékeztető-piszkozatok | azonnali cash | 11-14 | ÚJ | igen |
 | P-03 | PK, KT | pénzügy | cash-flow 30/60/90 nap | év végi likviditás | 11-21 | ÚJ | – |
 | S-01 | PK | sales | ügyféllista (24 hónap), utolsó munka, érték; top 20 újrafoglalás év végi / téli leállásra + telefon-szkript | év végi megrendelés | 11-17 | ÚJ | igen |
-| S-02 | PK | sales | keretszerződés-ajánlat sablon időszakos munkákra (elszívó, fertőtlenítés) | visszatérő bázis 2027 | 11-21 | ÚJ | igen |
+| S-02 | PK | sales | keretszerződés-ajánlat: a Pátria „B” változat (2 év, −10%, díjgarancia) sablonná alakítása + kiküldési lista a top 20-ból (`kft/pk-tech/ugyfelek.md`) | visszatérő bázis 2027 | 11-21 | ÚJ (sablon megvan) | igen |
+| S-05 | PK | sales | nyitott ajánlatok utánkövetése: Codex 3,72 M Ft (07-01 óta), Pátria (12-05-ig érvényes), DENSO 2026-128 | gyors bevétel | 11-14 | ÚJ | igen |
+| S-06 | PK | sales | az ajánlatok felvezetése a monday „PK-Tech Ajánlatnyilvántartás” táblába (most üres) → nyerési arány mérése | mérhető pipeline | 11-21 | ÚJ | igen (monday-írás) |
+| P-04 | KT | pénzügy | PBS adagoló-ár döntés-előkészítés (most 7% fedezet): 3 ár-változat a fedezettel | fedezet | 11-14 | ÚJ | igen |
+| P-05 | KT | pénzügy | a Nemess-beszámítás áfája (799 304 Ft) a cash-flow-ban | likviditás | 11-14 | ÚJ | – |
+| S-07 | KT | sales | Orbico-próba lezárása, és referencia-engedély kérése (Pek-Snack, Sanmina, Denso, Hajdú) | új vevő + referencia | 11-21 | ÚJ | igen |
 | S-03 | KT | sales | Bunzl, Topsafe, Magic Tools: év végi feltöltő rendelés ajánlat + 2027 éves terv-egyeztetés kérése | gyors KT-bevétel | 11-14 | ÚJ | igen |
 | S-04 | KT | sales | gyári outreach 1. kör: 10 A-szintű gyár (`pedexan-gyari-outreach`) | 2027: 7 M Ft gyári direkt | 11-23 | ÚJ | igen |
 | M-01 | KT | marketing | első eMAG-terméklap + fedezetszámítás (`pedexan-piacter-listing`) | piaci csatorna 5 M Ft/2027 | 11-17 | ÚJ – Pedexan adatlapra vár | igen |
@@ -27,7 +32,9 @@ Státuszok: ÚJ → FOLYAMATBAN → JÓVÁHAGYÁSRA VÁR → KÉSZ / ELVETVE. A 
 2. **Pedexan termékadatlap / engedély + beszerzési ár** → M-01, B-01
 3. **Return wrap:** mi ez pontosan, beszállító, ár → B-02
 4. **PK-Tech átlagos munkaérték és munkanap/munka** (becslés is jó) → H-01, `kft/celok.md` 2. pont
-5. **monday:** melyik workspace / tábla a PK-Tech és a Knowtech pipeline → C-01
+5. ~~monday-táblák~~ → KÉSZ: PK-Tech operáció (6695493), Knowtech (6797572); lásd a cégprofilokat
+6. **A 80 M Ft-os 2026-os PK-Tech cél vs. a monday „20 M Ft cél” tábla:** melyik az érvényes, és mit takar a 20 M (pl. Nóra által hozott üzlet)?
+7. **A műszaki vezető neve**, és hogy a konyhai elszívó Pest és Komárom-Esztergom megyén kívül (Székesfehérvár, Téglás) kivétel volt-e
 
 ## Lezárt feladatok
 | ID | Eredmény | Dátum |
