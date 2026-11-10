@@ -51,7 +51,7 @@ Utolsó frissítés: 2026-11-04
 - **YouTube lofi/fókusz zene** — kill-kritérium: 20 videó / 4 hónap.
 - **Holografikus ventilátor + reklámvideó szolgáltatás** — mérlegelés alatt.
 - **Várólista:** AI workshop KKV-knak; LinkedIn/céges copywriting; szerb (elsődleges) / román prop firm összehasonlító oldal; ZanaHalisi-klónok (Hausa/Nigéria, francia/Nyugat-Afrika) csak validáció után; micro-SaaS ajánlatgenerátor; Google Business Profile optimalizálás; B2B leadgen / web + AI SEO-GEO szolgáltatás; ereszcsatorna-tisztítás; babakocsi-tisztítás.
-- **Trading (prop firm)** — szünetel.
+- **Trading (prop firm)** — szünetel; TESZT-jelölt: Lucid (Tradovate, Mac, bot engedélyezett), 1 vizsga ≤ 50 000 Ft. Részletek: `ceg/projektek/prop-firm.md` (2026-11-10).
 
 ## ELVETETT — nem térünk vissza
 - Magyar nyelvoktatás (Skool/Circle)

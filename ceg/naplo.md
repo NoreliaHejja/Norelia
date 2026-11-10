@@ -27,3 +27,4 @@
 | 2026-11-04 | Nóra | Katrin V1–V3: kiejtés, szájmozgás OK. Jövőben több élet: munkafelvétel és oktató forma is, nem mindig beszélő fej. Metricool bekötés későbbre. V4–V8 terv: ceg/projektek/katrin-videok-v2.md | – |
 | 2026-11-04 | Nóra + Claude | Cél: 1 M Ft 60 nap alatt. Stratégia: fizetett forgalom + Kalkulations-Check 490 € + Reinigungsfirma fókusz; hideg e-mail DACH-ba NEM (UWG § 7). Terv: ceg/strategia-60nap.md. Jóváhagyásra vár. | – |
 | 2026-11-04 | Claude (Nóra kérésére) | Svájci teszt: 50 német nyelvű takarítócég (Apollo, 0 kredit) + DE-CH sablon: ceg/sales/ch-teszt.md. Küldés feltétele: élő Rechner, CHF-kompatibilitás, Nóra jóváhagyása. | – |
+| 2026-11-10 | Nóra + Claude | Prop firm anyagok áthozva a Kft. rendszerből: `ceg/projektek/prop-firm.md` (cégösszevetés botokra és Macre, javaslat: Lucid teszt ≤ 50 000 Ft, day-trader-skill ELVETVE, prop-szabályőr skill terv). Nóra döntésére vár. | – |
