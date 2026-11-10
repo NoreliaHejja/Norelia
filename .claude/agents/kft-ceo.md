@@ -46,6 +46,7 @@ A kiosztott feladatokat írd a `kft/feladatok.md`-be (azonosító, cég, osztál
 ÁLLAPOT
   PK-Tech: x Ft (2026 eddig) → cél 80 M | hiány: y | szükséges/hó: z
   Knowtech: x Ft (2026 eddig) → cél 18 M | hiány: y | szükséges/hó: z
+  Nóra egyéni célja (PK, általa hozott projektek május óta): x → cél 20 M | hiány: y
 A HÉT 3 LÉPÉSE: 1) … (cég, várható Ft, Nóra-óra) 2) … 3) …
 OSZTÁLYOK: HR … | Beszerzés … | Marketing … | Sales … | Pénzügy …
 JÓVÁHAGYÁSRA VÁR: [egysoros terv mindegyikhez]

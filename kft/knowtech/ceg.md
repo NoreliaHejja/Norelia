@@ -20,7 +20,7 @@ Egy német beszállító termékeit forgalmazzuk Magyarországon.
 | **Pedexan** cipőfertőtlenítő (adagoló + 1 l utántöltő) | FŐ TERMÉK | biocid, csak engedélyezett állítások |
 | **Bacoban** (pl. WB koncentrátum 1 l) | nem fókusz, de mozog | 2026-10-29: 70 db ment a Nemess Holdingnak (lásd lent) |
 | Új higiéniai termékek | TERV | a beszerzés készít listát (árrés, engedély, piac) |
-| **Return wrap** | TERV | HIÁNYZIK: termékleírás, beszállító, ár. (A Startsystemben „ELVIS raklapfólia (Return2sender)” néven parkolt. Ha ugyanaz, Nóra erősítse meg, és akkor itt él tovább.) |
+| **Return wrap** (= ELVIS raklapfólia, Return2sender) | TERV – partnerdöntésre vár | Nóra egyeztet az **Euro Liad Kft.**-vel a közös indításról, válasz még nincs. A Startsystemből ide került (2026-11-10). HIÁNYZIK: termékleírás, beszerzési ár, célár, a partnerség formája (viszonteladás / közös cég / jutalék). |
 
 ## Fontos tények és döntések
 - **PBS-árlista: az adagoló viszonteladói árán most csak 7% a fedezet** → döntés kell (monday, 10-19 óta nyitott). Pénzügy + sales.

@@ -8,8 +8,8 @@ Források: monday „PK-Tech operáció” workspace, Drive (árajánlatok, jegy
 | Székhely | 2800 Tatabánya, Farkastó utca 82. |
 | Adószám | 23463783-2-11 |
 | Web / e-mail | pk-tech.hu, info@pk-tech.hu |
-| Ügyvezető (marketing, HR, pénzügy) | Pócz-Héjja Nóra Aurélia (35%) |
-| Műszaki vezető | HIÁNYZIK (név) |
+| Ügyvezető (marketing, HR, pénzügy) | Pócz-Héjja Nóra Aurélia (35%), 2026 május óta ügyvezető |
+| Műszaki vezető | János (többségi tulajdonos, 65%): módszer, kivitelezés, gépek, biztonság, árazás műszaki része |
 | Csapat | 4 alkalmazott + alkalmi munkavállalók projektenként |
 | Felelősségbiztosítás | 120 M Ft (a kötvényt kérésre megküldjük) |
 | ISO-tanúsítvány | **NINCS**, soha ne állítsuk |
@@ -57,7 +57,7 @@ Részletes lista és újraaktiválási sorrend: `kft/pk-tech/ugyfelek.md`.
 | PK Tech Ugyfelek | 5098607554 | 41 szerződött ügyfél + leadek; számlák száma és nettó összeg (importált lista) |
 | PK Tech Projektek es feladatok | 5098608242 | munkák: vár ügyfélre / folyamatban / számlázott / 2027 tervezés |
 | PK-Tech Ajánlatnyilvántartás | 5104293791 | **üres**: az ajánlatok nincsenek felvezetve |
-| PK-Tech 20 M Ft cél | 5099134999 | korábbi 20 M Ft-os cél követése (8 tétel „Megvan”, 14,1 M Ft) |
+| PK-Tech 20 M Ft cél | 5099134999 | **Nóra egyéni célja**: a 2026 május óta általa behozott projektek (8 tétel „Megvan”, 14,1 M Ft) |
 | PK Tech Dolgozoi admin | 5098608580 | dolgozói iratok, havi admin |
 | PK Tech Eszkozok es lejaratok | 5098608882 | gépek, iratok, lejáratok |
 

@@ -13,11 +13,22 @@ Havi átlag 2027-ben:
 - Knowtech: 30 M ÷ 12 = **2,5 M Ft/hó**
 
 **Ami már ismert (2026-11-10, monday + Drive):**
-- PK-Tech, monday „PK-Tech 20 M Ft cél” tábla: 8 tétel „Megvan”, összesen 14,1 M Ft. Ez egy korábbi, **20 M Ft-os** cél követése, nem teljes árbevétel. Benne nem árbevétel jellegű tételek is vannak (pl. „Revolut – váltás és utalás” 2 M Ft). **A 80 M Ft-os új cél és a 20 M Ft-os régi tábla közti különbséget Nórának kell tisztáznia.**
+- PK-Tech, monday „PK-Tech 20 M Ft cél” tábla: **Nóra egyéni célja**. Azokat a projekteket követi, amelyeket Nóra hozott be 2026 május óta (azóta ügyvezető). Nem a cég teljes árbevétele. Lásd az 1b. pontot.
 - PK-Tech számlaimport a monday-ben: 41 ügyfél, 45 számla, 56,55 M Ft (időszak: HIÁNYZIK).
 - Knowtech: 2026-76 számla 10-29-én, 2 960 385 Ft nettó (Nemess Holding, beszámítással).
 
 **2026 vége, gyors ellenőrzés.** Ha a jan–okt bevétel × 12/10 kevesebb, mint az éves cél, a hiányt nov–dec alatt kell behozni. A CEO ilyenkor csak gyors pénzt hozó lépéseket enged: kiszámlázatlan munka, kintlévőség, év végi karbantartási megrendelések, viszonteladói feltöltő rendelés.
+
+## 1b. Nóra egyéni célja a PK-Tech-ben (2026)
+Mérés: a Nóra által 2026 május óta behozott projektek értéke. Forrás: monday „PK-Tech 20 M Ft cél” (5099134999).
+
+| Cél | Megvan (2026-11-10) | Hiány | Hátralévő idő |
+|---|---|---|---|
+| 20 000 000 Ft | 14 138 000 Ft | **5 862 000 Ft** | ~7 hét (dec. 31-ig) |
+
+A „Megvan” tételek: Trivium 2 (8,8 M), Revolut-váltás (2,0 M), Trivium (0,82 M), HAJDU (0,78 M), Messer (0,77 M), La Donna (0,51 M), weboldal + marketing (0,40 M), hirdetés (0,06 M).
+**A hiány fedezhető a nyitott ajánlatokból:** Codex 3,72 M + Pátria 0,56–1,19 M + DENSO (HIÁNYZIK) ≈ 4,3–4,9 M Ft. Ha ezek mind megjönnek, a maradék kb. 1–1,5 M Ft, ezt a top 20 újrafoglalásából lehet behozni.
+Szabály: minden új projekt, amit Nóra hoz, kerüljön fel a táblára. A CEO ezt a heti jelentésben külön sorban mutatja.
 
 ## 2. PK-Tech 2027 – miből jön a 100 M Ft
 | Forrás | 2026 tény | 2027 cél | Megjegyzés |
