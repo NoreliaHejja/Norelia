@@ -1,6 +1,6 @@
 {
   "slug": "ready-for-a-dog-kit",
-  "status": "jovahagyasra_var",
+  "status": "jovahagyva",
   "created": "2026-11-10",
   "theme": "kutya + kisgyerek + macska a háztartásban",
   "files": [
@@ -41,5 +41,6 @@
   "kdp": {
     "eligible": false,
     "reason": "ready-for-a-dog-kit: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
-  }
+  },
+  "approved": "2026-11-10 (Nóra)"
 }

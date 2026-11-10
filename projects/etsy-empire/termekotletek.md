@@ -1,8 +1,6 @@
 # Termékötletek – napi rotáció
 
-A napi futás a legfelső „ötlet” állapotú sort készíti el, és átírja „kész”-re.
-Hétfő–szerda: új termék. Csütörtök: színváltozat vagy csomag (bundle). Péntek: listing-szövegek javítása + heti összefoglaló.
-Szombat–vasárnap: nincs futás.
+Hétfőtől péntekig naponta: 1 új termék (a legfelső „ötlet” sor → „kész”) + 1 kiegészítés (színváltozat / A4 / bundle). Hétvégén nincs futás.
 
 | # | Termék | Téma | Gyerekréteg | Ár | Állapot |
 |---|---|---|---|---|---|

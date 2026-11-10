@@ -1,6 +1,6 @@
 # etsy-empire – napi digitális termékgyár (AureliaVenn bolt)
 
-Cél: **minden munkanap egy prémium, nyomtatható digitális termék** Emilynek (lásd `persona.md`),
+Cél: **minden munkanap 2 prémium darab: 1 új termék + 1 kiegészítés** (színváltozat, A4-változat vagy 3–4 termékes bundle; bundle 24+ oldallal → KDP) Emilynek (lásd `persona.md`),
 Etsy-re (fő csatorna) és Amazon KDP-re (csak 24+ oldalas bundle-ök). Témák: kutya, macska, kisgyermekes családi élet.
 Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 
@@ -17,7 +17,7 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 | posztcsomag | `social_poster.py` |
 
 ## Napi rutin (ütemezett futás, memória nélkül)
-1. Olvasd: ez a fájl, `persona.md`, `termekotletek.md`. Válaszd a legfelső „ötlet” sort (a napi szabály szerint).
+1. Olvasd: ez a fájl, `persona.md`, `termekotletek.md`. Új termék: a legfelső „ötlet” sor. Kiegészítés: a legrégebbi kész termék színváltozata, vagy ha van 3–4 rokon kész termék, bundle.
 2. Írd meg a terméket egyetlen HTML-ben: `termekek/<slug>/<slug>.html` – a `ready-for-a-dog-kit` a minta (design, fontok, komponensek).
    8 oldal: borító, használati útmutató, 5 funkcionális oldal (legalább 1 gyerekoldal), záró oldal.
 3. `node scripts/render_pdf.js termekek/<slug>/<slug>.html` → **OVERFLOW: none** kell; `pdfinfo` → Letter, 8 oldal.
