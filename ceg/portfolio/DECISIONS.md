@@ -4,6 +4,7 @@ Formátum: dátum — döntés — miért. Újat a lista tetejére írj.
 
 | Dátum | Döntés | Miért |
 |---|---|---|
+| 2026-11-10 | ELVIS raklapfólia (Return wrap) → Knowtech termék, Euro Liad Kft.-vel egyeztetés | A Knowtech termékportfóliójába illik; átfedés megszüntetése |
 | 2026-11-10 | PK-Tech és Knowtech saját agent-rendszert kap (`kft-ceo` + HR, beszerzés, marketing, sales, pénzügy). A Startsystem nem dolgozik rajtuk; a pályázat itt marad (`palyazat`). A prop firm a Startsystembe került. | Átfedés megszüntetése (Nóra kérése) |
 | 2026-11-04 | ELVIS raklapfólia parkolópályára | Jó projekt, de nincs rá keret |
 | 2026-10-28 | Új teszt: ügyvédi irodai weboldalak | Gyors cashflow, a B2B sales Nori erőssége; demó + Apollo |

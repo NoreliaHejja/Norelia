@@ -47,7 +47,7 @@ Utolsó frissítés: 2026-11-04
 - **Ügyvédi irodai weboldalak** — 2026-11-04: parkolóba (szolgáltatás, Nóra ideje kell; ellentmond a passzív elvnek).
 - **ZanaHalisi** (zanahalisi.co.ke) — 2026 okt.: nem indult be. Részletek: `projects/zanahalisi/README.md`.
 - **DACH dropshipping (Stockfirmati/Griffati)** — 2026. szept. 25-én félretéve, nem indult el.
-- **ELVIS raklapfólia (Return2sender)** — jó projekt, de most nincs rá keret (nov. 4.).
+- ~~**ELVIS raklapfólia (Return2sender)**~~ — 2026-11-10: átkerült a Knowtechhez „Return wrap” néven (`kft/knowtech/ceg.md`), egyeztetés az Euro Liad Kft.-vel. A Startsystem nem foglalkozik vele.
 - **YouTube lofi/fókusz zene** — kill-kritérium: 20 videó / 4 hónap.
 - **Holografikus ventilátor + reklámvideó szolgáltatás** — mérlegelés alatt.
 - **Várólista:** AI workshop KKV-knak; LinkedIn/céges copywriting; szerb (elsődleges) / román prop firm összehasonlító oldal; ZanaHalisi-klónok (Hausa/Nigéria, francia/Nyugat-Afrika) csak validáció után; micro-SaaS ajánlatgenerátor; Google Business Profile optimalizálás; B2B leadgen / web + AI SEO-GEO szolgáltatás; ereszcsatorna-tisztítás; babakocsi-tisztítás.
