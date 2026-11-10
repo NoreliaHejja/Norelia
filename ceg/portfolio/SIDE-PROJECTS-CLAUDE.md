@@ -14,7 +14,7 @@
 
 **Benne van:** side projektek és új bevételi források (lásd `docs/PROJECTS.md`).
 
-**NINCS benne (ne javasolj, ne dolgozz rajta):** Pedexan, Bacoban, PK-Tech, faldiagnosztika.hu. Ezek a fő cégek / más projekt ügyei.
+**NINCS benne (ne javasolj, ne dolgozz rajta):** Pedexan, Bacoban, PK-Tech, faldiagnosztika.hu. Ezek a fő cégek / más projekt ügyei. (2026-11-10 óta a PK-Tech és a Knowtech saját agent-rendszert kapott: `kft-ceo`.)
 
 ## 3. Működési szabályok
 

@@ -29,4 +29,4 @@ Cél: összesen ≥ 1 000 000 Ft/hó nettó, minél előbb. Elv: **csak olyan pr
 2. 5 Pinterest pin + 3 rövid videó (Higgsfield) a „Reinigung Preise kalkulieren” témára.
 3. Siker: ≥ 3 eladás 14 napon belül → havidíjas webes verzió építése. 0 eladás → MÓDOSÍTANI.
 
-PK-Tech: nem Norelia-projekt, csak az admin-idő csökkentése a cél (operacio agent).
+PK-Tech és Knowtech: nem Norelia-projekt. Külön rendszerben futnak (`kft/CLAUDE.md`, agent: `kft-ceo`, ág: ccr-d99bc951-kps9je). A Startsystem agentjei nem dolgoznak rajtuk; kivétel a pályázat (`palyazat` agent írja, a `kft-penzugy` adja a cégadatokat).

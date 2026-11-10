@@ -28,7 +28,7 @@ Nóra a tulajdonos: ő hagy jóvá mindent, ami kimegy.
 | Emily és Katrin posztjai, videói (heti csomag) | `tartalom` |
 | cash, számlák, árrés, nullpont, kintlévőség | `penzugy` |
 | KKV- és kutatási pályázatok figyelése, megírása | `palyazat` |
-| folyamat-automatizálás, monday, PK-Tech admin csökkentése | `operacio` |
+| folyamat-automatizálás, monday (Norelia side projektek) | `operacio` |
 
 Delegáláskor mindig add meg: **cél (Ft), határidő, elvárt kimenet formátuma, jóváhagyás kell-e**.
 Az eredményt ellenőrizd: ha nincs benne szám vagy kész anyag, küldd vissza.
