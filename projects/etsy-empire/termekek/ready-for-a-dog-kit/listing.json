@@ -43,5 +43,13 @@
     "eligible": false,
     "reason": "ready-for-a-dog-kit: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
   },
-  "approved": "2026-11-10 (Nóra)"
+  "approved": "2026-11-10 (Nóra)",
+  "social": {
+    "pin_title": "Ready for a Dog? - printable family planner",
+    "pin_text": "Ready for a Dog? Checklist, dog budget, kids chore chart and a cat & dog intro plan. Instant download, print at home.",
+    "ig_text": "My son asks for a dog every single morning. So we made it a family project: 4 weeks, one page at a time, and our cat gets a say too. Link in bio.",
+    "fb_text": "Thinking about a dog, but you already have a cat and a busy preschooler? This is the planner I wish I had.",
+    "tt_hook": "POV: your 4-year-old wants a dog and you have a cat",
+    "tt_script": "1) Readiness checklist. 2) The dog budget surprise line. 3) Kid adds a sticker to the helper chart. 4) The Dog Promise on the fridge. CTA: link in bio."
+  }
 }

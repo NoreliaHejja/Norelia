@@ -18,7 +18,7 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 
 ## Napi rutin (ütemezett futás, memória nélkül)
 1. Olvasd: ez a fájl, `persona.md`, `termekotletek.md`. Új termék: a két legfelső „ötlet” sor (ha 5 alá fogy a lista, előbb írj 10 új ötletet a persona alapján, ismétlés nélkül). Kiegészítés: a legrégebbi kész termék színváltozata, vagy ha van 3–4 rokon kész termék, bundle.
-2. Írd meg a terméket egyetlen HTML-ben: `termekek/<slug>/<slug>.html` – a `ready-for-a-dog-kit` a minta (design, fontok, komponensek).
+2. Írj egy generátort: `scripts/build_<slug>.py` (közös elemek: `scripts/common.py`, stílus: `assets/base.css`) → `termekek/<slug>/<slug>.html`. Minták: `build_cook_with_me.py`, `build_meal_planner.py`. A listing.json-ba kerüljön `kepszoveg` (listingkép-feliratok) és `social` (poszt-szövegek Emily hangján).
    8 oldal: borító, használati útmutató, 5 funkcionális oldal (legalább 1 gyerekoldal), záró oldal.
 3. `node scripts/render_pdf.js termekek/<slug>/<slug>.html` → **OVERFLOW: none** kell; `pdfinfo` → Letter, 8 oldal. Utána `node scripts/render_a4.js termekek/<slug>/<slug>.html` → A4 PDF (az AureliaVenn-szabály: mindig Letter + A4).
 4. Kontaktlap (`pdftoppm` + `montage`) → nézd meg; hibát javíts.

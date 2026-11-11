@@ -1,0 +1,65 @@
+{
+  "status": "kesz",
+  "created": "2026-11-11",
+  "etsy": {
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": null,
+    "title": "Toddler Recipe Cards, 20 Kids Cooking Cards with Picture Steps, Little Chef Badge Chart, Healthy Snacks for Kids, Printable PDF",
+    "price": 5.9,
+    "tags": [
+      "kids recipe cards",
+      "toddler cooking",
+      "cooking with kids",
+      "little chef",
+      "kids cooking cards",
+      "toddler activities",
+      "healthy kids snacks",
+      "preschool printable",
+      "montessori kitchen",
+      "recipe card set",
+      "kids kitchen helper",
+      "family cooking",
+      "toddler snack ideas"
+    ],
+    "description": "Your little one wants to help in the kitchen? These 20 printable recipe cards give them real jobs: wash, mash, stir, sprinkle – with numbered picture steps they can follow.\n\nWHAT'S INSIDE (8 pages)\n• How to cook together + 8 Little Chef Rules\n• 20 recipe cards, 4 per page (fruit skewers, banana oat cookies, veggie face toast, mini pita pizzas, smoothie bowl, apple donuts and more)\n• Every card: 3 numbered kid jobs with icons, ingredient list, grown-up step, \"Did we like it?\" faces, notes lines\n• Little Chef Badge Chart – color a circle for every recipe\n\nPERFECT FOR\n• Toddlers and preschoolers (ages 3+) with a grown-up\n• Rainy afternoons, weekend breakfasts, lunchbox prep\n• A sweet gift for a family who loves to cook\n\nSAFETY\nOven, stove and knife steps are always grown-up jobs. Swap ingredients for allergies. These are simple family recipes, not nutrition or medical advice.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included. Print at home or at a print shop, as many times as you need for your family.\n\nPLEASE NOTE\nFor personal use only. Please do not resell or share the files. Colors may vary slightly between screens and printers.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "slug": "cook-with-me-recipe-cards",
+  "theme": "főzés gyerekkel",
+  "files": [
+    "cook-with-me-recipe-cards.pdf",
+    "cook-with-me-recipe-cards-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Cook With Me",
+    "cim2": "20 recipe cards inside",
+    "al2": "Picture steps · Kid jobs · Grown-up step · Badge chart",
+    "cim3": "Real jobs for little chefs",
+    "al3": "Wash · mash · stir · sprinkle – ages 3+ with a grown-up",
+    "gyerekoldalak": [
+      2,
+      7
+    ]
+  },
+  "kdp": {
+    "eligible": false,
+    "reason": "cook-with-me-recipe-cards: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  },
+  "social": {
+    "pin_title": "20 toddler recipe cards with picture steps",
+    "pin_text": "Cook With Me: 20 printable recipe cards with picture steps for toddlers and preschoolers - fruit skewers, banana oat cookies, veggie face toast and more. Instant download.",
+    "ig_text": "Theo's favorite job? Mashing bananas. So I made him his own recipe cards: three little jobs per recipe, pictures instead of words, and a badge chart for the fridge. Link in bio.",
+    "fb_text": "Rainy afternoon plan: let your little one cook! 20 picture-step recipe cards for ages 3+.",
+    "tt_hook": "My 4-year-old made dinner (sort of)",
+    "tt_script": "1) Show the card. 2) Kid washes fruit. 3) Mash, stir, sprinkle close-ups. 4) Coloring the badge chart. CTA: link in bio."
+  }
+}

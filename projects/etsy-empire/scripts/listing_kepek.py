@@ -45,8 +45,12 @@ def main():
     with tempfile.TemporaryDirectory() as tmp:
         ps = pages(folder / data["files"][0], tmp)
         n = len(ps)
+        k = data.get("kepszoveg", {})
+        t1, t2, t3 = k.get("cim1", "Printable Family Planner"), k.get("cim2", "What's inside"), k.get("cim3", "Made for little helpers")
+        s2, s3 = k.get("al2", "Checklist · Budget · Chore chart · 30-day challenge · Intro plan"), k.get("al3", "Picture-based jobs for ages 3+ · color a dot, earn a reward")
+        kids = k.get("gyerekoldalak", [4, 5])
         # 1) borító + 2 oldal legyezőben
-        c = canvas("Printable Family Planner", f"{n} pages · Instant download · US Letter & A4 fit")
+        c = canvas(t1, f"{n} pages · Instant download · US Letter & A4")
         for i, (idx, x, y, rot) in enumerate([(2, 960, 640, -6), (4, 180, 660, 6)]):
             if idx < n:
                 cd = card(ps[idx], 900).rotate(rot, expand=True, resample=Image.BICUBIC)
@@ -55,15 +59,15 @@ def main():
         c.paste(cv, ((W - cv.width) // 2, 520), cv)
         c.save(out / "01-cover.jpg", quality=92)
         # 2) mi van benne – rács
-        c = canvas("What's inside", "Checklist · Budget · Chore chart · 30-day challenge · Intro plan")
+        c = canvas(t2, s2)
         cols, cw = 3, 560
         for i, p in enumerate(ps[1:7]):
             cd = card(p, cw)
             c.paste(cd, (110 + (i % cols) * (cw + 50), 420 + (i // cols) * 1000), cd)
         c.save(out / "02-inside.jpg", quality=92)
         # 3) gyerekeknek
-        c = canvas("Made for little helpers", "Picture-based jobs for ages 3+ · color a dot, earn a reward")
-        for p, x in [(ps[4] if n > 4 else ps[0], 120), (ps[5] if n > 5 else ps[0], 1020)]:
+        c = canvas(t3, s3)
+        for p, x in [(ps[kids[0]] if n > kids[0] else ps[0], 120), (ps[kids[1]] if n > kids[1] else ps[0], 1020)]:
             cd = card(p, 860)
             c.paste(cd, (x, 480), cd)
         c.save(out / "03-kids.jpg", quality=92)

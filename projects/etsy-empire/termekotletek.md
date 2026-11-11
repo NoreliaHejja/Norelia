@@ -5,8 +5,8 @@ A hét minden napján: 2 új termék (a két legfelső „ötlet” sor → „k
 | # | Termék | Téma | Gyerekréteg | Ár | Állapot |
 |---|---|---|---|---|---|
 | 1 | Ready for a Dog? Family Readiness Kit | kutya + macska + gyerek | helper chart, 30 napos kihívás | 6,90 € | kész (2026-11-10) |
-| 2 | Cook With Me – 20 Toddler Recipe Cards | főzés gyerekkel | képes recept-lépések | 5,90 € | ötlet |
-| 3 | Weekly Family Meal Planner + Grocery List (healthy) | egészséges menü | „mit eszünk ma” gyerek-választó | 4,90 € | ötlet |
+| 2 | Cook With Me – 20 Toddler Recipe Cards | főzés gyerekkel | képes recept-lépések | 5,90 € | kész (2026-11-11) |
+| 3 | Weekly Family Meal Planner + Grocery List (healthy) | egészséges menü | „mit eszünk ma” gyerek-választó | 4,90 € | kész (2026-11-11) |
 | 4 | Morning & Bedtime Routine Cards (preschool) | rutin | képkártyák, vágható | 4,90 € | ötlet |
 | 5 | Indoor Cat Enrichment Planner | macska | „cica játék” gyerekfeladatok | 4,90 € | ötlet |
 | 6 | Rainy Day Activity Deck – 30 Learning Games | oktató játék | kártyák | 5,90 € | ötlet |
