@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,46,&H00FFFFFF,&H00FFFFFF,&H00000000,&H9A2F3A34,-1,0,0,0,100,100,0,0,3,14,0,2,70,70,330,1
+Style: Lbl,DejaVu Sans,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H802F3A34,0,0,0,0,100,100,0,0,3,8,0,8,40,40,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:29.05,Lbl,,0,0,0,,KI-generierte Figur
+Dialogue: 1,0:00:00.44,0:00:03.06,Sub,,0,0,0,,2,91 € pro m²
+Dialogue: 1,0:00:03.11,0:00:04.26,Sub,,0,0,0,,Klingt wenig?
+Dialogue: 1,0:00:04.31,0:00:06.85,Sub,,0,0,0,,Ich zeig dir, warum das fair ist.
+Dialogue: 1,0:00:06.90,0:00:09.07,Sub,,0,0,0,,360 m² Büro,
+Dialogue: 1,0:00:09.12,0:00:10.59,Sub,,0,0,0,,3× pro Woche.
+Dialogue: 1,0:00:10.64,0:00:12.48,Sub,,0,0,0,,Mit realistischen Leistungswerten
+Dialogue: 1,0:00:12.53,0:00:15.70,Sub,,0,0,0,,sind das rund 26 Stunden im Monat.
+Dialogue: 1,0:00:15.75,0:00:17.66,Sub,,0,0,0,,Mal deinen echten Stundensatz,
+Dialogue: 1,0:00:17.71,0:00:19.07,Sub,,0,0,0,,plus Material,
+Dialogue: 1,0:00:19.12,0:00:22.52,Sub,,0,0,0,,und du landest bei gut 1.000 € im Monat.
+Dialogue: 1,0:00:22.57,0:00:24.48,Sub,,0,0,0,,Wer 1,80 € anbietet,
+Dialogue: 1,0:00:24.53,0:00:25.80,Sub,,0,0,0,,zahlt drauf.
+Dialogue: 1,0:00:25.85,0:00:27.76,Sub,,0,0,0,,Rechne deinen Preis kostenlos.
+Dialogue: 1,0:00:27.81,0:00:29.00,Sub,,0,0,0,,Link in der Bio
