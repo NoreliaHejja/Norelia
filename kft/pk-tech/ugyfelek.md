@@ -44,6 +44,7 @@ Kapcsolattartók, e-mailek és telefonszámok a monday-ben vannak, ide szándék
 ## Nyitott ajánlatok / leadek
 | Ügyfél | Munka | Nettó | Állapot |
 |---|---|---|---|
-| Codex Zrt. (Szüret u. 5.) | légtechnika tisztítás | 3 720 690 | utánkövetés 2026-07-01 óta nyitott |
+| Codex Zrt. (Budakeszi, Szüret u. 5.) | légtechnika tisztítás | 3 720 690 | utánkövetés 07-01 óta nyitott. A régi kapcsolattartó (Dallos P.) már nem dolgozik ott. Új: Gálai Márton (operatív vezérigazgató-helyettes), Berta László (vezérigazgató); elérhetőség: codex.hu/magunkrol/management |
+| **Graboplast** | HIÁNYZIK (munka típusa, m²) | HIÁNYZIK | **2026-11-11: beszélt a beszerzővel. Tetszik az ajánlat, de nagyon nagy a terület, ezért külön budgetet kell rá elkülöníteni.** Következő lépés: rákérdezni, mikor dől el a budget (2027-es keret?), és felajánlani a szakaszolt kivitelezést (ütemekre bontva, több évre) vagy a keretszerződést, hogy beférjen a keretbe. |
 | Pátria Nyomda Zrt. | magastakarítás + ablak (A: 559–659 e; B: 2 év keret) | 559 000 – 1 186 200 | érvényes 2026-12-05-ig |
 | DENSO | 2026-128 ajánlat | HIÁNYZIK | kiment 11-05 |
