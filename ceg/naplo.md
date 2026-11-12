@@ -84,3 +84,6 @@
 
 ## 2026-11-12 – Trendelemzés
 - Etsy API-mérés 24 kulcsszóra + Etsy hivatalos trendek + KDP-források → ceg/projektek/trendelemzes-2026-11.md. Új prioritások: large print word search, reading journal, mental health journal, bold & easy coloring (Etsy + KDP); POD: bird watching, kutyafajta-anyák. Color Your Demons: nyomda 2,81 $ → royalty 3,13 $ (9,99 $-on 3,18 $).
+
+## 2026-11-12 – KDP-prognózis
+- 15 tervezett könyv: reálisan dec. ~111e Ft nettó, jan–márc. ~67e Ft/hó; pesszimista 12–19e, optimista 226–338e Ft. ceg/projektek/kdp-prognozis.md
