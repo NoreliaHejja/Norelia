@@ -1,5 +1,11 @@
 # A Letter Before We Begin
 
+*It's the second week of December. The lights are up on every street. Your phone buzzes with a photo of someone else's perfect table, and a voice inside you whispers the thing you'd never say out loud: "Everyone has someone. Except me."*
+
+*If you know that voice, this book was written for you.*
+
+The candle in the window on this book's cover is still lit. So are you. Whatever this season has taken from you (a person, a marriage, a tradition, a picture of how life was supposed to look), it has not taken your warmth. This book will help you find it again, one evening at a time.
+
 If you picked up this book, there is a good chance that the holidays feel a little heavy right now. Maybe you are newly single. Maybe you have been single for years and usually love it, until December arrives with its couples in matching sweaters, its family group chats, and its endless question: *"So, what are your plans?"* Maybe someone you love is gone, or far away, or simply not the person you hoped they would be. Maybe you are not sad at all, just tired of feeling like the season was designed for someone else.
 
 Whatever brought you here, I want you to know one thing before anything else: **there is nothing wrong with you.** The holidays are loud. They come with a script, and most of us were never asked whether we wanted the part we were given. Feeling lonely, irritated, nostalgic, relieved, or all of those within one afternoon is not a failure. It is a normal human response to a season that turns the volume up on everything.

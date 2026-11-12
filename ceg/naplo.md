@@ -72,3 +72,6 @@
 - Nóra: angol (német később), 90–120 old., álnév; 6 téma (3 saját + mental load, szorongó gyerek, újrakezdés válás után).
 - #1 Holidays on My Own KÉSZ (79 old., 9,2e szó): papír 10,99 $ + Kindle 4,99 $. #2 Unplugged Winter Break vázlat (3,8e szó) – holnap bővítés.
 - Napi automata (trig_01N6mLtVg6bvR5rGhQQYCUyG, 11:17): nov. 13–17. naponta 1 könyv; terv: projects/etsy-empire/books/SOROZAT.md.
+
+## 2026-11-12 – Érzelmi szövegírás
+- Nóra: érzelmes cím/alcím/borítószöveg Robert Greene és Újszászi Bogár László (befolyásolástechnika) alapján, valóban segítő pszichológiai tartalom. Képlet + bizonyítékalapú irányzatok: books/SOROZAT.md. #1 új cím: Still Lit. Új címek: Give Them Back Their Wonder, I Didn't Mean to Yell, Who Takes Care of Mom?, Brave Little Hearts, The Woman Who Started Over.
