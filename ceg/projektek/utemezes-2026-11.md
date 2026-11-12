@@ -19,3 +19,7 @@ Feliratok forrása: projects/reinigungsfirma-os/marketing/videok/ (subs.py + .as
 ## Emily – napi 10 poszt (Nóra, 2026-11-12), dec. 24-ig
 Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok) · 10:00 IG+FB+pin · 12:30 pin · 15:00 IG+FB+pin · 17:00 pin · 18:30 REEL (IG+FB+TikTok) · 21:00 IG+FB · 23:00 pin.
 2026-11-13 kiegészítve: 425741098 (07:30 reel kutya), 425740181 (12:30 pin Countdown+Elf bundle), 425740395 (17:00 pin cicás bögre), 425741355 (18:30 reel menütervező), 425740693 (23:00 pin mézeskalács-cicás pulóver). Videók: `projects/etsy-empire/marketing_szovegek/emily_videok.json`.
+
+## Emily – esti futás 2026-11-12 (holnap: 11.13.)
+- 11.13.: mind a 10 slot már foglalt (01:30 pin, 05, 07:30 reel, 10, 12:30, 15, 17, 18:30 reel, 21 IG+FB kép, 23 pin) → új poszt nem kellett.
+- Tartalomgyártás: 6 új életkép (POD-termékek emberekkel + Emily-mézeskalácsház) + 6 új reel (overlay-jel). Könyvtár: 18 reel, 13 életkép. Költség: 54 kredit; egyenleg 2212.
