@@ -39,3 +39,22 @@ Ez a mostani tempó (~1 rendelés/hó) kb. 100-szorosa → esély reálisan ~30%
 | nov. 30 | 50 | ~40 000 Ft |
 | dec. 12 | 120 | ~140 000 Ft |
 | dec. 31 | 170 | ~200 000 Ft |
+
+## + Amazon (2026-11-12 számítás)
+- Amazon-on letölthető PDF nem árulható (csak Kindle e-könyv, printable-nek alkalmatlan) → Amazon = KDP papírkönyv (és jövőre esetleg Merch on Demand – bekerülés hetekig tart, karácsonyra késő).
+- Fekete-fehér belív (színező/foglalkoztató/tervező) → olcsó nyomás, jobb royalty. Royalty = 60% × ár − nyomdaköltség.
+| Könyv | Ár | Royalty/db (kb.) |
+|---|---|---|
+| Kids Christmas Activity Book (50 old., ff) | 7,99 $ | ~1,9 $ |
+| Christmas Coloring Book for Toddlers (50 old., ff) | 6,99 $ | ~1,4 $ |
+| The Busy Family Planner (ff változat, 36 old.) | 9,99 $ | ~3,1 $ |
+| 2027 Family / Mom Planner (120 old., ff) | 12,99 $ | ~4,9 $ |
+| Pet Care Journal (macska/kutya, 100 old., ff) | 8,99 $ | ~3,0 $ |
+- Időzítés: KDP-ellenőrzés ≤ 72 óra; US karácsonyi szállítás ~dec. 15–18-ig; új könyvnek nincs értékelése → Amazon Ads 2 $/nap dec. 1–20 (~40 $).
+| Amazon-forgatókönyv | Eladás | Bruttó royalty | − Ads | Nettó |
+|---|---|---|---|---|
+| Pesszimista | 20 | 50 $ | 20 $ | ~11 000 Ft |
+| Reális | 60 | 150 $ | 40 $ | ~40 000 Ft |
+| Optimista | 120 | 335 $ | 60 $ | ~100 000 Ft |
+- Hatás a 200k-tervre: reálisan ~40 000 Ft-ot az Amazon hoz → az Etsy-nek ~160 000 Ft kell → Etsy Ads 8 $ helyett elég 6 $/nap csúcsban → Etsy-keret ~65 000 Ft/hó (80 000 helyett). A könyvek jövőre is fogynak (tervező jan.-ban, pet journal egész évben).
+- Nóra ideje: 5 könyv × 15 perc feltöltés + 15 perc Amazon Ads = ~1,5 óra → ~27 000 Ft/óra (reális esetben) – mérce fölött.
