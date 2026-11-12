@@ -11,12 +11,9 @@ Használat
   python3 etsy_uploader.py termekek/ready-for-a-dog-kit --feltolt  # valódi piszkozat-feltöltés
   python3 etsy_uploader.py termekek/ready-for-a-dog-kit --feltolt --aktival  # feltöltés + élesítés (0,20 $)
 
-Környezeti változók (élesben kellenek)
-  ETSY_API_KEY       – az Etsy app keystring (developers.etsy.com → Your Apps)
-  ETSY_ACCESS_TOKEN  – OAuth2 access token (scope: listings_w listings_r)
-  ETSY_SHOP_ID       – a bolt numerikus azonosítója
-A felhő-munkamenetben a kulcsokat a környezet titkos beállításaiba kell tenni
-(az openapi.etsy.com hostra), nem a kódba és nem a chatbe.
+Hitelesítés: az x-api-key-t a hálózati proxy adja (környezet → Network secrets,
+openapi.etsy.com); az OAuth tokent az etsy_oauth.py kezeli (~/.config/etsy/, repón kívül);
+a bolt azonosítója: ~/.config/etsy/shop_id.
 """
 import json
 import os
@@ -63,10 +60,9 @@ def check(folder: Path, data: dict) -> list:
 def upload(folder: Path, data: dict) -> str:
     import requests  # csak éles futásnál kell
 
-    key = os.environ["ETSY_API_KEY"]
-    token = os.environ["ETSY_ACCESS_TOKEN"]
-    shop = os.environ["ETSY_SHOP_ID"]
-    h = {"x-api-key": key, "Authorization": f"Bearer {token}"}
+    from etsy_oauth import get_access_token, CONF
+    shop = (CONF / "shop_id").read_text().strip()
+    h = {"x-api-key": "proxy-injected", "Authorization": f"Bearer {get_access_token()}"}
     e = data["etsy"]
 
     payload = {
@@ -102,8 +98,9 @@ def upload(folder: Path, data: dict) -> str:
 
 def activate(listing_id: str) -> None:
     import requests
-    h = {"x-api-key": os.environ["ETSY_API_KEY"], "Authorization": f"Bearer {os.environ['ETSY_ACCESS_TOKEN']}"}
-    shop = os.environ["ETSY_SHOP_ID"]
+    from etsy_oauth import get_access_token, CONF
+    h = {"x-api-key": "proxy-injected", "Authorization": f"Bearer {get_access_token()}"}
+    shop = (CONF / "shop_id").read_text().strip()
     r = requests.patch(f"{API}/shops/{shop}/listings/{listing_id}", headers=h, data={"state": "active"}, timeout=60)
     r.raise_for_status()
 

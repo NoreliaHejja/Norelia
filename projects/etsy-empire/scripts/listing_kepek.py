@@ -71,6 +71,24 @@ def main():
             cd = card(p, 860)
             c.paste(cd, (x, 480), cd)
         c.save(out / "03-kids.jpg", quality=92)
+        # 4) egy oldal nagyban (részletek)
+        c = canvas(k.get("cim4", "Look closer"), k.get("al4", "Clean, calm design · printer friendly"))
+        big = card(ps[2] if n > 2 else ps[0], 1500)
+        c.paste(big, ((W - big.width) // 2, 420), big)
+        c.save(out / "04-detail.jpg", quality=92)
+        # 5) hogyan működik
+        c = Image.new("RGB", (W, H), CREAM); d = ImageDraw.Draw(c)
+        d.text((W // 2, 260), "How it works", font=ImageFont.truetype(FB, 110), fill=DARK, anchor="mm")
+        d.rounded_rectangle([W // 2 - 60, 360, W // 2 + 60, 368], 4, fill=ACCENT)
+        steps = [("1", "Buy", "Checkout on Etsy"), ("2", "Download", "Instant PDF – US Letter & A4"), ("3", "Print", "At home or at a print shop"), ("4", "Enjoy", "Reprint as often as you need")]
+        for i, (nr, t, sub) in enumerate(steps):
+            y = 560 + i * 430
+            d.ellipse([260, y, 520, y + 260], outline=ACCENT, width=8, fill=(255, 255, 255))
+            d.text((390, y + 130), nr, font=ImageFont.truetype(FB, 120), fill=DARK, anchor="mm")
+            d.text((620, y + 85), t, font=ImageFont.truetype(FB, 96), fill=DARK, anchor="lm")
+            d.text((620, y + 185), sub, font=ImageFont.truetype(FR, 56), fill=SOFT, anchor="lm")
+        d.text((W // 2, H - 110), "No physical item will be shipped", font=ImageFont.truetype(FR, 46), fill=SOFT, anchor="mm")
+        c.save(out / "05-how-it-works.jpg", quality=92)
     print("Kész:", ", ".join(sorted(x.name for x in out.glob("*.jpg"))))
 
 
