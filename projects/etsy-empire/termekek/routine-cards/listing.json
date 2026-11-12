@@ -1,0 +1,65 @@
+{
+  "slug": "routine-cards",
+  "status": "kesz",
+  "created": "2026-11-12",
+  "theme": "rutin (óvodás)",
+  "files": [
+    "routine-cards.pdf",
+    "routine-cards-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Morning & Bedtime Routine",
+    "cim2": "What's inside",
+    "al2": "2 charts · 24 picture cards · Reward chart · Tips",
+    "cim3": "No reading needed",
+    "al3": "Pictures for every step – ages 3 to 6",
+    "gyerekoldalak": [
+      4,
+      6
+    ]
+  },
+  "social": {
+    "pin_title": "Morning & bedtime routine chart for toddlers – printable",
+    "pin_text": "Picture routine charts and 24 cut-out cards for ages 3–6: morning, bedtime and a reward chart. Calmer mornings, easier bedtimes. Instant download.",
+    "ig_text": "Our mornings used to be me repeating \"shoes!\" eleven times. Now Theo just checks the next picture on the door. Same routine, way less yelling (from both of us). Link in bio.",
+    "fb_text": "Visual routine charts for preschoolers – morning, bedtime and a reward chart. No reading needed.",
+    "tt_hook": "How I stopped saying 'hurry up' every single morning",
+    "tt_script": "1) Chaos clip. 2) Picture chart on the door. 3) Kid colors a dot. 4) Star chart full. CTA: link in bio."
+  },
+  "etsy": {
+    "title": "Morning and Bedtime Routine Chart for Kids, Toddler Visual Schedule, 24 Picture Cards, Reward Chart, Preschool Printable PDF",
+    "price": 4.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": null,
+    "tags": [
+      "routine chart",
+      "visual schedule",
+      "morning routine",
+      "bedtime routine",
+      "toddler chart",
+      "kids reward chart",
+      "preschool printable",
+      "picture cards",
+      "chore chart kids",
+      "montessori",
+      "toddler routine",
+      "responsibility chart",
+      "kids schedule"
+    ],
+    "description": "Turn \"hurry up!\" into \"I did it!\" Picture-based routine charts and cut-out cards for little ones ages 3–6 – no reading needed.\n\nWHAT'S INSIDE (8 pages)\n• How to use the routine kit\n• Morning Routine Chart – 8 picture steps, 7 days\n• Bedtime Routine Chart – 8 picture steps, 7 days\n• 24 cut-out picture cards (morning, bedtime and extras like feed the cat, quiet play, calm breathing)\n• I Did It! Reward Chart – 2 weeks of stars\n• Make It Stick – tips for grown-ups + Routine Superstar certificate\n\nPERFECT FOR\n• Toddlers and preschoolers who need structure\n• Busy mornings before daycare or preschool\n• Calmer bedtimes with fewer power struggles\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included. Print at home or at a print shop, as many times as you need for your family.\n\nPLEASE NOTE\nFor personal use only. Please do not resell or share the files. Colors may vary slightly between screens and printers.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kdp": {
+    "eligible": false,
+    "reason": "routine-cards: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  }
+}

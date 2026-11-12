@@ -26,6 +26,24 @@ P = {  # stroke-alapú, 24×24 ikonok
  "fridge": '<rect x="6" y="3" width="12" height="18" rx="2"/><path d="M6 10h12M9 6v2M9 13v3"/>',
  "child": '<circle cx="12" cy="6" r="3"/><path d="M7 21v-6a5 5 0 0 1 10 0v6"/>',
 }
+
+P.update({
+ "sun": '<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/>',
+ "moon": '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
+ "tooth": '<path d="M7 3c-2 0-3 2-3 4 0 3 1 4 1.5 7S6 21 8 21s1.5-5 4-5 2 5 4 5 2-4 2.5-7S20 10 20 7c0-2-1-4-3-4-2 0-3 1-5 1S9 3 7 3z"/>',
+ "bed": '<path d="M3 18V8M3 14h18v4M21 18v-4a3 3 0 0 0-3-3h-7v3"/><circle cx="7" cy="11" r="2"/>',
+ "shirt": '<path d="M8 3l-5 3 2 4 3-1v12h8V9l3 1 2-4-5-3a4 4 0 0 1-8 0z"/>',
+ "bath": '<path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M6 12V6a2 2 0 0 1 4 0"/>',
+ "bowl": '<path d="M4 12h16a8 8 0 0 1-16 0z"/><path d="M9 8c0-2 2-2 2-4M14 8c0-2 2-2 2-4"/>',
+ "hug": '<circle cx="12" cy="7" r="3"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/><path d="M8 15l-3 3M16 15l3 3"/>',
+ "cat": '<path d="M5 10l1-6 4 3h4l4-3 1 6v4a7 7 0 0 1-14 0z"/><circle cx="9.5" cy="12" r=".8" fill="#4f6b58"/><circle cx="14.5" cy="12" r=".8" fill="#4f6b58"/>',
+ "toy": '<path d="M4 20c4-4 6-8 6-12"/><circle cx="13" cy="5" r="2"/><path d="M14.5 6.5l4 4"/>',
+ "heart": '<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>',
+ "scale": '<rect x="4" y="5" width="16" height="15" rx="3"/><path d="M9 10a3 3 0 0 1 6 0M12 10l1-2"/>',
+ "window": '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M12 3v18M4 12h16"/>',
+ "potty": '<path d="M7 4h10v6H7zM5 10h14a7 7 0 0 1-14 0z"/>',
+ "shoe": '<path d="M3 15c0-3 2-6 4-6l3 3h4l6 3v3H3z"/>',
+})
 ICONS = P
 
 
