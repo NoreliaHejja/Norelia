@@ -67,3 +67,8 @@
 ## 2026-11-12 – Amazon KDP: 5 könyv kész
 - Nóra jóváhagyta: Etsy-keret ~65 000 Ft/hó nov–dec, Amazon Ads ~15 000 Ft (dec. 1–20).
 - Kész feltöltésre: Christmas Coloring Book (52 old., 6,99 $), Kids Christmas Activity Book (48 old., 7,99 $), Busy Family Planner ff (36 old., 9,99 $), 2027 Family Planner (85 old., 12,99 $), Pet Care Journal (76 old., 8,99 $) – projects/etsy-empire/kdp/.
+
+## 2026-11-12 – Gentle Life Guides (tartalmas könyvek, Clara Whitfield álnév)
+- Nóra: angol (német később), 90–120 old., álnév; 6 téma (3 saját + mental load, szorongó gyerek, újrakezdés válás után).
+- #1 Holidays on My Own KÉSZ (79 old., 9,2e szó): papír 10,99 $ + Kindle 4,99 $. #2 Unplugged Winter Break vázlat (3,8e szó) – holnap bővítés.
+- Napi automata (trig_01N6mLtVg6bvR5rGhQQYCUyG, 11:17): nov. 13–17. naponta 1 könyv; terv: projects/etsy-empire/books/SOROZAT.md.
