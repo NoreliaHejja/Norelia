@@ -7,6 +7,8 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 ## Most (nov. 13 – dec. 10): karácsony
 | # | Termék | Miért | Ár | Állapot |
 |---|---|---|---|---|
+| A0 | **Christmas Printables MEGA Bundle** (az összes karácsonyi printable egyben: countdown, kindness elf, játékok, ajándékcímkék) | magas kosárérték, 200k-cél fő emelője | 12,99 € | ötlet – ELSŐ |
+| A00 | **Kids Christmas Activity Book 30 oldal** (színező, labirintus, pontösszekötő) – Etsy PDF + Amazon KDP papírkönyv | KDP-n is fogy dec. 15-ig | 5,90 € / KDP 7,99 $ | ötlet – MÁSODIK |
 | A1 | Christmas Family Games Bundle (bingo, scavenger hunt, would you rather, charades) | top karácsonyi printable, családi est | 5,90 € | ötlet |
 | A2 | Letter from Santa + Nice List Certificate + Reindeer Food tag (szerkeszthető név) | perszonalizálás = top kereslet | 4,90 € | ötlet |
 | A3 | Christmas Gift Tags & Wrapping Labels (60 db, 4 stílus, színes) | magas volumen, olcsó, impulzusvásárlás | 3,90 € | ötlet |

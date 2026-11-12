@@ -60,3 +60,6 @@
 - Árak le: pulóver 27,99 (2XL 30,99, 3XL 32,99), póló 19,99, gyerekpóló 14,99, bögre 13,99 – haszon ~5,7–6,9 €/db. Bögre: minta mindkét oldalon. Mind a 6 újrapublikálva.
 - Etsy-keret 40 000 Ft/hó: listing ~11 000, Ads ~24 000 (2 €/nap), tartalék ~5 000 → ceg/projektek/etsy-keret.md. Döntés: vegyes – karácsonyi POD nov. 30-ig, digitális karácsony dec. 20-ig, utána evergreen/2027/Valentin.
 - Napi automata: +1 POD-dizájn/nap (3 termék), DESIGN.md szerint, automatikus élesítéssel.
+
+## 2026-11-12 – Cél: 200 000 Ft profit dec. 31-ig
+- Terv: ceg/projektek/etsy-200k-terv.md (170 rendelés, POD napi 3 dizájn nov. 30-ig, MEGA Bundle + Activity Book/KDP, BF/CM akció, automatikus kuponok). Etsy-keret nov–dec ideiglenesen ~80 000 Ft/hó (Nóra jóváhagyása kell).
