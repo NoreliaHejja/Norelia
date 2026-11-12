@@ -75,3 +75,6 @@
 
 ## 2026-11-12 – Érzelmi szövegírás
 - Nóra: érzelmes cím/alcím/borítószöveg Robert Greene és Újszászi Bogár László (befolyásolástechnika) alapján, valóban segítő pszichológiai tartalom. Képlet + bizonyítékalapú irányzatok: books/SOROZAT.md. #1 új cím: Still Lit. Új címek: Give Them Back Their Wonder, I Didn't Mean to Yell, Who Takes Care of Mom?, Brave Little Hearts, The Woman Who Started Over.
+
+## 2026-11-12 – KDP-javítás
+- Busy Family Planner belív: a teljesen színes elválasztó oldalak és a borítóoldal színátmenete fehérre cserélve (KDP kilógónak/bleednek vette). Szabály: belívben nincs széltől szélig színes háttér.

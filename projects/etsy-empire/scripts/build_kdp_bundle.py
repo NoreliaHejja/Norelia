@@ -37,7 +37,7 @@ def wrapper_html(out: Path):
     css = (ROOT / "assets/base.css").read_text()
     s = BOOK["sections"]
     pages = []
-    pages.append(f'''<div class="page cover"><div class="eyebrow">A planner &amp; activity book</div>
+    pages.append(f'''<div class="page cover" style="background:#fff"><div class="eyebrow">A planner &amp; activity book</div>
       <h1 style="margin-top:18px">{BOOK["title"]}</h1><div class="tag">{BOOK["subtitle"]}</div>
       <div class="accent-line"></div><div class="foot">{BOOK["author"]}</div></div>''')
     pages.append(f'''<div class="page"><div style="position:absolute;bottom:1in;left:.75in;right:.75in" class="mini">
@@ -54,8 +54,9 @@ def wrapper_html(out: Path):
       Fill it in together with your child at the kitchen table, then come back next week. Small steps, every week.</p></div></div>''')
     divs = []
     for i, (_, t, d, ic, _) in enumerate(s):
-        divs.append(f'''<div class="page" style="background:{COLORS[i]};display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff">
-          <div style="width:1.6in;height:1.6in;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center">{icon(ic, 80, COLORS[i], 1.4)}</div>
+        divs.append(f'''<div class="page" style="background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:{COLORS[i]}">
+          <div style="position:absolute;inset:0.6in;border:3px solid {COLORS[i]};border-radius:24px"></div>
+          <div style="width:1.6in;height:1.6in;border-radius:50%;background:{COLORS[i]};display:flex;align-items:center;justify-content:center">{icon(ic, 80, '#ffffff', 1.4)}</div>
           <div style="font-size:11pt;letter-spacing:.25em;margin-top:30px">PART {i+1}</div>
           <h1 style="font-size:36pt;margin:10px 0 0">{t}</h1><p style="font-size:12pt;max-width:5in;line-height:1.5">{d}</p></div>''')
     notes = '''<div class="page"><div class="eyebrow">Notes</div><h1 class="page-title">Family notes</h1>''' + '<div class="wline"></div>' * 24 + '</div>'
