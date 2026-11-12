@@ -63,3 +63,7 @@
 
 ## 2026-11-12 – Cél: 200 000 Ft profit dec. 31-ig
 - Terv: ceg/projektek/etsy-200k-terv.md (170 rendelés, POD napi 3 dizájn nov. 30-ig, MEGA Bundle + Activity Book/KDP, BF/CM akció, automatikus kuponok). Etsy-keret nov–dec ideiglenesen ~80 000 Ft/hó (Nóra jóváhagyása kell).
+
+## 2026-11-12 – Amazon KDP: 5 könyv kész
+- Nóra jóváhagyta: Etsy-keret ~65 000 Ft/hó nov–dec, Amazon Ads ~15 000 Ft (dec. 1–20).
+- Kész feltöltésre: Christmas Coloring Book (52 old., 6,99 $), Kids Christmas Activity Book (48 old., 7,99 $), Busy Family Planner ff (36 old., 9,99 $), 2027 Family Planner (85 old., 12,99 $), Pet Care Journal (76 old., 8,99 $) – projects/etsy-empire/kdp/.

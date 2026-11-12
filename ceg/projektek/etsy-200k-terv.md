@@ -15,6 +15,8 @@ Cél: ~550 $ nettó (1 $ ≈ 365 Ft) nov. 13 – dec. 31. (49 nap), hirdetés é
 
 Ez a mostani tempó (~1 rendelés/hó) kb. 100-szorosa → esély reálisan ~30%. Az eldöntő időszak: nov. 20 – dec. 12.
 
+**Jóváhagyva (Nóra, 2026-11-12):** Etsy-keret ~65 000 Ft/hó nov.–dec., Amazon Ads ~15 000 Ft (dec. 1–20).
+
 ## Költség: az Etsy-keret ideiglenesen ~80 000 Ft/hó (nov.–dec.), utána vissza 40 000 Ft-ra.
 
 ## Claude csinálja (automatán)
