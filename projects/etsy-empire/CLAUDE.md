@@ -30,6 +30,7 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 
 ## Borító és képek (Nóra, 2026-11-12)
 - Az 1. kép (borító) legyen **színes, életképes mockup**: a nyomtatott oldalak valós környezetben (konyhapult, gyerekasztal, karácsonyi asztal), élénk, szezonális színekkel, vásárlásra csábító szöveg-kiemeléssel (pl. „INSTANT DOWNLOAD”, „Editable”). Higgsfield (nano_banana_pro / gpt_image) a lefotózott PDF-oldal referenciájával, „no extra text” promptrésszel; a feliratot mi tesszük rá. Előbb balance-ellenőrzés.
+- Menet: oldal-PNG-k (pdftoppm, 2 db: borító + legszebb belső oldal) → Higgsfield media_upload + PUT + media_confirm → `generate_image_batch` (nano_banana_2, 4:5, image_references) → letöltés (d8j0ntlcm91z4.cloudfront.net) → `python3 scripts/cover_overlay.py <mockup.png> termekek/<slug>/kepek/01-cover.jpg "Cím" "Alcím" "#színkód"` → nézd meg → ez legyen az images[0]. Élő listingen csere: kép-feltöltés `rank=1, overwrite=true` (a régit lecseréli). Ha a Higgsfield nem elérhető: a `listing_kepek.py` borítója marad, és jelezd.
 - Trend-szabály: a `termekotletek.md` keresletalapú; ha a lista fogy, előbb trendkutatás (Etsy/Pinterest szezon), csak utána új ötlet.
 
 ## Szabályok (kötelező)
