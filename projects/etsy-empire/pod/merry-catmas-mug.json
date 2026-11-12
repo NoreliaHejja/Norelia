@@ -1,0 +1,41 @@
+{
+  "slug": "merry-catmas-mug",
+  "design": "merry-catmas.png",
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1699
+  },
+  "scale": 0.33,
+  "y": 0.5,
+  "title": "Merry Catmas Mug, Christmas Cat Coffee Mug, Cat Mom Christmas Gift, Santa Hat Cat Cup, Stocking Stuffer for Cat Lovers",
+  "tags": [
+    "merry catmas",
+    "christmas cat mug",
+    "cat mom gift",
+    "cat coffee mug",
+    "stocking stuffer",
+    "cat lover gift",
+    "santa hat cat",
+    "holiday mug",
+    "christmas mug",
+    "gift for her",
+    "cozy mug",
+    "xmas cat",
+    "secret santa gift"
+  ],
+  "description": "Hot cocoa tastes better with a Santa-hat cat on the mug. A cozy stocking stuffer for the cat lover in your life.\n\n11oz white ceramic mug, glossy finish, printed design. Dishwasher and microwave safe. A sweet little gift for cozy winter mornings. Printed on demand.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Printed design.",
+  "printify_image_id": "6af5cc78ac56c327e5e8e798",
+  "printify_product_id": "6af5cc7c0fa5f22d5805b3f8",
+  "mockups": [
+    "https://images-api.printify.com/mockup/6af5cc7c0fa5f22d5805b3f8/33719/6400/merry-catmas-mug-christmas-cat-coffee-mug-cat-mom-christmas-gift-santa-hat-cat-cup-stocking-stuffer-for-cat-lovers.jpg?camera_label=front",
+    "https://images-api.printify.com/mockup/6af5cc7c0fa5f22d5805b3f8/33719/6402/merry-catmas-mug-christmas-cat-coffee-mug-cat-mom-christmas-gift-santa-hat-cat-cup-stocking-stuffer-for-cat-lovers.jpg?camera_label=left",
+    "https://images-api.printify.com/mockup/6af5cc7c0fa5f22d5805b3f8/33719/10395/merry-catmas-mug-christmas-cat-coffee-mug-cat-mom-christmas-gift-santa-hat-cat-cup-stocking-stuffer-for-cat-lovers.jpg?camera_label=right",
+    "https://images-api.printify.com/mockup/6af5cc7c0fa5f22d5805b3f8/33719/10393/merry-catmas-mug-christmas-cat-coffee-mug-cat-mom-christmas-gift-santa-hat-cat-cup-stocking-stuffer-for-cat-lovers.jpg?camera_label=context-1",
+    "https://images-api.printify.com/mockup/6af5cc7c0fa5f22d5805b3f8/33719/10394/merry-catmas-mug-christmas-cat-coffee-mug-cat-mom-christmas-gift-santa-hat-cat-cup-stocking-stuffer-for-cat-lovers.jpg?camera_label=context-2",
+    "https://images-api.printify.com/mockup/6af5cc7c0fa5f22d5805b3f8/33719/6568/merry-catmas-mug-christmas-cat-coffee-mug-cat-mom-christmas-gift-santa-hat-cat-cup-stocking-stuffer-for-cat-lovers.jpg?camera_label=context-3"
+  ]
+}

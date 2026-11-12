@@ -1,0 +1,60 @@
+{
+  "slug": "christmas-baking-crew-kids-tee",
+  "design": "christmas-baking-crew.png",
+  "blueprint_id": 157,
+  "print_provider_id": 99,
+  "variant_ids": [
+    42516,
+    42517,
+    42518,
+    42519,
+    42520,
+    42511,
+    42512,
+    42513,
+    42514,
+    42515,
+    42744,
+    42745,
+    42746,
+    42747,
+    42748,
+    42724,
+    42725,
+    42726,
+    42727,
+    42728
+  ],
+  "price_cents": {
+    "default": 1999
+  },
+  "scale": 0.8,
+  "y": 0.38,
+  "title": "Kids Christmas Baking Crew Shirt, Matching Family Christmas Tee for Kids, Gingerbread Cookie Toddler Youth T-Shirt",
+  "tags": [
+    "kids baking crew",
+    "christmas baking",
+    "matching family",
+    "kids christmas tee",
+    "gingerbread shirt",
+    "little baker",
+    "youth christmas",
+    "holiday baking",
+    "cookie shirt",
+    "mommy and me",
+    "kids xmas shirt",
+    "family photos",
+    "christmas cookies"
+  ],
+  "description": "Every baking crew needs its smallest member. Matches our adult Christmas Baking Crew tee.\n\nKids heavy cotton tee (Gildan 5000B), durable and comfy for little bakers. Match it with our adult Christmas Baking Crew tee for family photos. Printed on demand.\n\nCARE: machine wash cold, inside out; tumble dry low.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Printed design.",
+  "printify_image_id": "6af5cc688b153d245c7b27d7",
+  "printify_product_id": "6af5cc6ee51a6078ab027ff0",
+  "mockups": [
+    "https://images-api.printify.com/mockup/6af5cc6ee51a6078ab027ff0/42519/105377/kids-christmas-baking-crew-shirt-matching-family-christmas-tee-for-kids-gingerbread-cookie-toddler-youth-t-shirt.jpg?camera_label=front",
+    "https://images-api.printify.com/mockup/6af5cc6ee51a6078ab027ff0/42519/105378/kids-christmas-baking-crew-shirt-matching-family-christmas-tee-for-kids-gingerbread-cookie-toddler-youth-t-shirt.jpg?camera_label=back",
+    "https://images-api.printify.com/mockup/6af5cc6ee51a6078ab027ff0/42519/109406/kids-christmas-baking-crew-shirt-matching-family-christmas-tee-for-kids-gingerbread-cookie-toddler-youth-t-shirt.jpg?camera_label=front-2",
+    "https://images-api.printify.com/mockup/6af5cc6ee51a6078ab027ff0/42519/109407/kids-christmas-baking-crew-shirt-matching-family-christmas-tee-for-kids-gingerbread-cookie-toddler-youth-t-shirt.jpg?camera_label=back-2",
+    "https://images-api.printify.com/mockup/6af5cc6ee51a6078ab027ff0/42519/108626/kids-christmas-baking-crew-shirt-matching-family-christmas-tee-for-kids-gingerbread-cookie-toddler-youth-t-shirt.jpg?camera_label=person-1-front",
+    "https://images-api.printify.com/mockup/6af5cc6ee51a6078ab027ff0/42519/108627/kids-christmas-baking-crew-shirt-matching-family-christmas-tee-for-kids-gingerbread-cookie-toddler-youth-t-shirt.jpg?camera_label=person-1-back"
+  ]
+}

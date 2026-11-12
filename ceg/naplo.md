@@ -45,3 +45,8 @@
 - Printify API-token mentve (környezeti secret), bolt: „Aurelia Venn” (id 28692848) – értékesítési csatorna még NINCS összekötve (Nóra: Printify → Etsy connect).
 - KDP: „The Busy Family Planner” 36 oldal (az 5 termék funkcionális oldalai), borító gerinccel, kitöltött adatlap → `projects/etsy-empire/kdp/busy-family-planner-book/`; Nóra tölti fel kézzel. Ár: 9,99–12,99 $.
 - Emily: 5 reel videó (Kling 3.0, 37,5 kredit), 11.13-ra 10 poszt beütemezve; az esti automatikus feladat ezentúl napi 10 posztot ütemez (2 reel + 8 kép/pin).
+
+## 2026-11-12 – Printify próbatermékek + nagy tartalomkeret
+- Nóra: Higgsfield-keret nagy (nov. 22-én +6000 kredit) → esti automatika: napi 6–8 videó + 6–8 kép, 3 reel/nap a 10 posztból.
+- Printify: 6 próbatermék létrehozva (Merry Catmas pulóver + bögre, Christmas Baking Crew felnőtt + gyerek póló, Santa Paws pulóver, Cozy Season bögre) – `projects/etsy-empire/pod/`. Élesítés NEM ment: a Printify API szerint a bolt (28692848) „disconnected” → Nóra ellenőrzi.
+- Új tartalom: 7 karácsonyi életkép + 7 reel (összesen 12 reel a könyvtárban).

@@ -1,10 +1,93 @@
 {
   "megjegyzes": "Emily reel-könyvtár (9:16, 5 mp, néma; Metricool-ba IG REEL + FB REEL + TikTok). Egy videó max 3 naponta, mindig új szöveggel. TikTok-nál autoAddMusic NEM használható videóhoz.",
   "videok": [
-    {"slug": "ready-for-a-dog-kit", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/20d59b2b-129c-460d-a856-f9f5b245fab4.mp4", "hook": "My son wants a dog. / We have a cat.", "listing": "https://www.etsy.com/listing/4615615988", "hasznalva": ["2026-11-13"]},
-    {"slug": "cook-with-me-recipe-cards", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/18cdf287-e4a2-4a82-9c61-0d79ee0ddaca.mp4", "hook": "Cooking with my / 4-year-old? Yes.", "listing": "https://www.etsy.com/listing/4615604729", "hasznalva": []},
-    {"slug": "family-meal-planner", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/1f1a954d-aa54-4c89-844c-bec895c93a97.mp4", "hook": "Sunday: plan the week / in 10 minutes", "listing": "https://www.etsy.com/listing/4615604851", "hasznalva": ["2026-11-13"]},
-    {"slug": "routine-cards", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/e9af03ce-e1c0-43e4-83de-dc2aaa105ab5.mp4", "hook": "No more bedtime / battles", "listing": "https://www.etsy.com/listing/4615616830", "hasznalva": []},
-    {"slug": "cat-enrichment-planner", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/f16a223d-399e-45f0-8c41-bd46142d6ad8.mp4", "hook": "Bored indoor cat? / Try this.", "listing": "https://www.etsy.com/listing/4615616928", "hasznalva": []}
+    {
+      "slug": "ready-for-a-dog-kit",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/20d59b2b-129c-460d-a856-f9f5b245fab4.mp4",
+      "hook": "My son wants a dog. / We have a cat.",
+      "listing": "https://www.etsy.com/listing/4615615988",
+      "hasznalva": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "slug": "cook-with-me-recipe-cards",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/18cdf287-e4a2-4a82-9c61-0d79ee0ddaca.mp4",
+      "hook": "Cooking with my / 4-year-old? Yes.",
+      "listing": "https://www.etsy.com/listing/4615604729",
+      "hasznalva": []
+    },
+    {
+      "slug": "family-meal-planner",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/1f1a954d-aa54-4c89-844c-bec895c93a97.mp4",
+      "hook": "Sunday: plan the week / in 10 minutes",
+      "listing": "https://www.etsy.com/listing/4615604851",
+      "hasznalva": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "slug": "routine-cards",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/e9af03ce-e1c0-43e4-83de-dc2aaa105ab5.mp4",
+      "hook": "No more bedtime / battles",
+      "listing": "https://www.etsy.com/listing/4615616830",
+      "hasznalva": []
+    },
+    {
+      "slug": "cat-enrichment-planner",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/f16a223d-399e-45f0-8c41-bd46142d6ad8.mp4",
+      "hook": "Bored indoor cat? / Try this.",
+      "listing": "https://www.etsy.com/listing/4615616928",
+      "hasznalva": []
+    },
+    {
+      "slug": "classroom-kindness-elf",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/fcd330b4-f8f8-4543-bd57-dd0b201ee129.mp4",
+      "hook": "Teachers, meet the elf / that spreads kindness",
+      "listing": "https://www.etsy.com/listing/4586893410",
+      "hasznalva": []
+    },
+    {
+      "slug": "kindness-elf-kit",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/29a74754-9b5b-4db6-9505-e492a931ab81.mp4",
+      "hook": "Our elf leaves / kind notes, not mess",
+      "listing": "https://www.etsy.com/listing/4586400098",
+      "hasznalva": []
+    },
+    {
+      "slug": "christmas-budget-planner",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/db9c0fa9-8f3d-4b68-8827-4c6ec65b1f6e.mp4",
+      "hook": "Christmas budget / sorted in 10 minutes",
+      "listing": "https://www.etsy.com/listing/4589530944",
+      "hasznalva": []
+    },
+    {
+      "slug": "countdown-elf-bundle",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/5e44896e-a6ca-4d54-bfe2-ff7cdc691608.mp4",
+      "hook": "24 days of / cozy family fun",
+      "listing": "https://www.etsy.com/listing/4586897813",
+      "hasznalva": []
+    },
+    {
+      "slug": "christmas-countdown",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/1fb92d43-aebe-4183-b417-dfc7d7e58b0e.mp4",
+      "hook": "One card a day / until Christmas",
+      "listing": "https://www.etsy.com/listing/4586397852",
+      "hasznalva": []
+    },
+    {
+      "slug": "christmas-cat-mug",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/487dc5d3-0f9a-4d24-87ed-c0953350f2fc.mp4",
+      "hook": "The cat mom / gift idea",
+      "listing": "https://www.etsy.com/listing/4584560500",
+      "hasznalva": []
+    },
+    {
+      "slug": "gingerbread-cat-sweatshirt",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FXaYnsXwxXMXMRI67hIqbrN4jM/814c942d-4c42-46c1-aad9-c59d0c469e57.mp4",
+      "hook": "Cozy Christmas / cat mom outfit",
+      "listing": "https://www.etsy.com/listing/4584550683",
+      "hasznalva": []
+    }
   ]
 }
