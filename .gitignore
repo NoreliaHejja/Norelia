@@ -1,0 +1,18 @@
+# Titkok és személyes adatok – SOHA ne kerüljön gitbe
+.env
+.env.*
+!.env.example
+data/
+downloads/
+output/
+*.sqlite
+*.sqlite3
+session.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
