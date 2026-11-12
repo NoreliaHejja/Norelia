@@ -40,3 +40,8 @@
 
 ## 2026-11-12 – etsy-empire: színes borítók
 - Ki: Claude (Nóra kérése). Mit: az 5 élő Etsy-termék 1. képe lecserélve színes, életképes AI-mockupra (Higgsfield nano_banana_2) + „INSTANT DOWNLOAD” sáv (`scripts/cover_overlay.py`). Emily posztkészlete (emily_pool.json) frissítve az új képekkel. Költség: ~5 Higgsfield-generálás, 0 Ft külön. Eredmény Ft-ban: még nincs (CTR-javulás várható).
+
+## 2026-11-12 – Printify, Amazon KDP-könyv, Emily napi 10 poszt
+- Printify API-token mentve (környezeti secret), bolt: „Aurelia Venn” (id 28692848) – értékesítési csatorna még NINCS összekötve (Nóra: Printify → Etsy connect).
+- KDP: „The Busy Family Planner” 36 oldal (az 5 termék funkcionális oldalai), borító gerinccel, kitöltött adatlap → `projects/etsy-empire/kdp/busy-family-planner-book/`; Nóra tölti fel kézzel. Ár: 9,99–12,99 $.
+- Emily: 5 reel videó (Kling 3.0, 37,5 kredit), 11.13-ra 10 poszt beütemezve; az esti automatikus feladat ezentúl napi 10 posztot ütemez (2 reel + 8 kép/pin).

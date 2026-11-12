@@ -15,3 +15,7 @@ Feliratok forrása: projects/reinigungsfirma-os/marketing/videok/ (subs.py + .as
 - [x] Emily IG+FB Holiday Budget Planner – 11.19 21:00 (425328196)
 - [x] Emily IG+FB+Pinterest 11.13 05:00 Cook With Me (425712306), 10:00 Routine (425712504), 15:00 Cat planner (425712608)
 ## Emily napi ritmus (Nóra, 2026-11-12): naponta 3 poszt 05:00 / 10:00 / 15:00 (Budapest), IG+FB+Pinterest, heti 7 nap, dec. 24-ig. Pool: projects/etsy-empire/marketing_szovegek/emily_pool.json
+
+## Emily – napi 10 poszt (Nóra, 2026-11-12), dec. 24-ig
+Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok) · 10:00 IG+FB+pin · 12:30 pin · 15:00 IG+FB+pin · 17:00 pin · 18:30 REEL (IG+FB+TikTok) · 21:00 IG+FB · 23:00 pin.
+2026-11-13 kiegészítve: 425741098 (07:30 reel kutya), 425740181 (12:30 pin Countdown+Elf bundle), 425740395 (17:00 pin cicás bögre), 425741355 (18:30 reel menütervező), 425740693 (23:00 pin mézeskalács-cicás pulóver). Videók: `projects/etsy-empire/marketing_szovegek/emily_videok.json`.

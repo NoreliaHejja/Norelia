@@ -14,7 +14,8 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 | listingképek (4:5) a PDF-ből | `scripts/listing_kepek.py` |
 | Etsy feltöltés + élesítés (API v3, api.etsy.com) | `etsy_uploader.py` (folytatja a félbeszakadt feltöltést) |
 | Etsy OAuth (PKCE, token-frissítés) | `etsy_oauth.py` – tokenek és kulcs: `~/.config/etsy/` (repón kívül!). Ha a konténer újraindul és a token elveszett: `python3 etsy_oauth.py link` → Nóra engedélyez → `code <URL>` |
-| KDP csomag (kézi feltöltésre) | `amazon_kdp.py` |
+| KDP csomag (kézi feltöltésre) | `amazon_kdp.py`; több termékből 24+ oldalas könyv: `scripts/build_kdp_bundle.py` → `kdp/<könyv>/` |
+| Emily reel (9:16 felirat) | `scripts/reel_overlay.sh`; videókönyvtár: `marketing_szovegek/emily_videok.json` |
 | posztcsomag | `social_poster.py` |
 
 ## Napi rutin (ütemezett futás, memória nélkül)
