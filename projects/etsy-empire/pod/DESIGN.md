@@ -49,3 +49,6 @@ macskás anya/apa, kutyás anya, tanár, nővér, könyvmoly, kávéfüggő, csa
 | Bögre 11 oz (minta mindkét oldalon) | 6,44 | 13,99 | ~5,7 |
 Családi szett: Etsy „Sales and discounts” → 2 db-tól 10%, 3 db-tól 15% kedvezmény (valódi kedvezmény, nem hamis áthúzott ár). 15%-kal is marad ~3,5–4/db.
 Szezon: karácsonyi POD csak nov. 30-ig új (US szállítási határidő ~dec. 10–14), utána evergreen (macskás/kutyás/tanár/könyvmoly/kávé) + Valentin.
+
+## 8. Niche-prioritás (trendelemzés 2026-11-12)
+1. Bird watching 2. Kutyafajta-anyák (golden retriever mom → 20+ fajta) 3. Board game (teszt) 4. Gardening (tavasz). KERÜLNI: comfort colors christmas, retro christmas, bookish, cat dad (túltelített). Stílus: Patina Blue, washed linen, perfectly imperfect.

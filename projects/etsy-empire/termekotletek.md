@@ -9,6 +9,10 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 |---|---|---|---|---|
 | A0 | **Christmas Printables MEGA Bundle** (az összes karácsonyi printable egyben: countdown, kindness elf, játékok, ajándékcímkék) | magas kosárérték, 200k-cél fő emelője | 12,99 € | ötlet – ELSŐ |
 | A00 | **Kids Christmas Activity Book 30 oldal** (színező, labirintus, pontösszekötő) – Etsy PDF + Amazon KDP papírkönyv | KDP-n is fogy dec. 15-ig | 5,90 € / KDP 7,99 $ | ötlet – MÁSODIK |
+| T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | ötlet |
+| T2 | **Reading Journal & Book Tracker** (Etsy printable + KDP) | trendelemzés #2 | 7,90 € | ötlet |
+| T3 | **Self-Compassion / Mental Health Journal** | trendelemzés #3 | 6,90 € | ötlet |
+| T4 | **Bold & Easy Cozy Coloring Pages** (Etsy + KDP felnőtt kifestő) | trendelemzés #4 | 3,99 € / KDP 8,99 $ | ötlet |
 | A1 | Christmas Family Games Bundle (bingo, scavenger hunt, would you rather, charades) | top karácsonyi printable, családi est | 5,90 € | ötlet |
 | A2 | Letter from Santa + Nice List Certificate + Reindeer Food tag (szerkeszthető név) | perszonalizálás = top kereslet | 4,90 € | ötlet |
 | A3 | Christmas Gift Tags & Wrapping Labels (60 db, 4 stílus, színes) | magas volumen, olcsó, impulzusvásárlás | 3,90 € | ötlet |

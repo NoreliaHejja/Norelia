@@ -81,3 +81,6 @@
 
 ## 2026-11-12 – KDP feltöltések (Nóra)
 - Feltöltve: Busy Family Planner ff 8,75 $ (nyomda 2,84 $ → royalty 2,41 $); Color Your Demons (felnőtt kifestő) 9,90 $. Katalógus: ceg/projektek/kdp-katalogus.md.
+
+## 2026-11-12 – Trendelemzés
+- Etsy API-mérés 24 kulcsszóra + Etsy hivatalos trendek + KDP-források → ceg/projektek/trendelemzes-2026-11.md. Új prioritások: large print word search, reading journal, mental health journal, bold & easy coloring (Etsy + KDP); POD: bird watching, kutyafajta-anyák. Color Your Demons: nyomda 2,81 $ → royalty 3,13 $ (9,99 $-on 3,18 $).

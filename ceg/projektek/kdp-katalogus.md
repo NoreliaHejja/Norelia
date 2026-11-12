@@ -5,7 +5,7 @@ Royalty = 60% × listaár − nyomdaköltség (Amazon.com, papírkönyv). Kindle
 | Könyv | Állapot | Ár | Nyomdaköltség | Royalty/db | Megjegyzés |
 |---|---|---|---|---|---|
 | The Busy Family Planner (ff, 36 old.) | feltöltve (2026-11-12) | 8,75 $ | 2,84 $ | 2,41 $ | javaslat: 9,99 $ → 3,15 $ |
-| Color Your Demons (felnőtt kifestő, korábbi) | feltöltve (2026-11-12) | 9,90 $ | ? | ? | javaslat: 9,99 $; nyomdaköltséget Nóra megadja |
+| Color Your Demons (felnőtt kifestő, korábbi) | feltöltve (2026-11-12) | 9,90 $ | 2,81 $ | 3,13 $ | 9,99 $-on 3,18 $ |
 | My Big Christmas Coloring Book (52 old.) | feltöltésre kész | 6,99 $ | ~2,84 $ (becslés) | ~1,35 $ | |
 | Kids Christmas Activity Book (48 old.) | feltöltésre kész | 7,99 $ | ~2,84 $ (becslés) | ~1,95 $ | |
 | 2027 Family Planner (85 old.) | feltöltésre kész | 12,99 $ | ~2,84 $ (becslés) | ~4,95 $ | |
