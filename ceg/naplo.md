@@ -50,3 +50,8 @@
 - Nóra: Higgsfield-keret nagy (nov. 22-én +6000 kredit) → esti automatika: napi 6–8 videó + 6–8 kép, 3 reel/nap a 10 posztból.
 - Printify: 6 próbatermék létrehozva (Merry Catmas pulóver + bögre, Christmas Baking Crew felnőtt + gyerek póló, Santa Paws pulóver, Cozy Season bögre) – `projects/etsy-empire/pod/`. Élesítés NEM ment: a Printify API szerint a bolt (28692848) „disconnected” → Nóra ellenőrzi.
 - Új tartalom: 7 karácsonyi életkép + 7 reel (összesen 12 reel a könyvtárban).
+
+## 2026-11-12 – Printify élesítés + TikTok Shop döntés
+- 6 POD-termék publikálva az Etsy-re a Printify-on át (Printify 200 OK).
+- Dizájn-szabálykönyv: projects/etsy-empire/pod/DESIGN.md (Nóra: fantáziadúsabb, trendibb).
+- TikTok Shop + Printify: ELVETVE most – Printify-integráció csak US eladóknak; Magyarország csak vásárlói piac. Helyette: TikTok-videók → link in bio → Etsy.
