@@ -60,3 +60,13 @@ Levezetés (Mama Saurus): $27,99 − ($11,50 alap + $4,75 szállítás) − ~$3,
 |---|---|---|
 | Color Your Demon | Kindle ebook | 2026-11-03 |
 | Kindness Elf | KDP | 2026-11-04 |
+
+
+## etsy-empire (API-val feltöltve, 2026-11-12)
+| Listing ID | Termék | Ár | Állapot |
+|---|---|---|---|
+| 4615615988 | Ready for a Dog? Family Readiness Kit | €6,90 | élő |
+| 4615604729 | Toddler Recipe Cards (Cook With Me) | €5,90 | élő |
+| 4615604851 | Weekly Meal Planner for Families | €4,90 | élő |
+| 4615616830 | Morning and Bedtime Routine Chart | €4,90 | élő |
+| 4615616928 | Indoor Cat Enrichment Planner | €4,90 | élő |

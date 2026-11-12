@@ -12,7 +12,8 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 | ötlet-rotáció | `termekotletek.md` |
 | PDF-render + túlcsordulás-ellenőrzés | `scripts/render_pdf.js` |
 | listingképek (4:5) a PDF-ből | `scripts/listing_kepek.py` |
-| Etsy piszkozat-feltöltés (API v3) | `etsy_uploader.py` |
+| Etsy feltöltés + élesítés (API v3, api.etsy.com) | `etsy_uploader.py` (folytatja a félbeszakadt feltöltést) |
+| Etsy OAuth (PKCE, token-frissítés) | `etsy_oauth.py` – tokenek és kulcs: `~/.config/etsy/` (repón kívül!). Ha a konténer újraindul és a token elveszett: `python3 etsy_oauth.py link` → Nóra engedélyez → `code <URL>` |
 | KDP csomag (kézi feltöltésre) | `amazon_kdp.py` |
 | posztcsomag | `social_poster.py` |
 

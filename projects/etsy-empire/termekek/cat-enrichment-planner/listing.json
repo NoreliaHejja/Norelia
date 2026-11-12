@@ -1,6 +1,6 @@
 {
   "slug": "cat-enrichment-planner",
-  "status": "kesz",
+  "status": "etsy_aktiv",
   "created": "2026-11-12",
   "theme": "macska",
   "files": [
@@ -42,7 +42,7 @@
     "when_made": "made_to_order",
     "is_supply": false,
     "type": "download",
-    "taxonomy_id": null,
+    "taxonomy_id": 12476,
     "tags": [
       "cat planner",
       "cat enrichment",
@@ -63,5 +63,7 @@
   "kdp": {
     "eligible": false,
     "reason": "cat-enrichment-planner: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
-  }
+  },
+  "etsy_listing_id": "4615616928",
+  "etsy_url": "https://www.etsy.com/listing/4615616928"
 }

@@ -20,7 +20,7 @@ import os
 import sys
 from pathlib import Path
 
-API = "https://openapi.etsy.com/v3/application"
+API = "https://api.etsy.com/v3/application"
 REQUIRED = ["title", "description", "price", "quantity", "who_made", "when_made", "taxonomy_id"]
 
 
@@ -58,48 +58,47 @@ def check(folder: Path, data: dict) -> list:
 
 
 def upload(folder: Path, data: dict) -> str:
-    import requests  # csak éles futásnál kell
+    import requests
+    from etsy_oauth import get_access_token, CONF, _apikey
 
-    from etsy_oauth import get_access_token, CONF
     shop = (CONF / "shop_id").read_text().strip()
-    h = {"x-api-key": "proxy-injected", "Authorization": f"Bearer {get_access_token()}"}
+    h = {"x-api-key": _apikey(), "Authorization": f"Bearer {get_access_token()}"}
     e = data["etsy"]
 
-    payload = {
-        "quantity": e["quantity"],
-        "title": e["title"],
-        "description": e["description"],
-        "price": e["price"],
-        "who_made": e["who_made"],
-        "when_made": e["when_made"],
-        "taxonomy_id": e["taxonomy_id"],
-        "is_supply": e.get("is_supply", False),
-        "type": e.get("type", "download"),
-        "tags": ",".join(e.get("tags", [])),
-    }
-    r = requests.post(f"{API}/shops/{shop}/listings", headers=h, data=payload, timeout=60)
-    r.raise_for_status()
-    listing_id = r.json()["listing_id"]
+    listing_id = data.get("etsy_listing_id")  # félbeszakadt feltöltés folytatása
+    if not listing_id:
+        payload = {
+            "quantity": e["quantity"], "title": e["title"], "description": e["description"], "price": e["price"],
+            "who_made": e["who_made"], "when_made": e["when_made"], "taxonomy_id": e["taxonomy_id"],
+            "is_supply": e.get("is_supply", False), "type": e.get("type", "download"), "tags": ",".join(e.get("tags", [])),
+        }
+        r = requests.post(f"{API}/shops/{shop}/listings", headers=h, data=payload, timeout=60)
+        r.raise_for_status()
+        listing_id = str(r.json()["listing_id"])
+        data["etsy_listing_id"] = listing_id
+        (folder / "listing.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    for rank, img in enumerate(data.get("images", []), start=1):
-        with open(folder / img, "rb") as fh:
-            r = requests.post(f"{API}/shops/{shop}/listings/{listing_id}/images",
-                              headers=h, files={"image": fh}, data={"rank": rank}, timeout=120)
-            r.raise_for_status()
+        for rank, img in enumerate(data.get("images", []), start=1):
+            with open(folder / img, "rb") as fh:
+                r = requests.post(f"{API}/shops/{shop}/listings/{listing_id}/images", headers=h,
+                                  files={"image": (Path(img).name, fh, "image/jpeg")}, data={"rank": rank}, timeout=120)
+                r.raise_for_status()
 
-    for f in data.get("files", []):
-        with open(folder / f, "rb") as fh:
-            r = requests.post(f"{API}/shops/{shop}/listings/{listing_id}/files",
-                              headers=h, files={"file": fh}, data={"name": Path(f).name}, timeout=120)
-            r.raise_for_status()
+        nice = e["title"].split(",")[0].replace("?", "").replace("&", "and").strip().replace(" ", "-")
+        for f in data.get("files", []):
+            fname = f"{nice}-A4.pdf" if f.endswith("-A4.pdf") else f"{nice}-US-Letter.pdf"
+            with open(folder / f, "rb") as fh:
+                r = requests.post(f"{API}/shops/{shop}/listings/{listing_id}/files", headers=h,
+                                  files={"file": (fname, fh, "application/pdf")}, data={"name": fname}, timeout=120)
+                r.raise_for_status()
 
     return str(listing_id)
 
 
 def activate(listing_id: str) -> None:
     import requests
-    from etsy_oauth import get_access_token, CONF
-    h = {"x-api-key": "proxy-injected", "Authorization": f"Bearer {get_access_token()}"}
+    from etsy_oauth import get_access_token, CONF, _apikey
+    h = {"x-api-key": _apikey(), "Authorization": f"Bearer {get_access_token()}"}
     shop = (CONF / "shop_id").read_text().strip()
     r = requests.patch(f"{API}/shops/{shop}/listings/{listing_id}", headers=h, data={"state": "active"}, timeout=60)
     r.raise_for_status()

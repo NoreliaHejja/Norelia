@@ -1,5 +1,5 @@
 {
-  "status": "kesz",
+  "status": "etsy_aktiv",
   "created": "2026-11-11",
   "etsy": {
     "currency": "EUR",
@@ -8,7 +8,7 @@
     "when_made": "made_to_order",
     "is_supply": false,
     "type": "download",
-    "taxonomy_id": null,
+    "taxonomy_id": 12476,
     "title": "Weekly Meal Planner for Families, Grocery List by Aisle, Kids Menu Picker, 20 Easy Dinner Ideas, Sunday Meal Prep Checklist, Printable",
     "price": 4.9,
     "tags": [
@@ -63,5 +63,7 @@
     "fb_text": "'What's for dinner?' - answered for the whole week. Printable family meal planner with a kids' menu picker.",
     "tt_hook": "The 15-minute Sunday reset that saves my weeknights",
     "tt_script": "1) Coffee + planner. 2) Kid colors the menu picker. 3) Grocery list by aisle. 4) Prepped fridge shelf. CTA: link in bio."
-  }
+  },
+  "etsy_listing_id": "4615604851",
+  "etsy_url": "https://www.etsy.com/listing/4615604851"
 }

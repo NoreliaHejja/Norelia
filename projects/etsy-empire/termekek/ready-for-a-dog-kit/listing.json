@@ -1,6 +1,6 @@
 {
   "slug": "ready-for-a-dog-kit",
-  "status": "kesz",
+  "status": "etsy_aktiv",
   "created": "2026-11-10",
   "theme": "kutya + kisgyerek + macska a háztartásban",
   "files": [
@@ -23,7 +23,7 @@
     "when_made": "made_to_order",
     "is_supply": false,
     "type": "download",
-    "taxonomy_id": null,
+    "taxonomy_id": 12476,
     "tags": [
       "getting a dog",
       "dog readiness",
@@ -53,5 +53,7 @@
     "fb_text": "Thinking about a dog, but you already have a cat and a busy preschooler? This is the planner I wish I had.",
     "tt_hook": "POV: your 4-year-old wants a dog and you have a cat",
     "tt_script": "1) Readiness checklist. 2) The dog budget surprise line. 3) Kid adds a sticker to the helper chart. 4) The Dog Promise on the fridge. CTA: link in bio."
-  }
+  },
+  "etsy_listing_id": "4615615988",
+  "etsy_url": "https://www.etsy.com/listing/4615615988"
 }

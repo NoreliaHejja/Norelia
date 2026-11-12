@@ -23,7 +23,14 @@ KEYSTRING_FILE = CONF / "keystring"
 REDIRECT = "https://reinigung-kalkulieren.de/etsy-callback"
 SCOPES = "listings_w listings_r listings_d shops_r transactions_r"
 TOKEN_URL = "https://api.etsy.com/v3/public/oauth/token"
-HDR = {"x-api-key": "proxy-injected"}
+APIKEY_FILE = CONF / "apikey"
+
+
+def _apikey():
+    return APIKEY_FILE.read_text().strip()
+
+
+HDR = {}
 
 
 def _keystring():
@@ -57,7 +64,7 @@ def code(arg):
         if qs.get("state", [""])[0] != p["state"]:
             sys.exit("Hibás state – kezdd újra a link lépéssel.")
         arg = qs["code"][0]
-    r = requests.post(TOKEN_URL, headers=HDR, data={"grant_type": "authorization_code", "client_id": _keystring(),
+    r = requests.post(TOKEN_URL, headers={"x-api-key": _apikey()}, data={"grant_type": "authorization_code", "client_id": _keystring(),
                       "redirect_uri": REDIRECT, "code": arg, "code_verifier": p["verifier"]}, timeout=30)
     r.raise_for_status()
     _save(r.json())
@@ -70,7 +77,7 @@ def get_access_token():
     tok = json.loads(TOKEN_FILE.read_text())
     if time.time() < tok.get("expires_at", 0):
         return tok["access_token"]
-    r = requests.post(TOKEN_URL, headers=HDR, data={"grant_type": "refresh_token", "client_id": _keystring(),
+    r = requests.post(TOKEN_URL, headers={"x-api-key": _apikey()}, data={"grant_type": "refresh_token", "client_id": _keystring(),
                       "refresh_token": tok["refresh_token"]}, timeout=30)
     r.raise_for_status()
     _save(r.json())
@@ -82,8 +89,8 @@ def user_shop():
     import requests
     t = get_access_token()
     uid = t.split(".")[0]
-    r = requests.get(f"https://openapi.etsy.com/v3/application/users/{uid}/shops",
-                     headers={**HDR, "Authorization": f"Bearer {t}"}, timeout=30)
+    r = requests.get(f"https://api.etsy.com/v3/application/users/{uid}/shops",
+                     headers={"x-api-key": _apikey(), "Authorization": f"Bearer {t}"}, timeout=30)
     r.raise_for_status()
     return r.json()
 

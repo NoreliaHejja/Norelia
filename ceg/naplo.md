@@ -36,3 +36,4 @@
 | 2026-11-11 | Claude (Nóra jóváhagyásával) | Metricool: Katrin 3 feliratos Reel (FB+IG, 11.12/14/16) + 2 FB szöveges poszt (11.13/15); Emily 7 pin (11.12–18). Lista: ceg/projektek/utemezes-2026-11.md | – |
 | 2026-11-12 | Claude (Nóra: 'kezdd meg a posztolást') | Katrin LinkedIn céges oldal: L1 11.13, L2 11.18. Emily IG+FB: 4 poszt élő Etsy-termékekről 11.13/15/17/19 21:00. TikTok: nincs videó → kimaradt. | – |
 | 2026-11-12 | Claude (napi futás) | etsy-empire: Morning & Bedtime Routine Cards (4,90 €) + Happy Indoor Cat planner (4,90 €) kész, Letter+A4, képek, social. Etsy: nincs aktív API-kulcs (app jóváhagyásra vár) → száraz futás. Kiegészítés kihagyva (bundle-höz még hiányzik rokon termék). Várólista: 5 termék. | – |
+| 2026-11-12 | Claude (Nóra kérésére) | Etsy API bekötve (app aktív, OAuth kész). 5 etsy-empire termék ÉLES: 4615615988, 4615604729, 4615604851, 4615616830, 4615616928 – mind 5 kép + Letter/A4 PDF. Költség 5×0,20 $. | −1 $ |

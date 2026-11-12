@@ -1,5 +1,5 @@
 {
-  "status": "kesz",
+  "status": "etsy_aktiv",
   "created": "2026-11-11",
   "etsy": {
     "currency": "EUR",
@@ -8,7 +8,7 @@
     "when_made": "made_to_order",
     "is_supply": false,
     "type": "download",
-    "taxonomy_id": null,
+    "taxonomy_id": 1314,
     "title": "Toddler Recipe Cards, 20 Kids Cooking Cards with Picture Steps, Little Chef Badge Chart, Healthy Snacks for Kids, Printable PDF",
     "price": 5.9,
     "tags": [
@@ -63,5 +63,7 @@
     "fb_text": "Rainy afternoon plan: let your little one cook! 20 picture-step recipe cards for ages 3+.",
     "tt_hook": "My 4-year-old made dinner (sort of)",
     "tt_script": "1) Show the card. 2) Kid washes fruit. 3) Mash, stir, sprinkle close-ups. 4) Coloring the badge chart. CTA: link in bio."
-  }
+  },
+  "etsy_listing_id": "4615604729",
+  "etsy_url": "https://www.etsy.com/listing/4615604729"
 }
