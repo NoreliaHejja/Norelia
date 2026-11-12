@@ -78,3 +78,6 @@
 
 ## 2026-11-12 – KDP-javítás
 - Busy Family Planner belív: a teljesen színes elválasztó oldalak és a borítóoldal színátmenete fehérre cserélve (KDP kilógónak/bleednek vette). Szabály: belívben nincs széltől szélig színes háttér.
+
+## 2026-11-12 – KDP feltöltések (Nóra)
+- Feltöltve: Busy Family Planner ff 8,75 $ (nyomda 2,84 $ → royalty 2,41 $); Color Your Demons (felnőtt kifestő) 9,90 $. Katalógus: ceg/projektek/kdp-katalogus.md.
