@@ -55,3 +55,8 @@
 - 6 POD-termék publikálva az Etsy-re a Printify-on át (Printify 200 OK).
 - Dizájn-szabálykönyv: projects/etsy-empire/pod/DESIGN.md (Nóra: fantáziadúsabb, trendibb).
 - TikTok Shop + Printify: ELVETVE most – Printify-integráció csak US eladóknak; Magyarország csak vásárlói piac. Helyette: TikTok-videók → link in bio → Etsy.
+
+## 2026-11-12 – POD árcsökkentés, bögre, Etsy-keret
+- Árak le: pulóver 27,99 (2XL 30,99, 3XL 32,99), póló 19,99, gyerekpóló 14,99, bögre 13,99 – haszon ~5,7–6,9 €/db. Bögre: minta mindkét oldalon. Mind a 6 újrapublikálva.
+- Etsy-keret 40 000 Ft/hó: listing ~11 000, Ads ~24 000 (2 €/nap), tartalék ~5 000 → ceg/projektek/etsy-keret.md. Döntés: vegyes – karácsonyi POD nov. 30-ig, digitális karácsony dec. 20-ig, utána evergreen/2027/Valentin.
+- Napi automata: +1 POD-dizájn/nap (3 termék), DESIGN.md szerint, automatikus élesítéssel.
