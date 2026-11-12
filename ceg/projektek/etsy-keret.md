@@ -23,3 +23,10 @@ A karácsonyi listingek NEM vesznek el: 4 hónapig élnek, jövő októberben 0,
 3. Settings → Listing auto-renew: maradhat bekapcsolva.
 
 Ellenőrzés: a napi etsy-empire riport kiírja a havi listing-díjat; ha 11 000 Ft fölé menne, a POD 1 dizájn/nap → 2 naponta 1.
+
+## Etsy Ads stratégia (2026-11-12, Nóra 4 $/nap-ot állított be)
+- 4 $/nap ≈ 120 $/hó ≈ 43–44 000 Ft → a hirdetés egyedül kitölti a 40 000 Ft-os keretet; listing-díjjal együtt ~55 000 Ft. Döntés: a 4 $ marad a csúcsidőszakra (dec. 15-ig), utána vissza 2 $-ra, ha a mérés nem igazolja.
+- Hirdetési csoport nincs az Etsy Adsben: listingenként ki/be kapcsolható. KIKAPCSOLNI: szezonon kívüli őszi (Pumpkin Spice póló, Autumn Kitten bögre, Pumpkin Cat pulóver), Thanksgiving (nov. 26. után), alacsony árú (River coloring 3,49, matrica 4,07), párnahuzat. BENT: karácsonyi digitális + új POD + az 5 új etsy-empire termék.
+- Megtérülési küszöb (ROAS = bevétel / hirdetési költés): digitális ~1,2; POD ~3,5–4 (25–30% árrés). Közös cél: ROAS ≥ 3.
+- Emelési szabály (heti, hétfőn): ha ROAS ≥ 3 ÉS a napi keret elfogy → +2 $/nap (max 10 $/nap dec. 10-ig). Ha ROAS 2–3 → marad. Ha ROAS < 2 két hét után → 2 $/nap, és a gyenge listingek képét/árát javítjuk. Dec. 15 után: max 2 $/nap.
+- Adat: az Etsy API nem adja az Ads-statisztikát → Nóra hétfőnként képernyőkép (Etsy Ads → utolsó 7 nap: views, clicks, orders, revenue, spend), a Főnök kiértékeli.
