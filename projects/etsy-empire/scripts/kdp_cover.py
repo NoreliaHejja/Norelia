@@ -38,7 +38,7 @@ def wrap(d, text, font, maxw):
 
 def main(slug, art, title, sub, color, back):
     od = ROOT / "kdp" / slug
-    pages = json.loads((od / "meta.json").read_text())["pages"]
+    meta = json.loads((od / "meta.json").read_text()); pages = meta["pages"]
     spine = pages * 0.002252
     W, H = int((0.125 * 2 + 8.5 * 2 + spine) * DPI), int(11.25 * DPI)
     img = Image.new("RGB", (W, H), color)
@@ -74,7 +74,7 @@ def main(slug, art, title, sub, color, back):
         for ln in wrap(d, para, fr, int(7.2 * DPI)):
             d.text((bx, y), ln, font=fr, fill="white"); y += 78
         y += 30
-    d.text((bx, H - int(1.0 * DPI)), "Designed by AureliaVenn with the help of AI tools.", font=ImageFont.truetype(FR, 42), fill="white")
+    d.text((bx, H - int(1.0 * DPI)), "Gestaltet von AureliaVenn mit Unterstützung von KI-Werkzeugen." if meta.get("lang") == "de" else "Designed by AureliaVenn with the help of AI tools.", font=ImageFont.truetype(FR, 42), fill="white")
     bxe = fx0 - int(spine * DPI) - int(0.375 * DPI)
     d.rectangle((bxe - int(2 * DPI), H - int(0.375 * DPI) - int(1.2 * DPI), bxe, H - int(0.375 * DPI)), fill="white")
     # gerinc

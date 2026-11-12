@@ -77,15 +77,20 @@ def md_to_html(md: str, slug: str, print_ver=True):
 def build(folder: Path):
     b = json.loads((folder / "book.json").read_text())
     od = folder / "out"; od.mkdir(exist_ok=True)
+    de = b.get("lang") == "de"
     body = "".join(md_to_html((folder / c).read_text(), b["slug"]) for c in b["chapters"])
     front = (f"<div class='page'><div class='title'>{H.escape(b['title'])}</div><div class='sub'>{H.escape(b['subtitle'])}</div>"
              f"<div class='sub' style='margin-top:1.2in'>{H.escape(b['author'])}</div></div>"
              f"<div class='page'><div style='position:absolute;bottom:0;left:0;right:0' class='small'>"
-             f"<p>Copyright © 2026 {H.escape(b['author'])}. All rights reserved.</p>"
-             "<p>This book is for general information and encouragement only. It is not medical, psychological, legal or financial advice and "
+             f"<p>Copyright © 2026 {H.escape(b['author'])}. {'Alle Rechte vorbehalten.' if de else 'All rights reserved.'}</p>"
+             + ("<p>Dieses Buch dient der allgemeinen Information und Ermutigung. Es ersetzt keine ärztliche, psychologische, rechtliche oder finanzielle Beratung. "
+                "Wenn du in einer Krise bist oder daran denkst, dir etwas anzutun, wende dich sofort an den Notruf 112 oder die Telefonseelsorge "
+                "(Deutschland 0800 111 0 111 oder 0800 111 0 222, Österreich 142, Schweiz 143).</p>"
+                "<p>Mit Unterstützung von KI-Werkzeugen geschrieben und sorgfältig bearbeitet. Illustrationen mit Unterstützung von KI erstellt.</p></div></div>" if de else
+                "<p>This book is for general information and encouragement only. It is not medical, psychological, legal or financial advice and "
              "is not a substitute for help from a qualified professional. If you are in crisis or thinking about harming yourself, contact your local emergency number "
              "or a crisis line right away (in the US, call or text 988; in the UK, call Samaritans at 116 123).</p>"
-             "<p>Written with the help of AI tools and carefully edited. Illustrations created with the help of AI.</p></div></div>")
+             "<p>Written with the help of AI tools and carefully edited. Illustrations created with the help of AI.</p></div></div>"))
     (od / "interior.html").write_text(f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{front}<div class='flow'>{body}</div></body></html>", encoding="utf-8")
     pdf = od / "interior.pdf"
     subprocess.run(["node", "-e", f"""
@@ -101,7 +106,7 @@ await p.pdf({{path:'{pdf}',width:'6in',height:'9in',printBackground:true,preferC
     md_all = re.sub(r"!\[\]\((.+?)\)", lambda m: f"![]({folder/'img'/m.group(1)})", md_all)
     (od / "book.md").write_text(md_all, encoding="utf-8")
     subprocess.run(["pandoc", str(od / "book.md"), "-o", str(od / "book.epub"), "--toc", "--metadata", f"title={b['title']}",
-                    "--metadata", f"subtitle={b['subtitle']}", "--metadata", f"author={b['author']}", "--metadata", "lang=en-US"]
+                    "--metadata", f"subtitle={b['subtitle']}", "--metadata", f"author={b['author']}", "--metadata", "lang=" + ("de-DE" if de else "en-US")]
                    + (["--epub-cover-image", str(od / "front.jpg")] if (od / "front.jpg").exists() else []), check=True)
     words = len(re.findall(r"\w+", md_all))
     print(f"{pdf}: {n} oldal, {words} szó; EPUB kész")

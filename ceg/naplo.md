@@ -87,3 +87,7 @@
 
 ## 2026-11-12 – KDP-prognózis
 - 15 tervezett könyv: reálisan dec. ~111e Ft nettó, jan–márc. ~67e Ft/hó; pesszimista 12–19e, optimista 226–338e Ft. ceg/projektek/kdp-prognozis.md
+
+## 2026-11-12 – Német könyvek (Nóra: minden könyv németül is)
+- Kész (amazon.de): Weihnachts-Malbuch (52 old., 6,99 €), Weihnachts-Rätselbuch (48 old., 7,99 €), Familienplaner 2027 (85 old., hétfői hét, KW, 12,99 €), Haustier-Gesundheitsheft (76 old., 8,99 €) – scripts/kdp_books_de.py.
+- A napi könyv-automata ezentúl naponta 1 angol + 1 német könyvet készít (Still Lit DE elsőként); Busy Family Planner DE a sorban; Color Your Demons DE-hez Nóra forrásfájlja kell.

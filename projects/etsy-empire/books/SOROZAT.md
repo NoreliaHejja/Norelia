@@ -49,3 +49,10 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 | 6 | starting-over-mom | Starting Over – a mom's guide to rebuilding life (and helping your kids) after divorce | TERV: első 90 nap, gyász és megkönnyebbülés, gyerekeknek elmondani (korosztályonként), közös szülőség határokkal, pénzügyi újraindulás (általános, nem tanácsadás), új otthon és rutin, magány, önbizalom, randizás később, 12 hónapos terv; jogi/pénzügyi tanács nélkül |
 
 Ütemezés: naponta 1 könyv (nov. 13: #2 bővítés, nov. 14: #3, nov. 15: #4, nov. 16: #5, nov. 17: #6). Minden kész könyv zip-ben Nórának + napló.
+
+## Német változatok (Nóra, 2026-11-12: MINDEN könyv németül is)
+- Szabály: minden angol könyvnek legyen német párja (amazon.de, EUR ár). Nem szó szerinti fordítás: természetes, meleg német, du-forma, a német piac szokásai (hétfővel kezdődő hét, cm-méretek, Kita/Schule).
+- Német segélyvonalak: Telefonseelsorge 0800 111 0 111 / 0800 111 0 222 (DE), 142 (AT), 143 (CH); Nummer gegen Kummer (Eltern) 0800 111 0 550.
+- Mappa: books/<slug>-de/ (book.json "lang":"de", saját érzelmi német cím a képlet szerint). A builder copyright-szövege németül, ha lang=de.
+- Sorrend (minden napi futásban: az aznapi angol könyv + 1 német fordítás): 1) Still Lit DE, 2) Give Them Back Their Wonder DE, 3) I Didn't Mean to Yell DE, 4) Who Takes Care of Mom? DE, 5) Brave Little Hearts DE, 6) The Woman Who Started Over DE, 7) Busy Family Planner DE (a termék-generátorok német szövegével).
+- Kész (2026-11-12): Weihnachts-Malbuch, Weihnachts-Rätselbuch, Familienplaner 2027, Haustier-Gesundheitsheft (scripts/kdp_books_de.py). Color Your Demons DE: Nóra forrásfájlja kell.
