@@ -52,7 +52,11 @@ def create(cfg_path: Path, publish=False):
             "title": d["title"], "description": d["description"], "tags": d["tags"],
             "blueprint_id": d["blueprint_id"], "print_provider_id": d["print_provider_id"], "variants": variants,
             "print_areas": [{"variant_ids": d["variant_ids"], "placeholders": [
-                {"position": d.get("position", "front"), "images": [{"id": img_id, "x": d.get("x", 0.5), "y": d.get("y", 0.45), "scale": d.get("scale", 0.85), "angle": 0}]}]}],
+                {"position": d.get("position", "front"), "images": (
+                    # bögre (blueprint 68): a minta MINDKÉT oldalra kerül – jobb- és balkezesnek is szembe néz (Nóra, 2026-11-12)
+                    [{"id": img_id, "x": x, "y": d.get("y", 0.5), "scale": d.get("scale", 0.33), "angle": 0} for x in (0.25, 0.75)]
+                    if d["blueprint_id"] == 68 else
+                    [{"id": img_id, "x": d.get("x", 0.5), "y": d.get("y", 0.45), "scale": d.get("scale", 0.85), "angle": 0}])}]}],
         }
         r = requests.post(f"{API}/shops/{SHOP}/products.json", headers=H, json=body, timeout=120)
         if r.status_code >= 300:

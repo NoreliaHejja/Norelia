@@ -7,7 +7,7 @@
     33719
   ],
   "price_cents": {
-    "default": 1699
+    "default": 1399
   },
   "scale": 0.4,
   "y": 0.5,
@@ -38,5 +38,6 @@
     "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/10394/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=context-2",
     "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/6568/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=context-3"
   ],
-  "status": "publikalas_elinditva"
+  "status": "publikalas_elinditva",
+  "mug_mindket_oldal": true
 }

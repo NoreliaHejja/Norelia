@@ -39,3 +39,13 @@ macskás anya/apa, kutyás anya, tanár, nővér, könyvmoly, kávéfüggő, csa
 - „Embroidered” szó (csak „embroidery-look”, „puff-print look”).
 - Valós személy arca, más bolt dizájnjának másolása.
 - Leírásban: AI-közlés („Designed by our small shop, AureliaVenn, with the help of AI tools.”).
+
+## 7. Árak és szett (Nóra, 2026-11-12)
+| Termék | Printify-költség | Ár | Haszon Etsy-díjak után (~10% + 0,45) |
+|---|---|---|---|
+| Pulóver S–XL / 2XL / 3XL | 17,87 / 20,63 / 22,15 | 27,99 / 30,99 / 32,99 | ~6,9 |
+| Felnőtt póló / 2XL | 11,29 / 13,85 | 19,99 / 22,99 | ~6,2 |
+| Gyerekpóló | 7,13 | 14,99 | ~5,9 |
+| Bögre 11 oz (minta mindkét oldalon) | 6,44 | 13,99 | ~5,7 |
+Családi szett: Etsy „Sales and discounts” → 2 db-tól 10%, 3 db-tól 15% kedvezmény (valódi kedvezmény, nem hamis áthúzott ár). 15%-kal is marad ~3,5–4/db.
+Szezon: karácsonyi POD csak nov. 30-ig új (US szállítási határidő ~dec. 10–14), utána evergreen (macskás/kutyás/tanár/könyvmoly/kávé) + Valentin.
