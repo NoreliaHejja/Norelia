@@ -1,7 +1,34 @@
-# Termékötletek – napi rotáció
+# Termékötletek – keresletalapú rotáció (frissítve 2026-11-12)
 
-A hét minden napján: 2 új termék (a két legfelső „ötlet” sor → „kész”) + 1 kiegészítés, ha van értelme (színváltozat / A4 / bundle). 5 ötlet alatt: 10 új ötlet a persona alapján.
+Szabály (Nóra, 2026-11-12): **nem csak állatos PDF** – mindig a legnagyobb keresletű terméket csináljuk (szezon + trend), Emily családos világán belül.
+Forrás: Etsy/Printify trendösszefoglalók (lásd lent), a dec. 10-ig tartó karácsonyi csúcs (nov. 20–dec. 10 a legmagasabb konverzió), majd jan. = 2027-es tervezők.
+Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kiegészítés, ha van értelme. Borító: SZÍNES, életképes mockup (lásd CLAUDE.md).
 
+## Most (nov. 13 – dec. 10): karácsony
+| # | Termék | Miért | Ár | Állapot |
+|---|---|---|---|---|
+| A1 | Christmas Family Games Bundle (bingo, scavenger hunt, would you rather, charades) | top karácsonyi printable, családi est | 5,90 € | ötlet |
+| A2 | Letter from Santa + Nice List Certificate + Reindeer Food tag (szerkeszthető név) | perszonalizálás = top kereslet | 4,90 € | ötlet |
+| A3 | Christmas Gift Tags & Wrapping Labels (60 db, 4 stílus, színes) | magas volumen, olcsó, impulzusvásárlás | 3,90 € | ötlet |
+| A4 | Kids Christmas Activity Book (30 oldal: színező, labirintus, pontösszekötő) | magas kereslet + KDP-képes (24+ oldal) | 5,90 € | ötlet |
+| A5 | Christmas Wall Art Set (3 nyomtatható kép, cozy vintage, több méret) | falikép = legnagyobb volumenű digitális kategória | 6,90 € | ötlet |
+| A6 | Christmas Dinner & Holiday Hosting Planner | ünnepi szervezés, Emily-persona | 4,90 € | ötlet |
+| A7 | Kids Christmas Wish List + Thank-You Notes | gyors, olcsó, dec. közepéig fut | 3,90 € | ötlet |
+| A8 | Christmas Coloring Pages for Kids (25 oldal) | örökzöld, alacsony ár | 3,90 € | ötlet |
+
+## Dec. 10-től: új év, 2027
+| # | Termék | Miért | Ár | Állapot |
+|---|---|---|---|---|
+| B1 | 2027 Family Planner (havi + heti, színes) | jan. csúcs | 7,90 € | ötlet |
+| B2 | 2027 Budget Planner (printable + Google Sheets) | budget tracker = trend | 6,90 € | ötlet |
+| B3 | Mom Mental Load / ADHD-friendly Weekly Reset Planner | ADHD planner = trend | 5,90 € | ötlet |
+| B4 | New Year Goals & Vision Board for Kids and Family | jan. | 4,90 € | ötlet |
+| B5 | Valentine's Day Kids Classroom Cards | jan. végén kell élesíteni | 3,90 € | ötlet |
+
+## Printify (POD) – egyszerű termékek, ha a Printify-kapcsolat megvan
+Családi karácsonyi pólók/pulcsik **névvel** (perszonalizálható), „Cat Mom” bögre, karácsonyi gyerek-pulcsi. Feltétel: Printify API-token.
+
+## Korábbi (állatos/család) ötletek – a fenti mögött
 | # | Termék | Téma | Gyerekréteg | Ár | Állapot |
 |---|---|---|---|---|---|
 | 1 | Ready for a Dog? Family Readiness Kit | kutya + macska + gyerek | helper chart, 30 napos kihívás | 6,90 € | kész (2026-11-10) |

@@ -13,3 +13,5 @@ Feliratok forrása: projects/reinigungsfirma-os/marketing/videok/ (subs.py + .as
 - [x] Emily IG+FB Christmas Countdown – 11.15 21:00 (425327501)
 - [x] Emily IG+FB Thankful Ten – 11.17 21:00 (425327996)
 - [x] Emily IG+FB Holiday Budget Planner – 11.19 21:00 (425328196)
+- [x] Emily IG+FB+Pinterest 11.13 05:00 Cook With Me (425712306), 10:00 Routine (425712504), 15:00 Cat planner (425712608)
+## Emily napi ritmus (Nóra, 2026-11-12): naponta 3 poszt 05:00 / 10:00 / 15:00 (Budapest), IG+FB+Pinterest, heti 7 nap, dec. 24-ig. Pool: projects/etsy-empire/marketing_szovegek/emily_pool.json
