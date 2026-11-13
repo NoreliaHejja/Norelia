@@ -38,5 +38,11 @@
     "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/10394/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=context-2",
     "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/6568/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=context-3"
   ],
-  "status": "publikalas_elinditva"
+  "status": "publikalas_elinditva",
+  "etsy_custom_images": [
+    "pod/mockups/cookie-dough-chaos-3.jpg",
+    "pod/mockups/cookie-dough-chaos-1.jpg",
+    "pod/mockups/cookie-dough-chaos-2.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
 }

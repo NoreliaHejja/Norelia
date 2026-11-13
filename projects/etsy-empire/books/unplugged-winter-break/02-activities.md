@@ -1,10 +1,24 @@
-# Chapter 6: 100 Screen-Free Games and Activities
+# Chapter 14: 100 Screen-Free Games and Activities
 
 Here they are: one hundred ideas to fill a winter break with play. Each one is marked with a suggested age range and how much setup it needs. Most need nothing more than what you already have at home.
 
 **Key:** setup time (quick / medium / project) · Ages are just a guide; adapt freely.
 
 ![](ch2.jpg)
+
+## How to use this list
+
+Don't try to do everything. A hundred ideas is a menu, not a to-do list. Here are a few ways families use it:
+
+- **Pick five favorites** at the start of the break and write them on the fridge. When someone says "I'm bored," point to the list.
+- **Let children choose.** Read the list together and let each child circle the activities they want to try. Children engage far more with plans they helped make.
+- **Match the activity to the energy.** Wild energy after lunch? Choose from the active games. Tired and grumpy at 5 p.m.? Choose something from the quiet list.
+- **Prepare the night before.** Many activities work best when materials are ready to go: dough made, boxes collected, paper out on the table.
+- **Repeat the hits.** If something works, do it again. Children love repetition, and a favorite game played ten times is ten good afternoons.
+- **Mix in "nothing" time.** Not every hour needs an activity. Free, unstructured time is where some of the best play happens.
+
+Most activities need only things you already have at home. Where something needs a little preparation, you'll find step-by-step instructions in the chapter that follows the list.
+
 
 ## Active Indoor Games (for wild energy and rainy days)
 
@@ -133,7 +147,7 @@ Here they are: one hundred ideas to fill a winter break with play. Each one is m
 99. **Make a time capsule** to open next winter. *5+ · medium*
 100. **The "best of break" book.** Each day, draw or write one memory. Bind it at the end. *4+ · quick*
 
-# Chapter 7: Making It Last Beyond the Break
+# Chapter 15: Making It Last Beyond the Break
 
 When school starts again, it's tempting to slip back into old patterns. A few things will help you keep what worked:
 

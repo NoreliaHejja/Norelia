@@ -38,5 +38,11 @@
     "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/10394/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=context-2",
     "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/6568/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=context-3"
   ],
-  "status": "publikalas_elinditva"
+  "status": "publikalas_elinditva",
+  "etsy_custom_images": [
+    "pod/mockups/cardinals-coffee-3.jpg",
+    "pod/mockups/cardinals-coffee-1.jpg",
+    "pod/mockups/cardinals-coffee-2.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
 }

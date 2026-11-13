@@ -235,7 +235,7 @@ Resist the urge to immediately offer a screen or a long list of options. Give it
 
 ## The "I'm bored" jar
 
-Write simple activities on slips of paper (you'll find 100 ideas in the next chapter) and put them in a jar. When a child is stuck, they pick one. Make it a rule that they have to give it a real try for 15 minutes. Use different colored paper for indoor, outdoor and quiet activities.
+Write simple activities on slips of paper (you'll find 100 ideas in Chapter 14) and put them in a jar. When a child is stuck, they pick one. Make it a rule that they have to give it a real try for 15 minutes. Use different colored paper for indoor, outdoor and quiet activities.
 
 ## Practice: Our jar starter list
 

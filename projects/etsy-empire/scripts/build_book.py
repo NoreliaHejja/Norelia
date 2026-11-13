@@ -174,8 +174,8 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | Categories | {' / '.join(b['categories'])} |
 | Keywords (7) | {'; '.join(b['keywords'])} |
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
-| Paperback | 6 x 9 in, **Black & white**, white paper, no bleed, matte cover; `interior.pdf` ({n} oldal) + `cover.pdf`; ár **{b['price_paperback']} $** |
-| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **{b['price_kindle']} $** (70% royalty sáv: 2,99–9,99 $); KDP Select: igen |
+| Paperback | 6 x 9 in, **Black & white**, white paper, no bleed, matte cover; `interior.pdf` ({n} oldal) + `cover.pdf`; ár **{b['price_paperback']}{'' if 'EUR' in b['price_paperback'] else ' $'}** |
+| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **{b['price_kindle']}{'' if 'EUR' in b['price_kindle'] else ' $'}** (70% royalty sáv: 2,99–9,99 $); KDP Select: igen |
 
 ## Description
 {b['description']}

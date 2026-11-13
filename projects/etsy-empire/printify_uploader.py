@@ -67,7 +67,7 @@ def create(cfg_path: Path, publish=False):
         print("Létrehozva:", d["printify_product_id"])
     if publish:
         r = requests.post(f"{API}/shops/{SHOP}/products/{d['printify_product_id']}/publish.json", headers=H, timeout=60,
-                          json={"title": True, "description": True, "images": True, "variants": True, "tags": True,
+                          json={"title": True, "description": True, "images": not d.get("etsy_custom_images"), "variants": True, "tags": True,
                                 "keyFeatures": True, "shipping_template": True})
         print("Publish:", r.status_code, r.text[:300])
         if r.status_code < 300:

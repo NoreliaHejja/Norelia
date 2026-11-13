@@ -96,3 +96,7 @@
 - Etsy élő: Christmas Activity Book (#4616205136, 5,90 €), Christmas Coloring Pages (#4616205226, 3,90 €), Christmas Kids MEGA Bundle 76 old. (#4616194355, 9,90 €) – mind színes életképes borítóval.
 - POD (Printify → Etsy): Golden Mom Club (pulóver, póló, bögre), Cardinals & Coffee (pulóver, póló, bögre), Cookie Dough & Chaos Club (felnőtt + gyerek póló, bögre) – 9 listing.
 - Listing-díj a hónapban eddig: ~23 listing × 0,20 $ ≈ 4,6 $ (~1 700 Ft).
+
+## 2026-11-13 – Gentle Life Guides + bögre-javítás
+- KÉSZ: „Give Them Back Their Wonder” (EN, 83 old., 10,1e szó) és „Noch brennt das Licht” (Still Lit DE, 88 old., 9,1e szó, 10,99 € / 4,99 €) – KDP-csomag Nórának kézi feltöltésre.
+- Bögre-javítás (Nóra jelezte): a 3 kétoldalas bögre (Golden Mom Club, Cardinals & Coffee, Cookie Dough Chaos) Etsy-listingjén 1 üres-közepű Printify-kép volt → 3-3 saját mockup (stúdió, kézben, mindkét oldal) feltöltve. Szabály a CLAUDE.md-ben, printify_uploader újrapublikálásnál nem írja felül. Költség: ~9 Higgsfield-kredit.

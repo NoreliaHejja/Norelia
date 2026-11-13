@@ -42,7 +42,7 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 | # | Slug | Cím | Állapot |
 |---|---|---|---|
 | 1 | holidays-on-my-own | Still Lit (régi munkacím: Holidays on My Own) | KÉSZ (79 old., 9,2e szó; papír 10,99 $, Kindle 4,99 $) |
-| 2 | unplugged-winter-break | Give Them Back Their Wonder | VÁZLAT (a book.json-ban már az új cím/hátszöveg; az Amazon-leírást a képlet szerint újraírni) (3,8e szó) → bővíteni ~11e szóra: mind a 100 játékhoz 2–3 mondatos „how to”; új fejezetek: korosztályok szerint (2–4, 5–7, 8–12), jó képernyőidő (családi filmest, videóhívás nagyszülőkkel), dolgozó szülők túlélési terve, nagyszülők/rokonok szabályai, utazás és autózás tablet nélkül, nem-képernyős ajándékötletek |
+| 2 | unplugged-winter-break | Give Them Back Their Wonder | KÉSZ (83 old., 10,1e szó, 25 fejezet; papír 12,99 $, Kindle 4,99 $) |
 | 3 | calm-mom-handbook | The Calm Mom Handbook – Gentle, practical tips for calmer, less shouty parenting (ages 2–10) | TERV: miért robbanunk, triggerek, 5 mp-es szünet, kapcsolódás előbb, határok kedvesen, hiszti/vita/testvérharc forgatókönyvek, reggel/lefekvés/képernyő, javítás kiabálás után, saját töltődés, 30 napos nyugodt-anya kihívás |
 | 4 | the-invisible-load | The Invisible Load – a 30-day reset for moms carrying the mental load | TERV: mi a mentális teher, kiégés jelei, „család-CEO” leltár, feladatmegosztás párral/gyerekekkel (életkor szerinti házimunka-lista), beszélgetés-forgatókönyvek, rendszerek (menü, bevásárlás, naptár), határok, pihenés, 30 napos program |
 | 5 | brave-little-hearts | Brave Little Hearts – helping anxious kids build resilience (ages 4–10) | TERV: normál félelem vs. szorongás, hogyan beszéljünk róla, testi jelek, légzőgyakorlatok gyerekeknek, „worry time”, bátorság-létra, iskola/alvás/elválás, szülői szorongás, mikor kérjünk szakembert; gyerekeknek szóló színezős/munkalap oldalak |
@@ -55,4 +55,5 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 - Német segélyvonalak: Telefonseelsorge 0800 111 0 111 / 0800 111 0 222 (DE), 142 (AT), 143 (CH); Nummer gegen Kummer (Eltern) 0800 111 0 550.
 - Mappa: books/<slug>-de/ (book.json "lang":"de", saját érzelmi német cím a képlet szerint). A builder copyright-szövege németül, ha lang=de.
 - Sorrend (minden napi futásban: az aznapi angol könyv + 1 német fordítás): 1) Still Lit DE, 2) Give Them Back Their Wonder DE, 3) I Didn't Mean to Yell DE, 4) Who Takes Care of Mom? DE, 5) Brave Little Hearts DE, 6) The Woman Who Started Over DE, 7) Busy Family Planner DE (a termék-generátorok német szövegével).
+- Állapot: **Still Lit DE = „Noch brennt das Licht“ KÉSZ** (2026-11-13, `still-lit-de/`, 88 old., 9,1e szó, papír 10,99 €, Kindle 4,99 €). Következő: Give Them Back Their Wonder DE.
 - Kész (2026-11-12): Weihnachts-Malbuch, Weihnachts-Rätselbuch, Familienplaner 2027, Haustier-Gesundheitsheft (scripts/kdp_books_de.py). Color Your Demons DE: Nóra forrásfájlja kell.

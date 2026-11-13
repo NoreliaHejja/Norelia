@@ -38,5 +38,11 @@
     "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/10394/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=context-2",
     "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/6568/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=context-3"
   ],
-  "status": "publikalas_elinditva"
+  "status": "publikalas_elinditva",
+  "etsy_custom_images": [
+    "pod/mockups/golden-mom-club-3.jpg",
+    "pod/mockups/golden-mom-club-1.jpg",
+    "pod/mockups/golden-mom-club-2.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
 }
