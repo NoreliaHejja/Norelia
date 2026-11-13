@@ -57,3 +57,9 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 - Sorrend (minden napi futásban: az aznapi angol könyv + 1 német fordítás): 1) Still Lit DE, 2) Give Them Back Their Wonder DE, 3) I Didn't Mean to Yell DE, 4) Who Takes Care of Mom? DE, 5) Brave Little Hearts DE, 6) The Woman Who Started Over DE, 7) Busy Family Planner DE (a termék-generátorok német szövegével).
 - Állapot: **Still Lit DE = „Noch brennt das Licht“ KÉSZ** (2026-11-13, `still-lit-de/`, 88 old., 9,1e szó, papír 10,99 €, Kindle 4,99 €). Következő: Give Them Back Their Wonder DE.
 - Kész (2026-11-12): Weihnachts-Malbuch, Weihnachts-Rätselbuch, Familienplaner 2027, Haustier-Gesundheitsheft (scripts/kdp_books_de.py). Color Your Demons DE: Nóra forrásfájlja kell.
+
+## Váltakozó ritmus (Nóra döntése, 2026-11-13)
+- **1 hosszú + 1 rövid könyv váltja egymást.** Hosszú: 28–32e szó, ~200 old., papír 15,99 $ / 15,99 €, Kindle 5,99; 3 napi futás alatt készül (1. nap: vázlat + 1/3, 2. nap: 2/3, 3. nap: kész + build). Rövid: 10–12e szó, 85–110 old., 10,99–12,99 $; 1 nap.
+- A plusz terjedelem csak valódi tartalom lehet: esettanulmány (összetett figura, jelölve), korosztály/élethelyzet szerinti részek, munkalapok, 30 napos program, „mit mondj” szkriptek, GYIK. Töltelék, ismétlés tilos.
+- Sorrend: #3 I Didn't Mean to Yell = HOSSZÚ → #4 Who Takes Care of Mom? = rövid → #5 Brave Little Hearts = HOSSZÚ → #6 The Woman Who Started Over = rövid → utána új címek trendelemzés alapján, ugyanígy váltakozva.
+- Teszt: a feltöltés után 30 nappal összevetjük a könyvenkénti jogdíjat; ha a hosszú nem hoz ≥30%-kal többet, vissza a rövidre.
