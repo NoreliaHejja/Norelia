@@ -23,3 +23,6 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 ## Emily – esti futás 2026-11-12 (holnap: 11.13.)
 - 11.13.: mind a 10 slot már foglalt (01:30 pin, 05, 07:30 reel, 10, 12:30, 15, 17, 18:30 reel, 21 IG+FB kép, 23 pin) → új poszt nem kellett.
 - Tartalomgyártás: 6 új életkép (POD-termékek emberekkel + Emily-mézeskalácsház) + 6 új reel (overlay-jel). Könyvtár: 18 reel, 13 életkép. Költség: 54 kredit; egyenleg 2212.
+
+## 2026-11-14 – jóváhagyott termékposztok (Nóra, 11.13)
+- 05:00 Activity Book (426742353), 10:00 Coloring Pages (426742415), 15:00 MEGA Bundle (426742465) – IG+FB+Pinterest. emily_pool.json: +18 új listing (3 printable + 15 POD), összesen 48.
