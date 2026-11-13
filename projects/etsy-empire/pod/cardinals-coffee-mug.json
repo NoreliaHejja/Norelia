@@ -1,0 +1,42 @@
+{
+  "slug": "cardinals-coffee-mug",
+  "design": "cardinals-coffee.png",
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1399
+  },
+  "scale": 0.33,
+  "y": 0.5,
+  "title": "Cardinals and Coffee Mug, Bird Watching Gift, Folk Art Cardinal Coffee Cup, Bird Lover Mug, Birdwatcher Christmas Stocking Stuffer",
+  "tags": [
+    "cardinal mug",
+    "bird watching",
+    "bird lover gift",
+    "birdwatcher gift",
+    "folk art mug",
+    "cardinals coffee",
+    "winter bird",
+    "christmas cardinal",
+    "bird nerd",
+    "coffee mug",
+    "stocking stuffer",
+    "red cardinal",
+    "gift for mom"
+  ],
+  "description": "For the bird lover who watches the feeder with her morning coffee.\n\n11oz white ceramic mug, design printed on both sides – it faces you whichever hand you hold it in. Dishwasher and microwave safe.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Printed design.",
+  "printify_image_id": "6af6b2cd16f79553ea09c51e",
+  "printify_product_id": "6af6b2d88f3384055a0cb475",
+  "mockups": [
+    "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/6400/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=front",
+    "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/6402/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=left",
+    "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/10395/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=right",
+    "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/10393/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=context-1",
+    "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/10394/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=context-2",
+    "https://images.printify.com/mockup/6af6b2d88f3384055a0cb475/33719/6568/cardinals-and-coffee-mug-bird-watching-gift-folk-art-cardinal-coffee-cup-bird-lover-mug-birdwatcher-christmas-stocking-stuffer.jpg?camera_label=context-3"
+  ],
+  "status": "publikalas_elinditva"
+}

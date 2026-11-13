@@ -91,3 +91,8 @@
 ## 2026-11-12 – Német könyvek (Nóra: minden könyv németül is)
 - Kész (amazon.de): Weihnachts-Malbuch (52 old., 6,99 €), Weihnachts-Rätselbuch (48 old., 7,99 €), Familienplaner 2027 (85 old., hétfői hét, KW, 12,99 €), Haustier-Gesundheitsheft (76 old., 8,99 €) – scripts/kdp_books_de.py.
 - A napi könyv-automata ezentúl naponta 1 angol + 1 német könyvet készít (Still Lit DE elsőként); Busy Family Planner DE a sorban; Color Your Demons DE-hez Nóra forrásfájlja kell.
+
+## 2026-11-13 – etsy-empire napi futás
+- Etsy élő: Christmas Activity Book (#4616205136, 5,90 €), Christmas Coloring Pages (#4616205226, 3,90 €), Christmas Kids MEGA Bundle 76 old. (#4616194355, 9,90 €) – mind színes életképes borítóval.
+- POD (Printify → Etsy): Golden Mom Club (pulóver, póló, bögre), Cardinals & Coffee (pulóver, póló, bögre), Cookie Dough & Chaos Club (felnőtt + gyerek póló, bögre) – 9 listing.
+- Listing-díj a hónapban eddig: ~23 listing × 0,20 $ ≈ 4,6 $ (~1 700 Ft).

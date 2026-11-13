@@ -1,0 +1,69 @@
+{
+  "slug": "christmas-coloring-pages-printable",
+  "status": "etsy_aktiv",
+  "created": "2026-11-13",
+  "theme": "karácsony, gyerek-foglalkoztató (KDP-belívből)",
+  "files": [
+    "christmas-coloring-pages-printable.pdf",
+    "christmas-coloring-pages-printable-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "etsy": {
+    "title": "Christmas Coloring Pages for Kids Printable, 24 Easy Bold Holiday Coloring Sheets, Toddler Preschool Christmas Activity, Instant Download",
+    "price": 3.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12471,
+    "tags": [
+      "christmas coloring",
+      "coloring pages kids",
+      "toddler coloring",
+      "preschool christmas",
+      "bold easy coloring",
+      "christmas printable",
+      "santa coloring",
+      "snowman coloring",
+      "kids activity",
+      "classroom christmas",
+      "holiday printables",
+      "stocking stuffer",
+      "coloring sheets"
+    ],
+    "description": "Big, simple Christmas pictures that little hands can actually color.\n\nWHAT'S INSIDE (28 pages, US Letter + A4 PDF)\n• 24 cute holiday coloring pages: Santa, snowman, reindeer, puppy, kitten, gingerbread, Christmas tree and more\n• Thick, bold outlines, no tiny details – perfect for crayons and markers\n• A color test page and a \"Great job!\" certificate\n\nPERFECT FOR\n• Toddlers and preschoolers ages 2–5\n• Classroom Christmas parties and daycare\n• Rainy afternoons and restaurant waits\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. Print at home or at a print shop, as many times as you need for your family.\n\nFor personal use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kepszoveg": {
+    "cim1": "Christmas Coloring Pages",
+    "cim2": "24 cute pictures",
+    "al2": "Santa · Snowman · Reindeer · Puppy · Kitten · Gingerbread",
+    "cim3": "Bold & easy outlines",
+    "al3": "Made for little hands · ages 2–5",
+    "gyerekoldalak": [
+      4,
+      10
+    ]
+  },
+  "social": {
+    "pin_title": "24 Easy Christmas Coloring Pages for Toddlers – printable",
+    "pin_text": "Bold, simple Christmas coloring pages for ages 2–5: Santa, snowman, reindeer, puppy and more. Instant download.",
+    "ig_text": "Biscuit supervised the coloring session. Theo colored the reindeer purple. Both were very proud 🦌💜",
+    "fb_text": "24 bold, easy Christmas coloring pages for toddlers – print as many as you need.",
+    "tt_hook": "Coloring pages toddlers can actually color",
+    "tt_script": "Show thick outlines, toddler coloring, printed stack."
+  },
+  "etsy_listing_id": "4616205226",
+  "etsy_url": "https://www.etsy.com/listing/4616205226",
+  "kdp": {
+    "eligible": true,
+    "package": "kdp/KDP_FELTOLTES.md"
+  }
+}

@@ -7,8 +7,8 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 ## Most (nov. 13 – dec. 10): karácsony
 | # | Termék | Miért | Ár | Állapot |
 |---|---|---|---|---|
-| A0 | **Christmas Printables MEGA Bundle** (az összes karácsonyi printable egyben: countdown, kindness elf, játékok, ajándékcímkék) | magas kosárérték, 200k-cél fő emelője | 12,99 € | ötlet – ELSŐ |
-| A00 | **Kids Christmas Activity Book 30 oldal** (színező, labirintus, pontösszekötő) – Etsy PDF + Amazon KDP papírkönyv | KDP-n is fogy dec. 15-ig | 5,90 € / KDP 7,99 $ | ötlet – MÁSODIK |
+| A0 | **Christmas Printables MEGA Bundle** (az összes karácsonyi printable egyben: countdown, kindness elf, játékok, ajándékcímkék) | magas kosárérték, 200k-cél fő emelője | 12,99 € | kész (2026-11-13) – a 2 karácsonyi gyerekkönyvből: Christmas Kids MEGA Bundle 76 old., 9,90 € (régi printable-fájlok nincsenek a repóban) |
+| A00 | **Kids Christmas Activity Book 30 oldal** (színező, labirintus, pontösszekötő) – Etsy PDF + Amazon KDP papírkönyv | KDP-n is fogy dec. 15-ig | 5,90 € / KDP 7,99 $ | kész (2026-11-13) |
 | T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | ötlet |
 | T2 | **Reading Journal & Book Tracker** (Etsy printable + KDP) | trendelemzés #2 | 7,90 € | ötlet |
 | T3 | **Self-Compassion / Mental Health Journal** | trendelemzés #3 | 6,90 € | ötlet |
@@ -20,7 +20,7 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | A5 | Christmas Wall Art Set (3 nyomtatható kép, cozy vintage, több méret) | falikép = legnagyobb volumenű digitális kategória | 6,90 € | ötlet |
 | A6 | Christmas Dinner & Holiday Hosting Planner | ünnepi szervezés, Emily-persona | 4,90 € | ötlet |
 | A7 | Kids Christmas Wish List + Thank-You Notes | gyors, olcsó, dec. közepéig fut | 3,90 € | ötlet |
-| A8 | Christmas Coloring Pages for Kids (25 oldal) | örökzöld, alacsony ár | 3,90 € | ötlet |
+| A8 | Christmas Coloring Pages for Kids (25 oldal) | örökzöld, alacsony ár | 3,90 € | kész (2026-11-13) |
 
 ## Dec. 10-től: új év, 2027
 | # | Termék | Miért | Ár | Állapot |

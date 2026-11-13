@@ -1,0 +1,69 @@
+{
+  "slug": "christmas-activity-book-printable",
+  "status": "etsy_aktiv",
+  "created": "2026-11-13",
+  "theme": "karácsony, gyerek-foglalkoztató (KDP-belívből)",
+  "files": [
+    "christmas-activity-book-printable.pdf",
+    "christmas-activity-book-printable-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "etsy": {
+    "title": "Christmas Activity Book Printable for Kids, 48 Pages Mazes Word Search Dot to Dot Coloring, Screen Free Holiday Activities, Ages 4-8",
+    "price": 5.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12471,
+    "tags": [
+      "christmas activity",
+      "kids activity book",
+      "christmas printable",
+      "christmas mazes",
+      "word search kids",
+      "dot to dot",
+      "coloring pages kids",
+      "screen free kids",
+      "holiday activities",
+      "stocking stuffer",
+      "kids printables",
+      "christmas worksheets",
+      "road trip activity"
+    ],
+    "description": "Hours of screen-free Christmas fun, ready to print tonight.\n\nWHAT'S INSIDE (48 pages, US Letter + A4 PDF)\n• 10 Christmas mazes\n• 8 word searches with holiday words\n• 8 dot-to-dot pictures\n• Tracing pages: MERRY, CHRISTMAS, SANTA, SNOW\n• 12 coloring pages\n• Draw-your-tree page and a letter to Santa\n• A Christmas Champion certificate\n\nPERFECT FOR\n• Kids ages 4–8 during winter break\n• Quiet time, restaurants, car rides and classroom parties\n• A last-minute stocking stuffer (print, staple, done)\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. Print at home or at a print shop, as many times as you need for your family.\n\nFor personal use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kepszoveg": {
+    "cim1": "Christmas Activity Book",
+    "cim2": "48 pages of fun",
+    "al2": "Mazes · Word search · Dot-to-dot · Tracing · Coloring",
+    "cim3": "Screen-free winter break",
+    "al3": "Ages 4–8 · print at home tonight",
+    "gyerekoldalak": [
+      6,
+      20
+    ]
+  },
+  "social": {
+    "pin_title": "Christmas Activity Book for Kids – 48 printable pages",
+    "pin_text": "Mazes, word search, dot-to-dot, tracing and coloring: 48 screen-free Christmas activities for ages 4–8. Instant download, print at home.",
+    "ig_text": "Theo has decided every maze in this book is \"for Santa's reindeer\". I've decided it's the best 20 quiet minutes of my day ☕️🎄",
+    "fb_text": "48 pages of screen-free Christmas fun for the winter break – print tonight, staple, done.",
+    "tt_hook": "Screen-free winter break hack",
+    "tt_script": "Print → staple → kid busy for 20 minutes. Show maze, word search, dot-to-dot."
+  },
+  "etsy_listing_id": "4616205136",
+  "etsy_url": "https://www.etsy.com/listing/4616205136",
+  "kdp": {
+    "eligible": true,
+    "package": "kdp/KDP_FELTOLTES.md"
+  }
+}

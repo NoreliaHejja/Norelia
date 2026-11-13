@@ -1,0 +1,69 @@
+{
+  "slug": "christmas-kids-mega-bundle",
+  "status": "etsy_aktiv",
+  "created": "2026-11-13",
+  "theme": "karácsony, gyerek-foglalkoztató (KDP-belívből)",
+  "files": [
+    "christmas-kids-mega-bundle.pdf",
+    "christmas-kids-mega-bundle-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "etsy": {
+    "title": "Christmas Kids Printable MEGA Bundle, 76 Pages Coloring Pages and Activity Book, Mazes Word Search Dot to Dot, Winter Break Activities",
+    "price": 9.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12471,
+    "tags": [
+      "christmas bundle",
+      "kids printable",
+      "christmas activity",
+      "coloring pages kids",
+      "christmas mazes",
+      "word search kids",
+      "dot to dot",
+      "winter break",
+      "screen free kids",
+      "holiday printables",
+      "stocking stuffer",
+      "preschool christmas",
+      "kids worksheets"
+    ],
+    "description": "Everything your kids need for a calm, screen-free Christmas break, in one download.\n\nWHAT'S INSIDE (76 pages, US Letter + A4 PDF)\nPART 1 – Christmas Coloring Pages (28 pages)\n• 24 bold, easy holiday coloring pages + color test page + certificate\nPART 2 – Christmas Activity Book (48 pages)\n• 10 mazes, 8 word searches, 8 dot-to-dot pictures, tracing pages, 12 more coloring pages, letter to Santa, certificate\n\nBUNDLE VALUE: both sets together for less than buying them separately.\n\nPERFECT FOR\n• Families with kids ages 2–8 (siblings!)\n• Winter break, travel days, classroom parties\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. Print at home or at a print shop, as many times as you need for your family.\n\nFor personal use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kepszoveg": {
+    "cim1": "Christmas Kids MEGA Bundle",
+    "cim2": "76 pages in one download",
+    "al2": "24 coloring pages · Mazes · Word search · Dot-to-dot · Tracing",
+    "cim3": "For siblings ages 2–8",
+    "al3": "Coloring for little ones · puzzles for big kids",
+    "gyerekoldalak": [
+      6,
+      40
+    ]
+  },
+  "social": {
+    "pin_title": "Christmas Kids Printable MEGA Bundle – 76 pages",
+    "pin_text": "Coloring pages + activity book in one: mazes, word search, dot-to-dot, tracing. 76 screen-free pages for ages 2–8. Instant download.",
+    "ig_text": "Two kids, one printer, 76 pages of Christmas quiet. This is my winter break survival kit 🎄📎",
+    "fb_text": "Coloring for the little one, puzzles for the big one – 76 printable Christmas pages in one bundle.",
+    "tt_hook": "My winter break survival kit",
+    "tt_script": "Show both parts, siblings busy, stack of printed pages."
+  },
+  "etsy_listing_id": "4616194355",
+  "etsy_url": "https://www.etsy.com/listing/4616194355",
+  "kdp": {
+    "eligible": true,
+    "package": "kdp/KDP_FELTOLTES.md"
+  }
+}
