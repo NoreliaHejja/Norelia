@@ -74,11 +74,42 @@ def md_to_html(md: str, slug: str, print_ver=True):
     return "\n".join(out)
 
 
+def backmatter(b, folder: Path) -> str:
+    """Sorozat-lánc a könyv végére (books/series.json): következő lépés + többi kötet + értékelés-kérés."""
+    sp = folder.parent / "series.json"
+    key = b.get("series_key")
+    if not key or not sp.exists():
+        return ""
+    S = json.loads(sp.read_text())["books"]
+    de = b.get("lang") == "de"
+    L = "de" if de else "en"
+    st = lambda k: S[k].get("status_de" if de else "status")
+    soon = " (erscheint bald)" if de else " (coming soon)"
+    t = lambda k: f"*{S[k][L]}*" + ("" if st(k) == "ready" else soon)
+    me = S[key]
+    out = ["# Wie es weitergeht" if de else "# Where to Go From Here", ""]
+    out.append("Du hast dieses Buch durchgearbeitet – das ist mehr, als die meisten Menschen tun. Wenn du den nächsten Schritt gehen möchtest:" if de else
+               "You made it through this book, and that is more than most people ever do. If you'd like to take the next step:")
+    out.append("")
+    for k in me.get("next", []):
+        out.append(f"- {t(k)}: {S[k]['hook_' + L]}")
+    out += ["", "## Weitere Gentle Life Guides" if de else "## More Gentle Life Guides", ""]
+    for k, v in S.items():
+        if k != key and k not in me.get("next", []):
+            out.append(f"- {t(k)}: {v['hook_' + L]}")
+    out += ["", ("Alle Bände findest du auf Amazon unter „Clara Whitfield“." if de else "You can find every guide on Amazon by searching for \"Clara Whitfield\"."), "",
+            "## Eine kleine Bitte" if de else "## A Small Favor", "",
+            ("Wenn dir auch nur eine Seite dieses Buches geholfen hat, würdest du eine ehrliche Bewertung auf Amazon hinterlassen? Es dauert eine Minute und hilft anderen Menschen, ein Buch zu finden, das ihnen vielleicht auch hilft." if de else
+             "If even one page of this book helped you, would you consider leaving an honest review on Amazon? It takes a minute, and it helps someone else find a book that might help them too."),
+            ""]
+    return "\n".join(out)
+
+
 def build(folder: Path):
     b = json.loads((folder / "book.json").read_text())
     od = folder / "out"; od.mkdir(exist_ok=True)
     de = b.get("lang") == "de"
-    body = "".join(md_to_html((folder / c).read_text(), b["slug"]) for c in b["chapters"])
+    body = "".join(md_to_html((folder / c).read_text(), b["slug"]) for c in b["chapters"]) + md_to_html(backmatter(b, folder), b["slug"])
     front = (f"<div class='page'><div class='title'>{H.escape(b['title'])}</div><div class='sub'>{H.escape(b['subtitle'])}</div>"
              f"<div class='sub' style='margin-top:1.2in'>{H.escape(b['author'])}</div></div>"
              f"<div class='page'><div style='position:absolute;bottom:0;left:0;right:0' class='small'>"
@@ -100,7 +131,7 @@ await p.pdf({{path:'{pdf}',width:'6in',height:'9in',printBackground:true,preferC
     n = int([l for l in subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout.splitlines() if l.startswith("Pages:")][0].split()[1])
     if n % 2: n += 0
     # EPUB (Kindle) – színes képekkel
-    md_all = "\n\n".join((folder / c).read_text() for c in b["chapters"])
+    md_all = "\n\n".join((folder / c).read_text() for c in b["chapters"]) + "\n\n" + backmatter(b, folder)
     md_all = re.sub(r"\[\[lines:(\d+)\]\]", lambda m: "\n" + "\n".join(["_____________________________"] * min(4, int(m.group(1)))) + "\n", md_all)
     md_all = md_all.replace("[[box]]", "").replace("[[/box]]", "").replace("[[page]]", "")
     md_all = re.sub(r"!\[\]\((.+?)\)", lambda m: f"![]({folder/'img'/m.group(1)})", md_all)

@@ -12,7 +12,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | Categories | Family & Relationships › Parenting › General / Family & Relationships › Activities / Self-Help › Technology Addiction |
 | Keywords (7) | screen free activities for kids; winter break activities; digital detox for kids; screen time parenting; indoor games for kids; christmas break ideas; gift for parents |
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
-| Paperback | 6 x 9 in, **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (83 oldal) + `cover.pdf`; ár **12.99 $** |
+| Paperback | 6 x 9 in, **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (84 oldal) + `cover.pdf`; ár **12.99 $** |
 | Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 $** (70% royalty sáv: 2,99–9,99 $); KDP Select: igen |
 
 ## Description
@@ -38,4 +38,4 @@ Picture it: a blanket fort, flour on the counter, your child laughing at a game 
 
 This book is not a substitute for professional advice.
 
-(~10097 szó)
+(~10261 szó)

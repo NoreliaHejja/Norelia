@@ -63,3 +63,23 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 - A plusz terjedelem csak valódi tartalom lehet: esettanulmány (összetett figura, jelölve), korosztály/élethelyzet szerinti részek, munkalapok, 30 napos program, „mit mondj” szkriptek, GYIK. Töltelék, ismétlés tilos.
 - Sorrend: #3 I Didn't Mean to Yell = HOSSZÚ → #4 Who Takes Care of Mom? = rövid → #5 Brave Little Hearts = HOSSZÚ → #6 The Woman Who Started Over = rövid → utána új címek trendelemzés alapján, ugyanígy váltakozva.
 - Teszt: a feltöltés után 30 nappal összevetjük a könyvenkénti jogdíjat; ha a hosszú nem hoz ≥30%-kal többet, vissza a rövidre.
+
+## Alapanyag és olvasói lánc (Nóra, 2026-11-13)
+Cél: a könyv valóban segítsen, és vigye tovább az olvasót a sorozat következő kötetéhez.
+
+### 1. Alapanyag-gyűjtés írás ELŐTT → `books/<slug>/ALAPANYAG.md` (kötelező, kb. 1 óra Claude-munka)
+1. **Olvasói fájdalompontok** (WebSearch): a téma 3–5 legkelendőbb Amazon-könyvének 1–3 csillagos véleményei („mi hiányzott”), Reddit/fórum-szálak (r/Parenting, r/Mommit, r/divorce, r/Anxiety stb.). Csak összefoglalva, saját szavakkal; idézni, másolni tilos. Kimenet: 10–15 konkrét helyzet, amiben az olvasó elakad, és az olvasó saját szóhasználata.
+2. **Bizonyítékalap**: a témában elismert, ellenőrizhető megközelítések és források (pl. szakmai szervezetek ajánlásai – AAP, NHS, CDC, APA; ismert, nevesített módszerek – CBT, ACT, önegyüttérzés, érzelmi coaching, expozíciós „bátorság-létra”). Csak olyat írj be, aminek a létezése ellenőrizhető; kitalált tanulmány, szám, idézet tilos. A könyvben a módszer neve + egyszerű magyarázat; a végén „Further reading” lista valódi, létező címekkel.
+3. **Rés a piacon**: mit nem ad meg a versenytárs (pl. túl elméleti, nincs „mit mondj” szöveg, nincs kisgyerekes változat) → ez lesz a könyv ígérete.
+4. **Fejezetterv a fájdalompontokra**: minden fejezet egy valós elakadásra válaszol.
+
+### 2. Hasznossági kapu (minden fejezet)
+- Miért történik (egyszerű mechanizmus) → mit tegyél (lépések) → mit mondj (szó szerinti mondatok) → gyakorlat → „ha nem működik” (hibaelhárítás).
+- Gyors siker az elején: az 1. fejezetben egy módszer, ami még aznap este kipróbálható.
+- A végén: 1 oldalas összefoglaló/„hűtőre tehető” kártya + 30 napos (rövid könyvnél 7 napos) terv.
+
+### 3. Olvasói lánc
+- A könyv végét a `build_book.py` automatikusan írja a `books/series.json`-ból: „Where to Go From Here” (a következő kötet, miért ez a következő lépés) + a többi kötet + őszinte értékelés-kérés (ösztönző, ajándék nélkül – Amazon-szabály).
+- Szövegközben max. 2 természetes utalás a sorozat másik kötetére ott, ahol a téma valóban oda vezet (pl. a kiabálós fejezetben a „Brave Little Hearts” szorongásos részére). Reklámszöveg tilos.
+- Lánc-térkép: Give Them Back Their Wonder → I Didn't Mean to Yell → Brave Little Hearts / Who Takes Care of Mom? ↔ I Didn't Mean to Yell; Still Lit ↔ The Woman Who Started Over.
+- Ha egy kötet elkészül: `series.json` → `status`/`status_de: ready`, és a korábbi kötetek újraépíthetők (a „coming soon” felirat eltűnik). Nóra feltöltéskor a KDP-ben „series” mezőt állít: Gentle Life Guides.

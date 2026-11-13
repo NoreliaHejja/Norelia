@@ -1,0 +1,73 @@
+{
+ "_megjegyzes": "A sorozat-lánc forrása. build_book.py ebből írja a könyvek végére a 'Where to go next' és 'More Gentle Life Guides' részt. status: ready = KDP-csomag kész; soon = még készül. Frissítsd, ha könyv elkészül. status_de: a német változat állapota.",
+ "books": {
+  "still-lit": {
+   "en": "Still Lit",
+   "de": "Noch brennt das Licht",
+   "status": "ready",
+   "hook_en": "for single women who feel alone at Christmas",
+   "hook_de": "für Frauen, die sich an Weihnachten allein fühlen",
+   "next": [
+    "starting-over"
+   ],
+   "status_de": "ready"
+  },
+  "wonder": {
+   "en": "Give Them Back Their Wonder",
+   "de": "Gib ihnen ihr Staunen zurück",
+   "status": "ready",
+   "hook_en": "100 screen-free games and a calm plan for the school break",
+   "hook_de": "100 Spiele ohne Bildschirm und ein ruhiger Plan für die Ferien",
+   "next": [
+    "yell",
+    "brave"
+   ],
+   "status_de": "soon"
+  },
+  "yell": {
+   "en": "I Didn't Mean to Yell",
+   "de": "Ich wollte nicht schreien",
+   "status": "soon",
+   "hook_en": "for moms who love fiercely and lose their temper anyway",
+   "hook_de": "für Mütter, die ihre Kinder lieben und trotzdem laut werden",
+   "next": [
+    "mom",
+    "brave"
+   ],
+   "status_de": "soon"
+  },
+  "mom": {
+   "en": "Who Takes Care of Mom?",
+   "de": "Und wer kümmert sich um Mama?",
+   "status": "soon",
+   "hook_en": "a 30-day reset for women carrying the invisible load",
+   "hook_de": "30 Tage Neustart für Frauen, die die unsichtbare Last tragen",
+   "next": [
+    "yell"
+   ],
+   "status_de": "soon"
+  },
+  "brave": {
+   "en": "Brave Little Hearts",
+   "de": "Kleine mutige Herzen",
+   "status": "soon",
+   "hook_en": "helping your anxious child grow courage, one small step at a time",
+   "hook_de": "wie dein ängstliches Kind Schritt für Schritt Mut findet",
+   "next": [
+    "yell"
+   ],
+   "status_de": "soon"
+  },
+  "starting-over": {
+   "en": "The Woman Who Started Over",
+   "de": "Die Frau, die neu anfing",
+   "status": "soon",
+   "hook_en": "rebuilding your life and your children's sense of home after divorce",
+   "hook_de": "nach der Trennung dein Leben und das Zuhause deiner Kinder neu aufbauen",
+   "next": [
+    "still-lit"
+   ],
+   "status_de": "soon"
+  }
+ }
+}
