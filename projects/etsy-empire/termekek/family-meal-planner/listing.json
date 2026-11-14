@@ -1,0 +1,69 @@
+{
+  "status": "etsy_aktiv",
+  "created": "2026-11-11",
+  "etsy": {
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12476,
+    "title": "Weekly Meal Planner for Families, Grocery List by Aisle, Kids Menu Picker, 20 Easy Dinner Ideas, Sunday Meal Prep Checklist, Printable",
+    "price": 4.9,
+    "tags": [
+      "meal planner",
+      "weekly meal plan",
+      "family meal planner",
+      "grocery list",
+      "meal prep checklist",
+      "kids menu",
+      "dinner ideas",
+      "printable planner",
+      "menu planner",
+      "healthy meal plan",
+      "mom planner",
+      "pantry checklist",
+      "kitchen printable"
+    ],
+    "description": "Plan a week of calm, wholesome family dinners in 15 minutes – and let your little one pick part of the menu.\n\nWHAT'S INSIDE (8 pages)\n• 15-minute Sunday planning guide\n• Weekly Meal Plan – breakfast, lunch, dinner, snack for 7 days\n• Grocery List by Aisle – 8 sections, shop in half the time\n• Kids' Menu Picker – your child chooses a veggie, a fruit and a favorite\n• 20 Easy Family Dinners – tick your family's favorites\n• Sunday Prep Checklist\n• Pantry & Freezer Staples Checklist\n\nPERFECT FOR\n• Busy working moms who carry the mental load of \"what's for dinner?\"\n• Families who want to eat more home-cooked meals\n• Reusable: slip it into a sheet protector and use a dry-erase marker\n\nThis is a planning tool, not nutrition or medical advice.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included. Print at home or at a print shop, as many times as you need for your family.\n\nPLEASE NOTE\nFor personal use only. Please do not resell or share the files. Colors may vary slightly between screens and printers.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "slug": "family-meal-planner",
+  "theme": "egészséges családi menü",
+  "files": [
+    "family-meal-planner.pdf",
+    "family-meal-planner-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Family Meal Planner",
+    "cim2": "What's inside",
+    "al2": "Weekly plan · Grocery list · Kids' picker · 20 dinners · Prep",
+    "cim3": "Your kids pick the menu",
+    "al3": "A veggie, a fruit, a favorite – color a circle",
+    "gyerekoldalak": [
+      4,
+      2
+    ]
+  },
+  "kdp": {
+    "eligible": false,
+    "reason": "family-meal-planner: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  },
+  "social": {
+    "pin_title": "Weekly family meal planner + grocery list by aisle",
+    "pin_text": "Plan a week of family dinners in 15 minutes: weekly meal plan, grocery list by aisle, kids' menu picker, 20 easy dinners and a Sunday prep checklist. Printable.",
+    "ig_text": "Sunday, 15 minutes, one coffee: that's my whole meal plan now. And Theo picks one veggie, one fruit and one favorite - he eats way more when it was his idea. Link in bio.",
+    "fb_text": "'What's for dinner?' - answered for the whole week. Printable family meal planner with a kids' menu picker.",
+    "tt_hook": "The 15-minute Sunday reset that saves my weeknights",
+    "tt_script": "1) Coffee + planner. 2) Kid colors the menu picker. 3) Grocery list by aisle. 4) Prepped fridge shelf. CTA: link in bio."
+  },
+  "etsy_listing_id": "4615604851",
+  "etsy_url": "https://www.etsy.com/listing/4615604851"
+}

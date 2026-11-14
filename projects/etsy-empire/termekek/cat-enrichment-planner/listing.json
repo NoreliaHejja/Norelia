@@ -1,0 +1,69 @@
+{
+  "slug": "cat-enrichment-planner",
+  "status": "etsy_aktiv",
+  "created": "2026-11-12",
+  "theme": "macska",
+  "files": [
+    "cat-enrichment-planner.pdf",
+    "cat-enrichment-planner-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Happy Indoor Cat",
+    "cim2": "What's inside",
+    "al2": "Profile · Tracker · 20 ideas · Kid jobs · Vet log",
+    "cim3": "Little cat helpers",
+    "al3": "Gentle jobs and rules for kids 3+",
+    "gyerekoldalak": [
+      5,
+      4
+    ]
+  },
+  "social": {
+    "pin_title": "Indoor cat enrichment planner – 20 play ideas",
+    "pin_text": "Happy Indoor Cat planner: daily play and care tracker, 20 free enrichment ideas, kid helper jobs and a vet log. Printable.",
+    "ig_text": "Biscuit was ambushing ankles at 3am, so we made her a plan: two play sessions, one treat puzzle, one sunny nap spot. Theo is officially Chief Wand Toy Officer. Link in bio.",
+    "fb_text": "Bored indoor cat? 20 enrichment ideas that cost almost nothing, plus a simple daily play tracker.",
+    "tt_hook": "My cat was bored. Here's the 10-minute fix.",
+    "tt_script": "1) Cat staring at wall. 2) Wand toy session. 3) Toilet-roll treat puzzle. 4) Cat napping in sun. CTA: link in bio."
+  },
+  "etsy": {
+    "title": "Indoor Cat Enrichment Planner, Cat Care Tracker, 20 Cat Play Ideas, Kids Pet Chores, Cat Weight and Vet Log, Printable PDF",
+    "price": 4.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12476,
+    "tags": [
+      "cat planner",
+      "cat enrichment",
+      "indoor cat",
+      "cat care tracker",
+      "cat mom gift",
+      "pet planner",
+      "cat lover gift",
+      "kids pet chores",
+      "cat health log",
+      "cat toys ideas",
+      "pet care printable",
+      "new cat checklist",
+      "cat owner"
+    ],
+    "description": "Indoor cats are safe – but they still have a hunter's brain. This printable planner makes daily play, puzzles and calm easy, with little jobs for little helpers.\n\nWHAT'S INSIDE (8 pages)\n• Why indoor cats need a plan – signs of boredom + safe-home checklist\n• Cat Profile – favorite toys, treats, nap spots and funny quirks\n• Play & Care Tracker – 2 weeks of daily play, puzzles, water, litter and brushing\n• 20 Enrichment Ideas – most cost nothing but a cardboard box\n• Little Cat Helper – picture jobs and gentle cat rules for kids 3+\n• Weight & Vet Log\n• Our Cat's Happy Week planner\n\nPERFECT FOR\n• Busy families with an indoor cat\n• Kids learning to care for a pet gently\n• A sweet gift for a new cat parent\n\nThis planner is for everyday care and fun, not veterinary advice.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included. Print at home or at a print shop, as many times as you need for your family.\n\nPLEASE NOTE\nFor personal use only. Please do not resell or share the files. Colors may vary slightly between screens and printers.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kdp": {
+    "eligible": false,
+    "reason": "cat-enrichment-planner: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  },
+  "etsy_listing_id": "4615616928",
+  "etsy_url": "https://www.etsy.com/listing/4615616928"
+}

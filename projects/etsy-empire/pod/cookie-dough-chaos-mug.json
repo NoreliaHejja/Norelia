@@ -1,0 +1,48 @@
+{
+  "slug": "cookie-dough-chaos-mug",
+  "design": "cookie-dough-chaos.png",
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1399
+  },
+  "scale": 0.33,
+  "y": 0.5,
+  "title": "Cookie Dough and Chaos Club Mug, Christmas Baking Coffee Mug, Retro Varsity Baker Gift, Holiday Cookie Crew Cup, Gift for Mom",
+  "tags": [
+    "christmas baking",
+    "baking mug",
+    "cookie dough",
+    "baker gift",
+    "retro varsity",
+    "holiday baking",
+    "cookie crew",
+    "coffee mug",
+    "gift for mom",
+    "stocking stuffer",
+    "christmas mug",
+    "baking club",
+    "mom gift"
+  ],
+  "description": "For the head of the cookie chaos club.\n\n11oz white ceramic mug, design printed on both sides – it faces you whichever hand you hold it in. Dishwasher and microwave safe.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Printed design.",
+  "printify_image_id": "6af6b2da3a09f956a3fdaa87",
+  "printify_product_id": "6af6b2e4b70238f5b80459e0",
+  "mockups": [
+    "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/6400/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=front",
+    "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/6402/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=left",
+    "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/10395/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=right",
+    "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/10393/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=context-1",
+    "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/10394/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=context-2",
+    "https://images.printify.com/mockup/6af6b2e4b70238f5b80459e0/33719/6568/cookie-dough-and-chaos-club-mug-christmas-baking-coffee-mug-retro-varsity-baker-gift-holiday-cookie-crew-cup-gift-for-mom.jpg?camera_label=context-3"
+  ],
+  "status": "publikalas_elinditva",
+  "etsy_custom_images": [
+    "pod/mockups/cookie-dough-chaos-3.jpg",
+    "pod/mockups/cookie-dough-chaos-1.jpg",
+    "pod/mockups/cookie-dough-chaos-2.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
+}

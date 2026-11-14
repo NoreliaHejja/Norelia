@@ -1,0 +1,59 @@
+{
+  "slug": "ready-for-a-dog-kit",
+  "status": "etsy_aktiv",
+  "created": "2026-11-10",
+  "theme": "kutya + kisgyerek + macska a háztartásban",
+  "files": [
+    "ready-for-a-dog-kit.pdf",
+    "ready-for-a-dog-kit-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "etsy": {
+    "title": "Ready for a Dog? Family Readiness Kit, Kids Pet Chore Chart, Dog Budget Planner, Cat and Dog Introduction Plan, Printable PDF",
+    "price": 6.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12476,
+    "tags": [
+      "getting a dog",
+      "dog readiness",
+      "kids chore chart",
+      "pet chore chart",
+      "dog budget planner",
+      "new dog checklist",
+      "family dog planner",
+      "cat and dog intro",
+      "puppy planner",
+      "printable planner",
+      "toddler chores",
+      "gift for dog lover",
+      "pet care for kids"
+    ],
+    "description": "Your little one asks for a dog every single day? This gentle 4-week printable kit turns that wish into a calm family project.\n\nWHAT'S INSIDE (8 pages, US Letter + A4 PDF included)\n• How to use this kit – a simple 4-week plan\n• Family Readiness Checklist – home, time, money, family\n• Monthly Dog Budget – start-up costs and monthly lines\n• Little Helper Chart – picture-based jobs for pre-readers (ages 3+)\n• 30-Day Practice Challenge – one tiny task a day\n• Cat & Dog Introduction Plan – step by step, keeps your cat safe\n• Our Dog Promise – sign it together, draw your dream dog\n\nPERFECT FOR\n• Families with a cat whose child wants a dog\n• Parents who want to teach responsibility before saying yes\n• A thoughtful gift for a family thinking about adopting\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. Print at home or at a print shop, as many times as you need for your family.\n\nPLEASE NOTE\nThis planner is a planning aid, not veterinary or legal advice. Colors may vary slightly between screens and printers.\nFor personal use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kdp": {
+    "eligible": false,
+    "reason": "ready-for-a-dog-kit: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  },
+  "approved": "2026-11-10 (Nóra)",
+  "social": {
+    "pin_title": "Ready for a Dog? - printable family planner",
+    "pin_text": "Ready for a Dog? Checklist, dog budget, kids chore chart and a cat & dog intro plan. Instant download, print at home.",
+    "ig_text": "My son asks for a dog every single morning. So we made it a family project: 4 weeks, one page at a time, and our cat gets a say too. Link in bio.",
+    "fb_text": "Thinking about a dog, but you already have a cat and a busy preschooler? This is the planner I wish I had.",
+    "tt_hook": "POV: your 4-year-old wants a dog and you have a cat",
+    "tt_script": "1) Readiness checklist. 2) The dog budget surprise line. 3) Kid adds a sticker to the helper chart. 4) The Dog Promise on the fridge. CTA: link in bio."
+  },
+  "etsy_listing_id": "4615615988",
+  "etsy_url": "https://www.etsy.com/listing/4615615988"
+}

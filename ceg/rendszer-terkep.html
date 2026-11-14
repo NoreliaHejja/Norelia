@@ -1,0 +1,278 @@
+<title>Norelia Startsystem</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: control-room board — a header strip, two views (Struktúra / Kanban), org chart as a tree of tiles, kanban as three lanes. */
+:root{
+  --bg:#F2F3EF; --surface:#FFFFFF; --sunk:#E8EAE4; --ink:#18201D; --ink-2:#4A5550; --line:#D5D9D1;
+  --accent:#2B47A8; --accent-ink:#FFFFFF;
+  --p-av:#8B4F9E; --p-rf:#0B6E4F; --p-kk:#1F6E7A; --p-sys:#6B5A2E;
+  --hi:#B4441F; --mid:#9A6A00; --ok:#2F7A4A;
+  --f-display:'Bricolage Grotesque',ui-sans-serif,system-ui,sans-serif;
+  --f-body:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121614; --surface:#1B201E; --sunk:#232926; --ink:#E7ECE8; --ink-2:#A8B3AD; --line:#323A36;
+  --accent:#8EA6F2; --accent-ink:#0E1630;
+  --p-av:#D19BE3; --p-rf:#5FC79B; --p-kk:#6FC2CF; --p-sys:#D7BE7D;
+  --hi:#F08A64; --mid:#E1B24D; --ok:#6CC58C; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121614; --surface:#1B201E; --sunk:#232926; --ink:#E7ECE8; --ink-2:#A8B3AD; --line:#323A36;
+  --accent:#8EA6F2; --accent-ink:#0E1630;
+  --p-av:#D19BE3; --p-rf:#5FC79B; --p-kk:#6FC2CF; --p-sys:#D7BE7D;
+  --hi:#F08A64; --mid:#E1B24D; --ok:#6CC58C; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:400 15px/1.55 var(--f-body)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance}
+h1{font-size:clamp(30px,5vw,46px);font-weight:800;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:22px;font-weight:800}
+h3{font-size:16px;font-weight:600}
+.mono{font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums}
+.muted{color:var(--ink-2)}
+header{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-end;justify-content:space-between}
+.goal{display:flex;flex-direction:column;gap:6px;min-width:0}
+.goal .lbl{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--ink-2)}
+.meter{display:flex;align-items:baseline;gap:10px}
+.meter strong{font-family:var(--f-display);font-size:28px;font-weight:800}
+.bar{width:min(320px,80vw);height:10px;border-radius:5px;background:var(--sunk);overflow:hidden}
+.bar span{display:block;height:100%;width:0.5%;background:var(--accent)}
+nav.tabs{display:flex;gap:6px;background:var(--sunk);padding:5px;border-radius:12px;width:fit-content}
+nav.tabs button{min-height:44px;padding:0 18px;border:0;border-radius:9px;background:transparent;color:var(--ink-2);font:600 15px var(--f-body);cursor:pointer}
+nav.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+section.view{display:flex;flex-direction:column;gap:32px}
+/* Org chart */
+.org{display:flex;flex-direction:column;align-items:center;gap:0}
+.node{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 18px;min-width:0}
+.node.owner{border:2px solid var(--ink)}
+.node.boss{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.node.boss .muted{color:inherit;opacity:.85}
+.top{display:flex;flex-direction:column;align-items:center;text-align:center;width:min(420px,100%)}
+.stem{width:2px;height:22px;background:var(--line)}
+.agents{width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;border-top:2px solid var(--line);padding-top:16px}
+.agent{display:flex;flex-direction:column;gap:4px}
+.agent .k{font-family:var(--f-mono);font-size:12px;color:var(--accent)}
+.agent p{margin:0;font-size:13px;line-height:1.45;color:var(--ink-2)}
+/* Projects */
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:12px;border-top:6px solid var(--pc)}
+.proj dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14px}
+.proj dt{color:var(--ink-2)}
+.proj dd{margin:0;min-width:0}
+.target{font-family:var(--f-display);font-weight:800;font-size:22px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--sunk);color:var(--ink)}
+.chip::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--pc)}
+/* Ops */
+.ops{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.panel ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;font-size:14px}
+.panel li{display:flex;justify-content:space-between;gap:12px}
+.week{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.day{background:var(--sunk);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:4px;font-size:13px;line-height:1.4}
+.day b{font-family:var(--f-display);font-size:14px}
+@media (max-width:700px){.week{grid-template-columns:1fr 1fr}}
+/* Kanban */
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filters button{min-height:40px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);font:500 14px var(--f-body);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.lanes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+@media (max-width:900px){.lanes{grid-template-columns:1fr}}
+.lane{background:var(--sunk);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.lane header{align-items:center;padding:4px 6px}
+.count{font-family:var(--f-mono);font-size:12px;background:var(--surface);border-radius:999px;padding:2px 9px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.card .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:space-between}
+.card p{margin:0;font-size:13px;color:var(--ink-2);line-height:1.45}
+.card h3{font-family:var(--f-body);font-size:15px;font-weight:600;line-height:1.35}
+.pri{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.pri.hi{color:var(--hi)} .pri.mid{color:var(--mid)} .pri.ok{color:var(--ok)}
+.done .card h3{color:var(--ink-2)}
+footer{font-size:13px;color:var(--ink-2)}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-1px)}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+      <span class="mono muted">Norelia · AI cég · 2026-11-02</span>
+      <h1>Norelia Startsystem</h1>
+    </div>
+    <div class="goal">
+      <span class="lbl">Cél: havi nettó bevétel</span>
+      <div class="meter"><strong>~0 Ft</strong><span class="muted">/ 1 000 000 Ft</span></div>
+      <div class="bar" role="img" aria-label="Haladás a célhoz: 1 Etsy-eladás, gyakorlatilag 0 százalék"><span></span></div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Nézet">
+    <button role="tab" id="tab-struktura" aria-controls="struktura" aria-selected="true">Struktúra</button>
+    <button role="tab" id="tab-kanban" aria-controls="kanban" aria-selected="false">Kanban</button>
+  </nav>
+
+  <section class="view" id="struktura" role="tabpanel" aria-labelledby="tab-struktura">
+    <div class="org">
+      <div class="top">
+        <div class="node owner"><h3>Nóra</h3><span class="muted" style="font-size:13px">tulajdonos · jóváhagy · ~2–4 óra/hét</span></div>
+        <div class="stem"></div>
+        <div class="node boss"><h3>Főnök</h3><span class="muted" style="font-size:13px">egyetlen mérce: nettó Ft/hó · rangsorol, delegál, ellenőriz</span></div>
+        <div class="stem"></div>
+      </div>
+      <div class="agents">
+        <div class="node agent"><span class="k">marketing</span><h3>Marketing</h3><p>kampány, SEO, hirdetés</p></div>
+        <div class="node agent"><span class="k">tartalom</span><h3>Tartalom</h3><p>Emily és Katrin heti posztjai, videói</p></div>
+        <div class="node agent"><span class="k">ecommerce</span><h3>E-kereskedelem</h3><p>Etsy, KDP, Digistore24 listingek</p></div>
+        <div class="node agent"><span class="k">sales</span><h3>Sales</h3><p>affiliate-partnerek, megkeresések</p></div>
+        <div class="node agent"><span class="k">penzugy</span><h3>Pénzügy</h3><p>Ft/hó, Ft/óra, fedezet</p></div>
+        <div class="node agent"><span class="k">operacio</span><h3>Operáció</h3><p>automatizálás, időspórolás</p></div>
+        <div class="node agent"><span class="k">palyazat</span><h3>Pályázat</h3><p>KKV- és kutatási pályázatok</p></div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <h2>Projektek</h2>
+      <div class="grid3">
+        <article class="proj" style="--pc:var(--p-av)">
+          <h3>AureliaVenn</h3>
+          <dl>
+            <dt>Arc</dt><dd>Emily (AI, 38, anya, macska)</dd>
+            <dt>Termékek</dt><dd>Pet Memorial Journal, New Puppy Starter Kit, karácsonyi tervező, póló/bögre</dd>
+            <dt>Csatorna</dt><dd>Etsy, Amazon KDP, Pinterest</dd>
+            <dt>Állapot</dt><dd>1 eladás, ~5 látogató/hét</dd>
+          </dl>
+          <span class="target">200 000 Ft/hó</span>
+        </article>
+        <article class="proj" style="--pc:var(--p-rf)">
+          <h3>Reinigungsfirma OS</h3>
+          <dl>
+            <dt>Arc</dt><dd>Katrin (AI, 46, mentor)</dd>
+            <dt>Termékek</dt><dd>Kit 29 €, Starter 49 €, OS 99 €, Komplett 249 €</dd>
+            <dt>Csatorna</dt><dd>Digistore24 + affiliate, saját oldal</dd>
+            <dt>Állapot</dt><dd>Kit és oldal kész, domain hiányzik</dd>
+          </dl>
+          <span class="target">500 000 Ft/hó</span>
+        </article>
+        <article class="proj" style="--pc:var(--p-kk)">
+          <h3>Reinigungs-Kalkulator</h3>
+          <dl>
+            <dt>Arc</dt><dd>Katrin (ugyanaz a márka)</dd>
+            <dt>Termékek</dt><dd>ingyenes kalkulátorok, később havidíjas online eszköz</dd>
+            <dt>Csatorna</dt><dd>Google-forgalom, Reinigungsfirma OS oldal</dd>
+            <dt>Állapot</dt><dd>Stundensatz-Rechner él az oldalon</dd>
+          </dl>
+          <span class="target">300 000 Ft/hó</span>
+        </article>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <h2>Heti ritmus</h2>
+      <div class="week">
+        <div class="day"><b>Hétfő 6:47</b>Főnök-jelentés automatikusan, a hét 3 lépése</div>
+        <div class="day"><b>Kedd</b>Tartalomcsomag Emily + Katrin, jóváhagyásra</div>
+        <div class="day"><b>Szerda</b>2–3 új listing (Etsy + KDP)</div>
+        <div class="day"><b>Csütörtök</b>Affiliate-megkeresések jóváhagyása</div>
+        <div class="day"><b>Péntek</b>KPI-sor frissül, tanulságok a naplóba</div>
+      </div>
+    </div>
+
+    <div class="ops">
+      <div class="panel">
+        <h2>monday · Norelia mappa</h2>
+        <ul>
+          <li><span>Termékek</span><span class="mono muted">5107073512</span></li>
+          <li><span>Tartalomnaptár</span><span class="mono muted">5107073533</span></li>
+          <li><span>Affiliate pipeline</span><span class="mono muted">5107073538</span></li>
+          <li><span>KPI</span><span class="mono muted">5107073541</span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>Tárolás</h2>
+        <ul>
+          <li><span>GitHub repó</span><span class="muted">szabályok, agentek, napló, weboldal</span></li>
+          <li><span>Drive · Norelia</span><span class="muted">termékfájlok, adatok</span></li>
+          <li><span>Gmail</span><span class="muted">Etsy- és eladási értesítők</span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>Eszközök</h2>
+        <ul>
+          <li><span>Metricool</span><span class="muted">social ütemezés</span></li>
+          <li><span>Higgsfield</span><span class="muted">képek, videók, karakterek</span></li>
+          <li><span>Apollo</span><span class="muted">leadek, e-mail</span></li>
+          <li><span>Zapier</span><span class="muted">befejezetlen: Etsy-bekötés</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="kanban" role="tabpanel" aria-labelledby="tab-kanban" hidden>
+    <div class="filters" role="group" aria-label="Projekt szűrő">
+      <button type="button" data-f="all" aria-pressed="true">Mind</button>
+      <button type="button" data-f="av" aria-pressed="false">AureliaVenn</button>
+      <button type="button" data-f="rf" aria-pressed="false">Reinigungsfirma</button>
+      <button type="button" data-f="sys" aria-pressed="false">Rendszer</button>
+    </div>
+    <div class="lanes">
+      <div class="lane" data-lane="nora">
+        <header><h2>Nóra teendői</h2><span class="count"></span></header>
+        <div class="card" data-p="av"><div class="row"><span class="chip" style="--pc:var(--p-av)">AureliaVenn</span><span class="pri hi">Most</span></div><h3>2 Etsy-listing feltöltése (v2 fájlokkal)</h3><p>Pet Memorial 6,90 € · Puppy Kit 7,90 € · kb. 20 perc</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri hi">Most</span></div><h3>Domain megvásárlása</h3><p>reinigungsfirma-os.de, INWX-nél</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri hi">Most</span></div><h3>Közösségi adószám igénylése</h3><p>NAV, ingyenes · a Digistore24-kifizetéshez kell</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri mid">Ezen a héten</span></div><h3>Digistore24-regisztráció + Kit termék</h3><p>a beállítás bemásolható: projektek/reinigungsfirma.md</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri mid">Ezen a héten</span></div><h3>Kontakt e-mail a domainen</h3><p>az Impressumba kell</p></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span><span class="pri mid">Ezen a héten</span></div><h3>Social fiókok + Metricool</h3><p>Emily: IG, TikTok, Pinterest · Katrin: TikTok, IG, FB, LinkedIn, YT</p></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span><span class="pri mid">Ezen a héten</span></div><h3>Döntés: Katrin arca, Du vagy Sie</h3><p>4 arcváltozatból választasz</p></div>
+        <div class="card" data-p="av"><div class="row"><span class="chip" style="--pc:var(--p-av)">AureliaVenn</span><span class="pri ok">Ráér</span></div><h3>Gumroad-kifizetés rendezése</h3><p>vagy a Gumroad elhagyása</p></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span><span class="pri ok">Ráér</span></div><h3>Zapier csatlakoztatás befejezése</h3><p>Etsy-adatok automatikusan</p></div>
+      </div>
+      <div class="lane" data-lane="claude">
+        <header><h2>Claude következő</h2><span class="count"></span></header>
+        <div class="card" data-p="av"><div class="row"><span class="chip" style="--pc:var(--p-av)">AureliaVenn</span><span class="pri hi">Most</span></div><h3>Karácsonyi tervező: listing + KDP</h3><p>szezon nov–dec</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri hi">Domain után</span></div><h3>Oldal élesítése (Cloudflare)</h3><p>Kit-link beépítése, DNS</p></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span><span class="pri mid">Ezen a héten</span></div><h3>Katrin 4 arcváltozat (Higgsfield)</h3><p>választás után állandó karakter</p></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span><span class="pri mid">Ezen a héten</span></div><h3>Első heti tartalomcsomag</h3><p>monday Tartalomnaptár, jóváhagyásra</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri mid">Élesítés után</span></div><h3>Affiliate-megkeresések</h3><p>német levél kész, 8 célpont</p></div>
+        <div class="card" data-p="av"><div class="row"><span class="chip" style="--pc:var(--p-av)">AureliaVenn</span><span class="pri ok">Később</span></div><h3>Hiperlinkes iPad-változat + matricák</h3><p>trend: GoodNotes-tervezők</p></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span><span class="pri ok">Kit után</span></div><h3>Starter-Kit és OS tartalma</h3><p>várólista alapján</p></div>
+      </div>
+      <div class="lane done" data-lane="done">
+        <header><h2>Kész</h2><span class="count"></span></header>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span></div><h3>8 agent + közös szabályok</h3></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span></div><h3>Hétfői automatikus Főnök-futás</h3></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span></div><h3>4 monday tábla, Drive-mappák</h3></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span></div><h3>Kalkulations-Kit v1.0</h3></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span></div><h3>Weboldal: 3 termék, Impressum, Datenschutz</h3></div>
+        <div class="card" data-p="rf"><div class="row"><span class="chip" style="--pc:var(--p-rf)">Reinigungsfirma</span></div><h3>12 hónapos ütemterv, Digistore-beállítás</h3></div>
+        <div class="card" data-p="av"><div class="row"><span class="chip" style="--pc:var(--p-av)">AureliaVenn</span></div><h3>Etsy v2: A4, könyvjelzők, útmutató, 5 kép</h3></div>
+        <div class="card" data-p="sys"><div class="row"><span class="chip" style="--pc:var(--p-sys)">Rendszer</span></div><h3>Karakterlapok: Emily, Katrin</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>Állapot: 2026-11-02. Élő követés a monday Norelia mappájában; ez az oldal pillanatkép.</footer>
+</div>
+
+<script>
+(function(){
+  var tabs=document.querySelectorAll('[role="tab"]');
+  function show(id){
+    if(id!=='kanban') id='struktura';
+    tabs.forEach(function(t){var on=t.getAttribute('aria-controls')===id;t.setAttribute('aria-selected',on?'true':'false');document.getElementById(t.getAttribute('aria-controls')).hidden=!on;});
+  }
+  tabs.forEach(function(t){t.addEventListener('click',function(){var id=t.getAttribute('aria-controls');if(location.hash!=='#'+id){location.hash=id;}else{show(id);}});});
+  window.addEventListener('hashchange',function(){show(location.hash.slice(1));});
+  show(location.hash.slice(1));
+  function counts(){document.querySelectorAll('.lane').forEach(function(l){l.querySelector('.count').textContent=l.querySelectorAll('.card:not([hidden])').length;});}
+  var fb=document.querySelectorAll('[data-f]');
+  fb.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.getAttribute('data-f');
+    fb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+    document.querySelectorAll('.card').forEach(function(c){c.hidden=!(f==='all'||c.getAttribute('data-p')===f);});
+    counts();
+  });});
+  counts();
+})();
+</script>
