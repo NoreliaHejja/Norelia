@@ -18,3 +18,8 @@ Szabály: a hosszú könyv „közbenső” napjain (amikor nem készül kész k
 | 4 | Cat & Dog Owner Planner (cat-enrichment-planner + ready-for-a-dog-kit bővítve) | Etsy | – | – |
 | 5 | Reading Journal / Book Lover's Log | T2 trend | – | – |
 | 6 | következő 3–4 új Etsy-termék tematikus csomagja | Etsy | – | – |
+
+## KDP-kapu (Nóra, 2026-11-14) – minden összefűzött könyvre is
+- Trim (8.5x11) a KDP-ben pontosan ugyanaz; borító = 2×8,5 + 0,25 + oldal×0,002252 × 11,25 in (`kdp_cover.py`), pdfinfo-val ellenőrizve.
+- Belív: a lap szélétől 0,25 in-en belül nincs tinta (fehér háttér, keret és kép is a margón belül); kontaktlapon + pixel-ellenőrzéssel.
+- Feltöltési lap: `KDP_FELTOLTES.pdf` nagy betűvel: `python3 scripts/kdp_lap.py kdp/<slug>/KDP_FELTOLTES.md`.

@@ -83,3 +83,10 @@ Cél: a könyv valóban segítsen, és vigye tovább az olvasót a sorozat köve
 - Szövegközben max. 2 természetes utalás a sorozat másik kötetére ott, ahol a téma valóban oda vezet (pl. a kiabálós fejezetben a „Brave Little Hearts” szorongásos részére). Reklámszöveg tilos.
 - Lánc-térkép: Give Them Back Their Wonder → I Didn't Mean to Yell → Brave Little Hearts / Who Takes Care of Mom? ↔ I Didn't Mean to Yell; Still Lit ↔ The Woman Who Started Over.
 - Ha egy kötet elkészül: `series.json` → `status`/`status_de: ready`, és a korábbi kötetek újraépíthetők (a „coming soon” felirat eltűnik). Nóra feltöltéskor a KDP-ben „series” mezőt állít: Gentle Life Guides.
+
+## KDP-kapu: méret és keret (Nóra, 2026-11-14) – KÖTELEZŐ
+- **A trim méretet a book.json `trim` mezője adja** (alap 6x9; a Noch brennt das Licht 6.14x9.21). A KDP-ben PONTOSAN ugyanazt kell választani – a KDP_FELTOLTES első soraiban kiemelve.
+- **Borító = 2 × szélesség + 0,25 + oldalszám × 0,002252 (gerinc) × magasság + 0,25** (in). A `build_book.py` `kdp_check` ezt ellenőrzi, és hiba esetén leáll.
+- **Semmi nem lóghat ki a keretből:** a belívben a lap szélétől 0,25 in-en belül nincs tinta (a kapu oldalanként ellenőrzi); a borítón minden szöveg/logó ≥0,375 in-re a vágóéltől és a gerinc hajtásától, a hátsó szöveg nem érhet a vonalkód-dobozba (assert).
+- Sorrend a KDP-ben: **előbb az új belív, utána a borító** (a KDP az oldalszámból számolja a gerincet).
+- **Feltöltési lap: `KDP_FELTOLTES.pdf`** – nagy betű (20 pt), nagy sorköz (1,9), A4 (`scripts/kdp_lap.py`); a zip-be ez megy a .md mellé.

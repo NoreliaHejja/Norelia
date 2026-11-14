@@ -26,3 +26,7 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 
 ## 2026-11-14 – jóváhagyott termékposztok (Nóra, 11.13)
 - 05:00 Activity Book (426742353), 10:00 Coloring Pages (426742415), 15:00 MEGA Bundle (426742465) – IG+FB+Pinterest. emily_pool.json: +18 új listing (3 printable + 15 POD), összesen 48.
+
+## 2026-11-14 (Emily, késve – a munkafolyamat újraindult)
+- 17:00 pin Cardinals & Coffee pulóver #428018738 · 18:30 REEL Cookie Dough bögre #428020981 · 21:00 REEL Golden Mom Club pulóver #428021029 · 23:00 pin Cookie Dough póló #428021096
+- Kimaradt (lejárt idő): 07:30 reel, 12:30 pin. Új tartalom: 5 életkép + 7 reel (könyvtárban).

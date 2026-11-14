@@ -16,10 +16,10 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parent.parent
 
 CSS = """
-@page{size:6in 9in;margin:.75in .7in .8in .75in}
+@page{size:__TW__in __TH__in;margin:.75in .7in .8in .75in}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#fff;color:#111;font-family:'Liberation Serif','DejaVu Serif',serif;font-size:11.6pt;line-height:1.58}
-.page{height:7.4in;position:relative;page-break-after:always;overflow:hidden}
+.page{height:__PH__in;position:relative;page-break-after:always;overflow:hidden}
 .flow{}
 h1{font-family:'DejaVu Sans',sans-serif;font-size:21pt;line-height:1.15;margin:.2in 0 .12in;font-weight:700;page-break-before:always}
 h2{font-family:'DejaVu Sans',sans-serif;font-size:13pt;margin:.25in 0 .06in;font-weight:700}
@@ -122,12 +122,14 @@ def build(folder: Path):
              "is not a substitute for help from a qualified professional. If you are in crisis or thinking about harming yourself, contact your local emergency number "
              "or a crisis line right away (in the US, call or text 988; in the UK, call Samaritans at 116 123).</p>"
              "<p>Written with the help of AI tools and carefully edited. Illustrations created with the help of AI.</p></div></div>"))
-    (od / "interior.html").write_text(f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{front}<div class='flow'>{body}</div></body></html>", encoding="utf-8")
+    TW, TH = trim(b)
+    css = CSS.replace("__TW__", str(TW)).replace("__TH__", str(TH)).replace("__PH__", f"{TH - 1.6:.2f}")
+    (od / "interior.html").write_text(f"<!doctype html><html><head><meta charset='utf-8'><style>{css}</style></head><body>{front}<div class='flow'>{body}</div></body></html>", encoding="utf-8")
     pdf = od / "interior.pdf"
     subprocess.run(["node", "-e", f"""
 const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch();const p=await b.newPage();
 await p.goto('file://{od/'interior.html'}',{{waitUntil:'networkidle'}});
-await p.pdf({{path:'{pdf}',width:'6in',height:'9in',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="width:100%;text-align:center;font-size:8px;font-family:serif;color:#444"><span class="pageNumber"></span></div>'}});await b.close();}})();"""], check=True)
+await p.pdf({{path:'{pdf}',width:'{TW}in',height:'{TH}in',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="width:100%;text-align:center;font-size:8px;font-family:serif;color:#444"><span class="pageNumber"></span></div>'}});await b.close();}})();"""], check=True)
     n = int([l for l in subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout.splitlines() if l.startswith("Pages:")][0].split()[1])
     if n % 2: n += 0
     # EPUB (Kindle) – színes képekkel
@@ -144,13 +146,20 @@ await p.pdf({{path:'{pdf}',width:'6in',height:'9in',printBackground:true,preferC
     return b, n, words
 
 
+def trim(b):
+    """Vágott méret hüvelykben – PONTOSAN ezt kell a KDP-ben is választani (book.json "trim": [szél, mag], alap 6x9)."""
+    t = b.get("trim", [6, 9])
+    return float(t[0]), float(t[1])
+
+
 def cover(folder: Path, b, pages, art: Path):
     DPI = 300
+    TW, TH = trim(b)
     spine = pages * 0.002252
-    W, Hh = int((0.125 * 2 + 6 * 2 + spine) * DPI), int(9.25 * DPI)
+    W, Hh = round((0.125 * 2 + TW * 2 + spine) * DPI), round((TH + 0.25) * DPI)
     color = b["color"]
     img = Image.new("RGB", (W, Hh), color); d = ImageDraw.Draw(img)
-    fx0 = int((0.125 + 6 + spine) * DPI); fw = W - fx0
+    fx0 = int((0.125 + TW + spine) * DPI); fw = W - fx0
     a = Image.open(art).convert("RGB"); r = max(fw / a.width, Hh / a.height)
     a = a.resize((int(a.width * r), int(a.height * r)), Image.LANCZOS)
     a = a.crop(((a.width - fw) // 2, (a.height - Hh) // 2, (a.width - fw) // 2 + fw, (a.height - Hh) // 2 + Hh)); img.paste(a, (fx0, 0))
@@ -177,6 +186,7 @@ def cover(folder: Path, b, pages, art: Path):
     for para in b["back"].split("|"):
         for t in wrap(para, fr, int(5.0 * DPI)): d.text((bx, y), t, font=fr, fill="white"); y += 66
         y += 30
+    assert y < Hh - int(1.75 * DPI), "HIBA: a hátsó borító szövege belelóg a vonalkód-területbe – rövidítsd a 'back' szöveget"
     bxe = fx0 - int(spine * DPI) - int(.375 * DPI)
     d.rectangle((bxe - int(2 * DPI), Hh - int(.375 * DPI) - int(1.2 * DPI), bxe, Hh - int(.375 * DPI)), fill="white")
     if pages >= 80:
@@ -197,7 +207,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 
 | Mező | Érték |
 |---|---|
-| Language | English |
+| Language | {'German' if b.get('lang') == 'de' else 'English'} |
 | Title | {b['title']} |
 | Subtitle | {b['subtitle']} |
 | Series | {b.get('series','')} |
@@ -205,7 +215,8 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | Categories | {' / '.join(b['categories'])} |
 | Keywords (7) | {'; '.join(b['keywords'])} |
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
-| Paperback | 6 x 9 in, **Black & white**, white paper, no bleed, matte cover; `interior.pdf` ({n} oldal) + `cover.pdf`; ár **{b['price_paperback']}{'' if 'EUR' in b['price_paperback'] else ' $'}** |
+| **Trim size** | **{trim(b)[0]:g} x {trim(b)[1]:g} in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
+| Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` ({n} oldal) + `cover.pdf`; ár **{b['price_paperback']}{'' if 'EUR' in b['price_paperback'] else ' $'}** |
 | Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **{b['price_kindle']}{'' if 'EUR' in b['price_kindle'] else ' $'}** (70% royalty sáv: 2,99–9,99 $); KDP Select: igen |
 
 ## Description
@@ -213,6 +224,38 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 
 (~{words} szó)
 """, encoding="utf-8")
+
+
+def kdp_check(folder: Path, b, n):
+    """KDP-kapu (Nóra, 2026-11-14): méret pontosan a KDP-képlet szerint, és semmi nem lóg ki a biztonsági sávba."""
+    import numpy as np
+    TW, TH = trim(b); od = folder / "out"; hibak = []
+    def size(pdf):
+        l = [x for x in subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout.splitlines() if x.startswith("Page size")][0]
+        w, h = l.split(":")[1].split("x")[0], l.split("x")[1].split()[0]
+        return float(w) / 72, float(h) / 72
+    w, h = size(od / "interior.pdf")
+    if abs(w - TW) > 0.01 or abs(h - TH) > 0.01:
+        hibak.append(f"belív {w:.3f}x{h:.3f}, elvárt {TW}x{TH}")
+    if (od / "cover.pdf").exists():
+        ew, eh = 2 * TW + 0.25 + n * 0.002252, TH + 0.25
+        w, h = size(od / "cover.pdf")
+        if abs(w - ew) > 0.01 or abs(h - eh) > 0.01:
+            hibak.append(f"borító {w:.3f}x{h:.3f}, elvárt {ew:.3f}x{eh:.3f} (KDP: 2×{TW}+0,25+{n}×0,002252 × {TH}+0,25)")
+    # biztonsági sáv: a lap szélétől 0,25 in-en belül nem lehet tinta (KDP no-bleed: min. 0,25 in külső margó)
+    tmp = od / "_chk"; tmp.mkdir(exist_ok=True)
+    subprocess.run(["pdftoppm", "-r", "40", "-gray", "-png", str(od / "interior.pdf"), str(tmp / "p")], check=True)
+    band = int(0.25 * 40)
+    for f in sorted(tmp.glob("p-*.png")):
+        a = np.array(Image.open(f))
+        edge = np.concatenate([a[:band].ravel(), a[-band:].ravel(), a[:, :band].ravel(), a[:, -band:].ravel()])
+        if (edge < 200).any():
+            hibak.append(f"{f.stem}: tartalom a 0,25 in-es szélső sávban")
+        f.unlink()
+    tmp.rmdir()
+    if hibak:
+        sys.exit("KDP-KAPU HIBA:\n- " + "\n- ".join(hibak))
+    print(f"KDP-kapu OK: belív {TW}x{TH} in, {n} oldal; borító méret és biztonsági sáv rendben")
 
 
 if __name__ == "__main__":
@@ -223,3 +266,5 @@ if __name__ == "__main__":
         cover(f, b, n, art)
         build(f)  # EPUB a front.jpg borítóval
     sheet(f, b, n, words)
+    subprocess.run([sys.executable, str(ROOT / 'scripts' / 'kdp_lap.py'), str(f / 'out' / 'KDP_FELTOLTES.md')], check=True)
+    kdp_check(f, b, n)

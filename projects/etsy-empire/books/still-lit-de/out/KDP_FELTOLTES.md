@@ -4,7 +4,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 
 | Mező | Érték |
 |---|---|
-| Language | English |
+| Language | German |
 | Title | Noch brennt das Licht |
 | Subtitle | Ein sanfter Begleiter für Frauen, die sich an Weihnachten allein fühlen: Die Einsamkeit leiser machen, den Familienfragen gelassen begegnen und Feiertage gestalten, die sich endlich nach Zuhause anfühlen |
 | Series | Gentle Life Guides |
@@ -12,7 +12,8 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | Categories | Ratgeber › Psychologie › Gefühle / Ratgeber › Lebenshilfe & Persönlichkeitsentwicklung / Ratgeber › Partnerschaft & Familie › Trennung & Scheidung |
 | Keywords (7) | allein an weihnachten; einsamkeit frauen; trennung weihnachten; selbstmitgefühl buch; trauer feiertage; geschenk freundin single; selbsthilfe frauen |
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
-| Paperback | 6 x 9 in, **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (89 oldal) + `cover.pdf`; ár **10.99 EUR** |
+| **Trim size** | **6.14 x 9.21 in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
+| Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (81 oldal) + `cover.pdf`; ár **10.99 EUR** |
 | Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 EUR** (70% royalty sáv: 2,99–9,99 $); KDP Select: igen |
 
 ## Description
