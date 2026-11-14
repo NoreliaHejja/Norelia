@@ -86,7 +86,8 @@ def upload(folder: Path, data: dict) -> str:
 
         nice = e["title"].split(",")[0].replace("?", "").replace("&", "and").strip().replace(" ", "-")
         for f in data.get("files", []):
-            fname = f"{nice}-A4.pdf" if f.endswith("-A4.pdf") else f"{nice}-US-Letter.pdf"
+            fname = (f"{nice}-PNG-files.zip" if f.endswith(".zip") else
+                     f"{nice}-A4.pdf" if f.endswith("-A4.pdf") else f"{nice}-US-Letter.pdf")
             with open(folder / f, "rb") as fh:
                 r = requests.post(f"{API}/shops/{shop}/listings/{listing_id}/files", headers=h,
                                   files={"file": (fname, fh, "application/zip" if fname.endswith(".zip") else "application/pdf")}, data={"name": fname}, timeout=120)
