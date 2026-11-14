@@ -105,6 +105,22 @@ def place(rc, tx, info, name, st, key):
     print(f"  Printify-rendelés #{oid} → {st[key]['allapot']}")
 
 
+def retry_production(st):
+    """Ha a gyártásba küldés nem ment (pl. még nincs kártya a Printifyban), minden futásnál újrapróbálja."""
+    for key, v in st.items():
+        if v.get("allapot") != "rendelve_nem_gyartasban":
+            continue
+        if not LIVE:
+            print(f"  [SZÁRAZ] újrapróbálná a gyártást: {key}")
+            continue
+        r = requests.post(f"{PA}/shops/{PSHOP}/orders/{v['printify_order']}/send_to_production.json", headers=PH, timeout=60)
+        if r.status_code < 300:
+            v["allapot"] = "gyartasban"
+            print(f"  Gyártásba küldve (újrapróbálás): {key}")
+        else:
+            print(f"  Még nem megy gyártásba ({r.status_code}): {key} – Printify kártya/fizetés kell? {r.text[:150]}")
+
+
 def sync_tracking(st):
     shop = (CONF / "shop_id").read_text().strip()
     for key, v in st.items():
@@ -155,6 +171,7 @@ def main():
                 break
             place(rc, tx, info, name, st, key)
             done_today += 1
+    retry_production(st)
     sync_tracking(st)
     if LIVE:
         save_state(st)
