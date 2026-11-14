@@ -55,7 +55,7 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 - Német segélyvonalak: Telefonseelsorge 0800 111 0 111 / 0800 111 0 222 (DE), 142 (AT), 143 (CH); Nummer gegen Kummer (Eltern) 0800 111 0 550.
 - Mappa: books/<slug>-de/ (book.json "lang":"de", saját érzelmi német cím a képlet szerint). A builder copyright-szövege németül, ha lang=de.
 - Sorrend (minden napi futásban: az aznapi angol könyv + 1 német fordítás): 1) Still Lit DE, 2) Give Them Back Their Wonder DE, 3) I Didn't Mean to Yell DE, 4) Who Takes Care of Mom? DE, 5) Brave Little Hearts DE, 6) The Woman Who Started Over DE, 7) Busy Family Planner DE (a termék-generátorok német szövegével).
-- Állapot: **Still Lit DE = „Noch brennt das Licht“ KÉSZ** (2026-11-13, `still-lit-de/`, 88 old., 9,1e szó, papír 10,99 €, Kindle 4,99 €). Következő: Give Them Back Their Wonder DE.
+- Állapot: **Still Lit DE = „Noch brennt das Licht“ KÉSZ** (2026-11-13, `still-lit-de/`, 88 old., 9,1e szó, papír 10,99 €, Kindle 4,99 €). **Give Them Back Their Wonder DE = „Gib ihnen ihr Staunen zurück” KÉSZ** (2026-11-14, `unplugged-winter-break-de/`, 88 old., 9,9e szó, 12,99 € / 4,99 €). Következő: I Didn't Mean to Yell DE (az angol után).
 - Kész (2026-11-12): Weihnachts-Malbuch, Weihnachts-Rätselbuch, Familienplaner 2027, Haustier-Gesundheitsheft (scripts/kdp_books_de.py). Color Your Demons DE: Nóra forrásfájlja kell.
 
 ## Váltakozó ritmus (Nóra döntése, 2026-11-13)

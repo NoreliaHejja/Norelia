@@ -40,4 +40,4 @@ Du kannst die Jahreszeit nicht ändern. Aber du kannst ändern, wie sie sich von
 
 Dieses Buch ersetzt keine professionelle Hilfe.
 
-(~9305 szó)
+(~9303 szó)

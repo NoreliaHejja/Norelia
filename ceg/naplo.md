@@ -108,3 +108,4 @@
 ## 2026-11-14 – Kindness Elf-rokon termékek (Nóra: „gyárts hasonlót”)
 - Etsy-adat: Kindness Elf Kit 296 megtek., 14 katt. (4,7%), 1 eladás – messze a legjobb. Rokon termékek élesítve, 3,99 €: Elf Lifesaver Letters #4617157396, Easy Christmas Elf Ideas #4617157502. Ötletsor: K3–K6 (Kindness Advent Cards, Nice List Kit, Elf Kindness Bundle 7,99 €, Classroom Kindness Calendar).
 - KDP-borítók: gerincfelirat csak 100+ oldaltól (KDP 0,0625 in szabály), szerzőmező ≥0,5 in-re az éltől; kdp_audit.py: mind a 13 csomag mérete és szélső sávja rendben. Feltöltési lap normál betűvel.
+- Német könyv KÉSZ: „Gib ihnen ihr Staunen zurück” (Give Them Back Their Wonder DE, 88 old., 9,9e szó, 12,99 € / Kindle 4,99 €), német segélyvonal (Nummer gegen Kummer). Still Lit DE újraépítve (a sorozatoldalon a német Wonder már elérhető).
