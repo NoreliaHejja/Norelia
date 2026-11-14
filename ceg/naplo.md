@@ -104,3 +104,7 @@
 ## 2026-11-14 – KDP-méretjavítás + nagy betűs feltöltési lap
 - Noch brennt das Licht: a KDP 6.14x9.21 trimet vár → belív és borító újraépítve (81 old., borító 12.713x9.460). build_book.py: trim mező + KDP-kapu (méret + 0,25 in biztonsági sáv) + KDP_FELTOLTES.pdf nagy betűvel (scripts/kdp_lap.py). Szabály: SOROZAT.md, OSSZEFUZES.md, CLAUDE.md.
 - Emily: 4 poszt ma (17:00–23:00), 5 kép + 7 reel elkészült (~75 kredit).
+
+## 2026-11-14 – Kindness Elf-rokon termékek (Nóra: „gyárts hasonlót”)
+- Etsy-adat: Kindness Elf Kit 296 megtek., 14 katt. (4,7%), 1 eladás – messze a legjobb. Rokon termékek élesítve, 3,99 €: Elf Lifesaver Letters #4617157396, Easy Christmas Elf Ideas #4617157502. Ötletsor: K3–K6 (Kindness Advent Cards, Nice List Kit, Elf Kindness Bundle 7,99 €, Classroom Kindness Calendar).
+- KDP-borítók: gerincfelirat csak 100+ oldaltól (KDP 0,0625 in szabály), szerzőmező ≥0,5 in-re az éltől; kdp_audit.py: mind a 13 csomag mérete és szélső sávja rendben. Feltöltési lap normál betűvel.

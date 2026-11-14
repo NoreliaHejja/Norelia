@@ -180,8 +180,8 @@ def cover(folder: Path, b, pages, art: Path):
     for t in tl: d.text(((bx0 + bx1) // 2, y), t, font=ft, fill="#1F2A44", anchor="ma"); y += 170
     for t in sl: d.text(((bx0 + bx1) // 2, y), t, font=fs, fill=color, anchor="ma"); y += 72
     fa = ImageFont.truetype(FB, 70)
-    d.rounded_rectangle((fx0 + fw // 2 - 560, Hh - int(.85 * DPI), fx0 + fw // 2 + 560, Hh - int(.4 * DPI)), 40, fill=(255, 252, 245))
-    d.text((fx0 + fw // 2, Hh - int(.625 * DPI)), b["author"].upper(), font=fa, fill="#1F2A44", anchor="mm")
+    d.rounded_rectangle((fx0 + fw // 2 - 560, Hh - int(1.05 * DPI), fx0 + fw // 2 + 560, Hh - int(.6 * DPI)), 40, fill=(255, 252, 245))
+    d.text((fx0 + fw // 2, Hh - int(.825 * DPI)), b["author"].upper(), font=fa, fill="#1F2A44", anchor="mm")
     bx = int(.55 * DPI); y = int(.8 * DPI); fr = ImageFont.truetype(FR, 46)
     for para in b["back"].split("|"):
         for t in wrap(para, fr, int(5.0 * DPI)): d.text((bx, y), t, font=fr, fill="white"); y += 66
@@ -189,9 +189,9 @@ def cover(folder: Path, b, pages, art: Path):
     assert y < Hh - int(1.75 * DPI), "HIBA: a hátsó borító szövege belelóg a vonalkód-területbe – rövidítsd a 'back' szöveget"
     bxe = fx0 - int(spine * DPI) - int(.375 * DPI)
     d.rectangle((bxe - int(2 * DPI), Hh - int(.375 * DPI) - int(1.2 * DPI), bxe, Hh - int(.375 * DPI)), fill="white")
-    if pages >= 80:
+    if pages >= 100:  # KDP: gerincszöveg csak 100+ oldaltól, 0,0625 in szabad hellyel mindkét oldalon (Nóra, 2026-11-14)
         sp = Image.new("RGB", (Hh, int(spine * DPI)), color); sd = ImageDraw.Draw(sp)
-        sd.text((Hh // 2, sp.height // 2), f"{b['title'].upper()}   ·   {b['author'].upper()}", font=ImageFont.truetype(FB, max(18, int(sp.height * .42))), fill="white", anchor="mm")
+        sd.text((Hh // 2, sp.height // 2), f"{b['title'].upper()}   ·   {b['author'].upper()}", font=ImageFont.truetype(FB, int((spine - 0.14) * DPI * 0.95)), fill="white", anchor="mm")
         img.paste(sp.rotate(-90, expand=True), (fx0 - int(spine * DPI), 0))
     od = folder / "out"
     img.save(od / "cover.pdf", "PDF", resolution=DPI)

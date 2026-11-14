@@ -89,4 +89,6 @@ Cél: a könyv valóban segítsen, és vigye tovább az olvasót a sorozat köve
 - **Borító = 2 × szélesség + 0,25 + oldalszám × 0,002252 (gerinc) × magasság + 0,25** (in). A `build_book.py` `kdp_check` ezt ellenőrzi, és hiba esetén leáll.
 - **Semmi nem lóghat ki a keretből:** a belívben a lap szélétől 0,25 in-en belül nincs tinta (a kapu oldalanként ellenőrzi); a borítón minden szöveg/logó ≥0,375 in-re a vágóéltől és a gerinc hajtásától, a hátsó szöveg nem érhet a vonalkód-dobozba (assert).
 - Sorrend a KDP-ben: **előbb az új belív, utána a borító** (a KDP az oldalszámból számolja a gerincet).
-- **Feltöltési lap: `KDP_FELTOLTES.pdf`** – nagy betű (20 pt), nagy sorköz (1,9), A4 (`scripts/kdp_lap.py`); a zip-be ez megy a .md mellé.
+- **Feltöltési lap: `KDP_FELTOLTES.pdf`** – normál betű (11 pt), tágabb sorköz (1,55), A4 (`scripts/kdp_lap.py`); a zip-be ez megy a .md mellé.
+- **Gerinc:** gerincszöveg csak 100+ oldaltól, és a szöveg mindkét oldalán ≥0,0625 in szabad hely (KDP). 100 oldal alatt a gerinc csak színes, felirat nélkül.
+- **Előlap:** cím- és szerzőmező ≥0,5 in-re a vágóéltől (a szerzőmező alja is).
