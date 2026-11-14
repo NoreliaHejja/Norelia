@@ -30,3 +30,7 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 ## 2026-11-14 (Emily, késve – a munkafolyamat újraindult)
 - 17:00 pin Cardinals & Coffee pulóver #428018738 · 18:30 REEL Cookie Dough bögre #428020981 · 21:00 REEL Golden Mom Club pulóver #428021029 · 23:00 pin Cookie Dough póló #428021096
 - Kimaradt (lejárt idő): 07:30 reel, 12:30 pin. Új tartalom: 5 életkép + 7 reel (könyvtárban).
+
+## 2026-11-15 (Emily, ütemezve 11-14 este)
+- 01:30 pin Budget Planner (régi) · 05:00 IG+FB+Pin Add-Your-Face #428247171 · 07:30 REEL Cardinals pulóver #428247422 · 10:00 IG+FB+Pin név-bögre #428247537 · 12:30 pin Elf Letters #428247600 · 15:00 IG+FB+Pin családi név-póló #428247683 · 17:00 pin rénszarvas név-bögre #428247927 · 18:30 REEL Activity Book #428247962 · 21:00 IG+FB Countdown (régi) · 23:00 pin Easy Elf Ideas #428248032
+- Új tartalom: 3 reel (Add-Your-Face, név-bögre, családi póló); az új termékek 8 életképe a könyvtárba. Kredit ma: ~180 (termékek + 3 videó), egyenleg ~1 997.
