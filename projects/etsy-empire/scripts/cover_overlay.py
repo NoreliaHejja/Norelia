@@ -25,7 +25,7 @@ def fit(d, text, font_path, max_w, start):
     return ImageFont.truetype(font_path, 20)
 
 
-def main(src, out, title, sub, accent="#E4572E"):
+def main(src, out, title, sub, accent="#E4572E", band="Printable PDF  ·  US Letter + A4", badge="PRINT|AT HOME"):
     img = Image.open(src).convert("RGB")
     # 4:5 kitöltés
     r = max(W / img.width, H / img.height)
@@ -52,13 +52,13 @@ def main(src, out, title, sub, accent="#E4572E"):
     d.rectangle((0, H - 260, W, H), fill=accent)
     fb = ImageFont.truetype(FX, 96)
     d.text((W // 2, H - 150), "INSTANT DOWNLOAD", font=fb, fill="white", anchor="mm")
-    d.text((W // 2, H - 60), "Printable PDF  ·  US Letter + A4", font=ImageFont.truetype(FB, 52), fill="white", anchor="mm")
+    d.text((W // 2, H - 60), band, font=ImageFont.truetype(FB, 52), fill="white", anchor="mm")
 
     # sarok-badge
     cx, cy, rad = W - 260, 700, 170
     d.ellipse((cx - rad, cy - rad, cx + rad, cy + rad), fill="#FFC93C", outline="white", width=12)
-    d.text((cx, cy - 40), "PRINT", font=ImageFont.truetype(FX, 64), fill="#1F2A44", anchor="mm")
-    d.text((cx, cy + 40), "AT HOME", font=ImageFont.truetype(FX, 52), fill="#1F2A44", anchor="mm")
+    d.text((cx, cy - 40), badge.split("|")[0], font=ImageFont.truetype(FX, 64), fill="#1F2A44", anchor="mm")
+    d.text((cx, cy + 40), badge.split("|")[1], font=ImageFont.truetype(FX, 52), fill="#1F2A44", anchor="mm")
 
     out_img = Image.alpha_composite(img.convert("RGBA"), layer).convert("RGB")
     out_img.save(out, "JPEG", quality=90)
@@ -68,4 +68,4 @@ def main(src, out, title, sub, accent="#E4572E"):
 if __name__ == "__main__":
     if len(sys.argv) < 5:
         sys.exit(__doc__)
-    main(*sys.argv[1:6])
+    main(*sys.argv[1:8])

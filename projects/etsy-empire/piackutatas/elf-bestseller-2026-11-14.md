@@ -27,3 +27,17 @@ Képernyőképek: Elf Squad PNG SVG (10,7e vélemény), Elf monogram SVG (15,9e)
 | E3 | **Elf Kindness Bundle** (3 manós termék) | PDF | 7,99 € | MEGCSINÁLNI |
 | E4 | Classroom Add-Your-Face bulletin board kit | PDF | 4,90 € | TESZTELNI (E1 után) |
 | – | Elf clipart PNG bundle | PNG | 2–3 € | ELVETNI (túl nagy verseny) |
+
+# Bögre-bestsellerek (2026-11-14)
+| Listing | Ár | Megtekintés | Kedvelés | Indult |
+|---|---|---|---|---|
+| Christmas Movie Watching **mug wrap PNG** (#1812282947) | 2,33 € | 12 346 | 732 | 2024-10 |
+| Custom Pet Mug from Photo + Name (#4413297884) | 9,98 $ | 11 684 | 434 | 2025-11 |
+| Personalized Pet Mug, line art from photo (#4362955336) | 15,15 $ | 33 491 | 1 573 | 2025-09 |
+Képernyőkép: névre szóló bögrék 3,1e–153,6e véleménnyel (név-definíció, kezdőbetű, ismétlődő név).
+
+| # | Termék | Döntés |
+|---|---|---|
+| M1 | Mug wrap PNG a POD-dizájnokból | KÉSZ 2026-11-14: Golden Mom Club #4617265130, Cardinals & Coffee #4617256773, Cookie Dough Chaos #4617265380 (2,49 €); mostantól minden új bögre-dizájnnal |
+| M2 | **Névre szóló karácsonyi bögre** (vevő beírja a nevet → automatikus Printify-rendelés) | TESZTELNI – Nóra jóváhagyása kell (rendelésenként a Printify a kártyáról levon) |
+| M3 | **Kisállat-portré bögre fotóból** (AI vonalrajz/akvarell + név) | TESZTELNI januárban (rendelésenként kézi ellenőrzés kell, december túl szoros) |
