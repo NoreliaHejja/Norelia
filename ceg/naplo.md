@@ -114,3 +114,4 @@
 - Nóra elérte a heti 5 KDP-cím limitet. Új: ceg/projektek/kdp-feltoltesi-sor.md (15 hely dec. 7-ig, karácsonyi/Nikolaus prioritás), könyvgyártás heti 2 könyvre lassítva, a többi kapacitás csatornákra: Etsy PDF (MEGCSINÁLNI), Draft2Digital e-könyv (MEGCSINÁLNI, Nóra fiókot nyit), TPT (TESZTELNI), Payhip (később), Lulu/epubli (ELVETNI idénre). KDP Select: NEM a széles terjesztésű e-könyveknél.
 - Etsy élesítve: Weihnachts-Malbuch (3,99 €) és Weihnachts-Rätselbuch (4,99 €) PDF-ben, Nikolausra. listing_kepek.py: üres oldalak kihagyása.
 - 2026-11-14: Draft2Digital elhalasztva (eladási küszöbig), minden e-könyv KDP Selectben.
+- 2026-11-14: Etsy-bestseller elemzés (elf / add your face) → piackutatas/elf-bestseller-2026-11-14.md. ÉLES: Add-Your-Face Christmas Friends (40 arc nélküli karakter PNG + 47 old. PDF + faliújság-betűk), 3,49 €, #4617254343. ~45 Higgsfield-kép. Következő: E2 Elf Family Role Shirts (PNG + Printify családi póló).

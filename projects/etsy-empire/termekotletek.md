@@ -9,6 +9,8 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 |---|---|---|---|---|
 | A0 | **Christmas Printables MEGA Bundle** (az összes karácsonyi printable egyben: countdown, kindness elf, játékok, ajándékcímkék) | magas kosárérték, 200k-cél fő emelője | 12,99 € | kész (2026-11-13) – a 2 karácsonyi gyerekkönyvből: Christmas Kids MEGA Bundle 76 old., 9,90 € (régi printable-fájlok nincsenek a repóban) |
 | A00 | **Kids Christmas Activity Book 30 oldal** (színező, labirintus, pontösszekötő) – Etsy PDF + Amazon KDP papírkönyv | KDP-n is fogy dec. 15-ig | 5,90 € / KDP 7,99 $ | kész (2026-11-13) |
+| E1 | **Add-Your-Face Christmas Friends** (40+ arc nélküli karakter PNG + nyomtatható PDF + faliújság-betűk) | Etsy-bestseller minta: ~7,5e megtekintés/listing, 2–3 $ – piackutatas/elf-bestseller-2026-11-14.md | 3,49 € | kész (2026-11-14) #4617254343 |
+| E2 | **Elf Family Role Shirts** (24 saját szerep, PNG + Printify családi póló) | „I'm the ___ elf” család: 2,9e–10,7e vélemény a versenytársaknál | 3,49 € / POD | ötlet |
 | K1 | **Elf Lifesaver Letters** (30 manólevél: érkezés, késés, megfogták, „igazi-e?”, búcsú) | Etsy-adat 2026-11-14: Kindness Elf Kit 296 megtek., 4,7% CTR, 1 eladás = legjobb termék | 3,99 € | kész (2026-11-14) |
 | K2 | **Easy Christmas Elf Ideas** (30 no-mess 5 perces ötlet + tervező + mini táblák) | Kindness Elf rokon | 3,99 € | kész (2026-11-14) |
 | K3 | **Kindness Advent Calendar Cards** (24 kedvességkártya + matricás tracker, manó nélkül is) | Kindness Elf: „kindness” kulcsszó viszi | 3,99 € | ötlet |
