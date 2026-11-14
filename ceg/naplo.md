@@ -109,3 +109,7 @@
 - Etsy-adat: Kindness Elf Kit 296 megtek., 14 katt. (4,7%), 1 eladás – messze a legjobb. Rokon termékek élesítve, 3,99 €: Elf Lifesaver Letters #4617157396, Easy Christmas Elf Ideas #4617157502. Ötletsor: K3–K6 (Kindness Advent Cards, Nice List Kit, Elf Kindness Bundle 7,99 €, Classroom Kindness Calendar).
 - KDP-borítók: gerincfelirat csak 100+ oldaltól (KDP 0,0625 in szabály), szerzőmező ≥0,5 in-re az éltől; kdp_audit.py: mind a 13 csomag mérete és szélső sávja rendben. Feltöltési lap normál betűvel.
 - Német könyv KÉSZ: „Gib ihnen ihr Staunen zurück” (Give Them Back Their Wonder DE, 88 old., 9,9e szó, 12,99 € / Kindle 4,99 €), német segélyvonal (Nummer gegen Kummer). Still Lit DE újraépítve (a sorozatoldalon a német Wonder már elérhető).
+
+## 2026-11-14 – KDP heti 5-címes limit → stratégia
+- Nóra elérte a heti 5 KDP-cím limitet. Új: ceg/projektek/kdp-feltoltesi-sor.md (15 hely dec. 7-ig, karácsonyi/Nikolaus prioritás), könyvgyártás heti 2 könyvre lassítva, a többi kapacitás csatornákra: Etsy PDF (MEGCSINÁLNI), Draft2Digital e-könyv (MEGCSINÁLNI, Nóra fiókot nyit), TPT (TESZTELNI), Payhip (később), Lulu/epubli (ELVETNI idénre). KDP Select: NEM a széles terjesztésű e-könyveknél.
+- Etsy élesítve: Weihnachts-Malbuch (3,99 €) és Weihnachts-Rätselbuch (4,99 €) PDF-ben, Nikolausra. listing_kepek.py: üres oldalak kihagyása.

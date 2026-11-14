@@ -61,7 +61,13 @@ def main():
         # 2) mi van benne – rács
         c = canvas(t2, s2)
         cols, cw = 3, 560
-        for i, p in enumerate(ps[1:7]):
+        # üres / szinte üres oldalak kihagyása (pl. copyright-oldal, hátoldal) – Nóra, 2026-11-14
+        def ink(path):
+            g = Image.open(path).convert("L").resize((120, 160))
+            return sum(1 for v in g.getdata() if v < 200) / (120 * 160)
+        full = [q for q in ps[1:] if ink(q) > 0.02] or ps[1:]
+        racs = [ps[i] for i in k.get("racs", []) if i < n] or full[:6]
+        for i, p in enumerate(racs[:6]):
             cd = card(p, cw)
             c.paste(cd, (110 + (i % cols) * (cw + 50), 420 + (i // cols) * 1000), cd)
         c.save(out / "02-inside.jpg", quality=92)
