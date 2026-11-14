@@ -217,7 +217,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
 | **Trim size** | **{trim(b)[0]:g} x {trim(b)[1]:g} in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
 | Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` ({n} oldal) + `cover.pdf`; ár **{b['price_paperback']}{'' if 'EUR' in b['price_paperback'] else ' $'}** |
-| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **{b['price_kindle']}{'' if 'EUR' in b['price_kindle'] else ' $'}** (70% royalty sáv: 2,99–9,99 $); {'**KDP Select: NEM** – a német e-könyv Draft2Digitalon a Tolino-boltokba is megy' if b.get('lang') == 'de' else '**KDP Select: IGEN** (angol: Kindle Unlimited, csak Amazon)'} |
+| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **{b['price_kindle']}{'' if 'EUR' in b['price_kindle'] else ' $'}** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon – Draft2Digital csak eladási küszöb felett, lásd ceg/projektek/kdp-feltoltesi-sor.md) |
 
 ## Description
 {b['description']}

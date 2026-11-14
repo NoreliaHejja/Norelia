@@ -27,15 +27,13 @@ Ami már fent van (Nóra jelöli): ______________________________
 
 ## Következmény a gyártásra
 - Hetente max. 5 KDP-hely → a könyvgyártás tempója: **heti 2 új könyv (1 EN + 1 DE)**, nem napi. A fölösleges kapacitás a többi csatornára megy (lásd lent).
-- A Gentle-sorozat könyveit **„széles” e-könyv-terjesztésre** is előkészítjük (Draft2Digital) → ott nincs heti KDP-limit.
-- **E-könyv szabály (2026-11-14, piaci adatok alapján):** ANGOL e-könyv → csak Amazon, **KDP Select IGEN** (USA: Amazon ~65–75% e-könyv-piac, Kindle Unlimited többet hoz). NÉMET e-könyv → **KDP Select NEM + Draft2Digital** (DE: Tolino ~40–45%, Amazon ~40%). Várható többlet: német könyvenként ~+5–15 $/hó nettó. A D2D 20 $ egyszeri aktiválás + 12 $/év, ha <100 $/év bevétel; jutalék ~10%.
-- Noch brennt das Licht: már Selectben (90 nap) → megújítás KI, utána D2D.
+- **E-könyv szabály (Nóra, 2026-11-14):** MINDEN e-könyv (angol és német is) csak Amazon, **KDP Select IGEN**. Draft2Digital ELHALASZTVA: akkor nyitjuk meg, ha a német könyvek együtt ≥30 e-könyv/hó eladást hoznak az Amazonon, vagy ≥10 német cím van. A 20 $ aktiválást addig nem fizetjük (csak terjesztéskor esedékes).
 
 ## Csatornák az Amazonon kívül (2026-11-14 döntés)
 | Rang | Csatorna | Mit | Mikor él | Döntés |
 |---|---|---|---|---|
 | 1 | **Etsy** (meglévő bolt) | a KDP-könyvek **PDF-változata**: német Malbuch + Rätselbuch (még nincs fent), Gentle-könyvek „printable workbook” PDF-ként | azonnal, automatikusan | MEGCSINÁLNI |
-| 2 | **Draft2Digital** | CSAK a német e-könyvek: Tolino (Thalia, Hugendubel), Apple, Kobo, könyvtárak | pár nap | MEGCSINÁLNI (Nóra regisztrált; 20 $ az első feltöltéskor) |
+| 2 | **Draft2Digital** | német e-könyvek: Tolino, Apple, Kobo | – | ELHALASZTVA (küszöb: ≥30 német e-könyv/hó az Amazonon vagy ≥10 német cím) |
 | 3 | **Teachers Pay Teachers** | gyerek karácsonyi foglalkoztatók, kifestők, Kindness Elf osztály-verzió (US tanárok/szülők) | 1–2 nap | TESZTELNI (1 hét, 3 termék) |
 | 4 | **Payhip** | közvetlen PDF-eladás Emily „link in bio”-jából (5% díj ingyenes csomagban) | azonnal | később (ha Emily-forgalom nő) |
 | – | Lulu / epubli / BoD (papírkönyv máshol) | idén karácsonyra túl lassú és kevés a forgalom | – | ELVETNI (januárban újranézni) |

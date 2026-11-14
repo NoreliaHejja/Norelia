@@ -14,7 +14,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
 | **Trim size** | **6 x 9 in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
 | Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (80 oldal) + `cover.pdf`; ár **10.99 $** |
-| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 $** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (angol: Kindle Unlimited, csak Amazon) |
+| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 $** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon) |
 
 ## Description
 "Everyone has someone. Except me."

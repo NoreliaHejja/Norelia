@@ -14,7 +14,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
 | **Trim size** | **6.14 x 9.21 in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
 | Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (81 oldal) + `cover.pdf`; ár **10.99 EUR** |
-| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 EUR** (70% royalty sáv: 2,99–9,99 $); **KDP Select: NEM** – a német e-könyv Draft2Digitalon a Tolino-boltokba is megy |
+| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 EUR** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon) |
 
 ## Description
 „Alle haben jemanden. Nur ich nicht.“

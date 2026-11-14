@@ -113,3 +113,4 @@
 ## 2026-11-14 – KDP heti 5-címes limit → stratégia
 - Nóra elérte a heti 5 KDP-cím limitet. Új: ceg/projektek/kdp-feltoltesi-sor.md (15 hely dec. 7-ig, karácsonyi/Nikolaus prioritás), könyvgyártás heti 2 könyvre lassítva, a többi kapacitás csatornákra: Etsy PDF (MEGCSINÁLNI), Draft2Digital e-könyv (MEGCSINÁLNI, Nóra fiókot nyit), TPT (TESZTELNI), Payhip (később), Lulu/epubli (ELVETNI idénre). KDP Select: NEM a széles terjesztésű e-könyveknél.
 - Etsy élesítve: Weihnachts-Malbuch (3,99 €) és Weihnachts-Rätselbuch (4,99 €) PDF-ben, Nikolausra. listing_kepek.py: üres oldalak kihagyása.
+- 2026-11-14: Draft2Digital elhalasztva (eladási küszöbig), minden e-könyv KDP Selectben.
