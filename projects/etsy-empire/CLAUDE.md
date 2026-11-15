@@ -46,6 +46,7 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 - Mérce: 1 termék ≈ 1 óra Claude-munka, 0 Ft; Nóra ideje terméken ≤ 5 perc (jóváhagyás).
 
 ## Printify POD (2026-11-12)
+- **Napi max. 2 POD-termék (Nóra, 2026-11-15)**: a rendelések Printify-költségét Nóra előre fizeti, ezért kevesebb, jobban kiválasztott termék. Alap: 1 dizájn → felnőtt póló + bögre.
 - Bolt: Printify „Aurelia Venn” (28692848), Etsy-hez kötve. Feltöltő: `printify_uploader.py pod/<slug>.json [--publish]`; token a proxyban (api.printify.com network secret).
 - Dizájn-szabálykönyv: `pod/DESIGN.md` (fantáziadús, trendi, ötlet-alapú; védjegy tilos). Minden új POD-dizájn ez alapján.
 - TikTok Shop: a Printify-integráció csak US eladónak megy, magyar eladó nem regisztrálhat → most nem (lásd ceg/naplo.md).

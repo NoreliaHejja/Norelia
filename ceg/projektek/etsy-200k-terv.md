@@ -20,7 +20,7 @@ Ez a mostani tempó (~1 rendelés/hó) kb. 100-szorosa → esély reálisan ~30%
 ## Költség: az Etsy-keret ideiglenesen ~80 000 Ft/hó (nov.–dec.), utána vissza 40 000 Ft-ra.
 
 ## Claude csinálja (automatán)
-1. POD-volumen: nov. 30-ig napi 3 dizájn × 3 termék (~160 új listing), utána napi 1. Fókusz: családi összeillő szett, macskás/kutyás.
+1. POD-volumen: **napi max. 2 termék** (Nóra, 2026-11-15: a rendelések költségét előre kell fizetni) – 1 dizájn → póló + bögre. Fókusz: családi összeillő szett, macskás/kutyás.
 2. Kosárérték: Christmas Printables MEGA Bundle 12,99 € + Kids Christmas Activity Book (Etsy PDF + KDP).
 3. Forgalom: napi 10 poszt + 3 reel; Pinterest a fő (printable-ök ott fogynak).
 4. Hétfőnként Ads-kiértékelés a képernyőkép alapján, emelési szabály szerint.

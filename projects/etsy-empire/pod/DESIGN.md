@@ -26,7 +26,7 @@ macskás anya/apa, kutyás anya, tanár, nővér, könyvmoly, kávéfüggő, csa
 ## 4. Termékformátum
 - Póló: Bella 3001 VAGY Comfort Colors 1717 (prémium, trendi). Pulóver: Gildan 18000. Bögre 11 oz.
 - **Hátul nagy minta + elöl kis „zsebminta”** (trend) – ahol a blueprint engedi.
-- Egy dizájn = 3–4 termék (póló, pulóver, bögre, gyerekpóló).
+- **Napi max. 2 POD-termék összesen (Nóra, 2026-11-15)** – rendelésenként előre kell fizetni a Printify-költséget. Alap: 1 dizájn/nap = felnőtt póló + bögre (gyerekpóló/pulóver csak akkor, ha aznap nincs bögre).
 - Színek: Sand, Natural, Ivory, Pepper, Light Pink, Ash, Forest Green – sötét pólóra világos változat kell.
 
 ## 5. Generálás

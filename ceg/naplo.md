@@ -123,3 +123,5 @@
 - POD: 3 dizájn (Cookie Taster / Sleepy / Bossy Elf) × póló + gyerekpóló + bögre = 9 termék; bögrék 3-3 saját Higgsfield-mockuppal (`scripts/etsy_mug_images.py`, új).
 - Költség: 3 + 9 listing ≈ 2,40 $; Higgsfield ~20 generálás. Novemberi élesített listingek eddig: 47 db ≈ 9,40 $.
 - Eredmény Ft-ban: még nincs.
+
+- 2026-11-15 (Nóra): POD napi max. 2 termék (előfinanszírozás miatt). Szabálykönyv, 200k-terv és a napi ütemezett feladat frissítve.
