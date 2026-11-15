@@ -126,3 +126,5 @@
 
 - 2026-11-15 (Nóra): POD napi max. 2 termék (előfinanszírozás miatt). Szabálykönyv, 200k-terv és a napi ütemezett feladat frissítve.
 - 2026-11-15 Gentle-futás: heti könyvkeret betelt (4 könyv a héten: Still Lit, Wonder + 2 DE) → C) csatorna: Screen-Free Winter Break Planner (9 old., 3,99 €), kísérő a „Give Them Back Their Wonder”-hez, Etsy-n élesítve. Szabály: az Etsy-re csak új munkalap kerül, a könyv szövege nem (KDP Select kizárólagosság). Jövő heti KDP-sor: Malbuch, Rätselbuch, Coloring EN, Activity EN, Still Lit (kdp-feltoltesi-sor.md).
+
+- 2026-11-15 Boltjavítás (Nóra kérése): 20 digitális termék négyzetes, kivágás-biztos 1. képe; 8 póló új életkép első képnek, 4 bögre kézben tartott képe előre; rovat-hozzárendelés és bolt-szövegek előkészítve (shops_w engedélyre vár). Lelet: pólók/pulóverek csak US/CA/AU-ba szállíthatók. Részletek: projects/etsy-empire/bolt/BOLT-JAVITAS-2026-11-15.md

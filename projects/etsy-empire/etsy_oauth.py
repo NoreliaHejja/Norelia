@@ -21,7 +21,7 @@ TOKEN_FILE = CONF / "token.json"
 PKCE_FILE = CONF / "pkce.json"
 KEYSTRING_FILE = CONF / "keystring"
 REDIRECT = "https://reinigung-kalkulieren.de/etsy-callback"
-SCOPES = "listings_w listings_r listings_d shops_r transactions_r transactions_w"
+SCOPES = "listings_w listings_r listings_d shops_r shops_w transactions_r transactions_w"
 TOKEN_URL = "https://api.etsy.com/v3/public/oauth/token"
 APIKEY_FILE = CONF / "apikey"
 
