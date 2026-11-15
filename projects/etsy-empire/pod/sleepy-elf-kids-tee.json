@@ -1,0 +1,61 @@
+{
+  "blueprint_id": 157,
+  "print_provider_id": 99,
+  "variant_ids": [
+    42516,
+    42517,
+    42518,
+    42519,
+    42520,
+    42511,
+    42512,
+    42513,
+    42514,
+    42515,
+    42744,
+    42745,
+    42746,
+    42747,
+    42748,
+    42724,
+    42725,
+    42726,
+    42727,
+    42728
+  ],
+  "price_cents": {
+    "default": 1499
+  },
+  "scale": 0.75,
+  "y": 0.38,
+  "slug": "sleepy-elf-kids-tee",
+  "design": "sleepy-elf.png",
+  "title": "Kids I'm the Sleepy Elf Shirt, Matching Family Christmas Elf Tee for Kids, Funny Elf T-Shirt, Boys and Girls Christmas Shirt",
+  "tags": [
+    "sleepy elf",
+    "sleepy elf shirt",
+    "tired elf",
+    "kids elf shirt",
+    "kids christmas tee",
+    "family elf shirts",
+    "matching christmas",
+    "funny elf tee",
+    "family christmas",
+    "kids holiday shirt",
+    "elf squad shirt",
+    "christmas for kids",
+    "christmas gift kids"
+  ],
+  "description": "The kids' version of our matching family elf shirts: \"I'm the Sleepy Elf\" with a hand-drawn elf hat.\n\nSoft youth tee (Gildan 5000B). Printed on demand, printed design.\n\nCARE: wash cold inside out, tumble dry low.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Not affiliated with any elf doll brand.",
+  "printify_image_id": "6af95679cdf653c000abfac3",
+  "printify_product_id": "6af9567ec745d035040ee57b",
+  "mockups": [
+    "https://images.printify.com/mockup/6af9567ec745d035040ee57b/42519/105377/kids-im-the-sleepy-elf-shirt-matching-family-christmas-elf-tee-for-kids-funny-elf-t-shirt-boys-and-girls-christmas-shirt.jpg?camera_label=front",
+    "https://images.printify.com/mockup/6af9567ec745d035040ee57b/42519/105378/kids-im-the-sleepy-elf-shirt-matching-family-christmas-elf-tee-for-kids-funny-elf-t-shirt-boys-and-girls-christmas-shirt.jpg?camera_label=back",
+    "https://images.printify.com/mockup/6af9567ec745d035040ee57b/42519/109406/kids-im-the-sleepy-elf-shirt-matching-family-christmas-elf-tee-for-kids-funny-elf-t-shirt-boys-and-girls-christmas-shirt.jpg?camera_label=front-2",
+    "https://images.printify.com/mockup/6af9567ec745d035040ee57b/42519/109407/kids-im-the-sleepy-elf-shirt-matching-family-christmas-elf-tee-for-kids-funny-elf-t-shirt-boys-and-girls-christmas-shirt.jpg?camera_label=back-2",
+    "https://images.printify.com/mockup/6af9567ec745d035040ee57b/42519/108626/kids-im-the-sleepy-elf-shirt-matching-family-christmas-elf-tee-for-kids-funny-elf-t-shirt-boys-and-girls-christmas-shirt.jpg?camera_label=person-1-front",
+    "https://images.printify.com/mockup/6af9567ec745d035040ee57b/42519/108627/kids-im-the-sleepy-elf-shirt-matching-family-christmas-elf-tee-for-kids-funny-elf-t-shirt-boys-and-girls-christmas-shirt.jpg?camera_label=person-1-back"
+  ],
+  "status": "publikalas_elinditva"
+}

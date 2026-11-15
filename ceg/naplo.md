@@ -116,3 +116,10 @@
 - 2026-11-14: Draft2Digital elhalasztva (eladási küszöbig), minden e-könyv KDP Selectben.
 - 2026-11-14: Etsy-bestseller elemzés (elf / add your face) → piackutatas/elf-bestseller-2026-11-14.md. ÉLES: Add-Your-Face Christmas Friends (40 arc nélküli karakter PNG + 47 old. PDF + faliújság-betűk), 3,49 €, #4617254343. ~45 Higgsfield-kép. Következő: E2 Elf Family Role Shirts (PNG + Printify családi póló).
 - 2026-11-14: Árak maradnak (Nóra). Névre szóló termékek ÉLES: Christmas Cocoa név-bögre #4617268063, Reindeer név-bögre #4617268117 (16,99 €), Family Christmas név-póló #4617268293 (felnőtt 22,99 € / gyerek 16,99 €). Automatikus teljesítés: personalized/orders.py (napi 2×, max 10 rendelés/nap). Printify tesztrendelés OK és törölve (bögre 6,44 $ + 7,69 $ szállítás). Etsy tracking-jog (transactions_w) megadva 11-14 este. Printify-kártya: Nóra az első rendeléskor adja meg; addig a rendelés leadódik, a gyártást a script minden futáskor újrapróbálja.
+
+## 2026-11-15 – etsy-empire napi futás (Claude, ütemezett)
+- Új: Kindness Advent Calendar Cards (11 old., 3,99 €) #4617660349; Elf Family Role Shirts PNG (24 saját szerep, ZIP 6,9 MB, 3,49 €) #4617668990.
+- Kiegészítés (bundle): Christmas Elf & Kindness Bundle (36 old., 7,99 €; külön 11,97 €) #4617669906.
+- POD: 3 dizájn (Cookie Taster / Sleepy / Bossy Elf) × póló + gyerekpóló + bögre = 9 termék; bögrék 3-3 saját Higgsfield-mockuppal (`scripts/etsy_mug_images.py`, új).
+- Költség: 3 + 9 listing ≈ 2,40 $; Higgsfield ~20 generálás. Novemberi élesített listingek eddig: 47 db ≈ 9,40 $.
+- Eredmény Ft-ban: még nincs.
