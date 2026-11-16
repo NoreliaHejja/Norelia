@@ -134,3 +134,4 @@
 - Kiegészítés: Merry Birdmas mug wrap PNG (2,49 €) #4618344557 (új generátor: scripts/build_mug_wrap.py).
 - POD (napi max. 2): Merry Birdmas póló #4618349520 (1. kép életkép) + bögre #4618349558 (3 saját mockup, kézben tartott elöl).
 - Költség: 5 listing ≈ 1,00 $; novemberi élesített listingek: 53 db ≈ 10,60 $. Higgsfield ~10 generálás + 1 upscale.
+- 2026-11-16 Gentle-futás: új hét (0 kész könyv) → A) I Didn't Mean to Yell (HOSSZÚ) futás 1/3: ALAPANYAG.md (fájdalompontok, bizonyítékalap, rés, fejezetterv, Further reading), Levél + 1–5. fejezet, 8,5e szó; borító + 4 fejezetkép kész (borító Lanczos 250%, a Higgsfield 2k upscale job a 2/3-ban cserélhető). B) német: a Yell DE az angol után jön. Jövő heti KDP-sor változatlan.
