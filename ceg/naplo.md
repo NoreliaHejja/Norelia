@@ -128,3 +128,9 @@
 - 2026-11-15 Gentle-futás: heti könyvkeret betelt (4 könyv a héten: Still Lit, Wonder + 2 DE) → C) csatorna: Screen-Free Winter Break Planner (9 old., 3,99 €), kísérő a „Give Them Back Their Wonder”-hez, Etsy-n élesítve. Szabály: az Etsy-re csak új munkalap kerül, a könyv szövege nem (KDP Select kizárólagosság). Jövő heti KDP-sor: Malbuch, Rätselbuch, Coloring EN, Activity EN, Still Lit (kdp-feltoltesi-sor.md).
 
 - 2026-11-15 Boltjavítás (Nóra kérése): 20 digitális termék négyzetes, kivágás-biztos 1. képe; 8 póló új életkép első képnek, 4 bögre kézben tartott képe előre; rovat-hozzárendelés és bolt-szövegek előkészítve (shops_w engedélyre vár). Lelet: pólók/pulóverek csak US/CA/AU-ba szállíthatók. Részletek: projects/etsy-empire/bolt/BOLT-JAVITAS-2026-11-15.md
+
+## 2026-11-16 – etsy-empire napi futás (Claude, ütemezett)
+- Új: Santa's Nice List Kit (10 old., 3,99 €) #4618343531; Classroom Kindness Calendar (11 old., 4,90 €) #4618343587. Első kép már négyzetes (square_cover).
+- Kiegészítés: Merry Birdmas mug wrap PNG (2,49 €) #4618344557 (új generátor: scripts/build_mug_wrap.py).
+- POD (napi max. 2): Merry Birdmas póló #4618349520 (1. kép életkép) + bögre #4618349558 (3 saját mockup, kézben tartott elöl).
+- Költség: 5 listing ≈ 1,00 $; novemberi élesített listingek: 53 db ≈ 10,60 $. Higgsfield ~10 generálás + 1 upscale.

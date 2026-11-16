@@ -14,15 +14,15 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | K1 | **Elf Lifesaver Letters** (30 manólevél: érkezés, késés, megfogták, „igazi-e?”, búcsú) | Etsy-adat 2026-11-14: Kindness Elf Kit 296 megtek., 4,7% CTR, 1 eladás = legjobb termék | 3,99 € | kész (2026-11-14) |
 | K2 | **Easy Christmas Elf Ideas** (30 no-mess 5 perces ötlet + tervező + mini táblák) | Kindness Elf rokon | 3,99 € | kész (2026-11-14) |
 | K3 | **Kindness Advent Calendar Cards** (24 kedvességkártya + matricás tracker, manó nélkül is) | Kindness Elf: „kindness” kulcsszó viszi | 3,99 € | kész (2026-11-15) #4617660349 |
-| K4 | **Santa's Nice List Kit** (Nice List oklevél, Santa-levél, szarvas-eledel címke, kedvesség-bizonyítvány – szerkeszthető név) | perszonalizálás + kindness | 3,99 € | ötlet |
+| K4 | **Santa's Nice List Kit** (Nice List oklevél, Santa-levél, szarvas-eledel címke, kedvesség-bizonyítvány – szerkeszthető név) | perszonalizálás + kindness | 3,99 € | kész (2026-11-16) #4618343531 |
 | K5 | **Elf Kindness Bundle** (Kindness Elf Kit + Lifesaver Letters + Easy Elf Ideas egyben) | kosárérték-emelő, 3 nyerő termék | 7,99 € | kész (2026-11-15) #4617669906 – Lifesaver Letters + Easy Elf Ideas + Kindness Advent (a Kindness Elf Kit fájl nincs a repóban) |
-| K6 | **Classroom Kindness Calendar** (tanároknak, 24 osztálykedvesség-feladat, faliposzter) | Classroom Elf alig kap forgalmat → manó nélküli, „kindness” fókusz | 4,90 € | ötlet |
+| K6 | **Classroom Kindness Calendar** (tanároknak, 24 osztálykedvesség-feladat, faliposzter) | Classroom Elf alig kap forgalmat → manó nélküli, „kindness” fókusz | 4,90 € | kész (2026-11-16) #4618343587 |
 | T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | ötlet |
 | T2 | **Reading Journal & Book Tracker** (Etsy printable + KDP) | trendelemzés #2 | 7,90 € | ötlet |
 | T3 | **Self-Compassion / Mental Health Journal** | trendelemzés #3 | 6,90 € | ötlet |
 | T4 | **Bold & Easy Cozy Coloring Pages** (Etsy + KDP felnőtt kifestő) | trendelemzés #4 | 3,99 € / KDP 8,99 $ | ötlet |
 | A1 | Christmas Family Games Bundle (bingo, scavenger hunt, would you rather, charades) | top karácsonyi printable, családi est | 5,90 € | ötlet |
-| A2 | Letter from Santa + Nice List Certificate + Reindeer Food tag (szerkeszthető név) | perszonalizálás = top kereslet | 4,90 € | ötlet |
+| A2 | Letter from Santa + Nice List Certificate + Reindeer Food tag (szerkeszthető név) | perszonalizálás = top kereslet | 4,90 € | kész (2026-11-16) – a K4 Nice List Kitben |
 | A3 | Christmas Gift Tags & Wrapping Labels (60 db, 4 stílus, színes) | magas volumen, olcsó, impulzusvásárlás | 3,90 € | ötlet |
 | A4 | Kids Christmas Activity Book (30 oldal: színező, labirintus, pontösszekötő) | magas kereslet + KDP-képes (24+ oldal) | 5,90 € | ötlet |
 | A5 | Christmas Wall Art Set (3 nyomtatható kép, cozy vintage, több méret) | falikép = legnagyobb volumenű digitális kategória | 6,90 € | ötlet |
