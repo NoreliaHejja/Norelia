@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seite nicht gefunden | Reinigungsfirma OS</title>
+<meta name="description" content="Seite nicht gefunden.">
+<link rel="canonical" href="https://reinigung-kalkulieren.de/404">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 26 26%22%3E%3Crect width=%2226%22 height=%2226%22 rx=%227%22 fill=%22%230F4C5C%22/%3E%3Cpath d=%22M7 14.5l4 4 8-10%22 fill=%22none%22 stroke=%22%239FE3D1%22 stroke-width=%222.6%22 stroke-linecap=%22round%22/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt</a>
+<header class="subhero"><div class="wrap"><nav class="nav" aria-label="Hauptnavigation"><a class="logo" href="/"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="1" width="24" height="24" rx="7" fill="none" stroke="#9FE3D1" stroke-width="2"/><path d="M7 14.5l4 4 8-10" fill="none" stroke="#9FE3D1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Reinigungsfirma OS</a><button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menü</button><div class="nav-links" id="nav-links"><a href="/#rechner">Rechner</a><a href="/kalkulations-kit/">Kalkulations-Kit</a><a href="/#vorlagen">Vorlagen</a><a href="/#fragen">Fragen</a><a href="/kontakt/">Kontakt</a><a class="nav-cta" href="/kalkulations-kit/#kaufen">Kit kaufen · 29 €</a></div></nav><span class="eyebrow">Fehler 404</span><h1>Seite nicht gefunden</h1></div></header>
+<main id="inhalt">
+<section class="wrap"><div class="prose"><p>Die Seite gibt es nicht (mehr). Weiter zum <a href="/">Stundensatz-Rechner</a> oder zum <a href="/kalkulations-kit/">Kalkulations-Kit</a>.</p></div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+<div class="foot-grid">
+  <div><a class="logo-ink" href="/" style="text-decoration:none"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="1" width="24" height="24" rx="7" fill="none" stroke="#9FE3D1" stroke-width="2"/><path d="M7 14.5l4 4 8-10" fill="none" stroke="#9FE3D1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Reinigungsfirma OS</a>
+  <p>Kalkulationsvorlagen für Reinigungsfirmen in Deutschland, Österreich und der Schweiz.</p></div>
+  <div><h4>Produkte</h4><ul><li><a href="/#rechner">Stundensatz-Rechner</a></li><li><a href="/kalkulations-kit/">Kalkulations-Kit</a></li><li><a href="/warteliste/">Starter-Kit &amp; OS</a></li></ul></div>
+  <div><h4>Hilfe</h4><ul><li><a href="/#fragen">Häufige Fragen</a></li><li><a href="/kontakt/">Kontakt</a></li><li><a href="/garantie/">Lieferung &amp; Garantie</a></li></ul></div>
+  <div><h4>Rechtliches</h4><ul><li><a href="/impressum/">Impressum</a></li><li><a href="/datenschutz/">Datenschutz</a></li></ul></div>
+</div>
+<div class="foot-base"><span>© 2026 Reinigungsfirma OS</span><span>Verkauf und Zahlung über Digistore24 · Keine Cookies, kein Tracking</span></div>
+</div></footer><script>
+const LINKS = {"kit": ""};
+document.querySelectorAll("[data-link]").forEach(a => {
+  const url = LINKS[a.dataset.link];
+  if (url) { a.href = url; a.rel = "noopener"; return; }
+  a.addEventListener("click", e => {
+    const n = document.querySelector('[data-note="' + a.dataset.link + '"]');
+    if (n) { e.preventDefault(); n.hidden = false; n.scrollIntoView({block:"nearest"}); }
+  });
+});
+const mb = document.querySelector(".menu-btn"), nl = document.getElementById("nav-links");
+if (mb) mb.addEventListener("click", () => { const o = nl.classList.toggle("open"); mb.setAttribute("aria-expanded", o); });
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  const img = document.getElementById("shot"); img.src = b.dataset.src; img.alt = b.dataset.alt;
+  document.getElementById("shot-name").textContent = b.dataset.name;
+}));
+</script>
+</body>
+</html>

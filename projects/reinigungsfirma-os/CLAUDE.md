@@ -29,9 +29,11 @@ Ez a fájl a Claude Code projektmemóriája. Minden munkamenet elején olvasd el
 ```
 CLAUDE.md                 ← ez a fájl
 README.md                 ← gyors indítás, parancsok
-src/landing.src.html      ← a landing page FORRÁSA (ezt szerkeszd)
-site/                     ← GENERÁLT, ezt kell a Cloudflare Pagesre feltölteni
-  index.html              ← build_site.py állítja elő, kézzel ne szerkeszd
+src/landing.src.html      ← CSS-alap, a Rechner űrlapja és szkriptje, Impressum/Datenschutz forrása
+scripts/build_site.py     ← TÖBBOLDALAS build (2026-11-17): főoldal, /kalkulations-kit/, /warteliste/, /kontakt/,
+                             /garantie/, /impressum/, /datenschutz/, /danke/, 404.html, assets/site.css, sitemap.xml;
+                             a Digistore-link a LINKS = {"kit": ""} sorba kerül
+site/                     ← GENERÁLT, ezt kell a Cloudflare Pagesre feltölteni (img/: valódi Excel-képek)
   fonts/*.woff2           ← saját tárhelyről betöltött betűk (fetch_fonts.sh)
 scripts/
   build_site.py           ← src → site/index.html (Google Fonts → helyi @font-face)
