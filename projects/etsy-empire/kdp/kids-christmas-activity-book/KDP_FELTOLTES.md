@@ -36,12 +36,9 @@ Large 8.5 x 11 in pages for kids ages 4–8. A perfect stocking stuffer and trav
 Designed by our small shop, AureliaVenn, with the help of AI tools.
 
 ## Ellenőrzés
+- [x] Ellenőrizve (2026-11-17): 48 álló oldal, legkisebb margó 0,44 in, fontok beágyazva, borító 17,358 × 11,25 in, vonalkód-hely a KDP helyén
 - [ ] Previewer: nincs margóhiba
 - [ ] Feltöltés után Amazon Ads (Sponsored Products, automatic targeting): 2 $/nap dec. 1–20.
 
-## Kindle e-könyv (ha e-könyvként is feltöltöd)
-| Mező | Érték |
-|---|---|
-| Kindle eBook cover | `ebook-cover.jpg` (JPG, RGB, ~1978 × 2560 px – megfelel a KDP-szabálynak: min. 625 × 1000, max. 10 000 px) |
-| Manuscript | a papírkönyv `interior.pdf`-je helyett EPUB/DOCX kell; fix elrendezésű munkafüzetnél a KDP Kindle Create „Print Replica” módja (PDF-ből) |
-| KDP Select | IGEN |
+## Kindle e-könyv
+NEM töltjük fel: kitöltős gyerek-foglalkoztató – a KDP e-könyvként elutasíthatja, és a kutatás szerint papíron fogy.
