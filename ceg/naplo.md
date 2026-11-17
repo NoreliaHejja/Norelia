@@ -145,3 +145,8 @@
 
 ## 2026-11-17 – Gentle Life Guides (tartalom, ütemezett futás)
 - I Didn't Mean to Yell, 2/3 futás KÉSZ: 6–12. fejezet (02-part2b.md, 02-part2c.md), összesen ~15,2e szó. Sorozat-utalás mindkettő felhasználva (2. és 8. fej.), több nincs. Következő futás 3/3: 13–17. fej. + mellékletek + build. Bevétel: 0 Ft (még nincs kint).
+
+## 2026-11-17 – Könyvpiaci tanulságok beépítve (Nóra kutatása)
+- Papír/keménytáblás > Kindle (Elf: Kindle ~48 $/hó vs. keménytáblás 40–70 db/nap becslés) → minden Gentle-könyv keménytáblással is; Quick Finder mutató minden könyvbe.
+- Új TESZT: hit-alapú anyás alsorozat, 1 könyv (WEB közkincs igék), a Yell után. Etsy+KDP: Family Emergency Binder a következő új termék.
+- Elvetve: orvosi/túlélési szakkönyv, licenc-karakter, csak-Kindle. Részletek: projects/etsy-empire/piackutatas/konyvpiac-2026-11-17.md. Bevétel: 0 Ft (stratégia).

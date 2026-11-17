@@ -50,6 +50,15 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 
 Ütemezés: naponta 1 könyv (nov. 13: #2 bővítés, nov. 14: #3, nov. 15: #4, nov. 16: #5, nov. 17: #6). Minden kész könyv zip-ben Nórának + napló.
 
+## Piaci tanulságok → stratégia (Nóra kutatása, 2026-11-17; részletek: `piackutatas/konyvpiac-2026-11-17.md`)
+1. **Papír > Kindle.** Minden Gentle-könyv papír + **keménytáblás** (6x9, 75+ oldaltól; ár: papír +8 $, pl. 15,99 → 23,99 $); Kindle csak belépő ár. Teendő: `build_book.py` keménytáblás borító (wrap) – a Yell 3/3 buildjével együtt.
+2. **Quick Finder minden könyvben:** a tartalomjegyzék után 1–2 oldal „When you… → page” (helyzet szerinti mutató). a Yell 3/3-ban kerül be először.
+3. **Hit-alapú anyás vonal (TESZT, 1 könyv):** „Faith & Motherhood” alsorozat – témák szerint rendezett igék (csak közkincs fordítás: **World English Bible**) + rövid saját elmélkedés + ima + napló sor; zsebméret 5x8, ~130 oldal, papír 9,99 $, Kindle 2,99 $. Munkacím: *Grace for the Mom Who Yelled Today* (a Yell könyv témája, más polc). Tilos: kitalált teológus, egyházi jóváhagyás, „bestseller”. Mérés: 30 nap; ha ≥ a Gentle átlag, jöhet a 2. (mentális teher, határok).
+4. **Arány:** 80% örökzöld, 20% szezonális cím. Új címet csak alkategória-ellenőrzés után (a top 10 BSR-je és értékelésszáma), fej-kulcsszó helyett.
+5. **Nem csinálunk:** orvosi/túlélési szakkönyvet, licencelt karaktert, csak-Kindle kiadást.
+
+**Új sorrend:** #3 Yell (HOSSZÚ, 3/3) → **Faith-teszt (rövid)** → #4 Who Takes Care of Mom? (rövid) → #5 Brave Little Hearts (HOSSZÚ) → #6 The Woman Who Started Over.
+
 ## Német változatok (Nóra, 2026-11-12: MINDEN könyv németül is)
 - Szabály: minden angol könyvnek legyen német párja (amazon.de, EUR ár). Nem szó szerinti fordítás: természetes, meleg német, du-forma, a német piac szokásai (hétfővel kezdődő hét, cm-méretek, Kita/Schule).
 - Német segélyvonalak: Telefonseelsorge 0800 111 0 111 / 0800 111 0 222 (DE), 142 (AT), 143 (CH); Nummer gegen Kummer (Eltern) 0800 111 0 550.
