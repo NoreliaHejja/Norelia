@@ -150,3 +150,7 @@
 - Papír/keménytáblás > Kindle (Elf: Kindle ~48 $/hó vs. keménytáblás 40–70 db/nap becslés) → minden Gentle-könyv keménytáblással is; Quick Finder mutató minden könyvbe.
 - Új TESZT: hit-alapú anyás alsorozat, 1 könyv (WEB közkincs igék), a Yell után. Etsy+KDP: Family Emergency Binder a következő új termék.
 - Elvetve: orvosi/túlélési szakkönyv, licenc-karakter, csak-Kindle. Részletek: projects/etsy-empire/piackutatas/konyvpiac-2026-11-17.md. Bevétel: 0 Ft (stratégia).
+
+## 2026-11-17 – KDP heti keret elosztása (1 ebook, 2 papír, 2 keménytáblás)
+- Still Lit EN: papír + keménytáblás + Kindle (egy termékoldal 3 formátummal); Kids Christmas Activity Book EN: papír; Noch brennt das Licht: keménytáblás. Jövő hét: Give Them Back Their Wonder EN (3 formátum), Weihnachts-Malbuch/Rätselbuch DE, Coloring EN.
+- Keménytáblás borító: a KDP hivatalos sablonjából készül (a wrap/zsanér/gerinc méreteit a források eltérően adják).
