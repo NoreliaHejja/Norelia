@@ -136,3 +136,5 @@
 - Költség: 5 listing ≈ 1,00 $; novemberi élesített listingek: 53 db ≈ 10,60 $. Higgsfield ~10 generálás + 1 upscale.
 - 2026-11-16 Gentle-futás: új hét (0 kész könyv) → A) I Didn't Mean to Yell (HOSSZÚ) futás 1/3: ALAPANYAG.md (fájdalompontok, bizonyítékalap, rés, fejezetterv, Further reading), Levél + 1–5. fejezet, 8,5e szó; borító + 4 fejezetkép kész (borító Lanczos 250%, a Higgsfield 2k upscale job a 2/3-ban cserélhető). B) német: a Yell DE az angol után jön. Jövő heti KDP-sor változatlan.
 - 2026-11-16 (Nóra): Etsy -25% akció minden digitális termékre egy hétig (nov. 23-ig); Amazon: 2 e-könyv (Kindness Elf, Noch brennt das Licht) ingyenes nov. 17–21 (KDP Select Free Promotion). Etsy Ads: napi 10 $ (leállítási szabály nov. 21: ha költés >40 $ és hirdetési bevétel <2× → vissza 5 $-ra). Mérés: nov. 23-án eladások, letöltések, értékelések.
+
+- 2026-11-17: etsy-bolt skill (.claude/skills/etsy-bolt) + scripts/etsy_stats.py (napi pillanatkép). Adat: 77 listing, élettartam össz. 146 megtekintés, 1 kedvelés; a 7 napnál fiatalabb 52 listing átlag 0,2–0,5 megtekintés, 38-nak 0. A forgalom 80%-a a 30+ napos (macskás + Kindness Elf) listingeken.
