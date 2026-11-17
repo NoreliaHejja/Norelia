@@ -18,6 +18,9 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 | Emily reel (9:16 felirat) | `scripts/reel_overlay.sh`; videókönyvtár: `marketing_szovegek/emily_videok.json` |
 | posztcsomag | `social_poster.py` |
 
+## ÚJ RITMUS (Nóra, 2026-11-17) – ez felülírja a lenti napi 2+1-et
+Az Etsy Stats szerint (nov. 11–17: 19 látogató; Etsy-keresés 2, Ads 6, közösségi média 0) és az API szerint (az 52 új listing átlag 0,2–0,5 megtekintés) az új termék most nem hoz forgalmat. Ezért: **naponta 5 listing optimalizálása** (long-tail cím + 13 tag, `bolt/optimalizalas.json`), **új digitális termék csak H/Sze/P 1 db**, **POD szünet nov. 24-ig**, mérés `scripts/etsy_stats.py`. Etsy-tudás: `.claude/skills/etsy-bolt/SKILL.md`. Felülvizsgálat: nov. 24.
+
 ## Napi rutin (ütemezett futás, memória nélkül)
 1. Olvasd: ez a fájl, `persona.md`, `termekotletek.md`. Új termék: a két legfelső „ötlet” sor (ha 5 alá fogy a lista, előbb írj 10 új ötletet a persona alapján, ismétlés nélkül). Kiegészítés: a legrégebbi kész termék színváltozata, vagy ha van 3–4 rokon kész termék, bundle.
 2. Írj egy generátort: `scripts/build_<slug>.py` (közös elemek: `scripts/common.py`, stílus: `assets/base.css`) → `termekek/<slug>/<slug>.html`. Minták: `build_cook_with_me.py`, `build_meal_planner.py`. A listing.json-ba kerüljön `kepszoveg` (listingkép-feliratok) és `social` (poszt-szövegek Emily hangján).
