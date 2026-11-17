@@ -11,6 +11,7 @@ Nóra döntése (2026-11-12): angol (német fordítás jan.-tól), 6x9 papírkö
 - Build: `python3 scripts/build_book.py books/<slug>` → out/interior.pdf, cover.pdf, book.epub, front.jpg, KDP_FELTOLTES.md.
 - Árazás: 70–90 oldal 10,99 $; 90+ oldal 12,99 $; Kindle 4,99 $ (KDP Select).
 
+- **Emberi hang – kötelező szerkesztői kör (Nóra, 2026-11-17):** minden fejezetfájl megírása után, build előtt: angol szövegnél a `humanizer` skill (.claude/skills/humanizer), német szövegnél a `humanizer-de` skill (`python3 .claude/skills/humanizer-de/scripts/humanizer_audit.py --file <fájl> --mode locker`, majd a pass-ok). Mérce: `books/WRITING-RULES-anti-ai.md` (tiltott szavak: delve, tapestry, journey…, gondolatjel-keret, „not X but Y”, összefoglaló zárás, túlmagyarázás). A tartalom, a szkriptek, a segélyvonalak és a tények nem változhatnak (claim-lock); kitalált személyes élmény tilos. Ez minőségi szerkesztés, nem az AI-közlés kikerülése: a KDP-n az AI-használatot továbbra is jelöljük.
 
 ## Érzelmi szövegírás és meggyőzés (Nóra, 2026-11-12: Robert Greene + Újszászi Bogár László befolyásolástechnika)
 Cím, alcím, hátsó borító, Amazon-leírás képlete:

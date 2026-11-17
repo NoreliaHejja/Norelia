@@ -164,3 +164,4 @@
 - 2026-11-17: KDP-csomagok kész: Still Lit EN (papír + keménytáblás 13,664×10,207 in + Kindle, ebook-cover 1707×2560, EPUB valid) és Kids Christmas Activity Book EN (papír; Kindle nem). Zip: projects/etsy-empire/books/_zip/.
 - 2026-11-17: Still Lit EN keménytáblás borító újra: 13,944×10,417 in (KDP: 6x9 hardcover = 6.14x9.21 tábla).
 - 2026-11-17: Jövő heti (nov. 23) KDP-csomagok kész, 9 zip: Wonder EN (papír+keménytáblás+Kindle), Christmas Coloring EN papír, Staunen DE keménytáblás, + 6 papír tartalék. Sorrend: ceg/projektek/kdp-feltoltesi-sor.md.
+- 2026-11-17: Skillek: humanizer (EN) + humanizer-de telepítve (.claude/skills, MIT, csak helyi szkriptek; az LLM-hívó two_pass kihagyva). claude-book-skill NEM (docx-kimenet, 5–8 agent/fejezet, szerzői mintára épül) – csak a writing-rules átvéve: books/WRITING-RULES-anti-ai.md. SOROZAT.md: kötelező humanizer-kör build előtt.
