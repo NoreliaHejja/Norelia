@@ -16,7 +16,7 @@ Sorrend: **1. Kalkulations-Kit (29 €)** → mentés → **2. Preiserhöhungs-P
 | Tag | reinigung, kalkulation, stundensatz, angebot, excel-vorlage |
 | Affiliate commission | **30 %** + 0,00 EUR (29 € mellett ez kb. 8,70 €/eladás a partnernek; 10 %-ért senki nem ajánlja) |
 | Automatically accept affiliations | Yes |
-| Sales page | `https://reinigung-kalkulieren.de/#vorverkauf` |
+| Sales page | `https://reinigung-kalkulieren.de/` (kézzel begépelve, # és szóköz nélkül – a #-os változatot a Digistore „Malformed URL” hibával elutasítja) |
 | Upsell page | üres |
 | Thank you page | **üres** → a Digistore24 saját köszönőoldala adja a letöltést (ha később saját oldal lesz, rá kell írni: „The debit will be performed by Digistore24.com”) |
 | Second thank you page | üres |
@@ -68,7 +68,7 @@ Minden marad alapértéken (Can be bought individually…, nincs kezdés/befejez
 | Product type * | ugyanaz a letölthető típus, mint az 1.-nél |
 | Tag | preiserhöhung, reinigung, musterschreiben, excel-vorlage |
 | Affiliate commission | 30 % |
-| Sales page | `https://reinigung-kalkulieren.de/#vorverkauf` |
+| Sales page | `https://reinigung-kalkulieren.de/` (kézzel begépelve, # és szóköz nélkül – a #-os változatot a Digistore „Malformed URL” hibával elutasítja) |
 | Thank you page | üres |
 | Active | Yes |
 | Invoice description | Preiserhöhungs-Paket für Reinigungsfirmen, Excel-Rechner und Musterschreiben (digitaler Download) |
