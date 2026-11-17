@@ -43,5 +43,6 @@ Designed by our small shop, AureliaVenn, with the help of AI tools. Pet pages ar
 | Mező | Érték |
 |---|---|
 | Kindle eBook cover | `ebook-cover.jpg` (JPG, RGB, ~1978 × 2560 px – megfelel a KDP-szabálynak: min. 625 × 1000, max. 10 000 px) |
-| Manuscript | a papírkönyv `interior.pdf`-je helyett EPUB/DOCX kell; fix elrendezésű munkafüzetnél a KDP Kindle Create „Print Replica” módja (PDF-ből) |
+| Manuscript | **`ebook-fixed.epub`** (fix elrendezésű EPUB3, álló tájolás rögzítve – NE a PDF-et töltsd fel, mert a KDP-konverter a képoldalakat fekvőbe forgatja) |
 | KDP Select | IGEN |
+| Figyelem | A KDP az írásra szánt (kitöltős) tartalmat e-könyvként elutasíthatja („content meant to be written in”). Ha visszadobja: maradjon csak papírkönyv. |
