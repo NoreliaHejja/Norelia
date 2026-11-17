@@ -160,3 +160,4 @@
 - kdp_cover.py + build_kdp_bundle.py: vonalkód-hely javítva; gerincfelirat 80 → 100 oldaltól (a 85 oldalas Family Planner 2027 / Familienplaner borítóján szabálytalan gerincszöveg volt). 10 kdp-csomag borítója javítva (kdp_cover_fix.py).
 - Ellenőrzés: minden belív álló (rot 0), méretek egyeznek; a Gentle-könyvek EPUB-ja újratördelhető (nem forog), a planner fix EPUB álló.
 - 2026-11-17: Noch brennt das Licht keménytáblás borító (13,946×10,417 in) – scripts/hardcover_cover.py.
+- 2026-11-17: KDP hardcover 'text outside the margins' (Noch brennt das Licht belív): oldalszám 0,25 → 0,55 in a lap aljától; 4 Gentle-könyv belíve újraépítve, oldalszám változatlan.

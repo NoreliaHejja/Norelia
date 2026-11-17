@@ -129,7 +129,7 @@ def build(folder: Path):
     subprocess.run(["node", "-e", f"""
 const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch();const p=await b.newPage();
 await p.goto('file://{od/'interior.html'}',{{waitUntil:'networkidle'}});
-await p.pdf({{path:'{pdf}',width:'{TW}in',height:'{TH}in',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="width:100%;text-align:center;font-size:8px;font-family:serif;color:#444"><span class="pageNumber"></span></div>'}});await b.close();}})();"""], check=True)
+await p.pdf({{path:'{pdf}',width:'{TW}in',height:'{TH}in',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="width:100%;text-align:center;font-size:8px;font-family:serif;color:#444;padding-bottom:0.3in"><span class="pageNumber"></span></div>'}});await b.close();}})();"""], check=True)
     n = int([l for l in subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout.splitlines() if l.startswith("Pages:")][0].split()[1])
     if n % 2: n += 0
     # EPUB (Kindle) – színes képekkel
@@ -249,7 +249,7 @@ def kdp_check(folder: Path, b, n):
     # biztonsági sáv: a lap szélétől 0,25 in-en belül nem lehet tinta (KDP no-bleed: min. 0,25 in külső margó)
     tmp = od / "_chk"; tmp.mkdir(exist_ok=True)
     subprocess.run(["pdftoppm", "-r", "40", "-gray", "-png", str(od / "interior.pdf"), str(tmp / "p")], check=True)
-    band = int(0.25 * 40)
+    band = int(0.45 * 40)  # 2026-11-17: keménytáblás ellenőrzés miatt min. 0,45 in szabad szél (oldalszám is)
     for f in sorted(tmp.glob("p-*.png")):
         a = np.array(Image.open(f))
         edge = np.concatenate([a[:band].ravel(), a[-band:].ravel(), a[:, :band].ravel(), a[:, -band:].ravel()])

@@ -41,6 +41,3 @@ Du kannst die Jahreszeit nicht ändern. Aber du kannst ändern, wie sie sich von
 Dieses Buch ersetzt keine professionelle Hilfe.
 
 (~9303 szó)
-
-## Keménytáblás (Hardcover) – 2026-11-17
-- Trim 6.14 x 9.21 in, white paper, Matte; belív: ugyanaz az `interior.pdf` (81 oldal); borító: **`cover-hardcover.pdf` (13,946 × 10,417 in, a KDP által kért méret)**. Ár: 19,99 €. ISBN: a KDP ingyenes, külön hardcover-ISBN-je.
