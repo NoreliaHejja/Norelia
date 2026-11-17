@@ -37,3 +37,7 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 
 ## 2026-11-17/21 – akció-posztok (Nóra jóváhagyta 11-16)
 - 11.17 10:00 IG+FB #430104146 · 11.17 12:30 pin #430104188 · 11.21 15:00 IG+FB #430104281
+
+## 2026-11-17 (Emily, ütemezve 11-16 este / 11-17 hajnal – a futás két munkafolyamat-újraindulás miatt csúszott)
+- 01:30 pin Pumpkin Cat (régi) · 05:00 IG+FB+Pin Nice List Kit #430625261 · 07:30 REEL Elf family PNG #431034069 · 10:00 IG+FB akció #430104146 · 12:30 pin akció #430104188 · 15:00 IG+FB+Pin Merry Birdmas bögre #431032514 · 17:00 pin Classroom Kindness #431034158 · 18:30 REEL Bossy Elf bögre #431034387 · 21:00 IG+FB Thankful Ten (régi) · 23:00 pin Cookie Taster póló #431034241
+- Könyvtár: +13 reel (11-15: 7, 11-16: 6), +14 életkép. Kredit 11-16: ~95 (6 videó); egyenleg ~1 780.
