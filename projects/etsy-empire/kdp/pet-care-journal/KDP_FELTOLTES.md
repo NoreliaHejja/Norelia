@@ -34,12 +34,9 @@ A planning aid, not veterinary advice. Large 8.5 x 11 in.
 Designed by our small shop, AureliaVenn, with the help of AI tools.
 
 ## Ellenőrzés
+- [x] Ellenőrizve (2026-11-17): álló oldalak, margó ≥0,48 in, borítóméret a KDP-képlet szerint, vonalkód-hely a KDP helyén, gerincen nincs felirat (<100 old.)
 - [ ] Previewer: nincs margóhiba
 - [ ] Feltöltés után Amazon Ads (Sponsored Products, automatic targeting): 2 $/nap dec. 1–20.
 
-## Kindle e-könyv (ha e-könyvként is feltöltöd)
-| Mező | Érték |
-|---|---|
-| Kindle eBook cover | `ebook-cover.jpg` (JPG, RGB, ~1978 × 2560 px – megfelel a KDP-szabálynak: min. 625 × 1000, max. 10 000 px) |
-| Manuscript | a papírkönyv `interior.pdf`-je helyett EPUB/DOCX kell; fix elrendezésű munkafüzetnél a KDP Kindle Create „Print Replica” módja (PDF-ből) |
-| KDP Select | IGEN |
+## Kindle e-könyv
+NEM töltjük fel: kitöltős/kifestős oldalak – a KDP e-könyvként elutasíthatja, és papíron fogy.

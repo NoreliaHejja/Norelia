@@ -8,6 +8,16 @@ feltöltött karácsonyi könyv már alig fogy idén.
 Egy cím = papírkönyv + Kindle ugyanazzal a címmel (a Kindle-változat a papírkönyvhöz kapcsolva egy helynek számít-e: Nóra megnézi
 az első héten; ha külön számít, a Kindle-t csak az örökzöld könyveknél töltjük fel).
 
+## Hét nov. 23–29 – feltöltési sorrend (Nóra keret: 1 Kindle, 2 papír, 2 keménytáblás; 2026-11-17)
+Csomagok: `projects/etsy-empire/books/_zip/2026-11-23/` (ha a konténer újraindult és a zip hiányzik: a forrásfájlok a repóban vannak, újra kell zippelni).
+| # | Könyv | Formátum ezen a héten | Fájlok / méret |
+|---|---|---|---|
+| 1 | Give Them Back Their Wonder EN | **papír + keménytáblás + Kindle** | 84 old.; papír 12,44 × 9,25 in; keménytáblás 13,953 × 10,417 in (becsült – ha a KDP mást ír, új borító); Kindle book.epub + ebook-cover.jpg 1707×2560; 12,99 / 21,99 / 4,99 $ |
+| 2 | My Big Christmas Coloring Book EN | **papír** | 52 old., 8,5×11; borító 17,367 × 11,25 in; 7,99 $ |
+| 3 | Gib ihnen ihr Staunen zurück DE | **keménytáblás** (papír + Kindle a következő héten) | 88 old.; keménytáblás 13,962 × 10,417 in (becsült); 21,99 € |
+| 4–9 | Weihnachts-Rätselbuch, Weihnachts-Malbuch, Family Planner 2027, Familienplaner 2027, Pet Care Journal, Haustier-Gesundheitsheft | papír (ha a keret engedi / következő hetek) | mind 8,5×11, borító a KDP-képlet szerint ellenőrizve; Kindle nem |
+
+### Korábbi terv (2026-11-14)
 | Prior. | Könyv | Piac | Miért most | Hét | Fent? |
 |---|---|---|---|---|---|
 | 1 | Weihnachts-Malbuch Kleinkinder | amazon.de | Nikolaus dec. 6. – határidő | nov. 17–23 | ☐ |

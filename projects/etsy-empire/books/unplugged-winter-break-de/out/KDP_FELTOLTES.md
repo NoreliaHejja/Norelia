@@ -1,6 +1,6 @@
 # KDP – Gib ihnen ihr Staunen zurück
 
-Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook** (a KDP összekapcsolja őket).
+Három feltöltés ugyanazzal az adattal: **Paperback**, **Hardcover** és **Kindle eBook** (a KDP egy termékoldalra köti őket). Sorrend: Paperback → Hardcover → Kindle.
 
 | Mező | Érték |
 |---|---|
@@ -14,7 +14,8 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
 | **Trim size** | **6 x 9 in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
 | Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (88 oldal) + `cover.pdf`; ár **12.99 EUR** |
-| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 EUR** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon – Draft2Digital csak eladási küszöb felett, lásd ceg/projektek/kdp-feltoltesi-sor.md) |
+| **Hardcover** | 6 x 9 in, white paper, matte, B&W; `interior.pdf` (88 oldal) + **`cover-hardcover.pdf` (13,962 × 10,417 in)**; ár **21.99 €**; ISBN: a KDP ingyenes, külön hardcover-ISBN-je. A méret a Still Lit (80 old. = 13,944) alapján számolt; ha a KDP más „expected cover size”-t ír, küldd el a számot. |
+| Kindle | `book.epub` (színes képekkel) + **`ebook-cover.jpg`** borító (1707 × 2560 px); ár **4.99 EUR** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon – Draft2Digital csak eladási küszöb felett, lásd ceg/projektek/kdp-feltoltesi-sor.md) |
 
 ## Description
 „Noch fünf Minuten.“ Dann der Wutanfall. Dann das schlechte Gewissen.
