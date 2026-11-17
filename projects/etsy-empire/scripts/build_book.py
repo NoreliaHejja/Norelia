@@ -171,24 +171,28 @@ def cover(folder: Path, b, pages, art: Path):
             if d.textlength(t, font=font) <= maxw: c = t
             else: o.append(c); c = w
         return o + [c]
-    m = int(.45 * DPI); bx0, bx1 = fx0 + m, W - m
+    SAFE = 0.5  # KDP: szöveg min. 0,125 in-re a vágóéltől; mi 0,5 in-t tartunk (Nóra, 2026-11-17)
+    m = int((0.125 + SAFE) * DPI); bx0, bx1 = fx0 + m, W - m
     ft = ImageFont.truetype(FX, 150); tl = wrap(b["title"], ft, bx1 - bx0 - 100)
     fs = ImageFont.truetype(FB, 54); sl = wrap(b.get("cover_sub", b["subtitle"]), fs, bx1 - bx0 - 120)
     bh = 70 + len(tl) * 170 + len(sl) * 72 + 50
-    d.rounded_rectangle((bx0, int(.5 * DPI), bx1, int(.5 * DPI) + bh), 50, fill=(255, 252, 245))
-    y = int(.5 * DPI) + 55
+    ty0 = int((0.125 + SAFE) * DPI)
+    d.rounded_rectangle((bx0, ty0, bx1, ty0 + bh), 50, fill=(255, 252, 245))
+    y = ty0 + 55
     for t in tl: d.text(((bx0 + bx1) // 2, y), t, font=ft, fill="#1F2A44", anchor="ma"); y += 170
     for t in sl: d.text(((bx0 + bx1) // 2, y), t, font=fs, fill=color, anchor="ma"); y += 72
     fa = ImageFont.truetype(FB, 70)
-    d.rounded_rectangle((fx0 + fw // 2 - 560, Hh - int(1.05 * DPI), fx0 + fw // 2 + 560, Hh - int(.6 * DPI)), 40, fill=(255, 252, 245))
-    d.text((fx0 + fw // 2, Hh - int(.825 * DPI)), b["author"].upper(), font=fa, fill="#1F2A44", anchor="mm")
-    bx = int(.55 * DPI); y = int(.8 * DPI); fr = ImageFont.truetype(FR, 46)
+    ab1 = Hh - int((0.125 + SAFE) * DPI); ab0 = ab1 - int(.45 * DPI)
+    d.rounded_rectangle((fx0 + fw // 2 - 560, ab0, fx0 + fw // 2 + 560, ab1), 40, fill=(255, 252, 245))
+    d.text((fx0 + fw // 2, (ab0 + ab1) // 2), b["author"].upper(), font=fa, fill="#1F2A44", anchor="mm")
+    bx = int((0.125 + SAFE + .05) * DPI); y = int((0.125 + SAFE + .2) * DPI); fr = ImageFont.truetype(FR, 46)
     for para in b["back"].split("|"):
-        for t in wrap(para, fr, int(5.0 * DPI)): d.text((bx, y), t, font=fr, fill="white"); y += 66
+        for t in wrap(para, fr, int((TW - 2 * SAFE - 0.1) * DPI)): d.text((bx, y), t, font=fr, fill="white"); y += 66
         y += 30
     assert y < Hh - int(1.75 * DPI), "HIBA: a hátsó borító szövege belelóg a vonalkód-területbe – rövidítsd a 'back' szöveget"
-    bxe = fx0 - int(spine * DPI) - int(.375 * DPI)
-    d.rectangle((bxe - int(2 * DPI), Hh - int(.375 * DPI) - int(1.2 * DPI), bxe, Hh - int(.375 * DPI)), fill="white")
+    # KDP vonalkód: 2 x 1,2 in, 0,25 in-re a gerinctől és az alsó vágóéltől – pontosan oda, ahová a KDP teszi
+    bxe = int((0.125 + TW - 0.25) * DPI); bye = Hh - int((0.125 + 0.25) * DPI)
+    d.rectangle((bxe - int(2 * DPI), bye - int(1.2 * DPI), bxe, bye), fill="white")
     if pages >= 100:  # KDP: gerincszöveg csak 100+ oldaltól, 0,0625 in szabad hellyel mindkét oldalon (Nóra, 2026-11-14)
         sp = Image.new("RGB", (Hh, int(spine * DPI)), color); sd = ImageDraw.Draw(sp)
         sd.text((Hh // 2, sp.height // 2), f"{b['title'].upper()}   ·   {b['author'].upper()}", font=ImageFont.truetype(FB, int((spine - 0.14) * DPI * 0.95)), fill="white", anchor="mm")

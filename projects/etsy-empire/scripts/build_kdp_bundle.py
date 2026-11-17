@@ -143,7 +143,7 @@ def cover(od: Path, pages: int):
         d.text((bx, by + 420 + k * 80), line, font=fr, fill="white")
     # barcode-hely (KDP teszi rá): 2 x 1.2 in, jobb alsó sarok, 0.25 in-re a széltől
     bw, bh = int(2 * dpi), int(1.2 * dpi)
-    bxe = fx0 - int(spine * dpi) - int(0.25 * dpi) - int(0.125 * dpi)
+    bxe = fx0 - int(spine * dpi) - int(0.25 * dpi)  # KDP: 0,25 in-re a gerinctől
     d.rectangle((bxe - bw, H - int(0.375 * dpi) - bh, bxe, H - int(0.375 * dpi)), fill="white")
     img.save(od / "cover.pdf", "PDF", resolution=dpi)
     img.resize((W // 6, H // 6)).save(od / "cover-preview.jpg", quality=85)

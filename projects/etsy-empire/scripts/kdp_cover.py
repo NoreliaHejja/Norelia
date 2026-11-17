@@ -4,7 +4,7 @@ KDP teljes borító (hát + gerinc + elő) fekete-fehér papírkönyvhöz, 8.5 x
 
   python3 scripts/kdp_cover.py <slug> <front-art.png> "Title" "Subtitle" "#hex" "back line 1|back line 2|..."
 
-Gerinc = oldalszám × 0.002252 in (fehér papír). Gerincfelirat csak 80+ oldalnál (KDP-szabály).
+Gerinc = oldalszám × 0.002252 in (fehér papír). Gerincfelirat csak 100+ oldalnál (KDP-szabály).
 A hátoldal jobb alsó sarkában fehér vonalkódhely (2 × 1.2 in).
 """
 import json, sys
@@ -75,10 +75,10 @@ def main(slug, art, title, sub, color, back):
             d.text((bx, y), ln, font=fr, fill="white"); y += 78
         y += 30
     d.text((bx, H - int(1.0 * DPI)), "Gestaltet von AureliaVenn mit Unterstützung von KI-Werkzeugen." if meta.get("lang") == "de" else "Designed by AureliaVenn with the help of AI tools.", font=ImageFont.truetype(FR, 42), fill="white")
-    bxe = fx0 - int(spine * DPI) - int(0.375 * DPI)
+    bxe = fx0 - int(spine * DPI) - int(0.25 * DPI)  # KDP: 0,25 in-re a gerinctől
     d.rectangle((bxe - int(2 * DPI), H - int(0.375 * DPI) - int(1.2 * DPI), bxe, H - int(0.375 * DPI)), fill="white")
     # gerinc
-    if pages >= 80:
+    if pages >= 100:  # KDP: gerincszöveg csak 100+ oldaltól
         sx0 = fx0 - int(spine * DPI)
         sp = Image.new("RGB", (H, int(spine * DPI)), color)
         sd = ImageDraw.Draw(sp)
