@@ -42,6 +42,7 @@ Az Etsy Stats szerint (nov. 11–17: 19 látogató; Etsy-keresés 2, Ads 6, köz
 - **Etsy: automatikus élesítés** (Nóra döntése, 2026-11-10): jóváhagyás nélkül megy ki, ha a minőségi kapu átment (OVERFLOW: none, kontaktlap rendben, uploader-ellenőrzés hibátlan). Kétes minőség → `status: javitando`, nem tölt fel. Költség: 0,20 $/listing (+ 4 havonta megújítás).
 - **Minden más kifelé menő dolog** (social poszt, e-mail, KDP) továbbra is Nóra jóváhagyásával.
 - **KDP-kapu (Nóra, 2026-11-14):** borító és belív mérete pontosan a KDP-ben választott trim szerint, semmi nem lóg ki a keretből (0,25 in biztonsági sáv), feltöltési lap normál betűs (11 pt), tágabb sorközű PDF-ben (`scripts/kdp_lap.py`). Részletek: `books/SOROZAT.md` „KDP-kapu”.
+- **Kindle e-könyv borító (2026-11-17):** min. 625 × 1000 px, max. 10 000 px, JPG RGB, ajánlott 2560 px magas → `scripts/kdp_ebook_cover.py` (minden kdp/ csomagba `ebook-cover.jpg`). Részletek: `books/SOROZAT.md` KDP-kapu.
 - **KDP-t nem automatizálunk** (nincs API; a robotos feltöltés fióktiltást kockáztat) → csak csomag, Nóra tölti fel.
 - **Posztolás**: csak jóváhagyás után, Metricoolon át, `isAiGenerated: true`; Emily posztjaiban „AI-generated character”.
 - **Etsy AI-közlés** minden leírásban; nincs kitalált vélemény, nincs hamis „eredeti ár”/akció.

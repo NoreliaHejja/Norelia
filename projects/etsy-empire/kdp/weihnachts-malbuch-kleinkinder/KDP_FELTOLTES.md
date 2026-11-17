@@ -29,3 +29,10 @@ Einfache, fröhliche Weihnachtsbilder, die kleine Hände wirklich ausmalen könn
 Ein liebevolles Geschenk für den Nikolausstiefel oder unter den Weihnachtsbaum – für Kinder von 2 bis 5 Jahren.
 
 Gestaltet von unserem kleinen Shop AureliaVenn mit Unterstützung von KI-Werkzeugen.
+
+## Kindle e-könyv (ha e-könyvként is feltöltöd)
+| Mező | Érték |
+|---|---|
+| Kindle eBook cover | `ebook-cover.jpg` (JPG, RGB, ~1978 × 2560 px – megfelel a KDP-szabálynak: min. 625 × 1000, max. 10 000 px) |
+| Manuscript | a papírkönyv `interior.pdf`-je helyett EPUB/DOCX kell; fix elrendezésű munkafüzetnél a KDP Kindle Create „Print Replica” módja (PDF-ből) |
+| KDP Select | IGEN |

@@ -31,3 +31,10 @@ Stundenlanger Weihnachtsspaß ohne Bildschirm!
 Großes Format 21,6 x 27,9 cm, für Kinder von 4 bis 8 Jahren. Perfekt für den Nikolausstiefel, die Adventszeit und lange Autofahrten.
 
 Gestaltet von unserem kleinen Shop AureliaVenn mit Unterstützung von KI-Werkzeugen.
+
+## Kindle e-könyv (ha e-könyvként is feltöltöd)
+| Mező | Érték |
+|---|---|
+| Kindle eBook cover | `ebook-cover.jpg` (JPG, RGB, ~1978 × 2560 px – megfelel a KDP-szabálynak: min. 625 × 1000, max. 10 000 px) |
+| Manuscript | a papírkönyv `interior.pdf`-je helyett EPUB/DOCX kell; fix elrendezésű munkafüzetnél a KDP Kindle Create „Print Replica” módja (PDF-ből) |
+| KDP Select | IGEN |

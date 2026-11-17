@@ -139,3 +139,5 @@
 
 - 2026-11-17: etsy-bolt skill (.claude/skills/etsy-bolt) + scripts/etsy_stats.py (napi pillanatkép). Adat: 77 listing, élettartam össz. 146 megtekintés, 1 kedvelés; a 7 napnál fiatalabb 52 listing átlag 0,2–0,5 megtekintés, 38-nak 0. A forgalom 80%-a a 30+ napos (macskás + Kindness Elf) listingeken.
 - 2026-11-17 DÖNTÉS (Nóra jóváhagyta): Etsy Stats nov. 11–17: 19 látogató (Etsy app 7, Ads 6, keresés 2, közvetlen 2, SEO 1, egyéb 1, közösségi 0), 0% konverzió. → Új termék H/Sze/P 1 db; POD szünet nov. 24-ig; napi 5 listing long-tail optimalizálás (ma: Kindness Elf Kit, Kindness Advent, Elf Letters, Nice List Kit, Elf & Kindness Bundle); Emily: napi 3 pin + 1 reel (10 helyett); Etsy Ads: Nóra 3–5 $/napra csökkenti, csak a top 10 listingen. Felülvizsgálat nov. 24: cél Etsy-keresésből napi 3–5 látogató.
+
+- 2026-11-17 (Nóra): Kindle e-könyv borító szabály (min. 625×1000, max. 10 000 px) → scripts/kdp_ebook_cover.py; mind a 10 kdp/ csomag kapott ebook-cover.jpg-t (~1978×2560) + „Kindle e-könyv” szakaszt a KDP_FELTOLTES-ben; szabály a SOROZAT.md KDP-kapuban és a CLAUDE.md-ben.

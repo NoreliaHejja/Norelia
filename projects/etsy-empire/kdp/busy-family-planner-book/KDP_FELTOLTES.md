@@ -38,3 +38,10 @@ Designed by our small shop, AureliaVenn, with the help of AI tools. Pet pages ar
 ## Ellenőrzés feltöltés előtt
 - [ ] A Previewerben nincs „text outside margin” hiba (ha van: Nóra jelez, javítom)
 - [ ] Gerinc: 36 oldalnál nincs gerincfelirat (79 oldal alatt a KDP nem enged) – a borító ezt tudja
+
+## Kindle e-könyv (ha e-könyvként is feltöltöd)
+| Mező | Érték |
+|---|---|
+| Kindle eBook cover | `ebook-cover.jpg` (JPG, RGB, ~1978 × 2560 px – megfelel a KDP-szabálynak: min. 625 × 1000, max. 10 000 px) |
+| Manuscript | a papírkönyv `interior.pdf`-je helyett EPUB/DOCX kell; fix elrendezésű munkafüzetnél a KDP Kindle Create „Print Replica” módja (PDF-ből) |
+| KDP Select | IGEN |
