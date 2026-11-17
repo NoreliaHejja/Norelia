@@ -27,7 +27,7 @@ The days before Christmas are long when you're little. School breaks, snowy afte
 
 Inside this big 8.5 x 11 in Christmas activity book (48 pages):
 
-• 10 Christmas mazes – help the elves, reindeer and Santa find their way, from easy to a little tricky
+• 10 Christmas mazes – festive paths to follow, from easy to a little tricky
 • 8 word searches with holiday words – great for early readers and growing spellers
 • 8 dot-to-dot pictures – count, connect and watch a Christmas surprise appear
 • Tracing pages: MERRY, CHRISTMAS, SANTA, SNOW – fun handwriting practice for little hands
