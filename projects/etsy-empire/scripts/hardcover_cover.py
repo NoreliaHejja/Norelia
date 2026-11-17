@@ -23,6 +23,9 @@ def main(folder, Win, Hin):
     folder = ROOT / folder if not Path(folder).is_absolute() else Path(folder)
     b = json.loads((folder / "book.json").read_text())
     TW, TH = b.get("trim", [6, 9])
+    # KDP: a 6x9-es keménytáblás könyv tábla-mérete 6.14x9.21 (Still Lit EN: elvárt 13,944 x 10,417 in, 2026-11-17)
+    if (TW, TH) == (6, 9):
+        TW, TH = 6.14, 9.21
     Win, Hin = float(Win), float(Hin)
     wrap_in = (Hin - TH) / 2
     spine = Win - 2 * TW - 2 * wrap_in

@@ -162,3 +162,4 @@
 - 2026-11-17: Noch brennt das Licht keménytáblás borító (13,946×10,417 in) – scripts/hardcover_cover.py.
 - 2026-11-17: KDP hardcover 'text outside the margins' (Noch brennt das Licht belív): oldalszám 0,25 → 0,55 in a lap aljától; 4 Gentle-könyv belíve újraépítve, oldalszám változatlan.
 - 2026-11-17: KDP-csomagok kész: Still Lit EN (papír + keménytáblás 13,664×10,207 in + Kindle, ebook-cover 1707×2560, EPUB valid) és Kids Christmas Activity Book EN (papír; Kindle nem). Zip: projects/etsy-empire/books/_zip/.
+- 2026-11-17: Still Lit EN keménytáblás borító újra: 13,944×10,417 in (KDP: 6x9 hardcover = 6.14x9.21 tábla).
