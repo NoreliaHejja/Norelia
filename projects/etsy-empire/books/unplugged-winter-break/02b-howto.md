@@ -1,4 +1,4 @@
-# Chapter 16: Step-by-Step – 20 Family Favorites in Detail
+# Chapter 16: 20 Family Favorites, Step by Step
 
 Some activities are so good that they deserve more than one line. Here are twenty favorites from the list, with everything you need to make them work.
 
@@ -93,33 +93,33 @@ Some activities are so good that they deserve more than one line. Here are twent
 
 Here is one example of how two weeks might look. Change everything to suit your family. The idea is a gentle structure, not a timetable.
 
-**Day 1 (Monday) – Maker Day:** family meeting about the break plan; salt dough ornaments; screen window after lunch; story chain at bedtime.
+**Day 1 (Monday), Maker Day:** family meeting about the break plan; salt dough ornaments; screen window after lunch; story chain at bedtime.
 
-**Day 2 – Kitchen Day:** pizza faces for lunch; homemade play dough; walk to look at holiday lights.
+**Day 2, Kitchen Day:** pizza faces for lunch; homemade play dough; walk to look at holiday lights.
 
-**Day 3 – Adventure Day:** library visit; nature scavenger hunt in the park; family game tournament begins.
+**Day 3, Adventure Day:** library visit; nature scavenger hunt in the park; family game tournament begins.
 
-**Day 4 – Game Day:** board game in the morning; treasure hunt; video call with grandparents.
+**Day 4, Game Day:** board game in the morning; treasure hunt; video call with grandparents.
 
-**Day 5 – Fort & Film Night:** build the ultimate blanket fort; family movie inside the fort.
+**Day 5, Fort & Film Night:** build the ultimate blanket fort; family movie inside the fort.
 
-**Day 6 – Weekend:** slow morning; long walk or sledding; baking for a neighbor.
+**Day 6, Weekend:** slow morning; long walk or sledding; baking for a neighbor.
 
-**Day 7 – Weekend:** visit relatives (bring the activity bag); quiet evening with audiobooks.
+**Day 7, Weekend:** visit relatives (bring the activity bag); quiet evening with audiobooks.
 
-**Day 8 – Science Day:** ice excavation (freeze the night before); rainbow walking water; volcano.
+**Day 8, Science Day:** ice excavation (freeze the night before); rainbow walking water; volcano.
 
-**Day 9 – Café Day:** the kids' café opens; puppet making; puppet show in the evening.
+**Day 9, Café Day:** the kids' café opens; puppet making; puppet show in the evening.
 
-**Day 10 – Adventure Day:** a new playground or a museum; bird feeder pinecones.
+**Day 10, Adventure Day:** a new playground or a museum; bird feeder pinecones.
 
-**Day 11 – Kindness Day:** kindness challenge; toy clear-out for charity; cards for neighbors.
+**Day 11, Kindness Day:** kindness challenge; toy clear-out for charity; cards for neighbors.
 
-**Day 12 – Show Day:** family talent show rehearsals and performance.
+**Day 12, Show Day:** family talent show rehearsals and performance.
 
-**Day 13 – Weekend:** outdoor day; cardboard box city in the afternoon.
+**Day 13, Weekend:** outdoor day; cardboard box city in the afternoon.
 
-**Day 14 – Weekend:** time capsule; bind the best-of-break memory book; family review and plans for school weeks.
+**Day 14, Weekend:** time capsule; bind the best-of-break memory book; family review and plans for school weeks.
 
 [[page]]
 ## Our own 14-day plan

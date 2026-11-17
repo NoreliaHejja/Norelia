@@ -13,7 +13,7 @@ When a strong source of stimulation is reduced, the brain notices. Everything el
 - Have more tears or tantrums around transitions
 - Seem restless and unable to settle
 
-This does not mean the plan is wrong. It means their attention is recalibrating. Your job during the dip is simple: stay calm, keep the rhythm, offer connection, and do not negotiate the rules every hour.
+Their attention is recalibrating, and the plan is still right. Your job during the dip is simple: stay calm, keep the rhythm, offer connection, and do not negotiate the rules every hour.
 
 ## Day four onwards: the lift
 
@@ -32,13 +32,13 @@ Not every family sees every change, and every child is different. But almost eve
 On day one, write three sentences about how your family feels. On day seven, write three more. You may be surprised.
 
 [[box]]
-**Day 1 – how our home feels:**
+**Day 1, how our home feels:**
 [[lines:4]]
-**Day 7 – how our home feels:**
+**Day 7, how our home feels:**
 [[lines:4]]
 [[/box]]
 
-# Chapter 7: Screens by Age – What Works for Little Ones, Big Kids and Tweens
+# Chapter 7: Screens by Age for Little Ones, Big Kids and Tweens
 
 Every age needs a slightly different approach. A two-year-old and an eleven-year-old live in completely different digital worlds. Here is what tends to work at each stage.
 
@@ -52,7 +52,7 @@ For toddlers and preschoolers, the most valuable things are real-world play, mov
 - **Avoid screens in the hour before bed**, when they make settling harder.
 - **Expect big feelings when screens end**, and stay close and calm.
 
-Little ones thrive on simple, repeated play: water play at the sink, play dough, stacking blocks, "helping" with laundry, reading the same book for the tenth time. Repetition is not boring to them. It's how they learn.
+Little ones thrive on simple, repeated play: water play at the sink, play dough, stacking blocks, "helping" with laundry, reading the same book for the tenth time. They learn through repetition, so they rarely find it boring.
 
 ## Ages 5–7: Add choice and responsibility
 
@@ -97,7 +97,7 @@ Many children love video games, and games can be social, creative and challengin
 [[lines:2]]
 [[/box]]
 
-# Chapter 8: Good Screen Time – Yes, It Exists
+# Chapter 8: Good Screen Time Exists
 
 This book is not anti-screen. Some screen time brings families together, teaches something real, or connects children with people they love. The goal is to make screen time a *choice*, not a default. Here's what good screen time can look like.
 
@@ -144,7 +144,7 @@ Not every parent gets the winter break off. If you are working, at home or away,
 
 ## Accept that screens may do some babysitting
 
-Let's be honest: if you have an important meeting and two bored children, a show is a perfectly reasonable tool. The goal is not zero screens. It's *planned* screens. Decide in advance when screens will help you most, for example during your most important calls, and protect the rest of the day.
+Let's be honest: if you have an important meeting and two bored children, a show is a perfectly reasonable tool. The goal is *planned* screens. Decide in advance when screens will help you most, for example during your most important calls, and protect the rest of the day.
 
 ## Build independent play stations
 

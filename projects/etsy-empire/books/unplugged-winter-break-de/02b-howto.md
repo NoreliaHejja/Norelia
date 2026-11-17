@@ -1,4 +1,4 @@
-# Kapitel 16: Schritt für Schritt – 20 Familienlieblinge im Detail
+# Kapitel 16: 20 Familienlieblinge Schritt für Schritt
 
 Manche Beschäftigungen sind so gut, dass sie mehr als eine Zeile verdienen. Hier sind zwanzig Favoriten aus der Liste, mit allem, was ihr braucht, damit sie gelingen.
 
@@ -69,7 +69,7 @@ Manche Beschäftigungen sind so gut, dass sie mehr als eine Zeile verdienen. Hie
 **Ihr braucht:** einen Becher oder eine Flasche, Natron, Essig, Spülmittel, Lebensmittelfarbe, ein Tablett.
 **So geht's:** 2 Esslöffel Natron in den Becher geben, einen Tropfen Spülmittel und Farbe dazu, dann Essig hineingießen und zuschauen, wie es ausbricht. Für noch mehr Spaß einen „Vulkan“ aus Knete um den Becher bauen.
 
-## 16. Kindness-Challenge
+## 16. Freundlichkeits-Aufgabe
 **Ihr braucht:** eine Liste kleiner freundlicher Taten.
 **So geht's:** Jedes Familienmitglied tut jeden Tag eine freundliche Sache: jemandem das Bett machen, eine Karte für die Nachbarn malen, ein Spielzeug teilen, beim Abendessen helfen. Erzählt euch beim Essen davon.
 
@@ -93,33 +93,33 @@ Manche Beschäftigungen sind so gut, dass sie mehr als eine Zeile verdienen. Hie
 
 Hier ist ein Beispiel, wie zwei Wochen aussehen könnten. Ändert alles so, dass es zu eurer Familie passt. Die Idee ist eine sanfte Struktur, kein Stundenplan.
 
-**Tag 1 (Montag) – Bastel-Tag:** Familientreffen zum Ferienplan; Salzteig-Anhänger; Bildschirm-Fenster nach dem Mittagessen; Geschichtenkette vor dem Schlafen.
+**Tag 1 (Montag), Bastel-Tag:** Familientreffen zum Ferienplan; Salzteig-Anhänger; Bildschirm-Fenster nach dem Mittagessen; Geschichtenkette vor dem Schlafen.
 
-**Tag 2 – Küchen-Tag:** Pizzagesichter zum Mittagessen; selbst gemachte Knete; Spaziergang zu den Weihnachtslichtern.
+**Tag 2, Küchen-Tag:** Pizzagesichter zum Mittagessen; selbst gemachte Knete; Spaziergang zu den Weihnachtslichtern.
 
-**Tag 3 – Abenteuer-Tag:** Besuch in der Bücherei; Natur-Schatzsuche im Park; das Familien-Spieleturnier beginnt.
+**Tag 3, Abenteuer-Tag:** Besuch in der Bücherei; Natur-Schatzsuche im Park; das Familien-Spieleturnier beginnt.
 
-**Tag 4 – Spiele-Tag:** Brettspiel am Vormittag; Schatzsuche; Videoanruf mit den Großeltern.
+**Tag 4, Spiele-Tag:** Brettspiel am Vormittag; Schatzsuche; Videoanruf mit den Großeltern.
 
-**Tag 5 – Höhlen- und Filmabend:** die ultimative Deckenhöhle bauen; Familienfilm in der Höhle.
+**Tag 5, Höhlen- und Filmabend:** die ultimative Deckenhöhle bauen; Familienfilm in der Höhle.
 
-**Tag 6 – Wochenende:** langsamer Morgen; langer Spaziergang oder Schlittenfahren; für die Nachbarn backen.
+**Tag 6, Wochenende:** langsamer Morgen; langer Spaziergang oder Schlittenfahren; für die Nachbarn backen.
 
-**Tag 7 – Wochenende:** Verwandtenbesuch (mit Beschäftigungstasche); ruhiger Abend mit Hörbüchern.
+**Tag 7, Wochenende:** Verwandtenbesuch (mit Beschäftigungstasche); ruhiger Abend mit Hörbüchern.
 
-**Tag 8 – Experimente-Tag:** Eis-Ausgrabung (am Vorabend einfrieren); wandernde Regenbogenfarben; Vulkan.
+**Tag 8, Experimente-Tag:** Eis-Ausgrabung (am Vorabend einfrieren); wandernde Regenbogenfarben; Vulkan.
 
-**Tag 9 – Café-Tag:** Das Kinder-Café öffnet; Puppen basteln; Puppentheater am Abend.
+**Tag 9, Café-Tag:** Das Kinder-Café öffnet; Puppen basteln; Puppentheater am Abend.
 
-**Tag 10 – Abenteuer-Tag:** ein neuer Spielplatz oder ein Museum; Vogelfutter-Zapfen.
+**Tag 10, Abenteuer-Tag:** ein neuer Spielplatz oder ein Museum; Vogelfutter-Zapfen.
 
-**Tag 11 – Freundlichkeits-Tag:** Kindness-Challenge; Spielzeug für Spenden aussortieren; Karten für die Nachbarn.
+**Tag 11, Freundlichkeits-Tag:** Freundlichkeits-Aufgabe; Spielzeug für Spenden aussortieren; Karten für die Nachbarn.
 
-**Tag 12 – Show-Tag:** Proben und Auftritt der Familien-Talentshow.
+**Tag 12, Show-Tag:** Proben und Auftritt der Familien-Talentshow.
 
-**Tag 13 – Wochenende:** Draußentag; Kartonstadt am Nachmittag.
+**Tag 13, Wochenende:** Draußentag; Kartonstadt am Nachmittag.
 
-**Tag 14 – Wochenende:** Zeitkapsel; das „Beste der Ferien“-Buch binden; Familienrückblick und Pläne für die Schulwochen.
+**Tag 14, Wochenende:** Zeitkapsel; das „Beste der Ferien“-Buch binden; Familienrückblick und Pläne für die Schulwochen.
 
 [[page]]
 ## Unser eigener 14-Tage-Plan
@@ -147,7 +147,7 @@ Hier ist ein Beispiel, wie zwei Wochen aussehen könnten. Ändert alles so, dass
 
 Es gibt noch eine Person, deren Verhältnis zu Bildschirmen in den Ferien zählt: du. Kinder lernen viel mehr aus dem, was wir tun, als aus dem, was wir sagen. Wenn unser Handy ständig in unserer Hand ist, wirken unsere Regeln für ihre Bildschirme unfair, und damit haben sie recht.
 
-Es geht nicht um ein schlechtes Gewissen. Die meisten Eltern nutzen ihr Handy aus guten Gründen: Arbeit, Familienorganisation, Kontakt halten, ein Moment Ruhe. Aber es hilft, auch die eigenen Muster zu bemerken.
+Ein schlechtes Gewissen braucht hier niemand. Die meisten Eltern nutzen ihr Handy aus guten Gründen: Arbeit, Familienorganisation, Kontakt halten, ein Moment Ruhe. Aber es hilft, auch die eigenen Muster zu bemerken.
 
 ## Kleine Veränderungen mit großer Wirkung
 

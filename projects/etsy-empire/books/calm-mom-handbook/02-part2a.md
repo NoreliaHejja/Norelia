@@ -12,7 +12,7 @@ One of the most reliable ways to break this pattern sounds almost too simple: **
 
 ## Why connection works
 
-Children cooperate with people they feel connected to. This isn't a parenting trick; it's how all humans work. Think about how differently you respond to a request from a friend who greets you warmly versus a stranger who barks at you from across a room.
+Children cooperate with people they feel connected to. That's how all humans work. Think about how differently you respond to a request from a friend who greets you warmly versus a stranger who barks at you from across a room.
 
 When a child is deep in play, their attention is fully absorbed. A request shouted from the kitchen often doesn't even register as being about them. When you walk over, get down to their level, touch their shoulder and show interest in what they're doing, you shift their attention to you. Their brain has a moment to switch tracks. Only then does your request have a real chance.
 
@@ -68,7 +68,7 @@ Choices are not bribes or negotiations. You've already decided *what* will happe
 
 ## Ten minutes a day that change everything
 
-Connection isn't only something you use right before a request. It's also something you build up over the day, like a bank account. When the account is full, children are more patient with your requests. When it's empty, they push and test far more.
+You also build connection up over the day, like a bank account. When the account is full, children are more patient with your requests. When it's empty, they push and test far more.
 
 One of the simplest ways to fill the account is **special time**: ten minutes a day of one-on-one play, where your child leads and you follow. No phones, no teaching, no correcting. Just you, fully present, doing what they choose.
 

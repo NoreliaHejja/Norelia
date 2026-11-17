@@ -1,16 +1,16 @@
-# Chapter 4: Repair – What to Do After You Yell
+# Chapter 4: Repair After You Yell
 
 ![](ch4.jpg)
 
 You will yell again. Probably this week. Maybe today.
 
-That is not pessimism; it's honesty. Even with every tool in this book, you are a human being raising other human beings in a loud, demanding world. The goal was never zero yelling. The goal is that yelling becomes rarer, shorter and, most importantly, followed by **repair**.
+Even with every tool in this book, you are a human being raising other human beings in a loud, demanding world. The goal was never zero yelling. The goal is that yelling becomes rarer, shorter and, most importantly, followed by **repair**.
 
 If you take only one chapter from this book seriously, make it this one. Repair is the single most powerful thing you can do after a hard moment, and almost nobody teaches it.
 
 ## Why repair matters so much
 
-Researchers who study relationships between babies, children and their caregivers have long noticed something comforting: no relationship is perfectly in tune all the time. Even very loving parents miss signals, get frustrated and disconnect many times a day. What seems to matter most is not avoiding every break in connection, but what happens *after* the break. When a parent comes back, reconnects and makes things right, the child learns something enormously valuable:
+Researchers who study relationships between babies, children and their caregivers have long noticed something comforting: no relationship is perfectly in tune all the time. Even very loving parents miss signals, get frustrated and disconnect many times a day. What seems to matter most is what happens *after* the break. When a parent comes back, reconnects and makes things right, the child learns something enormously valuable:
 
 - Big feelings can be survived.
 - People who love each other can hurt each other and still be okay.
@@ -94,11 +94,11 @@ Try:
 
 > "That's okay. You're allowed to still be upset. I'll be right here when you're ready."
 
-Then really be there. Stay nearby, do something calm and let them come to you. Many children circle back within minutes, or at bedtime, when they feel safe enough to reconnect. Repair isn't a transaction where you say the words and get forgiveness. It's an open door you leave open.
+Then really be there. Stay nearby, do something calm and let them come to you. Many children circle back within minutes, or at bedtime, when they feel safe enough to reconnect. Repair works like a door you leave open: you say the words, and you don't demand forgiveness on the spot.
 
 ## When the same thing keeps happening
 
-If you find yourself repairing the same moment again and again (every morning, every bedtime), that's not a sign that repair isn't working. It's a sign that the trigger needs a plan, not just an apology. Go back to your Trigger Map (Chapter 3), choose that situation and work through the four planning questions. Part Two of this book has detailed plans for the most common ones: mornings, bedtime, siblings, transitions and big feelings.
+If you find yourself repairing the same moment again and again (every morning, every bedtime), the trigger needs a plan as well as an apology. Go back to your Trigger Map (Chapter 3), choose that situation and work through the four planning questions. Part Two of this book has detailed plans for the most common ones: mornings, bedtime, siblings, transitions and big feelings.
 
 You might even involve your child in the plan:
 

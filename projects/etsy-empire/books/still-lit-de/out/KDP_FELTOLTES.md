@@ -1,6 +1,6 @@
 # KDP – Noch brennt das Licht
 
-Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook** (a KDP összekapcsolja őket).
+Három feltöltés ugyanazzal az adattal: **Paperback**, **Hardcover** és **Kindle eBook** (a KDP egy termékoldalra köti őket). Sorrend: Paperback → Hardcover → Kindle.
 
 | Mező | Érték |
 |---|---|
@@ -14,6 +14,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
 | **Trim size** | **6.14 x 9.21 in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
 | Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` (81 oldal) + `cover.pdf`; ár **10.99 EUR** |
+| **Hardcover** | 6.14 x 9.21 in, white paper, matte, B&W; `interior.pdf` (81 oldal) + **`cover-hardcover.pdf` (13.946 × 10.417 in)**; ár **19.99 EUR**; ISBN: a KDP ingyenes, külön hardcover-ISBN-je. Ha a KDP más „expected cover size”-t ír: `python3 scripts/hardcover_cover.py books/still-lit-de <W> <H>` |
 | Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **4.99 EUR** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon – Draft2Digital csak eladási küszöb felett, lásd ceg/projektek/kdp-feltoltesi-sor.md) |
 
 ## Description

@@ -224,7 +224,7 @@ If screen use comes with extreme distress, withdrawal from friends and activitie
 
 You picked up this book because you wanted something better for your children's time off: more laughter, more play, more of the kind of memories that stay. That wish is already the most important part.
 
-Some days of the break will be magical. Some will be loud, messy and full of complaints. Both are part of a real family holiday. What your children will remember is not a perfect plan, but the feeling of a parent who chose to be there with them, building the fort, losing at cards, sweeping up the flour.
+Some days of the break will be magical. Some will be loud, messy and full of complaints. Both are part of a real family holiday. What your children will remember is the feeling of a parent who chose to be there with them, building the fort, losing at cards, sweeping up the flour.
 
 Thank you for giving them that. Their wonder was never gone. It just needed a little space.
 

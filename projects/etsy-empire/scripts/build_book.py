@@ -204,10 +204,22 @@ def cover(folder: Path, b, pages, art: Path):
     print(od / "cover.pdf", f"{W/DPI:.3f} x {Hh/DPI:.3f} in, gerinc {spine:.3f}")
 
 
+def hc_row(folder: Path, b, n):
+    """Keménytáblás sor a feltöltési lapra, ha van cover-hardcover.pdf (2026-11-17)."""
+    hc = folder / "out" / "cover-hardcover.pdf"
+    if not hc.exists():
+        return ""
+    l = [x for x in subprocess.run(["pdfinfo", str(hc)], capture_output=True, text=True).stdout.splitlines() if x.startswith("Page size")][0]
+    w, h = float(l.split(":")[1].split("x")[0]) / 72, float(l.split("x")[1].split()[0]) / 72
+    pr = b.get("price_hardcover") or ("21.99 EUR" if b.get("lang") == "de" else "21.99")
+    return (f"| **Hardcover** | {trim(b)[0]:g} x {trim(b)[1]:g} in, white paper, matte, B&W; `interior.pdf` ({n} oldal) + **`cover-hardcover.pdf` ({w:.3f} × {h:.3f} in)**; "
+            f"ár **{pr}{'' if 'EUR' in pr else ' $'}**; ISBN: a KDP ingyenes, külön hardcover-ISBN-je. Ha a KDP más „expected cover size”-t ír: `python3 scripts/hardcover_cover.py books/{folder.name} <W> <H>` |\n")
+
+
 def sheet(folder: Path, b, n, words):
     (folder / "out" / "KDP_FELTOLTES.md").write_text(f"""# KDP – {b['title']}
 
-Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook** (a KDP összekapcsolja őket).
+{'Három feltöltés ugyanazzal az adattal: **Paperback**, **Hardcover** és **Kindle eBook** (a KDP egy termékoldalra köti őket). Sorrend: Paperback → Hardcover → Kindle.' if (folder/'out'/'cover-hardcover.pdf').exists() else 'Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook** (a KDP összekapcsolja őket).'}
 
 | Mező | Érték |
 |---|---|
@@ -221,7 +233,7 @@ Két külön feltöltés ugyanazzal az adattal: **Paperback** és **Kindle eBook
 | AI-generated content | **Yes** – Text: AI-assisted (edited); Images: AI-generated |
 | **Trim size** | **{trim(b)[0]:g} x {trim(b)[1]:g} in** – a KDP-ben PONTOSAN ezt válaszd, különben a borító/belív mérete hibás lesz |
 | Paperback | **Black & white**, white paper, no bleed, matte cover; `interior.pdf` ({n} oldal) + `cover.pdf`; ár **{b['price_paperback']}{'' if 'EUR' in b['price_paperback'] else ' $'}** |
-| Kindle | `book.epub` (színes képekkel) + `front.jpg` borító; ár **{b['price_kindle']}{'' if 'EUR' in b['price_kindle'] else ' $'}** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon – Draft2Digital csak eladási küszöb felett, lásd ceg/projektek/kdp-feltoltesi-sor.md) |
+{hc_row(folder, b, n)}| Kindle | `book.epub` (színes képekkel) + `{'ebook-cover.jpg' if (folder/'out'/'ebook-cover.jpg').exists() else 'front.jpg'}` borító; ár **{b['price_kindle']}{'' if 'EUR' in b['price_kindle'] else ' $'}** (70% royalty sáv: 2,99–9,99 $); **KDP Select: IGEN** (Kindle Unlimited, csak Amazon – Draft2Digital csak eladási küszöb felett, lásd ceg/projektek/kdp-feltoltesi-sor.md) |
 
 ## Description
 {b['description']}

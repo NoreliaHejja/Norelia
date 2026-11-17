@@ -24,7 +24,7 @@ kdp.amazon.com → Create → **Paperback** (~15 perc)
 Simple, bold Christmas pictures that little hands can actually color!
 
 • 24 cute holiday pictures: Santa, snowmen, reindeer, puppies, kittens, gingerbread, Christmas trees and more
-• Thick outlines, no tiny details – perfect for crayons and markers
+• Thick outlines and no tiny details, easy to fill with crayons or markers
 • Single-sided pages: every picture has a blank back, so markers don't bleed
 • Large 8.5 x 11 in pages
 • A color test page and a "Great job!" certificate

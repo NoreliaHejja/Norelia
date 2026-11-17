@@ -4,7 +4,7 @@ Eltern, die ruhigere Ferien mit weniger Bildschirm ausprobieren, beschreiben oft
 
 Dieses Muster vorher zu kennen, hilft enorm, denn die schwersten Tage kommen zuerst. Wenn du mit ihnen rechnest, hältst du sie nicht für ein Scheitern.
 
-## Tag eins bis drei: das Tief
+## Die ersten drei Tage sind zäh
 
 Wenn eine starke Reizquelle wegfällt, merkt das Gehirn das. Alles andere wirkt im Vergleich langsam und fade. Kinder können:
 
@@ -13,9 +13,9 @@ Wenn eine starke Reizquelle wegfällt, merkt das Gehirn das. Alles andere wirkt 
 - bei Übergängen mehr weinen oder wüten
 - unruhig wirken und nicht zur Ruhe kommen
 
-Das heißt nicht, dass der Plan falsch ist. Es heißt, dass sich ihre Aufmerksamkeit neu einstellt. Deine Aufgabe im Tief ist einfach: ruhig bleiben, den Rhythmus halten, Nähe anbieten und die Regeln nicht stündlich neu verhandeln.
+Ihre Aufmerksamkeit stellt sich gerade neu ein, und der Plan stimmt trotzdem. Deine Aufgabe im Tief ist einfach: ruhig bleiben, den Rhythmus halten, Nähe anbieten und die Regeln nicht stündlich neu verhandeln.
 
-## Ab Tag vier: der Aufschwung
+## Ab Tag vier wird es leichter
 
 Im Lauf der Tage bemerken viele Familien:
 
@@ -32,13 +32,13 @@ Nicht jede Familie erlebt jede Veränderung, und jedes Kind ist anders. Aber fas
 Schreib am ersten Tag drei Sätze darüber, wie sich eure Familie fühlt. Am siebten Tag drei weitere. Vielleicht wirst du überrascht sein.
 
 [[box]]
-**Tag 1 – so fühlt es sich bei uns an:**
+**Tag 1, so fühlt es sich bei uns an:**
 [[lines:4]]
-**Tag 7 – so fühlt es sich bei uns an:**
+**Tag 7, so fühlt es sich bei uns an:**
 [[lines:4]]
 [[/box]]
 
-# Kapitel 7: Bildschirme nach Alter – was bei Kleinen, Großen und Schulkindern funktioniert
+# Kapitel 7: Was bei Kleinen, Großen und Schulkindern funktioniert
 
 Jedes Alter braucht einen etwas anderen Ansatz. Ein Zweijähriges und ein Elfjähriges leben in völlig unterschiedlichen digitalen Welten. Hier ist, was in jeder Phase meist funktioniert.
 
@@ -97,7 +97,7 @@ Viele Kinder lieben Videospiele, und Spiele können gesellig, kreativ und heraus
 [[lines:2]]
 [[/box]]
 
-# Kapitel 8: Gute Bildschirmzeit – ja, die gibt es
+# Kapitel 8: Gute Bildschirmzeit gibt es wirklich
 
 Dieses Buch ist nicht gegen Bildschirme. Manche Bildschirmzeit bringt Familien zusammen, bringt etwas Echtes bei oder verbindet Kinder mit Menschen, die sie lieben. Das Ziel ist, Bildschirmzeit zu einer *Entscheidung* zu machen, nicht zum Normalzustand. So kann gute Bildschirmzeit aussehen.
 

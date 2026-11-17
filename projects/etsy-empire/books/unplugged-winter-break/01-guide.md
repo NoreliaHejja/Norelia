@@ -219,7 +219,7 @@ If you're working through the break, or simply exhausted, you need a plan too. B
 
 # Chapter 5: Boredom Is Not an Emergency
 
-"I'm bored!" might be the most dreaded sentence of any school holiday. But boredom isn't a problem to be fixed instantly. It's often the doorway to creativity.
+"I'm bored!" might be the most dreaded sentence of any school holiday. But boredom can wait a little. It's often the doorway to creativity.
 
 When children have nothing pre-made to entertain them, they start inventing: games, stories, structures, worlds. That uncomfortable gap is exactly where imagination grows. Many adults remember their most creative childhood moments as the ones that started with "There's nothing to do."
 

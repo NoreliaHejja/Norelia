@@ -21,12 +21,12 @@ kdp.amazon.com → Create → **Paperback**. Sprache: **Deutsch**; Hauptmarktpla
 Einfache, fröhliche Weihnachtsbilder, die kleine Hände wirklich ausmalen können!
 
 - 24 süße Motive: Weihnachtsmann, Schneemann, Rentier, Hund, Katze, Lebkuchen, Tannenbaum und mehr
-- Dicke Linien, keine winzigen Details – ideal für Wachsmalstifte und Filzstifte
+- Dicke Linien ohne winzige Details, gut mit Wachsmal- und Filzstiften auszumalen
 - Einseitig bedruckt: Jedes Bild hat eine leere Rückseite
 - Großes Format 21,6 x 27,9 cm
-- Farbtestseite und Urkunde "Super gemacht!"
+- Farbtestseite und Urkunde „Super gemacht!“
 
-Ein liebevolles Geschenk für den Nikolausstiefel oder unter den Weihnachtsbaum – für Kinder von 2 bis 5 Jahren.
+Ein liebevolles Geschenk für den Nikolausstiefel oder unter den Weihnachtsbaum, für Kinder von 2 bis 5 Jahren.
 
 Gestaltet von unserem kleinen Shop AureliaVenn mit Unterstützung von KI-Werkzeugen.
 

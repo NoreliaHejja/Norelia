@@ -26,7 +26,7 @@ Stundenlanger Weihnachtsspaß ohne Bildschirm!
 - Schreibübungen: FROHE WEIHNACHTEN, STERN, SCHNEE
 - 12 Ausmalbilder
 - Wunschzettel und Malseite für den eigenen Weihnachtsbaum
-- Urkunde "Weihnachts-Champion" zum Schluss
+- Urkunde „Weihnachts-Champion“ zum Schluss
 
 Großes Format 21,6 x 27,9 cm, für Kinder von 4 bis 8 Jahren. Perfekt für den Nikolausstiefel, die Adventszeit und lange Autofahrten.
 

@@ -28,7 +28,7 @@ And then you help. That's the whole thing.
 
 ## "But my child screams when I follow through"
 
-Many will, at least at first. That's okay. Your job is not to make your child happy about the limit; your job is to hold the limit calmly while they have their feelings about it. Crying, protesting and even tantrums are not signs that the limit is wrong. They're signs that your child is learning that "no" really means no, and that they can survive being disappointed.
+Many will, at least at first. That's okay. Your job is to hold the limit calmly while your child has feelings about it. They don't have to like it. Crying, protesting and even tantrums are not signs that the limit is wrong. They're signs that your child is learning that "no" really means no, and that they can survive being disappointed.
 
 While they protest, you can stay warm:
 
@@ -282,7 +282,7 @@ Repeat as needed, calmly. The less interesting the response, the less reason the
 
 ## When you're the one who's falling apart
 
-Sometimes the problem at bedtime isn't the children; it's that you have nothing left. On those nights:
+Some nights the real bedtime problem is that you have nothing left. On those nights:
 
 - **Lower the bar.** Skip the bath. Read one book instead of two. It's okay.
 - **Tag team.** If there's another adult home, take turns: one does bedtime, the other gets a break.

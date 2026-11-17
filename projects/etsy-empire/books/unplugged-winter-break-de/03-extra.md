@@ -15,7 +15,7 @@ Wenn dein Kind ruhiger ist, könnt ihr darüber sprechen, was passiert ist und w
 
 ## Eine Ruheecke
 
-Richtet eine gemütliche Ecke ein, in die sich jeder zurückziehen kann, Kind oder Erwachsener: ein Sitzsack oder Kissen, eine weiche Decke, ein paar Bücher, ein Knautschball, Kopfhörer mit ruhiger Musik, eine Bildkarte mit Atemideen. Das ist kein Strafplatz. Es ist ein Ort, um wieder zu sich zu kommen.
+Richtet eine gemütliche Ecke ein, in die sich jeder zurückziehen kann, Kind oder Erwachsener: ein Sitzsack oder Kissen, eine weiche Decke, ein paar Bücher, ein Knautschball, Kopfhörer mit ruhiger Musik, eine Bildkarte mit Atemideen. Hier kommt man wieder zu sich, als Strafe ist der Platz nie gedacht.
 
 ## Atemspiele für Kinder
 
@@ -169,7 +169,7 @@ Die schönsten Ferienerinnerungen haben selten mit einem Bildschirm zu tun. Es s
 - **Der Erster-Schnee-Kakao:** Wenn der erste Schnee fällt, lassen alle alles stehen und liegen und trinken Kakao.
 - **Die Heiligabend-Kiste:** ein Schlafanzug, ein Buch und eine Leckerei, die an Heiligabend geöffnet werden.
 - **Der Familien-Lichterspaziergang:** jedes Jahr ein Spaziergang oder eine Fahrt zu den schönsten geschmückten Häusern.
-- **Der Kindness-Adventskalender:** jeden Tag im Dezember eine kleine freundliche Tat.
+- **Der Freundlichkeits-Adventskalender:** jeden Tag im Dezember eine kleine freundliche Tat.
 - **Plätzchen-Verzier-Abend** mit Musik und viel zu vielen Streuseln.
 - **Der Familien-Jahresrückblick:** An Silvester erzählt jede Person ihre schönste Erinnerung des Jahres.
 - **Die Dankbarkeitskette:** eine Papierkette, bei der auf jedem Glied etwas steht, wofür ihr dankbar seid.

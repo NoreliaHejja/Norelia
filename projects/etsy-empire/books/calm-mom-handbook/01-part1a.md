@@ -10,7 +10,7 @@ If you are holding this book, I want you to hear something first, before any tip
 
 You are not a bad mother. You are a tired one. You are a mother who is carrying more than one nervous system can comfortably hold: the schedules, the meals, the noise, the worries, the work, the invisible list that never ends. Yelling is not proof that you don't love your children. Very often it is proof that you have been running on empty for far too long, trying to do everything well, with nobody refilling your cup.
 
-That does not mean yelling is fine. You already know it isn't, or you wouldn't be reading this. It means that shame is not the way out. Shame makes us smaller, more defensive and, strangely, more likely to snap again, because a mother who feels terrible about herself has even less patience left. The way out is understanding, practice and a lot of kindness, including kindness toward yourself.
+Yelling still hurts, and you already know that, or you wouldn't be reading this. Shame won't get you out of it, though. Shame makes us smaller, more defensive and, strangely, more likely to snap again, because a mother who feels terrible about herself has even less patience left. The way out is understanding, practice and a lot of kindness, including kindness toward yourself.
 
 This book is built to be used, not just read. In every chapter you will find:
 
@@ -31,9 +31,9 @@ A few honest notes before we begin:
 
 Take a breath. You are not alone, and it is not too late. Children are remarkably forgiving, and the relationship you have with them can heal and deepen, starting today.
 
-Let's begin with tonight.
+Start with tonight.
 
-# Chapter 1: Tonight – The Two-Breath Pause
+# Chapter 1: The Two-Breath Pause (Start Tonight)
 
 ![](ch1.jpg)
 
@@ -45,11 +45,11 @@ That something is the **Two-Breath Pause**.
 
 ## Why a pause works
 
-When you feel the wave of anger rising, your body is switching into a stress response. Your heart speeds up, your muscles tense, your breathing gets shallow and the thinking part of your brain gets a little less say in what happens next. This is not a moral failure. It is biology. Your body has decided there is a threat (noise, chaos, a deadline, a child not listening) and it is preparing you to fight it.
+When you feel the wave of anger rising, your body is switching into a stress response. Your heart speeds up, your muscles tense, your breathing gets shallow and the thinking part of your brain gets a little less say in what happens next. Every parent's brain does this under enough stress, and it says nothing about your character. Your body has decided there is a threat (noise, chaos, a deadline, a child not listening) and it is preparing you to fight it.
 
 The trouble is that a yell is one of the fastest ways the body knows to "fight." It gets attention, it releases pressure, and for a second it feels like control.
 
-A pause interrupts that chain. Slow breathing, especially a long breath out, is one of the most direct ways to tell your body that you are not actually in danger. Even two slow breaths can lower the intensity enough for your thinking brain to come back online. You are not trying to feel calm. You are only trying to get *slightly less hot*, enough to choose your next sentence instead of having it chosen for you.
+A pause interrupts that chain. Slow breathing, especially a long breath out, is one of the most direct ways to tell your body that you are not actually in danger. Even two slow breaths can lower the intensity enough for your thinking brain to come back online. You only need to get *slightly less hot*, enough to choose your next sentence instead of having it chosen for you.
 
 ## How to do the Two-Breath Pause
 
@@ -161,7 +161,7 @@ A simple check that many people use is called **HALT**: are you **H**ungry, **A*
 
 **2. Hungry.** If you skipped lunch and ate your children's crusts at 3 p.m., your body is running on fumes. Low energy feels like low patience.
 
-**3. Touched out.** Being climbed on, pulled at, hugged, kicked in bed and asked for things all day can fill your senses to the brim. By evening, one more tug on your sleeve can feel unbearable. This is not a lack of love. It's sensory overload.
+**3. Touched out.** Being climbed on, pulled at, hugged, kicked in bed and asked for things all day can fill your senses to the brim. By evening, one more tug on your sleeve can feel unbearable. That's sensory overload, and it happens to loving parents every day.
 
 **4. Overloaded.** The mental load (remembering the dentist, the permission slip, the birthday gift, what's for dinner, who needs new shoes) runs in the background all day like too many apps open on a phone. Your brain has less processing power left for patience. (If this one hits home, the next book in this series, *Who Takes Care of Mom?*, is entirely about lightening that invisible load.)
 
@@ -173,19 +173,19 @@ A simple check that many people use is called **HALT**: are you **H**ungry, **A*
 
 They often don't, and that's frustrating. But here is the uncomfortable truth: yelling teaches children to listen *only* when you yell. If the calm request is followed by three more calm requests and then an explosion, children learn that the explosion is the real signal. They aren't being manipulative. They're being efficient: why stop playing before the "real" signal arrives?
 
-The fix is not to yell sooner. It's to make the first, calm request the one that counts, with clear and kind follow-through. We'll build that step by step in Chapter 6. For now, simply notice the pattern: *calm, calm, calm, BOOM*. You're going to replace the "boom" with something that works better.
+The fix is to make the first, calm request the one that counts, with clear and kind follow-through. We'll build that step by step in Chapter 6. For now, simply notice the pattern: *calm, calm, calm, BOOM*. You're going to replace the "boom" with something that works better.
 
 ## What children actually feel when we yell
 
 It helps to see a yell from your child's height. To a child, a parent's loud, angry voice is big. Your body is bigger, your face changes, and the person who is supposed to be their safe place suddenly feels scary. Young children can't think "Mom is tired and overloaded." They think "Mom is angry at *me*," or sometimes "I am bad."
 
-This is not meant to make you feel worse. It's meant to explain why yelling so rarely gets the result you want. A frightened child's brain is in survival mode too. They freeze, cry, run or yell back. They do not suddenly become calm and cooperative, because nobody's thinking brain works well when they feel unsafe.
+This also explains why yelling so rarely gets the result you want. A frightened child's brain is in survival mode too. They freeze, cry, run or yell back. They do not suddenly become calm and cooperative, because nobody's thinking brain works well when they feel unsafe.
 
 Researchers who have followed families over time have found that frequent harsh verbal discipline, such as regular shouting, insults or humiliation, is linked with more behavior problems and sadness in children later on, even in homes that are otherwise warm and loving. The key words are *frequent* and *harsh*. An occasional raised voice that is followed by a sincere repair is very different from a home where children are routinely shouted at and shamed. Repair, as you'll see in Chapter 4, is powerful medicine.
 
 ## The good news hidden in all this
 
-If yelling were a fixed personality trait, there would be little hope. But it isn't. It's a predictable reaction that shows up under predictable conditions. That means you can change the conditions:
+Yelling is a predictable reaction that shows up under predictable conditions, which is good news. That means you can change the conditions:
 
 - Widen your window (sleep, food, small breaks, support).
 - Catch the early warning signs (Chapter 1).
@@ -288,7 +288,7 @@ You can't always choose your first thought. But with practice, you can notice it
 Over the next week, notice every time you yell or come close to yelling. You don't need to fix anything yet; you're simply gathering information, like a detective. Many mothers are surprised by what they find: perhaps 80 percent of their yelling happens in two or three predictable moments.
 
 [[box]]
-**My trigger map – this week**
+**My trigger map for this week**
 
 Time of day when I yelled or nearly yelled: [[lines:2]]
 
@@ -321,7 +321,7 @@ Choose your single most common trigger. Not all of them, just one. Then build a 
 
 ## Rewriting your inner sentences
 
-For your most common inner sentence, write a kinder, truer replacement. The goal isn't to lie to yourself or pretend things are fine. It's to find a version that is *at least as true* and much less inflammatory.
+For your most common inner sentence, write a kinder, truer replacement. You're looking for a version that is *at least as true* and much less inflammatory.
 
 | Old sentence | Kinder, truer sentence |
 |---|---|

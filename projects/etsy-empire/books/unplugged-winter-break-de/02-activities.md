@@ -140,7 +140,7 @@ Für die meisten Ideen braucht ihr nur, was ohnehin da ist. Wo etwas vorbereitet
 93. **Den Großeltern schreiben** oder älteren Verwandten. *Ab 4 · schnell*
 94. **Familieninterview.** Die Kinder befragen die Eltern: „Was war dein Lieblingsspielzeug? Dein schönstes Weihnachten?“ *Ab 5 · schnell*
 95. **Gemeinsam alte Fotos anschauen** und die Geschichten dahinter erzählen. *Ab 3 · schnell*
-96. **Kindness-Challenge.** Jede Person tut jeden Tag eine freundliche Sache. *Ab 4 · schnell*
+96. **Freundlichkeits-Aufgabe.** Jede Person tut jeden Tag eine freundliche Sache. *Ab 4 · schnell*
 97. **Familien-Talentshow.** Witze, Lieder, Räder schlagen, Zaubertricks. *Ab 3 · mittel*
 98. **Das Abenteuer fürs nächste Jahr planen.** Wohin möchtet ihr? Macht zusammen eine Wunschliste. *Ab 4 · schnell*
 99. **Eine Zeitkapsel bauen**, die im nächsten Winter geöffnet wird. *Ab 5 · mittel*

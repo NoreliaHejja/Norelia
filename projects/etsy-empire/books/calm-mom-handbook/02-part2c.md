@@ -2,7 +2,7 @@
 
 Few things push a parent over the edge faster than the sound of siblings fighting: the screaming, the "She started it!", the crash from the other room. Sibling conflict is one of the most common triggers for yelling, partly because it's loud, partly because it's constant and partly because it often feels like you're refereeing a match that never ends.
 
-Here's a reframe that helps many parents: **sibling conflict is normal, and it's also practice.** Siblings are often the first people children learn to share with, negotiate with, compete with and make up with. Your job isn't to prevent every argument. It's to keep everyone safe and slowly teach them how to solve problems without you.
+Here's a reframe that helps many parents: **sibling conflict is normal, and it's also practice.** Siblings are often the first people children learn to share with, negotiate with, compete with and make up with. You can't prevent every argument, and you don't need to. Your job is to keep everyone safe and slowly teach them how to solve problems without you.
 
 ## Why siblings fight
 
@@ -252,7 +252,7 @@ Offer simple tools your child can use next time:
 
 Here's the hard part: when your child has a big feeling, it often triggers yours. Their screaming can make you want to scream. Their frustration adds to your own.
 
-This is completely normal. The goal isn't to never feel angry; it's to be the one who calms down first. Every tool in Part One applies here: the Two-Breath Pause, stepping back, knowing your triggers, and repairing afterwards if you lose it.
+This is completely normal. You will still feel angry sometimes. The goal is to be the one who calms down first. Every tool in Part One applies here: the Two-Breath Pause, stepping back, knowing your triggers, and repairing afterwards if you lose it.
 
 It can help to remind yourself during a meltdown:
 
@@ -343,7 +343,7 @@ When back-talk is really frustration, responding to the feeling can defuse it in
 
 > "You seem upset. Did something happen at school?"
 
-This doesn't mean ignoring rudeness. It means looking past the words to what your child is really struggling with.
+You can still deal with the rudeness later. First, look past the words to what your child is really struggling with.
 
 ## Avoid power struggles
 
