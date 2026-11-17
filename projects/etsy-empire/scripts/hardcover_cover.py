@@ -72,7 +72,14 @@ def main(folder, Win, Hin):
     assert y < bye - int(1.2 * DPI) - 30, "HIBA: a hátsó szöveg belelóg a vonalkód-területbe"
     d.rectangle((bxe - int(2 * DPI), bye - int(1.2 * DPI), bxe, bye), fill="white")
     od = folder / "out"
-    img.save(od / "cover-hardcover.pdf", "PDF", resolution=W / Win)  # pontosan a KDP által kért méret
+    img.save(od / "cover-hardcover.pdf", "PDF", resolution=DPI)
+    # oldalméret pontosan a KDP által kért W x H (a pixelkerekítés miatti 0,001 in eltérés nélkül)
+    from pypdf import PdfReader, PdfWriter, Transformation
+    r = PdfReader(od / "cover-hardcover.pdf"); pg = r.pages[0]
+    sx, sy = Win * 72 / float(pg.mediabox.width), Hin * 72 / float(pg.mediabox.height)
+    pg.add_transformation(Transformation().scale(sx, sy))
+    pg.mediabox.upper_right = (Win * 72, Hin * 72); pg.cropbox.upper_right = (Win * 72, Hin * 72)
+    w = PdfWriter(); w.add_page(pg); w.write(od / "cover-hardcover.pdf")
     img.resize((W // 6, H // 6)).save(od / "cover-hardcover-preview.jpg", quality=85)
     print(od / "cover-hardcover.pdf", f"{W/DPI:.3f} x {H/DPI:.3f} in, ráhajtás {wrap_in:.4f}, gerinc {spine:.4f} in")
 
