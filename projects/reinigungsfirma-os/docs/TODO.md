@@ -12,7 +12,7 @@ A „?” jelű pontok állapotát a tulajdonostól kell megkérdezni, mert azó
   - 282. sor „Frühbucherpreis sichern” + a 79/149 €-s áthúzott árak: a korai ár eredetileg okt. 31-ig szólt → új határidő, vagy az áthúzott ár törlése (német jog: kitalált „eredeti ár” nem lehet),
   - 334. sor „Auslieferung am 15. November 2026” → reális új dátum az OS/Starter elkészülte szerint,
   - 390. sor Datenschutz „Stand: Oktober 2026” → élesítés hónapja.
-- [ ] **Digistore24:** Kalkulations-Kit termék létrehozása (adatok: `marketing/digistore24-termekek.md`), xlsx feltöltése, beküldés jóváhagyásra (élő oldal kell hozzá!). ?
+- [~] **Digistore24 (2026-11-17: csomag kész, digistore/DIGISTORE_FELTOLTES.md – Nóra tölti fel):** Kalkulations-Kit termék létrehozása (adatok: `marketing/digistore24-termekek.md`), xlsx feltöltése, beküldés jóváhagyásra (élő oldal kell hozzá!). ?
 - [ ] Digistore24 vásárlási link(ek) beírása a `LINKS` objektumba → `build_site.py` → deploy.
 - [ ] **Deploy** a `site/` mappából Cloudflare Pagesre, domain hozzákötése (jóváhagyással).
 - [ ] Digistore24-supportlevél elküldése az előrendelésről (`marketing/digistore24-support-level.md`). ?
