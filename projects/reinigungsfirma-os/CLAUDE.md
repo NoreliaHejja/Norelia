@@ -71,7 +71,9 @@ Deploy: a `site/` mappa tartalma kerül a Cloudflare Pagesre (direct upload, min
 - Koncepció: „műszerfal-pontosság” – a kalkulátor eredménye nyugtaként jelenik meg.
 - Színek: petrol `#0F4C5C`, mély petrol `#0A3642`, hab `#9FE3D1`, halvány hab `#E6F6F1`, papír `#F5F7F7`, tinta `#0C1B2A`.
 - Betűk: Schibsted Grotesk (szöveg, címek), JetBrains Mono (számok, címkék).
-- Világos és sötét téma tokenekkel (`:root`, `prefers-color-scheme`, `[data-theme]`).
+- **Csak világos téma** (Nóra, 2026-11-17: a sötét szín nem kell): `<html data-theme="light">`; fényes, mentazöld-fehér, emberek (KI-generált képek, jelölve), mozgás (reveal, lebegő kártyák, számláló, videó), `prefers-reduced-motion` tisztelve.
+- Meggyőzés (Cialdini/Greene) csak igaz elemekkel: ingyenes Rechner (reciprocitás), első kis lépés, „15 év praxis” (jóváhagyott Katrin-bio), veszteség-rechenbeispiel. Kitalált vélemény, ügyfélszám, hamis szűkösség tilos.
+- AI-SEO: llms.txt, robots.txt (AI-botok engedve), JSON-LD, ratgeber oldalak „válasz először”.
 - Mobilon is működnie kell (min. 16 px oldalsó margó, nincs vízszintes görgetés).
 - A tulajdonos a korábbi egyszerű dizájnt „rondának” találta: a mostani szintet tartsd vagy emeld.
 
