@@ -142,3 +142,6 @@
 
 - 2026-11-17 (Nóra): Kindle e-könyv borító szabály (min. 625×1000, max. 10 000 px) → scripts/kdp_ebook_cover.py; mind a 10 kdp/ csomag kapott ebook-cover.jpg-t (~1978×2560) + „Kindle e-könyv” szakaszt a KDP_FELTOLTES-ben; szabály a SOROZAT.md KDP-kapuban és a CLAUDE.md-ben.
 - 2026-11-17: Busy Family Planner e-könyv fekvőbe fordult (képoldalas PDF) → fix elrendezésű EPUB3 (scripts/kdp_fixed_epub.py, epubcheck valid) mindkét változathoz; szabály a SOROZAT.md-ben.
+
+## 2026-11-17 – Gentle Life Guides (tartalom, ütemezett futás)
+- I Didn't Mean to Yell, 2/3 futás KÉSZ: 6–12. fejezet (02-part2b.md, 02-part2c.md), összesen ~15,2e szó. Sorozat-utalás mindkettő felhasználva (2. és 8. fej.), több nincs. Következő futás 3/3: 13–17. fej. + mellékletek + build. Bevétel: 0 Ft (még nincs kint).
