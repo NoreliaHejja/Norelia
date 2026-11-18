@@ -174,3 +174,4 @@
 - 2026-11-18: etsy-empire napi: mérés (77 listing, +1 megtekintés), 5 POD-listing optimalizálva (cicás matrica, 2 bögre, 2 pulóver), új termék Family Emergency Binder 5,99 € #4619984059 (uploader: fájlnév 40 kar.-ra vágva, 400-as hiba javítva).
 - 2026-11-18: Gentle: I Didn't Mean to Yell KÉSZ (3/3): 13–17. fej., Ten Hard Moments, 30 napos terv, hűtőkártya, mondatgyűjtemény, GYIK, Quick Finder; 139 old., 24,2e szó; papír 14,99 / keménytáblás 22,99 / Kindle 5,99 $; series.json yell=ready. A heti 1. kész könyv (EN).
 - 2026-11-18: Nóra: a Kindness Elf (mindkét eladás) a minta. CLAUDE.md „NYERŐ MINTA” + termekotletek W1–W7 (Toddler Kindness Elf, Freundlichkeits-Wichtel DE, Kindness Reindeer, Snowman jan., Cupid febr., Leprechaun márc., Bunny ápr.), mind 3,99 €.
+- 2026-11-18: Toddler Kindness Elf Kit élesítve (W1, Kindness Elf minta): 19 old., akvarell manó-illusztráció, 3,99 €, https://www.etsy.com/listing/4620130071

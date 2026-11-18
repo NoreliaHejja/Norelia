@@ -17,7 +17,7 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | K4 | **Santa's Nice List Kit** (Nice List oklevél, Santa-levél, szarvas-eledel címke, kedvesség-bizonyítvány – szerkeszthető név) | perszonalizálás + kindness | 3,99 € | kész (2026-11-16) #4618343531 |
 | K5 | **Elf Kindness Bundle** (Kindness Elf Kit + Lifesaver Letters + Easy Elf Ideas egyben) | kosárérték-emelő, 3 nyerő termék | 7,99 € | kész (2026-11-15) #4617669906 – Lifesaver Letters + Easy Elf Ideas + Kindness Advent (a Kindness Elf Kit fájl nincs a repóban) |
 | K6 | **Classroom Kindness Calendar** (tanároknak, 24 osztálykedvesség-feladat, faliposzter) | Classroom Elf alig kap forgalmat → manó nélküli, „kindness” fókusz | 4,90 € | kész (2026-11-16) #4618343587 |
-| W1 | **Toddler Kindness Elf Kit** (2–4 éveseknek: képes cetlik, 1 mondatos feladatok, matricás tracker, érkező + búcsúlevél) | Kindness Elf minta, külön long-tail: „toddler kindness elf” | 3,99 € | ötlet – KÖVETKEZŐ (péntek) |
+| W1 | **Toddler Kindness Elf Kit** (2–4 éveseknek: képes cetlik, 1 mondatos feladatok, matricás tracker, érkező + búcsúlevél) | Kindness Elf minta, külön long-tail: „toddler kindness elf” | 3,99 € | kész (2026-11-18) #4620130071 |
 | W2 | **Freundlichkeits-Wichtel / Wichteltür-Briefe** (német: Wichtel-Ankunftsbrief, 24 Freundlichkeitsaufgaben, Abschiedsbrief) | Kindness Elf minta a DE-piacnak (Wichteltür = nagy német decemberi trend) | 3,99 € | ötlet – hétfő |
 | W3 | **Kindness Reindeer Kit** (rénszarvas érkezik, 24 rénszarvas-cetli, „reindeer food” lap) | elf nélküli családoknak, „kindness reindeer” | 3,99 € | ötlet |
 | W4 | **Kindness Snowman Kit – January** (az elf után januári 24 napos kedvesség-hóember) | jan. szezon, élesítés dec. 15-ig | 3,99 € | ötlet |
