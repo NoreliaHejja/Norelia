@@ -1,0 +1,69 @@
+{
+  "slug": "emergency-binder",
+  "status": "etsy_aktiv",
+  "created": "2026-11-18",
+  "theme": "Family emergency binder (P1, könyvpiaci kutatás 2026-11-17)",
+  "files": [
+    "emergency-binder.pdf",
+    "emergency-binder-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Family Emergency Binder",
+    "cim2": "What's inside",
+    "al2": "Contacts · plan · 72-hour kit · pets · kids' cards",
+    "cim3": "Kids know what to do",
+    "al3": "Wallet cards for the backpack",
+    "gyerekoldalak": [
+      7,
+      6
+    ]
+  },
+  "social": {
+    "pin_title": "Family emergency binder printable with pet pages and kids' emergency cards",
+    "pin_text": "One calm place for your family plan: contacts, medical info, meeting places, 72-hour kit checklist, pet emergency page and wallet cards for kids. Printable, US Letter + A4.",
+    "ig_text": "One evening, one binder, a calmer family. Meeting places, kit checklist, pet page and wallet cards for the kids' backpacks. Link in bio.",
+    "fb_text": "Printable family emergency binder with pet and kids pages.",
+    "tt_hook": "The one evening that makes emergencies less scary",
+    "tt_script": "1) Fill the plan. 2) Walk to the meeting tree with kids. 3) Wallet card into backpack. 4) Binder by the door."
+  },
+  "etsy": {
+    "title": "Family Emergency Binder Printable with Pet and Kids Pages, Emergency Plan Template, 72 Hour Kit Checklist, Emergency Contact List",
+    "price": 5.99,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12479,
+    "tags": [
+      "emergency binder",
+      "family emergency kit",
+      "emergency planner",
+      "disaster plan kids",
+      "pet emergency plan",
+      "72 hour kit list",
+      "emergency contacts",
+      "hurricane prep list",
+      "go bag checklist",
+      "kids emergency card",
+      "in case of emergency",
+      "family binder pages",
+      "home binder pages"
+    ],
+    "description": "When something unexpected happens, nobody wants to search for phone numbers or wonder where the kids should go. This printable binder puts your whole family plan in one calm place, including your pets and wallet cards for the kids. 🏠\n\n✨ WHAT'S INSIDE (8 pages)\n• Family contacts and medical info: allergies, medicines, doctors, out-of-area contact\n• Family emergency plan: meeting places, how you reach each other, exits, utility shut-offs, who picks up the kids\n• 72-hour emergency kit checklist (based on the basic kit recommended at Ready.gov)\n• Pet emergency page: two pet profiles, microchip, vet, pet go-bag checklist\n• Kids' emergency wallet cards (4 per page) + \"I know what to do\" practice checklist\n• Documents location list + review log\n• How-to page with tips for practicing your plan\n\n👨‍👩‍👧 For families with kids and pets. Fill it in by hand in one evening, keep it by the door and take a photo of each page for your phone.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included.\n\nPLEASE NOTE\nA planning aid, not medical, legal, veterinary or emergency advice. In an emergency call 911 (US) or 112 (EU). For personal use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "etsy_listing_id": 4619984059,
+  "etsy_url": "https://www.etsy.com/listing/4619984059",
+  "kdp": {
+    "eligible": false,
+    "reason": "emergency-binder: 8 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  }
+}
