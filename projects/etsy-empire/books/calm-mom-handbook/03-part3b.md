@@ -36,7 +36,7 @@ Pick two that suit you and attach them to moments that already happen every day:
 
 ## Share the load
 
-Some of what drains you isn't the work you see. It's the planning, remembering and worrying: whose shoes are too small, when the vaccinations are due, what to bring to the class party. When one person carries all of that, they carry it every hour of the day, even while resting.
+A lot of what drains you is work nobody sees: the planning, remembering and worrying about whose shoes are too small, when the vaccinations are due, what to bring to the class party. When one person carries all of that, they carry it every hour of the day, even while resting.
 
 You can't make the invisible load disappear, but you can make it visible and share some of it. Write down everything you keep track of for one week. Then pick one whole area (school forms, birthday presents, the pediatrician) and hand it over completely, including the remembering. Chapter 15 has words for that conversation.
 
@@ -127,7 +127,7 @@ Every child has hard days, tantrums and phases. Talk to your pediatrician or fam
 - a teacher or caregiver raises concerns you also recognize,
 - your gut tells you something isn't right.
 
-Some children have needs that make everyday life harder for everyone, such as anxiety, ADHD, sensory differences or developmental delays. Getting an assessment is not labeling your child. It's finding out what they need, and often it brings huge relief to the whole family.
+Some children have needs that make everyday life harder for everyone, such as anxiety, ADHD, sensory differences or developmental delays. An assessment helps you find out what your child needs, and it often brings huge relief to the whole family.
 
 ## What kind of help is there?
 

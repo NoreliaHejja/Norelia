@@ -1,24 +1,42 @@
 {
-  "slug": "calm-mom-handbook",
-  "title": "I Didn't Mean to Yell",
-  "subtitle": "A Gentle Guide for Moms Who Love Their Kids Fiercely and Lose Their Temper Anyway: Calmer Days, Kinder Words and the Repair That Heals",
-  "cover_sub": "For every mom who loves fiercely and snaps anyway",
-  "author": "Clara Whitfield",
-  "series": "Gentle Life Guides",
-  "price_paperback": "15.99",
-  "price_kindle": "5.99",
-  "color": "#C8664A",
-  "chapters": [
-    "01-part1a.md",
-    "01-part1b.md",
-    "02-part2a.md",
-    "02-part2b.md",
-    "02-part2c.md"
-  ],
-  "back": "\"Why do I keep yelling at the people I love most?\"|If you've asked yourself that at 9 p.m., after the house finally went quiet, you are not a bad mother. You are a tired one, carrying more than one nervous system can hold.|This warm, shame-free guide shows you why loving moms snap, how to pause in the three seconds before the yell, what to say in the hardest moments (mornings, bedtime, sibling fights, screens), and how to repair afterwards so your child feels safe again.|Imagine a bedtime where you're the calm one. Start with two breaths tonight.",
-  "description": "TBD (3/3 futásban)",
-  "keywords": [],
-  "categories": [],
-  "series_key": "yell",
-  "status": "folyamatban 2/3"
+ "slug": "calm-mom-handbook",
+ "title": "I Didn't Mean to Yell",
+ "subtitle": "A Gentle Guide for Moms Who Love Their Kids Fiercely and Lose Their Temper Anyway: Calmer Days, Kinder Words and the Repair That Heals",
+ "cover_sub": "For every mom who loves fiercely and snaps anyway",
+ "author": "Clara Whitfield",
+ "series": "Gentle Life Guides",
+ "price_paperback": "14.99",
+ "price_kindle": "5.99",
+ "color": "#C8664A",
+ "chapters": [
+  "00-quickfinder.md",
+  "01-part1a.md",
+  "01-part1b.md",
+  "02-part2a.md",
+  "02-part2b.md",
+  "02-part2c.md",
+  "03-part3a.md",
+  "03-part3b.md",
+  "03-part3c.md",
+  "04-back.md"
+ ],
+ "back": "\"Why do I keep yelling at the people I love most?\"|If you've asked yourself that at 9 p.m., after the house finally went quiet, you are not a bad mother. You are a tired one, carrying more than one nervous system can hold.|This warm, shame-free guide shows you why loving moms snap, how to pause in the three seconds before the yell, what to say in the hardest moments (mornings, bedtime, sibling fights, screens), and how to repair afterwards so your child feels safe again.|Imagine a bedtime where you're the calm one. Start with two breaths tonight.",
+ "description": "You love them more than anything. So why do you keep yelling?\n\nIf you've asked yourself that at 9 p.m., after the house finally went quiet, you are not a bad mother. You are a tired one, carrying more than one nervous system can comfortably hold. Yelling is rarely a lack of love. Most of the time it's an empty tank, a narrow window of patience and a handful of hard moments that happen every single day.\n\nI Didn't Mean to Yell is a warm, practical guide for moms who want calmer days without pretending to be perfect. It is built on well-established approaches such as self-compassion, emotion coaching, attachment-based \"rupture and repair\" and simple tools for calming the nervous system, explained in plain language.\n\nInside you'll find:\n- The Two-Breath Pause: one tool you can try tonight\n- Why loving moms yell, and how to widen your window of patience\n- Your Trigger Map: the times and places your fuse is shortest\n- Repair after yelling, with word-for-word scripts for ages 2–4, 5–7 and 8–12\n- Calm, firm limits without raising your voice\n- Step-by-step plans for mornings, bedtime, sibling fights, screens, big feelings and back-talk\n- Ten hard moments walked through, from supermarket meltdowns to homework battles\n- Self-compassion instead of shame, and the echoes of your own childhood\n- How to get your partner and the grandparents on the same page\n- When it's more than yelling: signs to get extra help, with helpline numbers\n- A 30-Day Calm Mom Plan, a fridge card and a complete script library\n- A Quick Finder so you can open the book at exactly the page you need\n\nImagine a bedtime where you're the calm one. Start with one page tonight.\n\nThis book is not a substitute for professional help. If you are in crisis, please contact your local emergency number or a crisis line.",
+ "keywords": [
+  "how to stop yelling at kids",
+  "mom rage",
+  "gentle parenting book",
+  "calm parenting",
+  "yell less love more",
+  "parenting books for moms",
+  "positive discipline"
+ ],
+ "categories": [
+  "Family & Relationships › Parenting › General",
+  "Self-Help › Anger Management",
+  "Family & Relationships › Parenting › Motherhood"
+ ],
+ "series_key": "yell",
+ "status": "kész",
+ "price_hardcover": "22.99"
 }

@@ -5,51 +5,51 @@ This plan turns the book into small daily steps. Each day takes about five minut
 ## Week 1: The pause and the repair
 
 [[box]]
-- [ ] **Day 1.** Practice the Two-Breath Pause three times today, once when you're calm (Chapter 1).
-- [ ] **Day 2.** Choose your "early warning sign" (jaw, shoulders, voice) and notice it once.
-- [ ] **Day 3.** Put a visual reminder in your most common yelling spot: a sticker, a hair tie, a note.
-- [ ] **Day 4.** Write your repair sentence for your child's age and keep it on your phone (Chapter 4).
-- [ ] **Day 5.** Do the HALT check at 4 p.m.: hungry, angry, lonely, tired? Fix one.
-- [ ] **Day 6.** Repair one moment today, even a small one.
-- [ ] **Day 7.** Write down one thing that went better this week. Just one.
+- ☐ **Day 1.** Practice the Two-Breath Pause three times today, once when you're calm (Chapter 1).
+- ☐ **Day 2.** Choose your "early warning sign" (jaw, shoulders, voice) and notice it once.
+- ☐ **Day 3.** Put a visual reminder in your most common yelling spot: a sticker, a hair tie, a note.
+- ☐ **Day 4.** Write your repair sentence for your child's age and keep it on your phone (Chapter 4).
+- ☐ **Day 5.** Do the HALT check at 4 p.m.: hungry, angry, lonely, tired? Fix one.
+- ☐ **Day 6.** Repair one moment today, even a small one.
+- ☐ **Day 7.** Write down one thing that went better this week. Just one.
 [[/box]]
 
 ## Week 2: Know your triggers
 
 [[box]]
-- [ ] **Day 8.** Start your Trigger Map: note every time you raise your voice (Chapter 3).
-- [ ] **Day 9.** Keep mapping. Add time of day and how hungry or tired you were.
-- [ ] **Day 10.** Look at the map. Circle the time of day that shows up most.
-- [ ] **Day 11.** Choose one trigger and answer the four planning questions.
-- [ ] **Day 12.** Prepare your words for that trigger and say them out loud once while calm.
-- [ ] **Day 13.** Try the plan for your chosen trigger.
-- [ ] **Day 14.** Self-compassion check: do the three-sentence reset tonight (Chapter 13).
+- ☐ **Day 8.** Start your Trigger Map: note every time you raise your voice (Chapter 3).
+- ☐ **Day 9.** Keep mapping. Add time of day and how hungry or tired you were.
+- ☐ **Day 10.** Look at the map. Circle the time of day that shows up most.
+- ☐ **Day 11.** Choose one trigger and answer the four planning questions.
+- ☐ **Day 12.** Prepare your words for that trigger and say them out loud once while calm.
+- ☐ **Day 13.** Try the plan for your chosen trigger.
+- ☐ **Day 14.** Self-compassion check: do the three-sentence reset tonight (Chapter 13).
 [[/box]]
 
 ## Week 3: Calmer days
 
 [[box]]
-- [ ] **Day 15.** Connection before correction: walk over, crouch, connect, then ask (Chapter 5).
-- [ ] **Day 16.** Give ten minutes of special time to one child.
-- [ ] **Day 17.** Use the feeling, limit, action sentence once (Chapter 6).
-- [ ] **Day 18.** Prepare tomorrow morning tonight: clothes, bags, breakfast (Chapter 7).
-- [ ] **Day 19.** Give a warning and a choice before one transition (Chapter 10).
-- [ ] **Day 20.** Name one big feeling for your child: "You're really disappointed" (Chapter 11).
-- [ ] **Day 21.** Pick one battle to let go of this week (Chapter 12).
+- ☐ **Day 15.** Connection before correction: walk over, crouch, connect, then ask (Chapter 5).
+- ☐ **Day 16.** Give ten minutes of special time to one child.
+- ☐ **Day 17.** Use the feeling, limit, action sentence once (Chapter 6).
+- ☐ **Day 18.** Prepare tomorrow morning tonight: clothes, bags, breakfast (Chapter 7).
+- ☐ **Day 19.** Give a warning and a choice before one transition (Chapter 10).
+- ☐ **Day 20.** Name one big feeling for your child: "You're really disappointed" (Chapter 11).
+- ☐ **Day 21.** Pick one battle to let go of this week (Chapter 12).
 [[/box]]
 
 ## Week 4: Take care of the mom
 
 [[box]]
-- [ ] **Day 22.** Eat a real snack before the hardest part of your day (Chapter 16).
-- [ ] **Day 23.** Choose two micro-refills and do them today.
-- [ ] **Day 24.** Agree on a tag-out word with your partner or a friend (Chapter 15).
-- [ ] **Day 25.** Hand over one part of the invisible load.
-- [ ] **Day 26.** Fill in the "keep, change, let go" box (Chapter 14).
-- [ ] **Day 27.** Fill in your support list (Chapter 17).
-- [ ] **Day 28.** Repeat the planning questions for a second trigger.
-- [ ] **Day 29.** Ask your child: "What's something nice we did together this month?"
-- [ ] **Day 30.** Write a kind-friend letter to yourself about how far you've come.
+- ☐ **Day 22.** Eat a real snack before the hardest part of your day (Chapter 16).
+- ☐ **Day 23.** Choose two micro-refills and do them today.
+- ☐ **Day 24.** Agree on a tag-out word with your partner or a friend (Chapter 15).
+- ☐ **Day 25.** Hand over one part of the invisible load.
+- ☐ **Day 26.** Fill in the "keep, change, let go" box (Chapter 14).
+- ☐ **Day 27.** Fill in your support list (Chapter 17).
+- ☐ **Day 28.** Repeat the planning questions for a second trigger.
+- ☐ **Day 29.** Ask your child: "What's something nice we did together this month?"
+- ☐ **Day 30.** Write a kind-friend letter to yourself about how far you've come.
 [[/box]]
 
 ## After 30 days
