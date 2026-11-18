@@ -17,6 +17,13 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | K4 | **Santa's Nice List Kit** (Nice List oklevél, Santa-levél, szarvas-eledel címke, kedvesség-bizonyítvány – szerkeszthető név) | perszonalizálás + kindness | 3,99 € | kész (2026-11-16) #4618343531 |
 | K5 | **Elf Kindness Bundle** (Kindness Elf Kit + Lifesaver Letters + Easy Elf Ideas egyben) | kosárérték-emelő, 3 nyerő termék | 7,99 € | kész (2026-11-15) #4617669906 – Lifesaver Letters + Easy Elf Ideas + Kindness Advent (a Kindness Elf Kit fájl nincs a repóban) |
 | K6 | **Classroom Kindness Calendar** (tanároknak, 24 osztálykedvesség-feladat, faliposzter) | Classroom Elf alig kap forgalmat → manó nélküli, „kindness” fókusz | 4,90 € | kész (2026-11-16) #4618343587 |
+| W1 | **Toddler Kindness Elf Kit** (2–4 éveseknek: képes cetlik, 1 mondatos feladatok, matricás tracker, érkező + búcsúlevél) | Kindness Elf minta, külön long-tail: „toddler kindness elf” | 3,99 € | ötlet – KÖVETKEZŐ (péntek) |
+| W2 | **Freundlichkeits-Wichtel / Wichteltür-Briefe** (német: Wichtel-Ankunftsbrief, 24 Freundlichkeitsaufgaben, Abschiedsbrief) | Kindness Elf minta a DE-piacnak (Wichteltür = nagy német decemberi trend) | 3,99 € | ötlet – hétfő |
+| W3 | **Kindness Reindeer Kit** (rénszarvas érkezik, 24 rénszarvas-cetli, „reindeer food” lap) | elf nélküli családoknak, „kindness reindeer” | 3,99 € | ötlet |
+| W4 | **Kindness Snowman Kit – January** (az elf után januári 24 napos kedvesség-hóember) | jan. szezon, élesítés dec. 15-ig | 3,99 € | ötlet |
+| W5 | **Valentine Kindness Cupid Kit** (14 napos „kindness cupid” cetlik) | febr. szezon, élesítés jan. 5-ig | 3,99 € | ötlet |
+| W6 | **Kindness Leprechaun Kit** (március, csak általános manó, védjegy nélkül) | márc. szezon, élesítés febr. 5-ig | 3,99 € | ötlet |
+| W7 | **Kindness Bunny Kit** (húsvét előtti 14 nap) | ápr. szezon, élesítés márc. 1-ig | 3,99 € | ötlet |
 | P1 | **Family Emergency Binder** (családi vészhelyzeti terv: kontaktok, gyógyszer-/allergialista, evakuációs terv, háziállat-lap, dokumentum-leltár, készlet-ellenőrző; szerkeszthető PDF) – Etsy + KDP 8.5x11 | Nóra könyvpiaci kutatása 2026-11-17: túlélés/felkészülés = top volumen; tervező, nem orvosi tanács („planning aid, not medical advice”), forrás: Ready.gov (közkincs) | 5,99 € / KDP 9,99 $ | kész (2026-11-18) #4619984059 |
 | T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | ötlet |
 | T2 | **Reading Journal & Book Tracker** (Etsy printable + KDP) | trendelemzés #2 | 7,90 € | ötlet |

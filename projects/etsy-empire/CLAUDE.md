@@ -21,6 +21,17 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 ## ÚJ RITMUS (Nóra, 2026-11-17) – ez felülírja a lenti napi 2+1-et
 Az Etsy Stats szerint (nov. 11–17: 19 látogató; Etsy-keresés 2, Ads 6, közösségi média 0) és az API szerint (az 52 új listing átlag 0,2–0,5 megtekintés) az új termék most nem hoz forgalmat. Ezért: **naponta 5 listing optimalizálása** (long-tail cím + 13 tag, `bolt/optimalizalas.json`), **új digitális termék csak H/Sze/P 1 db**, **POD szünet nov. 24-ig**, mérés `scripts/etsy_stats.py`. Etsy-tudás: `.claude/skills/etsy-bolt/SKILL.md`. Felülvizsgálat: nov. 24.
 
+## NYERŐ MINTA: Kindness Elf (Nóra, 2026-11-18) – minden új digitális termék ehhez igazodik
+Az eddigi 2 Etsy-eladás mindkettője a Kindness Elf Kit (#4586400098) volt: 46 megtekintés, 2 kedvelés, 3,99 € (akcióban 3,59 €). Ezt másoljuk, nem a sok különálló printable-t.
+- **Téma:** napi rituálé-kit egy szereplővel (elf, rénszarvas, hóember, cupido, manó, nyuszi…) + kedvesség/jócselekedet, 3–8 éveseknek; „no mess, no special doll, 5 perc naponta”. A szülő estéjét spórolja meg.
+- **Tartalom (~18 oldal):** érkező levél · 24 napi cetli (4/oldal, mindegyik egy kis kedves feladat) · „útlevél”/névadó lap · színezős tracker · 2–3 „mentőlevél” (elfelejtetted, megfogták, késik) · búcsúlevél · üres cetlik. US Letter + A4.
+- **Ár:** 3,99 € (bundle 7,99 €). Olcsó belépő, a kedvezmény működött.
+- **Cím:** az első 3–4 szó a pontos long-tail keresés („Kindness Elf Arrival Letter…”, „Kindness Snowman Kit…”), utána a kit elemei és a korosztály (Toddlers and Preschool).
+- **13 tag:** csak a szereplő + kindness + elem kombinációk („kindness elf letter”, „elf kindness cards”, „toddler elf ideas”); generikus tag tilos.
+- **Borító:** meleg, hangulatos életkép fa asztalon (kakaó, sütemény, fényfüzér, szalag), a kinyomtatott levél jól olvasható címmel („Hello from the North Pole!”), rajta INSTANT DOWNLOAD sáv; négyzetes első kép.
+- **Leírás:** első mondat a szülő gondja („The elf tradition you'll actually enjoy. No mess, no midnight flour.”), WHAT'S INSIDE lista, korosztály, PAIR IT WITH (rokon termék), AI-közlés.
+- **Naptár:** a szereplőt a szezon adja: dec. elf/rénszarvas · jan. hóember · febr. Valentin-cupido · márc. manó (leprechaun, védjegy nélkül) · ápr. nyuszi · tanév vége / nyári kindness. Mindig 4–5 héttel a szezon előtt kell élesíteni.
+
 ## Napi rutin (ütemezett futás, memória nélkül)
 1. Olvasd: ez a fájl, `persona.md`, `termekotletek.md`. Új termék: a két legfelső „ötlet” sor (ha 5 alá fogy a lista, előbb írj 10 új ötletet a persona alapján, ismétlés nélkül). Kiegészítés: a legrégebbi kész termék színváltozata, vagy ha van 3–4 rokon kész termék, bundle.
 2. Írj egy generátort: `scripts/build_<slug>.py` (közös elemek: `scripts/common.py`, stílus: `assets/base.css`) → `termekek/<slug>/<slug>.html`. Minták: `build_cook_with_me.py`, `build_meal_planner.py`. A listing.json-ba kerüljön `kepszoveg` (listingkép-feliratok) és `social` (poszt-szövegek Emily hangján).
