@@ -40,10 +40,21 @@ Pinterest-profil (nov. 2): 438 havi megtekintés, 0 követő. Legjobb pinek éle
 - Borító: `73a94fdd-0030-4aed-a1b4-347cbf0f3dd8`
 - Bemutatkozó hang (Gracie, Biscuittal): `83c11065-f748-435b-a9fa-efffc650014a`
 - Bemutatkozó videó (23 mp): `190ee00b-6425-4ec3-9265-0381556cc5d5`
-- Referencia-arc (sütőtökös fotók): `1ed6fe40-385d-4208-ba6c-1cd15d84256e`
+- **KÖTELEZŐ arc-referencia (Nóra, 2026-11-19): `58eb1f42-9851-475c-a07c-73bf4c4a9439`** = `docs/emily-reference.jpg` (göndör vörösesbarna haj, szeplők, krémszínű pulóver, cirmos macska). Minden Emily-kép `medias: [{value: "58eb1f42-…", role: "image_references"}]` + prompt: „the exact same woman as in the reference image: same face, curly auburn hair, freckles”. Videónál a start_image is ezzel készült kép legyen.
+- NE használd arc-referenciának: a régi sütőtökös `1ed6fe40-…` és a korábbi generált Emily-képek (ezektől csúszott el az arc).
 - Saurus minták: Mama `88bb4fa5-9738-405b-8380-bd1bc36ca68f` · Papa v2 `7f3b59ed-88aa-4413-9682-0e3110020b59` · Little `c94f83c6-1334-411a-9d33-fd4be086367d`
 - Saurus mockupok: család flat lay `05e4e4ac-dba2-4df9-9077-4d10874b662a` · család életkép `649afbe0-7b25-496d-8da2-65632790c595` · Mama+Little `82e21fab-cf45-4d07-ac13-07477911534b`
 - NE használd: régi Maple/Milo hang-videók, Papa Saurus v1 (szakállas) `8d34f9a4-…`, `806f55f9-…`
+
+## Pin-szabályok (Nóra, 2026-11-19 – a régi pinekre 0 kattintás)
+Ok: négyzetes/4:5 életkép felirat nélkül → a hírfolyamban nem derül ki, mit kap a néző; terméknév-cím előny helyett; generikus leírás; kevés, rendszertelen pin (az ütemezés napokig elakadt).
+1. **Formátum 2:3 (1000×1500)**, `python3 projects/etsy-empire/scripts/pin_image.py termekek/<slug> "Előny-cím|2. sor" "konkrét ígéret"`.
+2. **Cím = keresett kifejezés + előny**, nem terméknév („Easy Elf Ideas for Toddlers”, „Kindness Elf Arrival Letter”). Max 6–7 szó, nagy betű.
+3. **Látszódjon a termék közelről** (2 oldal), alul PRINTABLE · INSTANT DOWNLOAD + „Tap to see all pages”.
+4. Pin-cím (≤100 kar.) és leírás (≤500) a listing long-tail kulcsszavaival, 1 CTA-mondat; link = listing URL.
+5. Termékenként 3 pin-változat (más cím/kép), 3–5 naponta új változat – a Pinterest az új képet „friss pin”-ként kezeli.
+6. Emily-életképes pin csak az arc-referenciával, és ugyanúgy előny-címmel.
+7. Elsőbbség: Kindness-mintás termékek (Kindness Elf, Toddler Kindness Elf, következő szereplők).
 
 ## Tartalomszabályok
 - Minden poszton AI-címke (TikTok „AI-generated content”, Instagram „AI info”).
