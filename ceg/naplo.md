@@ -175,3 +175,4 @@
 - 2026-11-18: Gentle: I Didn't Mean to Yell KÉSZ (3/3): 13–17. fej., Ten Hard Moments, 30 napos terv, hűtőkártya, mondatgyűjtemény, GYIK, Quick Finder; 139 old., 24,2e szó; papír 14,99 / keménytáblás 22,99 / Kindle 5,99 $; series.json yell=ready. A heti 1. kész könyv (EN).
 - 2026-11-18: Nóra: a Kindness Elf (mindkét eladás) a minta. CLAUDE.md „NYERŐ MINTA” + termekotletek W1–W7 (Toddler Kindness Elf, Freundlichkeits-Wichtel DE, Kindness Reindeer, Snowman jan., Cupid febr., Leprechaun márc., Bunny ápr.), mind 3,99 €.
 - 2026-11-18: Toddler Kindness Elf Kit élesítve (W1, Kindness Elf minta): 19 old., akvarell manó-illusztráció, 3,99 €, https://www.etsy.com/listing/4620130071
+- 2026-11-19: etsy-empire: mérés 79 listing, +10 megtekintés, 4 kedvelés; 5 listing SEO (Add Your Face → elf add your face, Santa cat wreath bögre, Lucky cat pulóver, Catsmas stocking, toddler coloring). Új termék: nincs (csütörtök).
