@@ -28,6 +28,9 @@ p{margin:0 0 .1in;text-align:justify;hyphens:auto}
 ul,ol{margin:.02in 0 .12in .1in;padding-left:.2in}
 li{margin-bottom:.04in}
 blockquote{margin:.12in 0;padding:.1in .15in;border-left:3px solid #555;background:#f2f2f2;font-style:italic}
+table.mdt{border-collapse:collapse;width:100%;margin:.08in 0 .16in;font-size:10.5pt;line-height:1.4}
+table.mdt th,table.mdt td{border:1px solid #999;padding:.06in .08in;vertical-align:top;text-align:left}
+table.mdt th{background:#eee;font-family:"DejaVu Sans",sans-serif;font-size:9.5pt}
 .chimg{display:block;width:100%;max-height:3.2in;object-fit:contain;margin:.05in 0 .15in;filter:grayscale(1)}
 .lines div{border-bottom:1px solid #888;height:.32in}
 .box{border:1.5px solid #333;border-radius:8px;padding:.12in .15in;margin:.12in 0;page-break-inside:avoid}
@@ -68,6 +71,12 @@ def md_to_html(md: str, slug: str, print_ver=True):
         if re.match(r"^\d+\. ", l):
             if lst != "ol": close(); out.append("<ol>"); lst = "ol"
             out.append(f"<li>{inline(re.sub(r'^\d+\. ', '', l))}</li>"); continue
+        if l.startswith("|") and l.endswith("|"):  # Markdown-táblázat (2026-11-19: eddig nyers | jelként jelent meg)
+            cells = [c.strip() for c in l.strip("|").split("|")]
+            if all(re.fullmatch(r":?-{3,}:?", c) for c in cells): continue
+            if lst != "table": close(); out.append("<table class='mdt'>"); lst = "table"; tag = "th"
+            else: tag = "td"
+            out.append("<tr>" + "".join(f"<{tag}>{inline(c)}</{tag}>" for c in cells) + "</tr>"); continue
         if not l.strip(): close(); continue
         close(); out.append(f"<p>{inline(l)}</p>")
     close()
