@@ -55,7 +55,7 @@ Az eddigi 2 Etsy-eladás mindkettője a Kindness Elf Kit (#4586400098) volt: 46 
 - **KDP-kapu (Nóra, 2026-11-14):** borító és belív mérete pontosan a KDP-ben választott trim szerint, semmi nem lóg ki a keretből (0,25 in biztonsági sáv), feltöltési lap normál betűs (11 pt), tágabb sorközű PDF-ben (`scripts/kdp_lap.py`). Részletek: `books/SOROZAT.md` „KDP-kapu”.
 - **Kindle e-könyv borító (2026-11-17):** min. 625 × 1000 px, max. 10 000 px, JPG RGB, ajánlott 2560 px magas → `scripts/kdp_ebook_cover.py` (minden kdp/ csomagba `ebook-cover.jpg`). Részletek: `books/SOROZAT.md` KDP-kapu.
 - **KDP-t nem automatizálunk** (nincs API; a robotos feltöltés fióktiltást kockáztat) → csak csomag, Nóra tölti fel.
-- **Posztolás**: csak jóváhagyás után, Metricoolon át, `isAiGenerated: true`; Emily posztjaiban „AI-generated character”.
+- **Posztolás**: Emily napi Metricool-ütemezése jóváhagyás nélkül megy (Nóra, 2026-11-19); egyéb poszt csak jóváhagyás után, Metricoolon át, `isAiGenerated: true`; Emily posztjaiban „AI-generated character”.
 - **Etsy AI-közlés** minden leírásban; nincs kitalált vélemény, nincs hamis „eredeti ár”/akció.
 - Nincs állatorvosi/nevelési „szakértői” állítás; minden ilyen oldalon: „planning aid, not veterinary advice”.
 - Nincs másolás: más bolt termékét, nevét, dizájnját nem utánozzuk.
