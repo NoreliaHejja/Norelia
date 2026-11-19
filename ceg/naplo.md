@@ -177,3 +177,4 @@
 - 2026-11-18: Toddler Kindness Elf Kit élesítve (W1, Kindness Elf minta): 19 old., akvarell manó-illusztráció, 3,99 €, https://www.etsy.com/listing/4620130071
 - 2026-11-19: etsy-empire: mérés 79 listing, +10 megtekintés, 4 kedvelés; 5 listing SEO (Add Your Face → elf add your face, Santa cat wreath bögre, Lucky cat pulóver, Catsmas stocking, toddler coloring). Új termék: nincs (csütörtök).
 - 2026-11-19: Nóra: új könyvcsatornák tredition (DACH) + IngramSpark (angol). Szabály a SOROZAT.md-ben: csak nyomtatott kiadás megy szélesre, a Kindle KDP Selectben marad; saját ISBN kell (KDP-ISBN nem vihető át); KDP Expanded Distribution ki; borító a platform sablonja szerint.
+- 2026-11-19: Gentle: Ich wollte nicht schreien (Yell DE) 1/3 kész, 7,2e szó (Schnellfinder, Brief, Kap. 1–4). build_book.py: Markdown-táblázat támogatás (az EN Yell 2 táblázata eddig nyers | jelekkel jelent meg; javítva, oldalszám változatlan 139, yell-en-kdp.zip frissítve).

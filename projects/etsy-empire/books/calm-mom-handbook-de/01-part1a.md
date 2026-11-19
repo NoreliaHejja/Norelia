@@ -155,7 +155,7 @@ Deshalb bleibst du vielleicht in einer echten Krise ruhig, explodierst aber wege
 
 ## Die häufigsten Energielecks
 
-Eine einfache Selbstkontrolle, die viele nutzen, heißt **HALT** (aus dem Englischen): Bist du **h**ungrig, schon **ä**rgerlich (wegen etwas anderem), **e**insam oder **m**üde? Für Mütter kleiner Kinder würde ich noch zwei Punkte ergänzen: **zu viel Körperkontakt** und **überlastet**.
+Eine einfache Selbstkontrolle, die viele nutzen, heißt **HALT**, nach den englischen Wörtern **H**ungry, **A**ngry, **L**onely, **T**ired: Bist du hungrig, schon verärgert (wegen etwas anderem), einsam oder müde? Für Mütter kleiner Kinder würde ich noch zwei Punkte ergänzen: **zu viel Körperkontakt** und **überlastet**.
 
 **1. Müde.** Schlafmangel gehört zu den stärksten Ursachen für Reizbarkeit bei jedem Menschen. Viele Eltern kleiner Kinder schlafen seit Jahren zu wenig. Natürlich ist deine Zündschnur kurz.
 
