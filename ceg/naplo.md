@@ -176,3 +176,4 @@
 - 2026-11-18: Nóra: a Kindness Elf (mindkét eladás) a minta. CLAUDE.md „NYERŐ MINTA” + termekotletek W1–W7 (Toddler Kindness Elf, Freundlichkeits-Wichtel DE, Kindness Reindeer, Snowman jan., Cupid febr., Leprechaun márc., Bunny ápr.), mind 3,99 €.
 - 2026-11-18: Toddler Kindness Elf Kit élesítve (W1, Kindness Elf minta): 19 old., akvarell manó-illusztráció, 3,99 €, https://www.etsy.com/listing/4620130071
 - 2026-11-19: etsy-empire: mérés 79 listing, +10 megtekintés, 4 kedvelés; 5 listing SEO (Add Your Face → elf add your face, Santa cat wreath bögre, Lucky cat pulóver, Catsmas stocking, toddler coloring). Új termék: nincs (csütörtök).
+- 2026-11-19: Nóra: új könyvcsatornák tredition (DACH) + IngramSpark (angol). Szabály a SOROZAT.md-ben: csak nyomtatott kiadás megy szélesre, a Kindle KDP Selectben marad; saját ISBN kell (KDP-ISBN nem vihető át); KDP Expanded Distribution ki; borító a platform sablonja szerint.

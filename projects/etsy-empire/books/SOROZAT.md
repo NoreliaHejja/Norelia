@@ -60,6 +60,13 @@ Cím, alcím, hátsó borító, Amazon-leírás képlete:
 
 **Új sorrend:** #3 Yell (HOSSZÚ, 3/3) → **Faith-teszt (rövid)** → #4 Who Takes Care of Mom? (rövid) → #5 Brave Little Hearts (HOSSZÚ) → #6 The Woman Who Started Over.
 
+## Több csatorna: tredition (DACH) + IngramSpark (angol) – Nóra, 2026-11-19
+- **Csak a nyomtatott könyvek mennek szélesre.** A Kindle e-könyv KDP Selectben marad (Kindle Unlimited-olvasás + ingyenes akciók, pl. Noch brennt das Licht 7 letöltés). Select alatt az e-könyv máshol nem árulható.
+- **Saját ISBN kell.** A KDP ingyenes ISBN-je máshol nem használható. Új könyvnél: saját ISBN (magyar EV kiadóként, OSZK ISBN Iroda – Nóra ellenőrzi a díjat), és ugyanaz az ISBN megy a KDP-re, az IngramSparkra / tredition-re. Már kint lévő könyvnél (KDP ISBN-nel): a szélesebb csatornára új ISBN-nel, új kiadásként megy.
+- **Átfedés Amazonnal:** az IngramSpark és a tredition is listázhatja a könyvet az Amazonon. Ugyanazzal a saját ISBN-nel a KDP-papírkönyv mellett: a KDP „Expanded Distribution” KI, az IngramSparkban az Amazon-csatorna marad (ugyanaz az ISBN → egy termékoldal). Feltöltés előtt Nóra ellenőrzi a felületen, hogy a tredition kizárja-e az Amazont.
+- **Fájlok:** a belív ugyanaz (6x9, beágyazott fontok). Borító: mindkét platform saját sablont / gerincszámítást ad → a sablon méretét (W×H, gerinc) Nóra küldi, `scripts/hardcover_cover.py`-hoz hasonló generátorral készül.
+- **Sorrend:** német könyvek → tredition (Noch brennt das Licht, Gib ihnen ihr Staunen zurück, később Ich wollte nicht schreien); angol könyvek → IngramSpark (Still Lit, Give Them Back Their Wonder, I Didn't Mean to Yell).
+
 ## Német változatok (Nóra, 2026-11-12: MINDEN könyv németül is)
 - Szabály: minden angol könyvnek legyen német párja (amazon.de, EUR ár). Nem szó szerinti fordítás: természetes, meleg német, du-forma, a német piac szokásai (hétfővel kezdődő hét, cm-méretek, Kita/Schule).
 - Német segélyvonalak: Telefonseelsorge 0800 111 0 111 / 0800 111 0 222 (DE), 142 (AT), 143 (CH); Nummer gegen Kummer (Eltern) 0800 111 0 550.
