@@ -19,7 +19,7 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | K6 | **Classroom Kindness Calendar** (tanároknak, 24 osztálykedvesség-feladat, faliposzter) | Classroom Elf alig kap forgalmat → manó nélküli, „kindness” fókusz | 4,90 € | kész (2026-11-16) #4618343587 |
 | W1 | **Toddler Kindness Elf Kit** (2–4 éveseknek: képes cetlik, 1 mondatos feladatok, matricás tracker, érkező + búcsúlevél) | Kindness Elf minta, külön long-tail: „toddler kindness elf” | 3,99 € | kész (2026-11-18) #4620130071 |
 | W2 | **Freundlichkeits-Wichtel / Wichteltür-Briefe** (német: Wichtel-Ankunftsbrief, 24 Freundlichkeitsaufgaben, Abschiedsbrief) | Kindness Elf minta a DE-piacnak (Wichteltür = nagy német decemberi trend) | 3,99 € | ötlet – hétfő |
-| W3 | **Kindness Reindeer Kit** (rénszarvas érkezik, 24 rénszarvas-cetli, „reindeer food” lap) | elf nélküli családoknak, „kindness reindeer” | 3,99 € | ötlet |
+| W3 | **Kindness Reindeer Kit** (rénszarvas érkezik, 24 rénszarvas-cetli, „reindeer food” lap) | elf nélküli családoknak, „kindness reindeer” | 3,99 € | kész (2026-11-20, #4621544025) |
 | W4 | **Kindness Snowman Kit – January** (az elf után januári 24 napos kedvesség-hóember) | jan. szezon, élesítés dec. 15-ig | 3,99 € | ötlet |
 | W5 | **Valentine Kindness Cupid Kit** (14 napos „kindness cupid” cetlik) | febr. szezon, élesítés jan. 5-ig | 3,99 € | ötlet |
 | W6 | **Kindness Leprechaun Kit** (március, csak általános manó, védjegy nélkül) | márc. szezon, élesítés febr. 5-ig | 3,99 € | ötlet |

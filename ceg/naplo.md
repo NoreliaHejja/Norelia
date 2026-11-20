@@ -187,3 +187,4 @@
 ## 2026-11-20 – Etsy Stats (7 nap) + FB-csoport teszt
 - 53 látogatás (előző hét 19): közösségi média 15, Etsy app 15, Ads 13, Marketing & SEO 6, direkt 3, Etsy-keresés 0. Csúcs csütörtök (nov. 19) ~28 látogatás, Nóra kézi megosztása egy Etsy FB-csoportban.
 - Döntés: TESZTELNI 1 hétig, FB-csoport megosztás H/Sze/P/V, max 10 perc/alkalom, csomag: projects/etsy-empire/marketing_szovegek/fb-csoport-csomag.md. Mérés nov. 27-én: látogatás/megosztás és eladás.
+- 2026-11-20 etsy-empire: 5 listing optimalizálva (2 cicás bögre, 2 cicás pulóver, MEGA bundle; az „Embroidery Look” kikerült a címekből). Új termék: Kindness Reindeer Kit #4621544025, 3,99 €, 20 old. (Kindness-minta, „elf alternative” rés). Mérés: 180 össz megtekintés, +11 tegnap óta, 4 kedvelés.
