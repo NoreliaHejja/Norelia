@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Senior Dog Care Journal</title>
+<style>
+:root{
+  --ink:#2f3a34; --soft:#5f6f66; --line:#d7e0d8; --sage:#8aa893;
+  --dark:#4f6b58; --tint:#eef3ec; --cream:#faf8f2; --accent:#e0a458;
+  --warm:#f3ede2; --warmline:#e4d9c6;
+}
+@page{ size:8.5in 11in; margin:0; }
+*{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+html,body{ margin:0; padding:0; background:#fff; }
+body{ font-family:'Poppins',sans-serif; color:var(--ink); font-weight:400; -webkit-font-smoothing:antialiased; }
+.page{ width:8.5in; height:11in; padding:0.7in 0.75in 0.8in; position:relative; page-break-after:always; overflow:hidden; background:#fff; display:flex; flex-direction:column; }
+.page:last-child{ page-break-after:auto; }
+
+.footer{ position:absolute; left:0.75in; right:0.75in; bottom:0.42in; display:flex; justify-content:space-between; align-items:center;
+  font-size:7.5pt; color:var(--soft); letter-spacing:.08em; text-transform:uppercase; border-top:1px solid var(--line); padding-top:8px; }
+.footer .fp{ font-weight:600; color:var(--sage); }
+
+.pagehead{ display:flex; align-items:center; gap:14px; margin-bottom:20px; }
+.icon-circle{ width:46px; height:46px; border-radius:50%; background:var(--warm); display:flex; align-items:center; justify-content:center; flex:0 0 auto; border:1px solid var(--warmline); }
+.eyebrow{ font-size:8pt; letter-spacing:.2em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+h1.page-title{ font-size:20pt; font-weight:700; color:var(--dark); margin:1px 0 0; line-height:1.1; }
+.subtitle{ font-size:9.5pt; color:var(--soft); font-weight:300; margin-top:8px; line-height:1.5; max-width:6.3in; }
+
+.row{ display:flex; gap:14px; }
+.col{ flex:1; }
+table{ width:100%; border-collapse:collapse; }
+thead th{ background:var(--sage); color:#fff; font-weight:600; font-size:8pt; padding:9px 10px; text-align:left; letter-spacing:.04em; text-transform:uppercase; }
+thead th:first-child{ border-top-left-radius:10px; }
+thead th:last-child{ border-top-right-radius:10px; }
+tbody td{ border-bottom:1px solid var(--line); padding:0 10px; font-size:9pt; font-weight:300; height:0.46in; color:var(--ink); }
+tbody tr:nth-child(even){ background:var(--cream); }
+.center{ text-align:center; }
+
+.card{ background:var(--tint); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+.card.warm{ background:var(--warm); border-color:var(--warmline); }
+.card h3{ margin:0 0 10px; font-size:10.5pt; font-weight:600; color:var(--dark); }
+.lbl{ font-size:8pt; letter-spacing:.14em; text-transform:uppercase; color:var(--sage); font-weight:600; display:block; margin-bottom:5px; }
+.wline{ border-bottom:1px solid var(--line); height:0.36in; }
+.chk{ width:14px; height:14px; border:1.6px dashed var(--sage); border-radius:4px; display:inline-block; vertical-align:middle; margin-right:7px; }
+.accent-line{ width:70px; height:3px; background:var(--accent); border-radius:2px; }
+.mini{ font-size:8pt; color:var(--soft); font-weight:300; }
+.pillrow{ display:flex; gap:10px; flex-wrap:wrap; }
+.pill{ background:#fff; border:1px solid var(--line); border-radius:20px; padding:6px 14px; font-size:8.5pt; color:var(--dark); font-weight:400; display:flex; align-items:center; gap:7px; }
+.habitgrid td,.habitgrid th{ text-align:center; }
+.habitgrid td:first-child,.habitgrid th:first-child{ text-align:left; }
+
+.cover{ background:linear-gradient(158deg,var(--cream) 0%, var(--warm) 100%); align-items:center; text-align:center; justify-content:center; padding:1in 0.9in; }
+.cover .medallion{ width:2.5in; height:2.5in; border-radius:50%; background:#fff; border:1.5px solid var(--warmline);
+  display:flex; align-items:center; justify-content:center; box-shadow:0 14px 36px rgba(79,107,88,.09); margin-bottom:34px; }
+.cover .eyebrow{ margin-bottom:14px; }
+.cover h1{ font-size:33pt; font-weight:700; color:var(--dark); line-height:1.08; margin:0; letter-spacing:-.01em; }
+.cover .tag{ font-size:11pt; color:var(--soft); font-weight:300; margin-top:18px; max-width:5in; line-height:1.55; }
+.cover .accent-line{ margin:26px auto 0; }
+.cover .foot{ position:absolute; bottom:0.8in; left:0; right:0; font-size:8.5pt; letter-spacing:.2em; text-transform:uppercase; color:var(--accent); font-weight:500; }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COVER -->
+<div class="page cover">
+  <div class="medallion">
+    <svg viewBox="0 0 120 120" width="150" height="150" fill="none">
+      <circle cx="60" cy="60" r="52" stroke="#e4d9c6" stroke-width="1.5"/>
+      <path d="M60 86s-20-12-20-26a10 10 0 0 1 20-4 10 10 0 0 1 20 4c0 14-20 26-20 26z" stroke="#e0a458" stroke-width="2.4" stroke-linejoin="round" fill="none"/>
+      <g stroke="#4f6b58" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <circle cx="48" cy="52" r="3.4"/><circle cx="60" cy="47" r="3.4"/><circle cx="72" cy="52" r="3.4"/>
+      </g>
+    </svg>
+  </div>
+  <div class="eyebrow">A gentle keepsake &amp; care journal</div>
+  <h1>Senior Dog<br>Care Journal</h1>
+  <div class="tag">For the grey-muzzled best friends. A warm, simple place to track comfort, health, and all the little moments that matter most now.</div>
+  <div class="accent-line"></div>
+  <div class="foot">US Letter &nbsp;&bull;&nbsp; Print &amp; reuse &nbsp;&bull;&nbsp; Health &amp; memories</div>
+</div>
+
+<!-- PAGE 2 — READ THIS FIRST -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9a3 3 0 0 1 3 3v11a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 5h-4a3 3 0 0 0-3 3v11a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Start here</div>
+      <h1 class="page-title">Read this first</h1>
+    </div>
+  </div>
+
+  <div class="subtitle" style="margin-bottom:22px;">Caring for an older dog is a season full of tenderness. This journal helps you notice small changes early, keep medications and vet visits organized, and treasure the everyday moments. Print the pages you need and keep them close.</div>
+
+  <div class="card warm" style="margin-bottom:16px;">
+    <h3>What&rsquo;s inside</h3>
+    <table>
+      <tbody>
+        <tr><td style="width:0.5in;"><b style="color:var(--accent);">01</b></td><td><b>Dog profile</b> &mdash; a one-page snapshot of who they are and their baseline health.</td></tr>
+        <tr><td><b style="color:var(--accent);">02</b></td><td><b>Daily wellness &amp; mobility</b> &mdash; gently track symptoms, appetite, and movement.</td></tr>
+        <tr><td><b style="color:var(--accent);">03</b></td><td><b>Medication schedule</b> &mdash; never miss a dose or a supplement.</td></tr>
+        <tr><td><b style="color:var(--accent);">04</b></td><td><b>Vet visits</b> &mdash; questions to ask and notes to remember.</td></tr>
+        <tr><td><b style="color:var(--accent);">05</b></td><td><b>Memories &amp; milestones</b> &mdash; because these days are precious.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>A gentle note</h3>
+    <p class="mini" style="margin:0; line-height:1.8;">Watching a dog grow old is a privilege and a heartache all at once. Small, steady observations &mdash; a little stiffness here, a smaller appetite there &mdash; are some of the kindest gifts you can bring to your vet. Trust what you notice. You know your dog best.</p>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>Read this first</span></div>
+</div>
+
+<!-- PAGE 3 — DOG PROFILE -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="4"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Who they are</div>
+      <h1 class="page-title">Dog Profile</h1>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom:14px;">
+    <div class="col card">
+      <span class="lbl">Name</span><div class="wline"></div>
+      <div style="height:10px;"></div>
+      <div class="row"><div class="col"><span class="lbl">Breed</span><div class="wline"></div></div><div class="col"><span class="lbl">Date of birth / age</span><div class="wline"></div></div></div>
+      <div style="height:10px;"></div>
+      <div class="row"><div class="col"><span class="lbl">Weight</span><div class="wline"></div></div><div class="col"><span class="lbl">Microchip #</span><div class="wline"></div></div></div>
+    </div>
+    <div class="col card warm" style="flex:0 0 2.1in; text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+      <div style="width:1.5in;height:1.5in;border:1.6px dashed var(--accent);border-radius:16px;display:flex;align-items:center;justify-content:center;background:#fff;">
+        <span class="mini" style="color:var(--accent);">Photo<br>here</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:14px;">
+    <h3>Care team</h3>
+    <div class="row">
+      <div class="col"><span class="lbl">Veterinarian</span><div class="wline"></div></div>
+      <div class="col"><span class="lbl">Clinic phone</span><div class="wline"></div></div>
+    </div>
+    <div style="height:8px;"></div>
+    <div class="row">
+      <div class="col"><span class="lbl">Emergency vet</span><div class="wline"></div></div>
+      <div class="col"><span class="lbl">Insurance / policy #</span><div class="wline"></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Known conditions &amp; baseline</h3>
+    <span class="lbl">Diagnoses / ongoing concerns</span><div class="wline"></div><div class="wline"></div>
+    <div style="height:8px;"></div>
+    <span class="lbl">Allergies &amp; sensitivities</span><div class="wline"></div>
+    <div style="height:8px;"></div>
+    <span class="lbl">Normal appetite, energy &amp; routine</span><div class="wline"></div>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>Dog profile</span></div>
+</div>
+
+<!-- PAGE 4 — WELLNESS & MOBILITY -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Day by day</div>
+      <h1 class="page-title">Daily Wellness &amp; Mobility</h1>
+    </div>
+  </div>
+  <div class="subtitle" style="margin-bottom:16px;">Week of <span style="display:inline-block;border-bottom:1px solid var(--line);width:1.8in;">&nbsp;</span> &nbsp;&bull;&nbsp; A quick daily check-in. Note anything that feels different.</div>
+
+  <table class="habitgrid">
+    <thead>
+      <tr><th style="width:1.1in;">Day</th><th>Appetite</th><th>Energy</th><th>Mobility</th><th>Mood</th><th>Meds given</th><th style="width:1.5in;text-align:left;">Watch / notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Mon</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td>Tue</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td>Wed</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td>Thu</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td>Fri</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td>Sat</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td>Sun</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:20px;"></div>
+  <div class="row">
+    <div class="col card warm">
+      <h3>Signs to keep an eye on</h3>
+      <p class="mini" style="margin:0; line-height:2;">
+        <span class="chk"></span> Stiffness rising from rest&nbsp;&nbsp; <span class="chk"></span> Hesitating at stairs<br>
+        <span class="chk"></span> Drinking more / less&nbsp;&nbsp; <span class="chk"></span> Appetite change<br>
+        <span class="chk"></span> Confusion or restlessness&nbsp;&nbsp; <span class="chk"></span> New lumps</p>
+    </div>
+    <div class="col card">
+      <h3>Comfort &amp; movement this week</h3>
+      <span class="lbl">Gentle exercise / walks</span><div class="wline"></div>
+      <div style="height:6px;"></div>
+      <span class="lbl">Ramps, beds, grip changes made</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>Wellness &amp; mobility</span></div>
+</div>
+
+<!-- PAGE 5 — MEDICATION SCHEDULE -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="10" height="13" rx="5"/><path d="M3 14h10"/><path d="M14.5 10.5l6 6a3.5 3.5 0 0 1-5 5l-6-6"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Never miss a dose</div>
+      <h1 class="page-title">Medication &amp; Supplement Schedule</h1>
+    </div>
+  </div>
+
+  <table style="margin-bottom:18px;">
+    <thead><tr><th>Medication / supplement</th><th style="width:1in;">Dose</th><th style="width:1in;">Morning</th><th style="width:1in;">Evening</th><th>With food?</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td class="center"><span class="chk"></span></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td></td><td></td><td class="center"><span class="chk"></span></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td></td><td></td><td class="center"><span class="chk"></span></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td></td><td></td><td class="center"><span class="chk"></span></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td></td><td></td><td class="center"><span class="chk"></span></td><td class="center"><span class="chk"></span></td><td></td></tr>
+      <tr><td></td><td></td><td class="center"><span class="chk"></span></td><td class="center"><span class="chk"></span></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div class="section-title" style="font-size:10.5pt;font-weight:600;color:var(--dark);margin:0 0 10px;">Weekly dose tracker</div>
+  <table class="habitgrid">
+    <thead><tr><th style="width:1.5in;">Medication</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th><th>S</th></tr></thead>
+    <tbody>
+      <tr><td></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:16px;"></div>
+  <div class="card warm">
+    <h3>Refill reminders</h3>
+    <div class="row"><div class="col"><span class="lbl">Running low on</span><div class="wline"></div></div><div class="col"><span class="lbl">Reorder by</span><div class="wline"></div></div></div>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>Medication schedule</span></div>
+</div>
+
+<!-- PAGE 6 — VET VISITS -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v4h4v6h-4v4H9v-4H5V7h4z" transform="translate(0 1) scale(0.9)"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">At the clinic</div>
+      <h1 class="page-title">Vet Visits &amp; Questions</h1>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:14px;">
+    <h3>Visit details</h3>
+    <div class="row">
+      <div class="col"><span class="lbl">Date</span><div class="wline"></div></div>
+      <div class="col"><span class="lbl">Reason for visit</span><div class="wline"></div></div>
+      <div class="col"><span class="lbl">Weight today</span><div class="wline"></div></div>
+    </div>
+  </div>
+
+  <div class="card warm" style="margin-bottom:14px;">
+    <h3>Questions to ask</h3>
+    <p class="mini" style="margin:0 0 8px; line-height:1.6;">Jot these down before you go &mdash; it&rsquo;s easy to forget in the moment.</p>
+    <div class="wline"></div><div class="wline"></div><div class="wline"></div>
+  </div>
+
+  <div class="card" style="margin-bottom:14px;">
+    <h3>What the vet said</h3>
+    <div class="wline"></div><div class="wline"></div><div class="wline"></div>
+  </div>
+
+  <div class="row">
+    <div class="col card">
+      <h3>Next steps</h3>
+      <p class="mini" style="margin:0; line-height:2;"><span class="chk"></span> New medication<br><span class="chk"></span> Follow-up test<br><span class="chk"></span> Diet / routine change</p>
+    </div>
+    <div class="col card">
+      <h3>Next appointment</h3>
+      <span class="lbl">Date &amp; time</span><div class="wline"></div>
+      <div style="height:8px;"></div>
+      <span class="lbl">For</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>Vet visits</span></div>
+</div>
+
+<!-- PAGE 7 — MEMORIES -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Precious days</div>
+      <h1 class="page-title">Memories &amp; Milestones</h1>
+    </div>
+  </div>
+  <div class="subtitle" style="margin-bottom:18px;">The naps in the sun, the slow happy tail, the favourite spot on the couch. Keep the moments that make this season so dear.</div>
+
+  <div class="row" style="margin-bottom:14px;">
+    <div class="col card warm">
+      <h3>Favourite things right now</h3>
+      <p class="mini" style="margin:0; line-height:2;">Favourite nap spot<div class="wline" style="height:0.3in;"></div>Favourite treat / meal<div class="wline" style="height:0.3in;"></div>Favourite person or pal<div class="wline" style="height:0.3in;"></div></p>
+    </div>
+    <div class="col card">
+      <h3>Little milestones</h3>
+      <span class="lbl">A sweet moment this month</span><div class="wline"></div><div class="wline"></div>
+      <div style="height:6px;"></div>
+      <span class="lbl">Something they still love to do</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>A note to my dog</h3>
+    <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>Memories &amp; milestones</span></div>
+</div>
+
+<!-- PAGE 8 — THE SMALL PRINT -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Good to know</div>
+      <h1 class="page-title">The Small Print</h1>
+    </div>
+  </div>
+
+  <div class="subtitle" style="margin-bottom:20px;">A few friendly notes about using this journal.</div>
+
+  <div class="card" style="margin-bottom:14px;">
+    <h3>Personal use</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">This file is for your own personal, non-commercial use. Print as many copies as you need for your household. Please don&rsquo;t resell, share, or redistribute the file itself.</p>
+  </div>
+  <div class="card warm" style="margin-bottom:14px;">
+    <h3>A caring companion, not medical advice</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">This journal is a tool to help you observe and organize your senior dog&rsquo;s care. It is not veterinary advice and does not replace professional care. Always consult your veterinarian about symptoms, medications, diet, and any changes you notice. Adult supervision is recommended for all pet care.</p>
+  </div>
+  <div class="card" style="margin-bottom:14px;">
+    <h3>About the design</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">Artwork and layout were created with the help of AI design tools and carefully reviewed by a human. Colours may vary slightly between screens and printers.</p>
+  </div>
+  <div class="card warm">
+    <h3>Thank you</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">Thank you for giving your old friend such gentle, attentive love. These quiet days are a gift &mdash; this little journal is honoured to hold them.</p>
+  </div>
+
+  <div style="flex:1;"></div>
+  <div class="center" style="margin-bottom:0.3in;">
+    <div class="accent-line" style="margin:0 auto 12px;"></div>
+    <div class="eyebrow">Made with care for you &amp; your senior dog</div>
+  </div>
+
+  <div class="footer"><span class="fp">Senior Dog Care Journal</span><span>The small print</span></div>
+</div>
+
+</body>
+</html>

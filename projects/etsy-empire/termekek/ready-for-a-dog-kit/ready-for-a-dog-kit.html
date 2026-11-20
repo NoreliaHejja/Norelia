@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ready for a Dog? Family Readiness Kit</title>
+<style>
+@font-face{font-family:'SG';src:url('../../assets/fonts/schibsted-grotesk-latin-400-normal.woff2') format('woff2');font-weight:400}
+@font-face{font-family:'SG';src:url('../../assets/fonts/schibsted-grotesk-latin-500-normal.woff2') format('woff2');font-weight:500}
+@font-face{font-family:'SG';src:url('../../assets/fonts/schibsted-grotesk-latin-600-normal.woff2') format('woff2');font-weight:600}
+@font-face{font-family:'SG';src:url('../../assets/fonts/schibsted-grotesk-latin-700-normal.woff2') format('woff2');font-weight:700}
+@font-face{font-family:'SG';src:url('../../assets/fonts/schibsted-grotesk-latin-800-normal.woff2') format('woff2');font-weight:800}
+:root{
+  --ink:#2f3a34; --soft:#5f6f66; --line:#d7e0d8; --sage:#8aa893;
+  --dark:#4f6b58; --tint:#eef3ec; --cream:#faf8f2; --accent:#e0a458;
+  --warm:#f3ede2; --warmline:#e4d9c6;
+}
+@page{ size:8.5in 11in; margin:0; }
+*{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+html,body{ margin:0; padding:0; background:#fff; }
+body{ font-family:'SG',sans-serif; color:var(--ink); font-weight:400; }
+.page{ width:8.5in; height:11in; padding:0.7in 0.75in 0.85in; position:relative; overflow:hidden;
+  page-break-after:always; background:#fff; display:flex; flex-direction:column; }
+.page:last-child{ page-break-after:auto; }
+.footer{ position:absolute; left:0.75in; right:0.75in; bottom:0.42in; display:flex; justify-content:space-between;
+  font-size:7.5pt; color:var(--soft); letter-spacing:.08em; text-transform:uppercase; border-top:1px solid var(--line); padding-top:8px; }
+.footer .fp{ font-weight:600; color:var(--sage); }
+.pagehead{ display:flex; align-items:center; gap:14px; margin-bottom:16px; }
+.icon-circle{ width:46px; height:46px; border-radius:50%; background:var(--tint); border:1px solid var(--line);
+  display:flex; align-items:center; justify-content:center; flex:0 0 auto; }
+.eyebrow{ font-size:8pt; letter-spacing:.2em; text-transform:uppercase; color:var(--sage); font-weight:600; }
+h1.page-title{ font-size:20pt; font-weight:700; color:var(--dark); margin:1px 0 0; line-height:1.1; }
+.subtitle{ font-size:9.5pt; color:var(--soft); margin:0 0 16px; line-height:1.5; max-width:6.5in; }
+.row{ display:flex; gap:14px; } .col{ flex:1; }
+table{ width:100%; border-collapse:collapse; }
+thead th{ background:var(--sage); color:#fff; font-weight:600; font-size:8pt; padding:8px 10px; text-align:left; letter-spacing:.04em; text-transform:uppercase; }
+thead th:first-child{ border-top-left-radius:10px; } thead th:last-child{ border-top-right-radius:10px; }
+tbody td{ border-bottom:1px solid var(--line); padding:0 10px; font-size:9pt; height:0.42in; }
+tbody tr:nth-child(even){ background:var(--cream); }
+.card{ background:var(--tint); border:1px solid var(--line); border-radius:14px; padding:14px 16px; }
+.card.warm{ background:var(--warm); border-color:var(--warmline); }
+.card h3{ margin:0 0 8px; font-size:10.5pt; font-weight:600; color:var(--dark); }
+.lbl{ font-size:7.5pt; letter-spacing:.14em; text-transform:uppercase; color:var(--sage); font-weight:600; display:block; margin-bottom:4px; }
+.wline{ border-bottom:1px solid var(--line); height:0.34in; }
+.chk{ width:14px; height:14px; border:1.6px dashed var(--sage); border-radius:4px; display:inline-block; vertical-align:middle; margin-right:8px; flex:0 0 auto; }
+.ck{ display:flex; align-items:center; font-size:9pt; padding:5px 0; border-bottom:1px dotted var(--line); }
+.ck:last-child{ border-bottom:0; }
+.mini{ font-size:8pt; color:var(--soft); }
+.accent-line{ width:70px; height:3px; background:var(--accent); border-radius:2px; }
+.cover{ background:linear-gradient(158deg,var(--cream) 0%, var(--warm) 100%); align-items:center; text-align:center; justify-content:center; padding:1in 0.9in; }
+.cover .medallion{ width:2.6in; height:2.6in; border-radius:50%; background:#fff; border:1.5px solid var(--line);
+  display:flex; align-items:center; justify-content:center; box-shadow:0 14px 36px rgba(79,107,88,.09); margin-bottom:30px; }
+.cover h1{ font-size:34pt; font-weight:800; color:var(--dark); line-height:1.05; margin:0; }
+.cover .tag{ font-size:11pt; color:var(--soft); margin-top:16px; max-width:5in; line-height:1.55; }
+.cover .accent-line{ margin:24px auto 0; }
+.cover .foot{ position:absolute; bottom:0.8in; left:0; right:0; font-size:8.5pt; letter-spacing:.2em; text-transform:uppercase; color:var(--sage); font-weight:500; }
+.step{ display:flex; gap:12px; margin-bottom:12px; }
+.num{ width:30px; height:30px; border-radius:50%; background:#fff; border:1.5px solid var(--accent); color:var(--dark);
+  font-weight:700; display:flex; align-items:center; justify-content:center; flex:0 0 auto; font-size:11pt; }
+.step b{ color:var(--dark); } .step p{ margin:2px 0 0; font-size:9pt; color:var(--soft); line-height:1.45; }
+.money td:last-child{ width:1.3in; } .money td:nth-child(2){ width:1.3in; }
+.chore{ border-collapse:separate; border-spacing:0; }
+.chore td,.chore th{ text-align:center; }
+.chore td:first-child,.chore th:first-child{ text-align:left; }
+.chore tbody td{ height:0.98in; }
+.dot{ width:0.42in; height:0.42in; border:1.6px dashed var(--sage); border-radius:50%; display:inline-block; }
+.task{ display:flex; align-items:center; gap:10px; font-size:9.5pt; font-weight:500; color:var(--dark); }
+.task .ic{ width:38px; height:38px; border-radius:50%; background:var(--tint); display:flex; align-items:center; justify-content:center; flex:0 0 auto; }
+.grid30{ display:grid; grid-template-columns:repeat(5,1fr); gap:9px; }
+.day{ border:1px solid var(--line); border-radius:12px; height:1.02in; padding:7px 8px; background:#fff; display:flex; flex-direction:column; justify-content:space-between; }
+.day:nth-child(odd){ background:var(--cream); }
+.day .d{ font-size:7pt; letter-spacing:.12em; color:var(--sage); font-weight:600; }
+.day .t{ font-size:7.6pt; line-height:1.3; color:var(--ink); }
+.day .s{ width:18px; height:18px; border:1.4px dashed var(--accent); border-radius:50%; align-self:flex-end; }
+.week{ display:flex; gap:12px; margin-bottom:10px; }
+.week .wk{ width:0.95in; flex:0 0 auto; background:var(--sage); color:#fff; border-radius:12px; padding:10px; font-weight:700; font-size:10pt; }
+.week .wk span{ display:block; font-size:7pt; font-weight:500; letter-spacing:.12em; text-transform:uppercase; opacity:.9; }
+.week .card{ flex:1; padding:10px 14px; }
+.week .card p{ margin:0; font-size:8.8pt; line-height:1.45; }
+.promise li{ font-size:10pt; padding:7px 0; border-bottom:1px dotted var(--line); list-style:none; display:flex; align-items:center; }
+.promise{ padding:0; margin:0; }
+.drawbox{ border:1.6px dashed var(--sage); border-radius:16px; flex:1; display:flex; align-items:flex-end; justify-content:center; padding:10px; color:var(--soft); font-size:8pt; letter-spacing:.14em; text-transform:uppercase; }
+.sig{ display:flex; gap:16px; margin-top:12px; } .sig div{ flex:1; }
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<div class="page cover">
+  <div class="medallion">
+    <svg viewBox="0 0 140 140" width="170" height="170" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="70" cy="70" r="62" stroke="#d7e0d8" stroke-width="1.5"/>
+      <!-- house -->
+      <path d="M34 70 L70 40 L106 70" stroke="#4f6b58" stroke-width="2.6"/>
+      <path d="M42 64 V100 H98 V64" stroke="#4f6b58" stroke-width="2.6"/>
+      <!-- dog head inside -->
+      <g stroke="#4f6b58" stroke-width="2.4">
+        <path d="M58 82 q12 -14 24 0 q2 12 -12 14 q-14 -2 -12 -14z"/>
+        <path d="M58 82 q-6 -4 -5 6"/><path d="M82 82 q6 -4 5 6"/>
+        <circle cx="66" cy="84" r="1.2" fill="#4f6b58"/><circle cx="74" cy="84" r="1.2" fill="#4f6b58"/>
+      </g>
+      <path d="M38 112 q32 12 64 0" stroke="#e0a458" stroke-width="2.4"/>
+    </svg>
+  </div>
+  <div class="eyebrow">A printable family planner</div>
+  <h1>Ready for<br>a Dog?</h1>
+  <div class="tag">A gentle 4-week kit to decide together, practice the routine with your little one, and welcome a dog into a home that already has a cat.</div>
+  <div class="accent-line"></div>
+  <div class="foot">8 pages &nbsp;&bull;&nbsp; Print at home &nbsp;&bull;&nbsp; Ages 3+ with a grown-up</div>
+</div>
+
+<!-- 2 START HERE -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9a3 3 0 0 1 3 3v11a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 5h-4a3 3 0 0 0-3 3v11a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg></div>
+    <div><div class="eyebrow">Start here</div><h1 class="page-title">How to use this kit</h1></div>
+  </div>
+  <p class="subtitle">Your child asks for a dog every day. This kit turns that wish into a calm family project: four short weeks, one page at a time. By the end you will know if now is the right time, and your child will have practised real care.</p>
+
+  <div class="step"><div class="num">1</div><div><b>Week 1 — Talk &amp; check</b><p>Go through the Family Readiness Checklist together after dinner. Be honest; a "not yet" is a good answer too.</p></div></div>
+  <div class="step"><div class="num">2</div><div><b>Week 1 — Do the money</b><p>Fill in the Monthly Dog Budget with real local prices. Most families are surprised by the "hidden" lines.</p></div></div>
+  <div class="step"><div class="num">3</div><div><b>Weeks 1–4 — Little Helper Chart</b><p>Your child practises picture-based jobs with the cat (or a plush dog). One sticker or colored dot per job.</p></div></div>
+  <div class="step"><div class="num">4</div><div><b>Weeks 1–4 — 30-Day Practice Challenge</b><p>A tiny daily task to build the habit. Missed days are fine; just continue the next day.</p></div></div>
+  <div class="step"><div class="num">5</div><div><b>When you decide yes — Cat &amp; Dog Plan</b><p>A week-by-week introduction plan that keeps your cat safe and relaxed.</p></div></div>
+  <div class="step"><div class="num">6</div><div><b>Finish — Our Dog Promise</b><p>Everyone signs, your child draws the dog they dream of. Pin it to the fridge.</p></div></div>
+
+  <div class="row" style="margin-top:auto">
+    <div class="card col"><h3>Printing tips</h3><div class="mini">US Letter or A4, "fit to page". Print the chart and challenge pages twice if you have two children. Card stock makes the promise page last longer.</div></div>
+    <div class="card warm col"><h3>A note for parents</h3><div class="mini">This is a planning aid, not veterinary or legal advice. Ask your vet and local shelter about breeds, costs and rules where you live.</div></div>
+  </div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>Start here</span></div>
+</div>
+
+<!-- 3 READINESS CHECKLIST -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></div>
+    <div><div class="eyebrow">Week 1 · Talk &amp; check</div><h1 class="page-title">Family Readiness Checklist</h1></div>
+  </div>
+  <p class="subtitle">Tick what is already true. Every open box is something to plan for, not a reason to feel bad.</p>
+  <div class="row">
+    <div class="card col"><h3>Our home</h3>
+      <div class="ck"><span class="chk"></span>Our lease / building allows dogs</div>
+      <div class="ck"><span class="chk"></span>Safe outdoor spot or a park nearby</div>
+      <div class="ck"><span class="chk"></span>A quiet corner for a dog bed</div>
+      <div class="ck"><span class="chk"></span>Cat has high places &amp; a dog-free room</div>
+      <div class="ck"><span class="chk"></span>Toys and food can be kept off the floor</div>
+    </div>
+    <div class="card col"><h3>Our time</h3>
+      <div class="ck"><span class="chk"></span>2–3 walks a day fit our schedule</div>
+      <div class="ck"><span class="chk"></span>Someone is home or a walker is possible</div>
+      <div class="ck"><span class="chk"></span>We can do weekly training for 3 months</div>
+      <div class="ck"><span class="chk"></span>Holiday plan: family, sitter or boarding</div>
+      <div class="ck"><span class="chk"></span>The adults agree who does mornings</div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:14px">
+    <div class="card col"><h3>Our money</h3>
+      <div class="ck"><span class="chk"></span>Monthly budget filled in (next page)</div>
+      <div class="ck"><span class="chk"></span>Emergency vet savings or insurance</div>
+      <div class="ck"><span class="chk"></span>Start-up costs saved (bed, crate, vet)</div>
+    </div>
+    <div class="card col"><h3>Our family</h3>
+      <div class="ck"><span class="chk"></span>No one in the home has a dog allergy</div>
+      <div class="ck"><span class="chk"></span>Our child can follow 2 simple dog rules</div>
+      <div class="ck"><span class="chk"></span>We talked about which size suits us</div>
+    </div>
+  </div>
+  <div class="card warm" style="margin-top:14px"><h3>Our decision today</h3>
+    <div class="row" style="font-size:9.5pt"><div class="ck col"><span class="chk"></span>Yes, let's prepare</div><div class="ck col"><span class="chk"></span>Not yet — check again on</div><div class="col wline"></div></div>
+  </div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>Readiness checklist</span></div>
+</div>
+
+<!-- 4 BUDGET -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><circle cx="16" cy="14.5" r="1.5"/></svg></div>
+    <div><div class="eyebrow">Week 1 · Do the money</div><h1 class="page-title">Monthly Dog Budget</h1></div>
+  </div>
+  <p class="subtitle">Write your local prices. Add the start-up costs once, then the monthly lines. Ask your vet for a typical yearly cost in your area.</p>
+  <table class="money"><thead><tr><th>Start-up (one time)</th><th>Estimate</th><th>Actual</th></tr></thead><tbody>
+    <tr><td>Adoption / breeder fee</td><td></td><td></td></tr>
+    <tr><td>First vet visit, vaccines, microchip</td><td></td><td></td></tr>
+    <tr><td>Crate, bed, bowls, leash, harness</td><td></td><td></td></tr>
+    <tr><td>Baby gate (keeps the cat's space safe)</td><td></td><td></td></tr>
+    <tr><td>Puppy / obedience class</td><td></td><td></td></tr>
+    <tr><td><b>Start-up total</b></td><td></td><td></td></tr>
+  </tbody></table>
+  <table class="money" style="margin-top:14px"><thead><tr><th>Every month</th><th>Estimate</th><th>Actual</th></tr></thead><tbody>
+    <tr><td>Food &amp; treats</td><td></td><td></td></tr>
+    <tr><td>Insurance or vet savings</td><td></td><td></td></tr>
+    <tr><td>Flea, tick &amp; worm prevention</td><td></td><td></td></tr>
+    <tr><td>Grooming</td><td></td><td></td></tr>
+    <tr><td>Dog walker / daycare</td><td></td><td></td></tr>
+    <tr><td>Toys, poop bags, extras</td><td></td><td></td></tr>
+    <tr><td><b>Monthly total</b></td><td></td><td></td></tr>
+  </tbody></table>
+  <div class="row" style="margin-top:14px">
+    <div class="card col"><span class="lbl">We can comfortably spend per month</span><div class="wline"></div></div>
+    <div class="card warm col"><span class="lbl">Difference (comfortable − monthly total)</span><div class="wline"></div></div>
+  </div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>Monthly budget</span></div>
+</div>
+
+<!-- 5 LITTLE HELPER CHART -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg></div>
+    <div><div class="eyebrow">Weeks 1–4 · For little hands</div><h1 class="page-title">Little Helper Chart</h1></div>
+  </div>
+  <p class="subtitle">Practise with your cat or a plush dog. Your child adds a sticker or a colored dot for every job done. Pictures help pre-readers.</p>
+  <table class="chore"><thead><tr><th style="width:2.6in">Job</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody>
+    <tr><td><div class="task"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round"><path d="M4 14h16l-2 5H6z"/><path d="M8 11c1-2 7-2 8 0"/></svg></span>Fill the food bowl</div></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td></tr>
+    <tr><td><div class="task"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round"><path d="M12 4c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9z"/></svg></span>Fresh water</div></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td></tr>
+    <tr><td><div class="task"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round"><path d="M4 20c4-1 6-4 7-8"/><path d="M11 12l6-8"/><path d="M14 8l3 2"/></svg></span>Gentle brushing</div></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td></tr>
+    <tr><td><div class="task"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></span>Play for 10 minutes</div></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td></tr>
+    <tr><td><div class="task"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round"><path d="M6 8h12l-1 12H7z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span>Tidy toys away</div></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td></tr>
+    <tr><td><div class="task"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg></span>Quiet time: let pet rest</div></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td><td><span class="dot"></span></td></tr>
+  </tbody></table>
+  <div class="row" style="margin-top:auto">
+    <div class="card col"><span class="lbl">Week of</span><div class="wline"></div></div>
+    <div class="card warm col"><span class="lbl">Our reward when the chart is full</span><div class="wline"></div></div>
+  </div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>Little helper chart</span></div>
+</div>
+
+<!-- 6 30-DAY CHALLENGE -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+    <div><div class="eyebrow">Weeks 1–4 · One tiny task a day</div><h1 class="page-title">30-Day Practice Challenge</h1></div>
+  </div>
+  <p class="subtitle">Read the task together, do it, color the circle. Grown-ups help with the reading; kids do the doing.</p>
+  <div class="grid30">
+    <div class="day"><span class="d">DAY 1</span><span class="t">Draw your dream dog</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 2</span><span class="t">Feed the cat with a grown-up</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 3</span><span class="t">Learn: let a sleeping pet sleep</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 4</span><span class="t">Walk the plush dog around the block</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 5</span><span class="t">Fill the water bowl alone</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 6</span><span class="t">Pick 3 dog names</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 7</span><span class="t">Visit a dog-friendly park</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 8</span><span class="t">Learn: ask before you pet</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 9</span><span class="t">Brush the cat gently</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 10</span><span class="t">Tidy toys off the floor</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 11</span><span class="t">Read a dog picture book</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 12</span><span class="t">Play "sit &amp; wait" with family</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 13</span><span class="t">Feed the cat on time, morning</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 14</span><span class="t">Say hi to a friend's calm dog</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 15</span><span class="t">Halfway! Show a grown-up your chart</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 16</span><span class="t">Learn: dogs need quiet corners</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 17</span><span class="t">Practice a rainy-day walk</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 18</span><span class="t">Make a "dog bed" spot plan</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 19</span><span class="t">Play 10 min with the cat</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 20</span><span class="t">Learn: no hugging a dog's neck</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 21</span><span class="t">Help sort groceries for pets</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 22</span><span class="t">Draw where the cat can hide</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 23</span><span class="t">Early-morning "walk" at 7:00</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 24</span><span class="t">Clean the food bowl together</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 25</span><span class="t">Learn 3 dog body-language signs</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 26</span><span class="t">Visit a pet shop, just look</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 27</span><span class="t">Feed the cat on time, evening</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 28</span><span class="t">Tell the family a dog rule</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 29</span><span class="t">Look at the budget together</span><span class="s"></span></div>
+    <div class="day"><span class="d">DAY 30</span><span class="t">Sign Our Dog Promise!</span><span class="s"></span></div>
+  </div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>30-day challenge</span></div>
+</div>
+
+<!-- 7 CAT & DOG INTRO PLAN -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l2-5 3 4h4l3-4 2 5v5a7 7 0 0 1-14 0z"/><circle cx="9.5" cy="12" r=".8" fill="#4f6b58"/><circle cx="14.5" cy="12" r=".8" fill="#4f6b58"/></svg></div>
+    <div><div class="eyebrow">When you decide yes</div><h1 class="page-title">Cat &amp; Dog Introduction Plan</h1></div>
+  </div>
+  <p class="subtitle">Go slowly. Move to the next step only when both pets are relaxed. Many introductions take two to four weeks.</p>
+  <div class="week"><div class="wk"><span>Before</span>Prep</div><div class="card"><p>Set up a dog-free room for the cat (food, water, litter, bed). Add shelves or a cat tree. Fit a baby gate. Ask the shelter if the dog has lived with cats.</p></div></div>
+  <div class="week"><div class="wk"><span>Days 1–3</span>Smell</div><div class="card"><p>Keep them apart. Swap a blanket between rooms so they learn each other's scent. Feed both near the closed door.</p></div></div>
+  <div class="week"><div class="wk"><span>Days 4–7</span>See</div><div class="card"><p>Short look-only sessions through the baby gate, dog on a leash, treats for calm behaviour. Stop before anyone gets stressed.</p></div></div>
+  <div class="week"><div class="wk"><span>Week 2</span>Share</div><div class="card"><p>Leashed dog in the same room, cat free to leave and climb high. Five minutes, twice a day. Lots of praise.</p></div></div>
+  <div class="week"><div class="wk"><span>Week 3+</span>Live</div><div class="card"><p>Supervised time together. The cat's room stays dog-free for good. Never leave them alone together until you are sure.</p></div></div>
+  <div class="card warm" style="margin-top:6px"><h3>Our notes &amp; progress</h3><div class="wline"></div><div class="wline"></div><div class="wline"></div></div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>Cat &amp; dog plan</span></div>
+</div>
+
+<!-- 8 PROMISE -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg></div>
+    <div><div class="eyebrow">Finish · Pin it to the fridge</div><h1 class="page-title">Our Dog Promise</h1></div>
+  </div>
+  <ul class="promise">
+    <li><span class="chk"></span>We will feed and walk our dog every day, even when it rains.</li>
+    <li><span class="chk"></span>We will keep the cat's safe room dog-free.</li>
+    <li><span class="chk"></span>We will ask before we pet, and let a sleeping dog sleep.</li>
+    <li><span class="chk"></span>We will go to training together.</li>
+    <li><span class="chk"></span>We will take care of our dog for its whole life.</li>
+  </ul>
+  <div class="drawbox" style="margin-top:14px">Draw our dog here</div>
+  <div class="row" style="margin-top:12px">
+    <div class="card col"><span class="lbl">Our dog's name</span><div class="wline"></div></div>
+    <div class="card col"><span class="lbl">Date</span><div class="wline"></div></div>
+  </div>
+  <div class="sig">
+    <div><span class="lbl">Grown-up</span><div class="wline"></div></div>
+    <div><span class="lbl">Grown-up</span><div class="wline"></div></div>
+    <div><span class="lbl">Little helper</span><div class="wline"></div></div>
+  </div>
+  <div class="footer"><span class="fp">Ready for a Dog?</span><span>For personal use only · © Norelia</span></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "slug": "elf-kindness-bundle",
+  "status": "etsy_aktiv",
+  "created": "2026-11-15",
+  "theme": "karácsony – bundle (Lifesaver Letters + Easy Elf Ideas + Kindness Advent)",
+  "files": [
+    "elf-kindness-bundle.pdf",
+    "elf-kindness-bundle-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Elf & Kindness Bundle",
+    "cim2": "What's inside",
+    "al2": "30 elf letters · 30 elf ideas · 24 kindness cards",
+    "cim3": "December, sorted",
+    "al3": "Print once, enjoy all month",
+    "gyerekoldalak": [
+      29,
+      33
+    ]
+  },
+  "social": {
+    "pin_title": "Christmas elf & kindness bundle – letters, easy ideas and a kindness advent calendar",
+    "pin_text": "30 elf letters, 30 five-minute elf ideas and a 24-day kindness advent calendar in one printable bundle. Instant download.",
+    "ig_text": "December, sorted in one print job: elf letters for the tricky moments, 30 lazy-night elf ideas and a kindness calendar. Link in bio.",
+    "fb_text": "Three Christmas kits in one bundle: Elf Lifesaver Letters, Easy Elf Ideas and a Kindness Advent Calendar.",
+    "tt_hook": "Everything for the elf month in one file",
+    "tt_script": "1) Printer pages flying. 2) Letter, idea card, kindness card. 3) Kid's happy face. CTA."
+  },
+  "etsy": {
+    "title": "Christmas Elf Bundle Printable, Elf Letters, Easy Elf Ideas, Kindness Advent Calendar, Elf Arrival Letter, Kindness Elf Kit, 36 Pages",
+    "price": 7.99,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12479,
+    "tags": [
+      "elf bundle",
+      "christmas elf",
+      "elf letters",
+      "elf ideas",
+      "kindness elf",
+      "kindness calendar",
+      "elf arrival letter",
+      "elf goodbye letter",
+      "elf printable",
+      "advent calendar",
+      "easy elf ideas",
+      "christmas printable",
+      "elf kit"
+    ],
+    "description": "Three of our most-loved Christmas printables in one bundle, for a calm, kind and magical December. 🎄\n\n✨ WHAT'S INSIDE (36 pages)\n1) Elf Lifesaver Letters – 30 ready-to-print letters from your elf for the tricky moments: arrival, late arrival, \"I got touched\", \"are you real?\", goodbye and more\n2) Easy Christmas Elf Ideas – 30 no-mess, 5-minute setups with things you already have, a 24-day planner and elf-size signs\n3) Kindness Advent Calendar – 24 kindness missions, a color-in tracker, dinner talk cards and a Kindness Champion certificate\n\nBought separately these three kits cost 11.97 EUR in our shop; the bundle is 7.99 EUR.\n\n👧👦 For families with kids ages 3 to 12, and classrooms.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included. Print at home on paper or card stock.\n\nPLEASE NOTE\n\"Christmas Elf\" is a generic name for this activity. Not affiliated with any elf doll brand: use any toy you already have. For personal and single-classroom use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "kdp": {
+    "eligible": true,
+    "package": "kdp/KDP_FELTOLTES.md"
+  },
+  "etsy_listing_id": "4617669906",
+  "etsy_url": "https://www.etsy.com/listing/4617669906"
+}

@@ -1,0 +1,119 @@
+{
+ "mug-cocoa": {
+  "type": "mug",
+  "art": "art/cocoa.png",
+  "art_h": 0.58,
+  "art_top": 0.02,
+  "lines": [
+   {
+    "text": "{name}",
+    "font": "GreatVibes-Regular.ttf",
+    "size": 0.2,
+    "color": "#B3262E",
+    "max_w": 0.9,
+    "gap": 0.0
+   },
+   {
+    "text": "Christmas 2026",
+    "font": "AbrilFatface-Regular.ttf",
+    "size": 0.065,
+    "color": "#2F6B4F",
+    "upper": true
+   }
+  ]
+ },
+ "mug-reindeer": {
+  "type": "mug",
+  "art": "art/reindeer.png",
+  "art_h": 0.6,
+  "art_top": 0.02,
+  "lines": [
+   {
+    "text": "{name}",
+    "font": "Pacifico-Regular.ttf",
+    "size": 0.15,
+    "color": "#8B4A2B",
+    "max_w": 0.9,
+    "gap": 0.01
+   },
+   {
+    "text": "Merry Christmas",
+    "font": "DancingScript.ttf",
+    "size": 0.08,
+    "color": "#B3262E"
+   }
+  ]
+ },
+ "tee-family-stockings": {
+  "type": "tee",
+  "art": "art/stockings.png",
+  "art_h": 0.5,
+  "art_top": 0.0,
+  "lines": [
+   {
+    "text": "THE",
+    "font": "AbrilFatface-Regular.ttf",
+    "size": 0.045,
+    "color": "#2F6B4F",
+    "gap": 0.0
+   },
+   {
+    "text": "{name}",
+    "font": "GreatVibes-Regular.ttf",
+    "size": 0.13,
+    "color": "#B3262E",
+    "max_w": 0.95,
+    "gap": 0.02
+   },
+   {
+    "text": "FAMILY",
+    "font": "AbrilFatface-Regular.ttf",
+    "size": 0.06,
+    "color": "#2F6B4F",
+    "gap": 0.015
+   },
+   {
+    "text": "Christmas 2026",
+    "font": "DancingScript.ttf",
+    "size": 0.055,
+    "color": "#8B4A2B"
+   }
+  ]
+ },
+ "tf": {
+  "type": "tee",
+  "art": "art/stockings.png",
+  "art_h": 0.5,
+  "art_top": 0.0,
+  "lines": [
+   {
+    "text": "THE",
+    "font": "AbrilFatface-Regular.ttf",
+    "size": 0.045,
+    "color": "#2F6B4F",
+    "gap": 0.0
+   },
+   {
+    "text": "{name}",
+    "font": "GreatVibes-Regular.ttf",
+    "size": 0.13,
+    "color": "#B3262E",
+    "max_w": 0.95,
+    "gap": 0.02
+   },
+   {
+    "text": "FAMILY",
+    "font": "AbrilFatface-Regular.ttf",
+    "size": 0.06,
+    "color": "#2F6B4F",
+    "gap": 0.015
+   },
+   {
+    "text": "Christmas 2026",
+    "font": "DancingScript.ttf",
+    "size": 0.055,
+    "color": "#8B4A2B"
+   }
+  ]
+ }
+}

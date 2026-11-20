@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dog Walking & Feeding Log</title>
+<style>
+:root{
+  --ink:#2f3a34; --soft:#5f6f66; --line:#d7e0d8; --sage:#8aa893;
+  --dark:#4f6b58; --tint:#eef3ec; --cream:#faf8f2; --accent:#e0a458;
+}
+@page{ size:8.5in 11in; margin:0; }
+*{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+html,body{ margin:0; padding:0; background:#fff; }
+body{ font-family:'Poppins',sans-serif; color:var(--ink); font-weight:400; -webkit-font-smoothing:antialiased; }
+.page{ width:8.5in; height:11in; padding:0.7in 0.75in 0.8in; position:relative; page-break-after:always; overflow:hidden; background:#fff; display:flex; flex-direction:column; }
+.page:last-child{ page-break-after:auto; }
+
+/* footer */
+.footer{ position:absolute; left:0.75in; right:0.75in; bottom:0.42in; display:flex; justify-content:space-between; align-items:center;
+  font-size:7.5pt; color:var(--soft); letter-spacing:.08em; text-transform:uppercase; border-top:1px solid var(--line); padding-top:8px; }
+.footer .fp{ font-weight:600; color:var(--sage); }
+
+/* page head */
+.pagehead{ display:flex; align-items:center; gap:14px; margin-bottom:20px; }
+.icon-circle{ width:46px; height:46px; border-radius:50%; background:var(--tint); display:flex; align-items:center; justify-content:center; flex:0 0 auto; border:1px solid var(--line); }
+.eyebrow{ font-size:8pt; letter-spacing:.2em; text-transform:uppercase; color:var(--sage); font-weight:600; }
+h1.page-title{ font-size:20pt; font-weight:700; color:var(--dark); margin:1px 0 0; line-height:1.1; }
+.subtitle{ font-size:9.5pt; color:var(--soft); font-weight:300; margin-top:8px; line-height:1.5; max-width:6.3in; }
+
+/* generic */
+.row{ display:flex; gap:14px; }
+.col{ flex:1; }
+table{ width:100%; border-collapse:collapse; }
+thead th{ background:var(--sage); color:#fff; font-weight:600; font-size:8pt; padding:9px 10px; text-align:left; letter-spacing:.04em; text-transform:uppercase; }
+thead th:first-child{ border-top-left-radius:10px; }
+thead th:last-child{ border-top-right-radius:10px; }
+tbody td{ border-bottom:1px solid var(--line); padding:0 10px; font-size:9pt; font-weight:300; height:0.46in; color:var(--ink); }
+tbody tr:nth-child(even){ background:var(--cream); }
+.center{ text-align:center; }
+
+.card{ background:var(--tint); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+.card h3{ margin:0 0 10px; font-size:10.5pt; font-weight:600; color:var(--dark); }
+.lbl{ font-size:8pt; letter-spacing:.14em; text-transform:uppercase; color:var(--sage); font-weight:600; display:block; margin-bottom:5px; }
+.wline{ border-bottom:1px solid var(--line); height:0.36in; }
+.chk{ width:14px; height:14px; border:1.6px dashed var(--sage); border-radius:4px; display:inline-block; vertical-align:middle; margin-right:7px; }
+
+.section-title{ font-size:11pt; font-weight:600; color:var(--dark); margin:0 0 10px; display:flex; align-items:center; gap:8px; }
+.accent-line{ width:70px; height:3px; background:var(--accent); border-radius:2px; }
+
+/* cover */
+.cover{ background:linear-gradient(158deg,var(--cream) 0%, var(--tint) 100%); align-items:center; text-align:center; justify-content:center; padding:1in 0.9in; }
+.cover .medallion{ width:2.5in; height:2.5in; border-radius:50%; background:#fff; border:1.5px solid var(--line);
+  display:flex; align-items:center; justify-content:center; box-shadow:0 14px 36px rgba(79,107,88,.09); margin-bottom:34px; }
+.cover .eyebrow{ margin-bottom:14px; }
+.cover h1{ font-size:33pt; font-weight:700; color:var(--dark); line-height:1.08; margin:0; letter-spacing:-.01em; }
+.cover .tag{ font-size:11pt; color:var(--soft); font-weight:300; margin-top:18px; max-width:5in; line-height:1.55; }
+.cover .accent-line{ margin:26px auto 0; }
+.cover .foot{ position:absolute; bottom:0.8in; left:0; right:0; font-size:8.5pt; letter-spacing:.2em; text-transform:uppercase; color:var(--sage); font-weight:500; }
+
+.pillrow{ display:flex; gap:10px; flex-wrap:wrap; margin-top:4px; }
+.pill{ background:#fff; border:1px solid var(--line); border-radius:20px; padding:6px 14px; font-size:8.5pt; color:var(--dark); font-weight:400; display:flex; align-items:center; gap:7px; }
+.mini{ font-size:8pt; color:var(--soft); font-weight:300; }
+.habitgrid td,.habitgrid th{ text-align:center; }
+.habitgrid td:first-child,.habitgrid th:first-child{ text-align:left; }
+.daycell{ width:0.52in; }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COVER -->
+<div class="page cover">
+  <div class="medallion">
+    <svg viewBox="0 0 120 120" width="150" height="150" fill="none">
+      <circle cx="60" cy="60" r="52" stroke="#d7e0d8" stroke-width="1.5"/>
+      <g stroke="#4f6b58" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <!-- paw -->
+        <ellipse cx="60" cy="72" rx="15" ry="12"/>
+        <circle cx="42" cy="55" r="5.5"/>
+        <circle cx="54" cy="46" r="5.5"/>
+        <circle cx="66" cy="46" r="5.5"/>
+        <circle cx="78" cy="55" r="5.5"/>
+      </g>
+      <path d="M30 92 q30 14 60 0" stroke="#e0a458" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+    </svg>
+  </div>
+  <div class="eyebrow">A printable daily companion</div>
+  <h1>Dog Walking &amp;<br>Feeding Log</h1>
+  <div class="tag">A simple, calm way to keep every walk, meal, and treat on track &mdash; so the whole family stays on the same page.</div>
+  <div class="accent-line"></div>
+  <div class="foot">US Letter &nbsp;&bull;&nbsp; Print &amp; reuse &nbsp;&bull;&nbsp; Habit tracker style</div>
+</div>
+
+<!-- PAGE 2 — READ THIS FIRST -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9a3 3 0 0 1 3 3v11a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 5h-4a3 3 0 0 0-3 3v11a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Start here</div>
+      <h1 class="page-title">Read this first</h1>
+    </div>
+  </div>
+
+  <div class="subtitle" style="margin-bottom:22px;">Welcome! This log keeps your dog&rsquo;s daily routine in one tidy place. Print as many copies as you like &mdash; one week per sheet, or a fresh daily page when you want more detail. Here&rsquo;s how to get the most out of it.</div>
+
+  <div class="card" style="margin-bottom:16px;">
+    <h3>How to use these pages</h3>
+    <table>
+      <tbody>
+        <tr><td style="width:0.5in;"><b style="color:var(--sage);">01</b></td><td><b>Weekly overview</b> &mdash; tick off each walk, meal, and task across the week at a glance.</td></tr>
+        <tr><td><b style="color:var(--sage);">02</b></td><td><b>Daily walk &amp; feeding logs</b> &mdash; use on busy or extra-detailed days (new puppy, vet notes, portion changes).</td></tr>
+        <tr><td><b style="color:var(--sage);">03</b></td><td><b>Habit tracker</b> &mdash; build gentle routines like training, grooming, and dental care.</td></tr>
+        <tr><td><b style="color:var(--sage);">04</b></td><td><b>Notes &amp; contacts</b> &mdash; keep the vet, walker, and sitter details handy.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="row">
+    <div class="col card">
+      <h3>A few gentle tips</h3>
+      <p class="mini" style="line-height:1.7; margin:0;">&bull;&nbsp; Keep the sheet somewhere everyone sees it &mdash; the fridge or a clipboard by the leash.<br>&bull;&nbsp; Note portion sizes so every family member feeds the same amount.<br>&bull;&nbsp; Jot a word about mood or energy &mdash; patterns help you and your vet.<br>&bull;&nbsp; Celebrate small wins. Consistency is kindness.</p>
+    </div>
+    <div class="col card">
+      <h3>This log belongs to</h3>
+      <span class="lbl">Dog&rsquo;s name</span><div class="wline"></div>
+      <div style="height:12px;"></div>
+      <div class="row">
+        <div class="col"><span class="lbl">Breed</span><div class="wline"></div></div>
+        <div class="col"><span class="lbl">Age</span><div class="wline"></div></div>
+      </div>
+      <div style="height:12px;"></div>
+      <span class="lbl">Primary caregiver</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>Read this first</span></div>
+</div>
+
+<!-- PAGE 3 — WEEKLY OVERVIEW -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M3 9h18M8 2.5v4M16 2.5v4"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">At a glance</div>
+      <h1 class="page-title">Weekly Walk &amp; Feeding Overview</h1>
+    </div>
+  </div>
+  <div class="subtitle" style="margin-bottom:16px;">Week of <span style="display:inline-block;border-bottom:1px solid var(--line);width:1.8in;">&nbsp;</span> &nbsp;&bull;&nbsp; Tick each box as you go.</div>
+
+  <table class="habitgrid">
+    <thead>
+      <tr><th style="width:1.15in;">Day</th><th>AM walk</th><th>PM walk</th><th>Breakfast</th><th>Dinner</th><th>Water</th><th>Treats</th><th>Potty</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Monday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td>Tuesday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td>Wednesday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td>Thursday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td>Friday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td>Saturday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+      <tr><td>Sunday</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:22px;"></div>
+  <div class="row">
+    <div class="col card">
+      <h3>Walk goal this week</h3>
+      <div class="pillrow">
+        <span class="pill"><span class="chk"></span> 2 walks a day</span>
+        <span class="pill"><span class="chk"></span> 30+ min total</span>
+        <span class="pill"><span class="chk"></span> New route</span>
+      </div>
+      <div style="height:10px;"></div>
+      <span class="lbl">Notes</span><div class="wline"></div><div class="wline"></div>
+    </div>
+    <div class="col card">
+      <h3>Feeding reminders</h3>
+      <span class="lbl">Food &amp; portion</span><div class="wline"></div>
+      <div style="height:8px;"></div>
+      <span class="lbl">Supplements / meds</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>Weekly overview</span></div>
+</div>
+
+<!-- PAGE 4 — DAILY WALK LOG -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4a2 2 0 1 0 0 .01"/><path d="M11 8l-2 4 3 2 1 5M9 12l-3 1-2 4M14 11l3-1 3 2"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Daily detail</div>
+      <h1 class="page-title">Daily Walk Log</h1>
+    </div>
+  </div>
+  <div class="subtitle" style="margin-bottom:16px;">Date <span style="display:inline-block;border-bottom:1px solid var(--line);width:1.6in;">&nbsp;</span> &nbsp;&bull;&nbsp; Day <span style="display:inline-block;border-bottom:1px solid var(--line);width:1.4in;">&nbsp;</span></div>
+
+  <table>
+    <thead><tr><th style="width:0.9in;">Time</th><th>Length</th><th>Route / place</th><th>Potty</th><th>Energy &amp; mood</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:20px;"></div>
+  <div class="row">
+    <div class="col card">
+      <h3>Today&rsquo;s walk checklist</h3>
+      <p class="mini" style="line-height:2; margin:0;">
+        <span class="chk"></span> Leash &amp; harness&nbsp;&nbsp; <span class="chk"></span> Waste bags<br>
+        <span class="chk"></span> Water&nbsp;&nbsp; <span class="chk"></span> Treats / training<br>
+        <span class="chk"></span> Weather-appropriate&nbsp;&nbsp; <span class="chk"></span> ID tag on</p>
+    </div>
+    <div class="col card">
+      <h3>How did it go?</h3>
+      <span class="lbl">Behaviour &amp; training wins</span><div class="wline"></div><div class="wline"></div>
+      <div style="height:6px;"></div>
+      <span class="lbl">Anything to watch</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div style="height:16px;"></div>
+  <div class="card">
+    <h3>Notes for the next walker</h3>
+    <div class="wline"></div><div class="wline"></div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>Daily walk log</span></div>
+</div>
+
+<!-- PAGE 5 — DAILY FEEDING LOG -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 16 0z"/><path d="M3 12h18M12 4v2"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Daily detail</div>
+      <h1 class="page-title">Daily Feeding Log</h1>
+    </div>
+  </div>
+  <div class="subtitle" style="margin-bottom:16px;">Date <span style="display:inline-block;border-bottom:1px solid var(--line);width:1.6in;">&nbsp;</span> &nbsp;&bull;&nbsp; Keep portions consistent for everyone who feeds.</div>
+
+  <table>
+    <thead><tr><th style="width:1in;">Meal</th><th>Time</th><th>Food</th><th>Amount</th><th>Water</th><th>Done</th></tr></thead>
+    <tbody>
+      <tr><td>Breakfast</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td></tr>
+      <tr><td>Lunch</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td></tr>
+      <tr><td>Dinner</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td></tr>
+      <tr><td>Treats</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td></tr>
+      <tr><td>Supplements</td><td></td><td></td><td></td><td></td><td class="center"><span class="chk"></span></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:20px;"></div>
+  <div class="row">
+    <div class="col card">
+      <h3>Water &amp; appetite</h3>
+      <div class="pillrow">
+        <span class="pill"><span class="chk"></span> Normal</span>
+        <span class="pill"><span class="chk"></span> Low</span>
+        <span class="pill"><span class="chk"></span> High</span>
+      </div>
+      <div style="height:10px;"></div>
+      <span class="lbl">Treats given today</span><div class="wline"></div>
+    </div>
+    <div class="col card">
+      <h3>Tummy &amp; notes</h3>
+      <span class="lbl">Digestion / stool</span><div class="wline"></div>
+      <div style="height:8px;"></div>
+      <span class="lbl">Anything new or off</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div style="height:16px;"></div>
+  <div class="card">
+    <h3>Reminder for tomorrow</h3>
+    <div class="wline"></div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>Daily feeding log</span></div>
+</div>
+
+<!-- PAGE 6 — HABIT TRACKER -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Gentle routines</div>
+      <h1 class="page-title">Monthly Habit Tracker</h1>
+    </div>
+  </div>
+  <div class="subtitle" style="margin-bottom:16px;">Month <span style="display:inline-block;border-bottom:1px solid var(--line);width:1.6in;">&nbsp;</span> &nbsp;&bull;&nbsp; Shade a box each day you keep the habit.</div>
+
+  <table class="habitgrid">
+    <thead>
+      <tr><th style="width:1.5in;">Habit</th><th>W1</th><th>W2</th><th>W3</th><th>W4</th><th style="width:1.3in;">Goal</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Two walks a day</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+      <tr><td>Training practice</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+      <tr><td>Fresh water refill</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+      <tr><td>Brush / grooming</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+      <tr><td>Teeth / dental chew</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+      <tr><td>Play / enrichment</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+      <tr><td>Weigh-in</td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td><span class="chk"></span></td><td></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:22px;"></div>
+  <div class="card">
+    <h3>Win of the month</h3>
+    <div class="wline"></div>
+    <div class="wline"></div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>Habit tracker</span></div>
+</div>
+
+<!-- PAGE 7 — NOTES & CONTACTS -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Keep it handy</div>
+      <h1 class="page-title">Notes &amp; Key Contacts</h1>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom:16px;">
+    <div class="col card">
+      <h3>Veterinarian</h3>
+      <span class="lbl">Clinic</span><div class="wline"></div>
+      <div style="height:6px;"></div><span class="lbl">Phone</span><div class="wline"></div>
+    </div>
+    <div class="col card">
+      <h3>Emergency vet</h3>
+      <span class="lbl">Clinic</span><div class="wline"></div>
+      <div style="height:6px;"></div><span class="lbl">Phone</span><div class="wline"></div>
+    </div>
+  </div>
+  <div class="row" style="margin-bottom:16px;">
+    <div class="col card">
+      <h3>Dog walker</h3>
+      <span class="lbl">Name</span><div class="wline"></div>
+      <div style="height:6px;"></div><span class="lbl">Phone</span><div class="wline"></div>
+    </div>
+    <div class="col card">
+      <h3>Sitter / backup</h3>
+      <span class="lbl">Name</span><div class="wline"></div>
+      <div style="height:6px;"></div><span class="lbl">Phone</span><div class="wline"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Free notes</h3>
+    <div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div><div class="wline"></div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>Notes &amp; contacts</span></div>
+</div>
+
+<!-- PAGE 8 — THE SMALL PRINT -->
+<div class="page">
+  <div class="pagehead">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#4f6b58" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+    </div>
+    <div>
+      <div class="eyebrow">Good to know</div>
+      <h1 class="page-title">The Small Print</h1>
+    </div>
+  </div>
+
+  <div class="subtitle" style="margin-bottom:20px;">A few friendly notes about using this printable.</div>
+
+  <div class="card" style="margin-bottom:14px;">
+    <h3>Personal use</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">This file is for your own personal, non-commercial use. Please print as many copies as you need for your household. You&rsquo;re welcome to enjoy it &mdash; but please don&rsquo;t resell, share, or redistribute the file itself.</p>
+  </div>
+  <div class="card" style="margin-bottom:14px;">
+    <h3>A caring companion, not medical advice</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">This log is a simple organizing tool to help you track routines. It is not veterinary advice. For any concerns about your dog&rsquo;s health, diet, exercise, or behaviour, always consult your veterinarian. Adult supervision is recommended for all pet care and feeding.</p>
+  </div>
+  <div class="card" style="margin-bottom:14px;">
+    <h3>About the design</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">Artwork and layout were created with the help of AI design tools and carefully reviewed by a human. Colours may vary slightly between screens and printers.</p>
+  </div>
+  <div class="card">
+    <h3>Thank you</h3>
+    <p class="mini" style="margin:0; line-height:1.7;">Thank you for welcoming this little log into your home. Wishing you and your pup many happy walks and well-earned treats.</p>
+  </div>
+
+  <div style="flex:1;"></div>
+  <div class="center" style="margin-bottom:0.3in;">
+    <div class="accent-line" style="margin:0 auto 12px;"></div>
+    <div class="eyebrow">Made with care for you &amp; your dog</div>
+  </div>
+
+  <div class="footer"><span class="fp">Dog Walking &amp; Feeding Log</span><span>The small print</span></div>
+</div>
+
+</body>
+</html>

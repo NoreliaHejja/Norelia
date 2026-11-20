@@ -1,0 +1,69 @@
+{
+  "slug": "kindness-advent-cards",
+  "status": "etsy_aktiv",
+  "created": "2026-11-15",
+  "theme": "karácsony – kedvesség (Kindness Elf rokon, manó nélkül is)",
+  "files": [
+    "kindness-advent-cards.pdf",
+    "kindness-advent-cards-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Kindness Advent Calendar",
+    "cim2": "What's inside",
+    "al2": "24 mission cards · Tracker · Talk cards · Certificate",
+    "cim3": "One kind act a day",
+    "al3": "5–20 minutes, almost no shopping",
+    "gyerekoldalak": [
+      8,
+      11
+    ]
+  },
+  "social": {
+    "pin_title": "Kindness advent calendar for kids – 24 printable mission cards",
+    "pin_text": "24 simple kindness missions for December, a color-in tracker, dinner talk cards and a Kindness Champion certificate. Instant download.",
+    "ig_text": "This year our countdown is about what we give, not what we get. One small kind mission a day, 24 cards, one very proud certificate on Christmas Eve. Link in bio.",
+    "fb_text": "A kindness advent calendar: 24 printable missions for kids, a tracker and a certificate for Christmas Eve.",
+    "tt_hook": "Our advent calendar has no candy in it",
+    "tt_script": "1) Kid opens envelope. 2) Reads mission: feed the birds. 3) Pine cone feeder. 4) Colors tracker circle. CTA."
+  },
+  "etsy": {
+    "title": "Kindness Advent Calendar Printable, 24 Kindness Cards for Kids, Random Acts of Kindness Christmas Countdown, Kindness Elf Ideas, Classroom",
+    "price": 3.99,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12479,
+    "tags": [
+      "kindness calendar",
+      "kindness advent",
+      "kindness cards",
+      "acts of kindness",
+      "kindness elf",
+      "advent calendar",
+      "christmas countdown",
+      "kids advent",
+      "kindness for kids",
+      "christmas printable",
+      "classroom kindness",
+      "family advent",
+      "advent activities"
+    ],
+    "description": "An advent calendar that grows kind hearts instead of a sugar rush. 🎄\n\n24 small kindness missions, one for every day of December. Each takes 5–20 minutes and needs little or no shopping: feed the birds, thank a helper, call a grandparent, bake for a neighbor, include someone who is alone.\n\n✨ WHAT'S INSIDE (11 pages)\n• 24 kindness mission cards with a helpful tip on each (cut and keep)\n• 6 blank cards for your own family missions\n• Color-in kindness tracker (1–24)\n• 8 dinner-table kindness talk cards\n• Mini kind notes + 6 Christmas joke cards\n• Kindness Champion certificate for Christmas Eve\n\nUse it with any advent calendar, numbered envelopes, a jar, or let your Christmas elf deliver one card each morning.\n\n👧👦 For kids ages 3 to 12, families and classrooms.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included. Print at home on paper or card stock.\n\nPLEASE NOTE\nFor personal and single-classroom use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "etsy_listing_id": "4617660349",
+  "etsy_url": "https://www.etsy.com/listing/4617660349",
+  "kdp": {
+    "eligible": false,
+    "reason": "kindness-advent-cards: 11 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  }
+}

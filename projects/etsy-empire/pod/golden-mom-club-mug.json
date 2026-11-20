@@ -1,0 +1,48 @@
+{
+  "slug": "golden-mom-club-mug",
+  "design": "golden-mom-club.png",
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1399
+  },
+  "scale": 0.33,
+  "y": 0.5,
+  "title": "Golden Retriever Mom Mug, Golden Mom Club Coffee Mug, Dog Mom Gift, Retro Golden Retriever Cup, Dog Lover Christmas Gift",
+  "tags": [
+    "golden retriever",
+    "golden mom",
+    "dog mom mug",
+    "dog mom gift",
+    "golden retriever mug",
+    "retro dog mug",
+    "dog lover gift",
+    "golden mom club",
+    "coffee mug",
+    "gift for her",
+    "stocking stuffer",
+    "christmas dog gift",
+    "dog coffee mug"
+  ],
+  "description": "Morning coffee with your golden by your side.\n\n11oz white ceramic mug, design printed on both sides – it faces you whichever hand you hold it in. Dishwasher and microwave safe.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Printed design.",
+  "printify_image_id": "6af6b2c21e2f9865b423f8cc",
+  "printify_product_id": "6af6b2cb8f3384055a0cb46d",
+  "mockups": [
+    "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/6400/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=front",
+    "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/6402/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=left",
+    "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/10395/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=right",
+    "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/10393/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=context-1",
+    "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/10394/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=context-2",
+    "https://images.printify.com/mockup/6af6b2cb8f3384055a0cb46d/33719/6568/golden-retriever-mom-mug-golden-mom-club-coffee-mug-dog-mom-gift-retro-golden-retriever-cup-dog-lover-christmas-gift.jpg?camera_label=context-3"
+  ],
+  "status": "publikalas_elinditva",
+  "etsy_custom_images": [
+    "pod/mockups/golden-mom-club-3.jpg",
+    "pod/mockups/golden-mom-club-1.jpg",
+    "pod/mockups/golden-mom-club-2.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
+}

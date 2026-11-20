@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stundensatz-Rechner für Reinigungsfirmen | Reinigungsfirma OS</title>
+<meta name="description" content="Kostenloser Stundensatz-Rechner für Gebäudereiniger in Deutschland, Österreich und der Schweiz. Lohn, Nebenkosten, Ausfallzeit und Gemeinkosten in einer Minute kalkulieren.">
+<style>body{margin:0}</style>
+<style>
+@font-face{font-family:"Schibsted Grotesk";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/schibsted-grotesk-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Schibsted Grotesk";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/schibsted-grotesk-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Schibsted Grotesk";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/schibsted-grotesk-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Schibsted Grotesk";font-weight:700;font-style:normal;font-display:swap;src:url(fonts/schibsted-grotesk-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Schibsted Grotesk";font-weight:800;font-style:normal;font-display:swap;src:url(fonts/schibsted-grotesk-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/jetbrains-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/jetbrains-mono-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/jetbrains-mono-latin-600-normal.woff2) format("woff2")}
+:root{
+  --paper:#F5F7F7; --card:#FFFFFF; --ink:#0C1B2A; --muted:#5B6975; --line:#E1E7E8;
+  --petrol:#0F4C5C; --petrol-deep:#0A3642; --foam:#9FE3D1; --foam-soft:#E6F6F1;
+  --on-petrol:#EAF4F3; --on-petrol-muted:#A9C6C8;
+  --sans:"Schibsted Grotesk","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --shadow:0 1px 2px rgba(12,27,42,.06),0 18px 40px -12px rgba(12,27,42,.28);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0A131A; --card:#111D26; --ink:#E4ECEE; --muted:#93A4AE; --line:#1F2E39;
+    --petrol:#0D3F4C; --petrol-deep:#082C35; --foam:#8FDCC7; --foam-soft:#102B28;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 18px 40px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0A131A; --card:#111D26; --ink:#E4ECEE; --muted:#93A4AE; --line:#1F2E39;
+  --petrol:#0D3F4C; --petrol-deep:#082C35; --foam:#8FDCC7; --foam-soft:#102B28;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 18px 40px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding-inline:20px}
+h1,h2,h3{margin:0;line-height:1.1;text-wrap:balance;letter-spacing:-.02em}
+h1{font-size:clamp(2.3rem,5.2vw,3.7rem);font-weight:800}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:700}
+h3{font-size:1.25rem;font-weight:700;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--foam);outline-offset:3px;border-radius:4px}
+.eyebrow{font-family:var(--mono);font-size:.74rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* ===== Hero ===== */
+.hero{background:radial-gradient(120% 90% at 85% 0%,#14606F 0%,var(--petrol) 45%,var(--petrol-deep) 100%);color:var(--on-petrol);padding-block:0 72px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto 0 0 0;height:1px;background:rgba(255,255,255,.08)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:22px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.1rem;letter-spacing:-.01em;color:#fff}
+.logo svg{flex:none}
+.nav a{font-weight:600;font-size:.95rem;text-decoration:none;color:var(--on-petrol);padding:8px 14px;border:1px solid rgba(255,255,255,.22);border-radius:999px}
+.nav a:hover{background:rgba(255,255,255,.08)}
+.hero-grid{display:grid;grid-template-columns:1fr minmax(0,470px);gap:56px;align-items:center;padding-top:28px}
+.hero-copy{display:grid;gap:22px}
+.hero-copy .eyebrow{color:var(--foam)}
+.hero-copy h1{color:#fff}
+.hero-copy h1 em{font-style:normal;color:var(--foam)}
+.lead{font-size:1.14rem;color:var(--on-petrol-muted);max-width:40ch}
+.proof{display:flex;flex-wrap:wrap;gap:10px 22px;list-style:none;padding:0;margin:4px 0 0;font-size:.95rem;color:var(--on-petrol)}
+.proof li{display:flex;align-items:center;gap:8px}
+.proof svg{flex:none;color:var(--foam)}
+
+/* ===== Calculator ===== */
+.calc{background:var(--card);color:var(--ink);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.calc-top{display:flex;justify-content:space-between;align-items:center;padding:18px 22px 6px}
+.calc-top h2{font-size:1.05rem;letter-spacing:0}
+.calc-top span{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.08em}
+.inputs{padding:8px 22px 18px;display:grid;gap:4px}
+.inp{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding-block:10px;border-bottom:1px solid var(--line)}
+.inp:last-child{border-bottom:0}
+.inp label{font-weight:600;font-size:.95rem}
+.inp .val{display:flex;align-items:baseline;gap:4px;font-family:var(--mono);font-size:.95rem;font-variant-numeric:tabular-nums}
+.inp .val input{width:7ch;border:0;border-bottom:1px dashed var(--muted);background:transparent;color:var(--ink);font:inherit;text-align:right;padding:0 2px}
+.inp .val input:focus{outline:none;border-bottom:1px solid var(--petrol)}
+.inp .val small{color:var(--muted);font-size:.78rem}
+.inp input[type=range]{grid-column:1/-1;width:100%;margin:6px 0 0;accent-color:var(--petrol);height:22px}
+:root[data-theme="dark"] .inp input[type=range]{accent-color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .inp input[type=range]{accent-color:var(--foam)}}
+.hint{grid-column:1/-1;font-size:.78rem;color:var(--muted);line-height:1.35}
+
+/* receipt */
+.receipt{background:var(--foam-soft);padding:20px 22px 26px;position:relative;display:grid;gap:14px}
+.receipt::before{content:"";position:absolute;top:-7px;left:0;right:0;height:14px;background:radial-gradient(circle at 7px 7px,var(--card) 6px,transparent 6.5px) repeat-x;background-size:14px 14px}
+.r-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.r-num{font-family:var(--mono);font-weight:600;font-size:clamp(2.3rem,7vw,2.9rem);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:var(--petrol)}
+:root[data-theme="dark"] .r-num{color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .r-num{color:var(--foam)}}
+.r-num small{font-size:.95rem;font-weight:500;color:var(--muted);letter-spacing:0;margin-left:4px}
+.r-lines{display:grid;gap:6px;font-size:.9rem}
+.r-lines div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dotted color-mix(in srgb,var(--muted) 45%,transparent);padding-bottom:5px}
+.r-lines div:last-child{border-bottom:0;font-weight:700}
+.r-lines b{font-family:var(--mono);font-weight:500;font-variant-numeric:tabular-nums}
+.r-foot{font-size:.8rem;color:var(--muted)}
+
+/* ===== Sections ===== */
+section{padding-block:80px}
+.head{display:grid;gap:12px;max-width:640px;margin-bottom:40px;align-content:start}
+.head p{color:var(--muted);font-size:1.08rem}
+
+.mistakes{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.mistake{display:grid;gap:10px;align-content:start;padding-top:22px;border-top:2px solid var(--ink)}
+.mistake .fig{font-family:var(--mono);font-size:2rem;font-weight:600;color:var(--petrol);letter-spacing:-.03em}
+:root[data-theme="dark"] .mistake .fig{color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .mistake .fig{color:var(--foam)}}
+.mistake p{color:var(--muted)}
+
+.instant{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center;background:var(--foam-soft);border:2px solid var(--petrol);border-radius:18px;padding:32px;margin-bottom:28px}
+:root[data-theme="dark"] .instant{border-color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .instant{border-color:var(--foam)}}
+.instant ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.instant li{display:flex;gap:10px;align-items:flex-start}
+.instant li svg{flex:none;margin-top:5px;color:var(--petrol)}
+.instant-buy{display:grid;gap:14px}
+.instant .price{border-top:0;padding-top:0}
+.live{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--petrol);font-weight:600}
+.live::before{content:"";width:8px;height:8px;border-radius:50%;background:#1F9D6B}
+:root[data-theme="dark"] .live,:root[data-theme="dark"] .instant li svg{color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .live,:root:not([data-theme="light"]) .instant li svg{color:var(--foam)}}
+@media (max-width:900px){.instant{grid-template-columns:1fr;padding:24px}}
+.band{background:var(--card);border-block:1px solid var(--line)}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.plan{border:1px solid var(--line);border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:20px;background:var(--paper)}
+.plan.pro{background:var(--petrol);color:var(--on-petrol);border-color:var(--petrol);box-shadow:var(--shadow)}
+.plan.pro h3{color:#fff}
+.plan.pro .eyebrow{color:var(--foam)}
+.plan-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;background:var(--foam);color:#0A3642;padding:5px 9px;border-radius:999px;white-space:nowrap}
+.plan ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.plan li{display:flex;gap:10px;align-items:flex-start}
+.plan li svg{flex:none;margin-top:5px;color:var(--petrol)}
+.plan.pro li svg{color:var(--foam)}
+:root[data-theme="dark"] .plan li svg{color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .plan li svg{color:var(--foam)}}
+.grow{flex:1}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;padding-top:18px;border-top:1px solid var(--line)}
+.plan.pro .price{border-top-color:rgba(255,255,255,.16)}
+.price strong{font-family:var(--mono);font-size:2.4rem;font-weight:600;letter-spacing:-.03em}
+.price s{font-family:var(--mono);color:var(--muted)}
+.plan.pro .price s{color:var(--on-petrol-muted)}
+.price span{font-size:.9rem;color:var(--muted)}
+.plan.pro .price span{color:var(--on-petrol-muted)}
+.btn{display:flex;justify-content:center;align-items:center;gap:8px;min-height:52px;padding:0 24px;border-radius:12px;font:600 1.02rem var(--sans);text-decoration:none;cursor:pointer;border:0;transition:transform .15s ease,filter .15s ease}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.04)}
+.btn-dark{background:var(--ink);color:var(--paper)}
+.btn-foam{background:var(--foam);color:#0A3642}
+.btn-line{background:transparent;color:inherit;border:1.5px solid currentColor}
+.note{font-size:.88rem;font-weight:600}
+
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.fact{display:flex;gap:14px;align-items:flex-start}
+.fact svg{flex:none;color:var(--petrol);margin-top:2px}
+:root[data-theme="dark"] .fact svg{color:var(--foam)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .fact svg{color:var(--foam)}}
+.fact p{font-size:.93rem;color:var(--muted)}
+.fact b{display:block;color:var(--ink);font-size:1rem}
+
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}
+.faq details{border-bottom:1px solid var(--line);padding-block:18px}
+.faq details:first-child{border-top:1px solid var(--line)}
+.faq summary{cursor:pointer;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:var(--mono);color:var(--muted);font-size:1.2rem;line-height:1.4}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin-top:10px;color:var(--muted);max-width:62ch}
+
+.cta{background:var(--petrol-deep);color:var(--on-petrol);border-radius:22px;padding:48px;display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap}
+.cta h2{color:#fff}
+.cta p{color:var(--on-petrol-muted);margin-top:8px}
+.cta .btn{min-width:240px}
+footer{padding-block:40px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}
+footer a{text-decoration:none}
+footer a:hover{text-decoration:underline}
+.legal{padding-bottom:48px;display:grid;gap:0}
+.legal details{border-top:1px solid var(--line);padding-block:14px}
+.legal summary{cursor:pointer;font-weight:600;color:var(--muted)}
+.legal-body{display:grid;gap:12px;margin-top:14px;font-size:.9rem;color:var(--muted);max-width:70ch}
+.legal-body b{color:var(--ink)}
+
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:36px}
+  .mistakes,.facts{grid-template-columns:1fr;gap:28px}
+  .plans,.faq-grid{grid-template-columns:1fr}
+  .faq-grid{gap:24px}
+  section{padding-block:60px}
+}
+@media (max-width:460px){
+  .plan{padding:24px}
+  .cta{padding:28px}
+  .cta .btn{min-width:0;width:100%}
+  .inputs,.receipt,.calc-top{padding-inline:18px}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="nav">
+      <div class="logo">
+        <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="1" width="24" height="24" rx="7" fill="none" stroke="#9FE3D1" stroke-width="2"/><path d="M7 14.5l4 4 8-10" fill="none" stroke="#9FE3D1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Reinigungsfirma OS
+      </div>
+      <a href="#vorverkauf">Kalkulations-Kit</a>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Kostenloser Rechner für Gebäudereiniger</p>
+        <h1>Was kostet Ihre Reinigungs&shy;stunde <em>wirklich?</em></h1>
+        <p class="lead">Lohn plus Gefühl reicht nicht. Rechnen Sie in einer Minute nach, welcher Stundensatz alle Kosten deckt und Gewinn übrig lässt.</p>
+        <ul class="proof">
+          <li><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Für DE, AT und CH</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Ohne Anmeldung</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Ausfallzeiten eingerechnet</li>
+        </ul>
+      </div>
+
+      <form class="calc" id="calc" autocomplete="off">
+        <div class="calc-top"><h2>Stundensatz-Rechner</h2><span>NETTO · €/h</span></div>
+        <div class="inputs">
+          <div class="inp">
+            <label for="lohn-n">Stundenlohn Mitarbeiter</label>
+            <span class="val"><input id="lohn-n" type="number" step="0.05" value="15.00" inputmode="decimal"><small>€</small></span>
+            <input id="lohn" type="range" min="12" max="25" step="0.05" value="15" aria-label="Stundenlohn Mitarbeiter">
+          </div>
+          <div class="inp">
+            <label for="lnk-n">Lohnnebenkosten</label>
+            <span class="val"><input id="lnk-n" type="number" step="1" value="28" inputmode="decimal"><small>%</small></span>
+            <input id="lnk" type="range" min="15" max="45" step="1" value="28" aria-label="Lohnnebenkosten">
+          </div>
+          <div class="inp">
+            <label for="prod-n">Produktive Zeit</label>
+            <span class="val"><input id="prod-n" type="number" step="1" value="80" inputmode="decimal"><small>%</small></span>
+            <input id="prod" type="range" min="60" max="100" step="1" value="80" aria-label="Produktive Zeit">
+            <span class="hint">Bezahlte Zeit ohne Urlaub, Krankheit und Feiertage</span>
+          </div>
+          <div class="inp">
+            <label for="gk-n">Gemeinkosten pro Monat</label>
+            <span class="val"><input id="gk-n" type="number" step="50" value="2500" inputmode="decimal"><small>€</small></span>
+            <input id="gk" type="range" min="0" max="15000" step="50" value="2500" aria-label="Gemeinkosten pro Monat">
+            <span class="hint">Büro, Fahrzeuge, Versicherung, Ihr eigenes Gehalt</span>
+          </div>
+          <div class="inp">
+            <label for="std-n">Verrechenbare Stunden pro Monat</label>
+            <span class="val"><input id="std-n" type="number" step="10" value="800" inputmode="decimal"><small>h</small></span>
+            <input id="std" type="range" min="100" max="5000" step="10" value="800" aria-label="Verrechenbare Stunden pro Monat">
+          </div>
+          <div class="inp">
+            <label for="gew-n">Wagnis &amp; Gewinn</label>
+            <span class="val"><input id="gew-n" type="number" step="1" value="12" inputmode="decimal"><small>%</small></span>
+            <input id="gew" type="range" min="0" max="30" step="1" value="12" aria-label="Wagnis und Gewinn">
+          </div>
+        </div>
+        <div class="receipt" aria-live="polite">
+          <div class="r-head">
+            <div><p class="eyebrow">Ihr Mindest-Stundensatz</p><div class="r-num" id="out">31,39<small>€/h</small></div></div>
+          </div>
+          <div class="r-lines">
+            <div><span>Lohn inkl. Nebenkosten &amp; Ausfall</span><b id="l1">24,00 €</b></div>
+            <div><span>Gemeinkosten je Stunde</span><b id="l2">3,13 €</b></div>
+            <div><span>Material &amp; Reinigungsmittel</span><b id="l3">0,90 €</b></div>
+            <div><span>Wagnis &amp; Gewinn</span><b id="l4">3,36 €</b></div>
+            <div><span>Stundensatz netto</span><b id="l5">31,39 €</b></div>
+          </div>
+          <p class="r-foot">Beispielwerte vorausgefüllt, Material mit 0,90 €/h angesetzt. Tragen Sie Ihre eigenen Zahlen ein.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="wrap">
+    <div class="head">
+      <p class="eyebrow">Wo das Geld verschwindet</p>
+      <h2>Drei Rechenfehler, die gute Aufträge unrentabel machen</h2>
+    </div>
+    <div class="mistakes">
+      <div class="mistake"><span class="fig">≈ 20 %</span><h3>Bezahlte Stunden ohne Leistung</h3><p>Urlaub, Krankheit und Feiertage zahlen Sie trotzdem. Fehlen sie im Preis, arbeitet Ihr Team jeden fünften Tag ohne Deckung.</p></div>
+      <div class="mistake"><span class="fig">m²/h</span><h3>Pauschale Leistungswerte</h3><p>Ein Büro mit Teppich braucht mehr Zeit als ein leerer Flur. Wer pauschal kalkuliert, verschenkt bei jedem Objekt Stunden.</p></div>
+      <div class="mistake"><span class="fig">€/Monat</span><h3>Vergessene Gemeinkosten</h3><p>Fahrzeug, Versicherung und Buchhaltung laufen jeden Monat weiter. Sie gehören in jede verkaufte Stunde.</p></div>
+    </div>
+  </section>
+
+  <div class="band" id="vorverkauf">
+    <section class="wrap">
+      <div class="head">
+        <p class="eyebrow">Sofort starten oder Frühbucherpreis sichern</p>
+        <h2>Fertige Vorlagen statt Bauchgefühl</h2>
+        <p>Excel- und Google-Sheets-Vorlagen für Reinigungsfirmen in Deutschland, Österreich und der Schweiz. Einmal zahlen, dauerhaft nutzen. Kein Abo, kein Kurs.</p>
+      </div>
+      <div class="instant">
+        <div style="display:grid;gap:14px">
+          <span class="live">Sofort verfügbar · Download</span>
+          <h3 style="font-size:1.6rem">Kalkulations-Kit für Reinigungsfirmen</h3>
+          <ul>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Stundensatz mit Urlaub, Krankheit und Gemeinkosten</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Objektkalkulation: Fläche, Raumart und Intervall ergeben Stunden und Monatspreis</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>15 Leistungswerte in m²/h, von Büro bis Sanitär, frei anpassbar</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Angebot, das sich automatisch ausfüllt, fertig zum Drucken</li>
+          </ul>
+        </div>
+        <div class="instant-buy">
+          <div class="price"><strong>29 €</strong><span>einmalig, inkl. MwSt.</span></div>
+          <a class="btn btn-dark" href="#vorverkauf" data-link="kit">Jetzt kaufen und sofort herunterladen</a>
+          <p class="note" hidden data-note="kit">Der Shop öffnet in Kürze.</p>
+          <p style="font-size:.88rem;color:var(--muted)">Excel und Google Sheets. Download direkt nach dem Kauf. 30 Tage Geld-zurück-Garantie.</p>
+        </div>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <div class="plan-top"><div><p class="eyebrow">Für Gründer</p><h3>Starter-Kit</h3></div></div>
+          <ul>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Stundensatz- und Objektkalkulation</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Angebotsvorlage nach m² und Reinigungsintervall</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Leistungsverzeichnis für Büro, Praxis, Treppenhaus</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Checkliste Gewerbeanmeldung und Versicherungen</li>
+          </ul>
+          <div class="grow"></div>
+          <div class="price"><strong>49 €</strong><s>79 €</s><span>einmalig, inkl. MwSt.</span></div>
+          <a class="btn btn-dark" href="#vorverkauf" data-link="starter">Starter-Kit vorbestellen</a>
+          <p class="note" hidden data-note="starter">Der Vorverkauf öffnet in Kürze. Tragen Sie sich unten auf die Warteliste ein.</p>
+        </div>
+        <div class="plan pro">
+          <div class="plan-top"><div><p class="eyebrow">Für laufende Betriebe</p><h3>Reinigungsfirma OS</h3></div><span class="tag">Beliebt</span></div>
+          <ul>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Alles aus dem Starter-Kit</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Einsatz- und Revierplanung für bis zu 50 Mitarbeiter</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Nachkalkulation: Soll- gegen Ist-Stunden je Objekt</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Qualitätskontrolle mit Prüfprotokoll für Kunden</li>
+            <li><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Einarbeitungs-Checklisten auf Deutsch, Türkisch und Serbisch</li>
+          </ul>
+          <div class="grow"></div>
+          <div class="price"><strong>99 €</strong><s>149 €</s><span>einmalig, inkl. MwSt.</span></div>
+          <a class="btn btn-foam" href="#vorverkauf" data-link="os">Reinigungsfirma OS vorbestellen</a>
+          <p class="note" hidden data-note="os">Der Vorverkauf öffnet in Kürze. Tragen Sie sich unten auf die Warteliste ein.</p>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="fact"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><p><b>Auslieferung am 15. November 2026</b>Digitaler Download: Sie erhalten die Excel- und Google-Sheets-Dateien per E-Mail mit Download-Link.</p></div>
+        <div class="fact"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><p><b>30 Tage Geld-zurück-Garantie</b>Innerhalb von 30 Tagen nach Lieferung erhalten Sie den vollen Kaufpreis zurück, ohne Angabe von Gründen. Kommt die Lieferung nicht pünktlich, erstatten wir ebenfalls den vollen Betrag.</p></div>
+        <div class="fact"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18M9 10v10" stroke="currentColor" stroke-width="1.8"/></svg><p><b>Excel &amp; Google Sheets</b>Läuft auf PC, Mac und Tablet, ohne Installation.</p></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="wrap">
+    <div class="faq-grid">
+      <div class="head"><p class="eyebrow">Häufige Fragen</p><h2>Vor dem Kauf</h2></div>
+      <div class="faq">
+        <details><summary>Gilt das für Deutschland, Österreich und die Schweiz?</summary><p>Ja. Lohn, Nebenkosten und Mehrwertsteuer tragen Sie selbst ein. Die Vorlagen rechnen mit Ihren Werten, nicht mit festen Sätzen.</p></details>
+        <details><summary>Brauche ich Excel-Kenntnisse?</summary><p>Nein. Sie füllen die markierten Felder aus, alles andere rechnet automatisch.</p></details>
+        <details><summary>Bleibt der Rechner kostenlos?</summary><p>Ja, dauerhaft und ohne Anmeldung. Die Vorlagen gehen weiter: Objektkalkulation, Angebote und Nachkalkulation.</p></details>
+        <details><summary>Gibt es Support?</summary><p>Ja, per E-Mail. Sie erhalten innerhalb von zwei Werktagen eine Antwort.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="cta">
+      <div><h2>Noch nicht sicher?</h2><p>Kostenlos auf die Warteliste. Sie erfahren zuerst, wenn die Vorlagen fertig sind.</p></div>
+      <a class="btn btn-foam" href="#vorverkauf" data-link="warteliste">Warteliste beitreten</a>
+    </div>
+  </div>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Reinigungsfirma OS</span>
+  <span><a href="#impressum">Impressum</a> · <a href="#datenschutz">Datenschutz</a></span>
+</footer>
+
+<div class="wrap legal">
+  <details id="impressum">
+    <summary>Impressum</summary>
+    <div class="legal-body">
+      <p><b>Angaben gemäß § 5 DDG</b></p>
+      <p>Nóra Aurélia Pócz-Héjja<br>Einzelunternehmerin (egyéni vállalkozó) nach ungarischem Recht<br>[Straße Hausnummer]<br>[PLZ] [Ort]<br>Ungarn</p>
+      <p><b>Kontakt</b><br>E-Mail: [kontakt@ihre-domain.de]</p>
+      <p><b>Registereintrag</b><br>Eingetragen im ungarischen Einzelunternehmerregister (Egyéni vállalkozók nyilvántartása)<br>Registernummer: [Nyilvántartási szám]</p>
+      <p><b>Steuer</b><br>Ungarische Steuernummer: [Adószám]<br>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: [HU12345678]</p>
+      <p><b>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</b><br>Nóra Aurélia Pócz-Héjja, Anschrift wie oben</p>
+      <p><b>Verbraucherstreitbeilegung</b><br>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+      <p><b>Verkauf</b><br>Der Verkauf der Vorlagen erfolgt über Digistore24 GmbH, St.-Godehard-Straße 32, 31139 Hildesheim, Deutschland. Digistore24 ist Vertragspartner und Verkäufer; es gelten deren Geschäfts- und Widerrufsbedingungen.</p>
+    </div>
+  </details>
+  <details id="datenschutz">
+    <summary>Datenschutzerklärung</summary>
+    <div class="legal-body">
+      <p><b>1. Verantwortliche</b><br>Nóra Aurélia Pócz-Héjja, Anschrift und E-Mail siehe Impressum.</p>
+      <p><b>2. Keine Cookies, kein Tracking</b><br>Diese Website setzt keine Cookies und verwendet keine Analyse- oder Werbe-Tracker. Schriftarten werden lokal von unserem Server geladen, es findet keine Verbindung zu Google statt.</p>
+      <p><b>3. Stundensatz-Rechner</b><br>Die Berechnung läuft vollständig in Ihrem Browser. Ihre Eingaben werden nicht an uns übertragen und nicht gespeichert.</p>
+      <p><b>4. Hosting</b><br>Die Website wird bei Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA gehostet. Beim Aufruf verarbeitet Cloudflare technisch notwendige Daten (z. B. IP-Adresse, Zeitpunkt, Browsertyp), um die Seite auszuliefern und vor Angriffen zu schützen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Cloudflare ist unter dem EU-US Data Privacy Framework zertifiziert.</p>
+      <p><b>5. Kauf und Warteliste</b><br>Für Kauf und Warteliste werden Sie zu Digistore24 weitergeleitet. Dort gelten die Datenschutzbestimmungen von Digistore24. Wir erhalten von Digistore24 die für die Lieferung nötigen Daten (Name, E-Mail-Adresse, Bestellung). Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
+      <p><b>6. E-Mail-Kontakt</b><br>Wenn Sie uns per E-Mail schreiben, verarbeiten wir Ihre Angaben zur Beantwortung Ihrer Anfrage (Art. 6 Abs. 1 lit. b bzw. f DSGVO) und löschen sie, sobald sie nicht mehr benötigt werden.</p>
+      <p><b>7. Ihre Rechte</b><br>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren, in Ungarn bei der NAIH (naih.hu) oder bei der Behörde Ihres Wohnsitzes.</p>
+      <p>Stand: Oktober 2026</p>
+    </div>
+  </details>
+</div>
+
+<script>
+// Zahlungslinks hier eintragen (z. B. Gumroad)
+const LINKS = { kit: "", starter: "", os: "", warteliste: "" };
+
+document.querySelectorAll("[data-link]").forEach(a => {
+  const key = a.dataset.link, url = LINKS[key];
+  if (url) { a.href = url; a.target = "_blank"; a.rel = "noopener"; return; }
+  a.addEventListener("click", e => {
+    e.preventDefault();
+    const n = document.querySelector('[data-note="' + key + '"]');
+    if (n) n.hidden = false;
+  });
+});
+
+function openLegal(){
+  const d = document.getElementById(location.hash.slice(1));
+  if (d && d.tagName === "DETAILS") { d.open = true; d.scrollIntoView(); }
+}
+window.addEventListener("hashchange", openLegal);
+document.querySelectorAll('footer a').forEach(a => a.addEventListener("click", () => setTimeout(openLegal, 0)));
+openLegal();
+
+const MAT = 0.90;
+const ids = ["lohn","lnk","prod","gk","std","gew"];
+const num = x => { const v = parseFloat(String(x).replace(",", ".")); return isFinite(v) ? v : 0; };
+const eur = n => n.toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:2});
+
+ids.forEach(id => {
+  const r = document.getElementById(id), n = document.getElementById(id + "-n");
+  r.addEventListener("input", () => { n.value = id === "lohn" ? num(r.value).toFixed(2) : r.value; calc(); });
+  n.addEventListener("input", () => { r.value = num(n.value); calc(); });
+});
+
+function val(id){ return num(document.getElementById(id + "-n").value); }
+
+function calc(){
+  const prod = Math.min(Math.max(val("prod"), 30), 100) / 100;
+  const lohn = val("lohn") * (1 + val("lnk")/100) / prod;
+  const gk = val("gk") / Math.max(val("std"), 1);
+  const selbst = lohn + gk + MAT;
+  const gew = selbst * val("gew")/100;
+  const preis = selbst + gew;
+  document.getElementById("out").innerHTML = eur(preis) + "<small>€/h</small>";
+  document.getElementById("l1").textContent = eur(lohn) + " €";
+  document.getElementById("l2").textContent = eur(gk) + " €";
+  document.getElementById("l3").textContent = eur(MAT) + " €";
+  document.getElementById("l4").textContent = eur(gew) + " €";
+  document.getElementById("l5").textContent = eur(preis) + " €";
+}
+const form = document.getElementById("calc");
+form.addEventListener("submit", e => e.preventDefault());
+calc();
+</script>
+
+</body>
+</html>
