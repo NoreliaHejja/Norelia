@@ -41,3 +41,7 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 ## 2026-11-17 (Emily, ütemezve 11-16 este / 11-17 hajnal – a futás két munkafolyamat-újraindulás miatt csúszott)
 - 01:30 pin Pumpkin Cat (régi) · 05:00 IG+FB+Pin Nice List Kit #430625261 · 07:30 REEL Elf family PNG #431034069 · 10:00 IG+FB akció #430104146 · 12:30 pin akció #430104188 · 15:00 IG+FB+Pin Merry Birdmas bögre #431032514 · 17:00 pin Classroom Kindness #431034158 · 18:30 REEL Bossy Elf bögre #431034387 · 21:00 IG+FB Thankful Ten (régi) · 23:00 pin Cookie Taster póló #431034241
 - Könyvtár: +13 reel (11-15: 7, 11-16: 6), +14 életkép. Kredit 11-16: ~95 (6 videó); egyenleg ~1 780.
+
+## 2026-11-20 (Emily, ütemezve 11-19 este – első futás az új pin-formátummal és az eredeti Emily-arccal)
+- 01:30 pin Toddler Kindness Elf #434598240 · 12:30 pin Easy Elf Ideas #434765068 · 18:30 REEL Toddler Kindness Elf (IG+FB+TikTok, új Emily-arc) #435171855 · 23:00 pin Elf Kindness Bundle #434774963
+- Új: 1 Emily-kép (nano_banana) + 1 kling-videó. Egyenleg ~1 790 kredit. A futás két munkafolyamat-újraindulás miatt csúszott, de minden slot időben kész.
