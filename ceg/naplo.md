@@ -183,3 +183,7 @@
 - Emily: az eredeti kép (Nóra) lett a kötelező arc-referencia: `projects/aureliavenn-etsy/docs/emily-reference.jpg`, Higgsfield `58eb1f42-9851-475c-a07c-73bf4c4a9439`. A régi `1ed6fe40…` és a generált képek láncolása (ettől csúszott el az arc) tilos.
 - Nóra döntése (2026-11-19): a Metricool-ütemezés (createScheduledPost) jóváhagyás nélkül futhat az Emily-feladatban (.claude/settings.json allow). A tartalomszabályok (AI-címke, nincs egészségügyi állítás) változatlanok.
 - Pinterest 0 kattintás oka: felirat nélküli életkép/4:5 kép, terméknév-cím előny helyett, rendszertelen ütemezés. Új 2:3 pin-sablon: `projects/etsy-empire/scripts/pin_image.py` (előny-cím + két oldal közelről + INSTANT DOWNLOAD sáv). Szabályok: BRAND-EMILY.md „Pin-szabályok”. Emily-trigger frissítve. Eredmény: mérés nov. 26-án (pin-kattintás, Etsy „Pinterest” forrás).
+
+## 2026-11-20 – Etsy Stats (7 nap) + FB-csoport teszt
+- 53 látogatás (előző hét 19): közösségi média 15, Etsy app 15, Ads 13, Marketing & SEO 6, direkt 3, Etsy-keresés 0. Csúcs csütörtök (nov. 19) ~28 látogatás, Nóra kézi megosztása egy Etsy FB-csoportban.
+- Döntés: TESZTELNI 1 hétig, FB-csoport megosztás H/Sze/P/V, max 10 perc/alkalom, csomag: projects/etsy-empire/marketing_szovegek/fb-csoport-csomag.md. Mérés nov. 27-én: látogatás/megosztás és eladás.
