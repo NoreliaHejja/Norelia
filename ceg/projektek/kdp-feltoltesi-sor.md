@@ -18,6 +18,7 @@ Csomagok: `projects/etsy-empire/books/_zip/2026-11-23/` (ha a konténer újraind
 | 4–9 | Weihnachts-Rätselbuch, Weihnachts-Malbuch, Family Planner 2027, Familienplaner 2027, Pet Care Journal, Haustier-Gesundheitsheft | papír (ha a keret engedi / következő hetek) | mind 8,5×11, borító a KDP-képlet szerint ellenőrizve; Kindle nem |
 
 | – | **I Didn't Mean to Yell EN** (kész 11-18) | papír + keménytáblás + Kindle a **nov. 30-i héten** | 139 old.; papír 12,563 × 9,25 in; keménytáblás 14,077 × 10,417 in (becsült); 14,99 / 22,99 / 5,99 $; zip: books/_zip/yell-en-kdp.zip |
+| – | **Ich wollte nicht schreien DE** (kész 11-21) | papír + keménytáblás + Kindle a **nov. 30-i héten** (az EN Yell mellé) | 150 old.; papír 12,587 × 9,25 in; keménytáblás 14,102 × 10,417 in (becsült); 15,99 / 23,99 / 5,99 €; zip: books/_zip/yell-de-kdp.zip; utána tredition-jelölt |
 
 ### Korábbi terv (2026-11-14)
 | Prior. | Könyv | Piac | Miért most | Hét | Fent? |
