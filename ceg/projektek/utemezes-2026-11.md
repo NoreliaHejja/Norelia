@@ -47,4 +47,5 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 - Új: 1 Emily-kép (nano_banana) + 1 kling-videó. Egyenleg ~1 790 kredit. A futás két munkafolyamat-újraindulás miatt csúszott, de minden slot időben kész.
 
 ## 2026-11-21 (Emily; a 11-20 esti futás két újraindulás miatt reggel fejeződött be)
-- 01:30 pin Kindness Reindeer Kit #436012616 · 12:30 pin Toddler Kindness Elf (pin-2) #436432465 · 23:00 pin Elf Lifesaver Letters #436432671 · 18:30 REEL Kindness Reindeer (új Emily-arc) – lásd alább.
+- 01:30 pin Kindness Reindeer Kit #436012616 · 12:30 pin Toddler Kindness Elf (pin-2) #436432465 · 23:00 pin Elf Lifesaver Letters #436432671 · 18:30 REEL Kindness Reindeer (új Emily-arc) #436515369 (IG+FB+TikTok). Kredit: ~15 (1 kép + 1 kling).
+- Megjegyzés: a Metricool-hívások az újraindulások miatt többször jóváhagyásra vártak; a .claude/settings.json allow-szabálya a következő munkamenet-indulástól hat.
