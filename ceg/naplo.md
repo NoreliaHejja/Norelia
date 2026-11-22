@@ -194,3 +194,4 @@
 - 2026-11-22 etsy-empire: 5 listing optimalizálva (Cardinal mug wrap PNG, 2 német karácsonyi könyv DE kulcsszavakkal, Christmas Activity Book 48p, Golden Retriever bögre). Mérés: 227 össz megtekintés (+26/nap, újabb csúcs), 4 kedvelés, eladás nincs.
 - 2026-11-22 Nóra döntése (Etsy): csak digitális termék (új POD nincs), naponta 3 új termék minden nap, borító = csak a termék tiszta háttérrel (scripts/clean_cover.py). Napi trigger átírva (trig_017wWfBvVT3nTqYSv8NW4z3r), etsy-empire/CLAUDE.md „AKTUÁLIS RITMUS”.
 - 2026-11-22 SaaS-résvizsgálat (top 4): 1. Printable Listing Image Studio = TESZTELNI (nyitott rés), Pin Factory és Etsy Personalization→POD = ELVETNI (zsúfolt / a Printify natívan megoldja), Low-Content Book Builder = tartalék. ceg/projektek/saas-resvizsgalat.md
+- 2026-11-22 Gentle C) csatorna: Christmas on My Own Planner (Still Lit kísérő, 10 old., 3,99 €) élő az Etsy-n: #4623018281. Heti 2 könyv megvan (EN + DE Yell).

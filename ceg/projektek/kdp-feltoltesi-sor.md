@@ -45,7 +45,7 @@ Ami már fent van (Nóra jelöli): ______________________________
 ## Csatornák az Amazonon kívül (2026-11-14 döntés)
 | Rang | Csatorna | Mit | Mikor él | Döntés |
 |---|---|---|---|---|
-| 1 | **Etsy** (meglévő bolt) | a KDP-könyvek **PDF-változata**: német Malbuch + Rätselbuch (FENT: #4617157543, #4617165888); Gentle-könyvekhez **kísérő printable** (új munkalapok, nem a könyv szövege → KDP Select rendben): Screen-Free Winter Break Planner (Wonder) FENT 2026-11-15; következő: Still Lit „Christmas on My Own” planner, majd a német párjaik | azonnal, automatikusan | MEGCSINÁLNI (folyamatban) |
+| 1 | **Etsy** (meglévő bolt) | a KDP-könyvek **PDF-változata**: német Malbuch + Rätselbuch (FENT: #4617157543, #4617165888); Gentle-könyvekhez **kísérő printable** (új munkalapok, nem a könyv szövege → KDP Select rendben): Screen-Free Winter Break Planner (Wonder) FENT 2026-11-15; Still Lit „Christmas on My Own” planner FENT 2026-11-22 (#4623018281); következő: a német párjaik (Noch brennt das Licht → „Weihnachten allein” Planer, Staunen → Bildschirmfrei-Planer) | azonnal, automatikusan | MEGCSINÁLNI (folyamatban) |
 | 2 | **Draft2Digital** | német e-könyvek: Tolino, Apple, Kobo | – | ELHALASZTVA (küszöb: ≥30 német e-könyv/hó az Amazonon vagy ≥10 német cím) |
 | 3 | **Teachers Pay Teachers** | gyerek karácsonyi foglalkoztatók, kifestők, Kindness Elf osztály-verzió (US tanárok/szülők) | 1–2 nap | TESZTELNI (1 hét, 3 termék) |
 | 4 | **Payhip** | közvetlen PDF-eladás Emily „link in bio”-jából (5% díj ingyenes csomagban) | azonnal | később (ha Emily-forgalom nő) |
