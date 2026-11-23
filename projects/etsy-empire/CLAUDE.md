@@ -18,9 +18,13 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 | Emily reel (9:16 felirat) | `scripts/reel_overlay.sh`; videókönyvtár: `marketing_szovegek/emily_videok.json` |
 | posztcsomag | `social_poster.py` |
 
+## HORGOLÁSMINTÁK + NAPI 2 PRINTABLE (Nóra, 2026-11-23) – felülírja a napi 3-at
+- **Naponta 2 új printable** (a lenti szabályokkal) **+ 2 horgolásminta-piszkozat** (EN + DE). Részletek: `horgolas/README.md`, sor: `horgolas/SOR.md`.
+- Horgolásmintát **csak tesztelő által elkészített és lefotózott** darab után élesítünk; AI-fotó a kész darabról tilos. Max. 6 minta várhat tesztre.
+
 ## AKTUÁLIS RITMUS (Nóra, 2026-11-22) – ez felülír minden korábbi ritmust és borítószabályt
 - **Csak digitális termék.** POD (Printify póló/bögre) új terméke nincs; a meglévő POD- és névre szóló listingek maradnak, a rendelésteljesítés fut tovább.
-- **Naponta 3 új digitális termék**, a hét minden napján (a Kindness-minta és a termekotletek.md sorrendje szerint; szűk, long-tail rés).
+- ~~Naponta 3~~ → **naponta 2 új digitális termék** (2026-11-23), a hét minden napján (a Kindness-minta és a termekotletek.md sorrendje szerint; szűk, long-tail rés).
 - **Borító = csak a termék, tiszta háttérrel:** `python3 scripts/clean_cover.py termekek/<slug> [o1 o2 o3]` → 01-cover.jpg (4:5) + 01-cover-square.jpg (images[0]). Nincs életkép, kellék, Higgsfield-mockup, felirat-szalag.
 - Napi 5 listing optimalizálása marad.
 

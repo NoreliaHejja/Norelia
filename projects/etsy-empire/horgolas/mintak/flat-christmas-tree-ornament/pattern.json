@@ -1,0 +1,188 @@
+{
+ "slug": "flat-christmas-tree-ornament",
+ "statusz": "tesztre_var",
+ "name_en": "Flat Christmas Tree Ornament – Crochet Pattern",
+ "name_de": "Flacher Weihnachtsbaum-Anhänger – Häkelanleitung",
+ "tagline_en": "A quick, beginner-friendly tree with a little star. About 1 hour.",
+ "tagline_de": "Ein schneller, anfängerfreundlicher Baum mit kleinem Stern. Ca. 1 Stunde.",
+ "level_en": "Beginner",
+ "level_de": "Anfänger",
+ "size_en": "approx. 7 cm wide × 9 cm tall (2.75 × 3.5 in) with worsted yarn",
+ "size_de": "ca. 7 cm breit × 9 cm hoch mit mittelstarkem Garn",
+ "hook": "4 mm (US G/6)",
+ "gauge_en": "Not critical. Keep stitches firm.",
+ "gauge_de": "Nicht entscheidend. Fest häkeln.",
+ "materials": [
+  {
+   "text_en": "Worsted / aran weight cotton or acrylic yarn: green (about 10 g), brown (2 g), yellow (2 g)",
+   "text_de": "Mittelstarkes Baumwoll- oder Acrylgarn: grün (ca. 10 g), braun (2 g), gelb (2 g)"
+  },
+  {
+   "text_en": "4 mm crochet hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4 mm, Wollnadel, Schere"
+  },
+  {
+   "text_en": "Optional: small buttons or beads as baubles, ribbon for hanging",
+   "text_de": "Optional: kleine Knöpfe oder Perlen als Kugeln, Band zum Aufhängen"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sc",
+  "sc2tog",
+  "sl st",
+  "MR",
+  "st",
+  "hdc"
+ ],
+ "notes": [
+  {
+   "text_en": "Written in US crochet terms. A UK conversion is in the table above.",
+   "text_de": "Die Anleitung verwendet deutsche Abkürzungen; die US-Begriffe stehen in der Tabelle."
+  },
+  {
+   "text_en": "The number in brackets at the end of a row is the stitch count for that row.",
+   "text_de": "Die Zahl in Klammern am Ende der Reihe ist die Maschenzahl dieser Reihe."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Tree (green)",
+   "title_de": "Baum (grün)",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Ch 16. Sc in 2nd ch from hook and in each ch across. Turn.",
+     "de": "16 Lm anschlagen. 1 fM in die 2. Lm ab Nadel und in jede weitere Lm. Wenden.",
+     "count": 15
+    },
+    {
+     "label_en": "Row 2",
+     "label_de": "Reihe 2",
+     "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
+     "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
+     "prev": 15,
+     "change": -2,
+     "count": 13
+    },
+    {
+     "label_en": "Row 3",
+     "label_de": "Reihe 3",
+     "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
+     "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
+     "prev": 13,
+     "change": -2,
+     "count": 11
+    },
+    {
+     "label_en": "Row 4",
+     "label_de": "Reihe 4",
+     "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
+     "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
+     "prev": 11,
+     "change": -2,
+     "count": 9
+    },
+    {
+     "label_en": "Row 5",
+     "label_de": "Reihe 5",
+     "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
+     "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
+     "prev": 9,
+     "change": -2,
+     "count": 7
+    },
+    {
+     "label_en": "Row 6",
+     "label_de": "Reihe 6",
+     "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
+     "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
+     "prev": 7,
+     "change": -2,
+     "count": 5
+    },
+    {
+     "label_en": "Row 7",
+     "label_de": "Reihe 7",
+     "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
+     "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
+     "prev": 5,
+     "change": -2,
+     "count": 3
+    },
+    {
+     "label_en": "Row 8",
+     "label_de": "Reihe 8",
+     "en": "Ch 1. Sc3tog over the remaining 3 sts. Fasten off, leaving a long tail.",
+     "de": "1 Lm. Die letzten 3 M zusammen abmaschen. Faden mit langem Ende abschneiden.",
+     "prev": 3,
+     "change": -2,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "title_en": "Trunk (brown)",
+   "title_de": "Stamm (braun)",
+   "note_en": "Work into the bottom edge of Row 1 (the foundation chain side), centered.",
+   "note_de": "In die Unterkante von Reihe 1 (Anschlagkante) mittig arbeiten.",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Skip 6 sts from the right edge, join brown with a sl st in the next st. Ch 1, sc in the same st and in the next 2 sts. Turn.",
+     "de": "Von rechts 6 M überspringen, braunes Garn mit 1 Km in der nächsten M anschlingen. 1 Lm, 1 fM in dieselbe M und in die nächsten 2 M. Wenden.",
+     "count": 3
+    },
+    {
+     "label_en": "Rows 2–3",
+     "label_de": "Reihen 2–3",
+     "en": "Ch 1, sc in each st across. Turn. Fasten off after Row 3.",
+     "de": "1 Lm, 1 fM in jede M. Wenden. Nach Reihe 3 Faden abschneiden.",
+     "prev": 3,
+     "change": 0,
+     "count": 3
+    }
+   ]
+  },
+  {
+   "title_en": "Star (yellow)",
+   "title_de": "Stern (gelb)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "Make a magic ring. Ch 1, 5 sc into the ring. Pull tight and join with a sl st to the first sc.",
+     "de": "Fadenring. 1 Lm, 5 fM in den Ring. Festziehen und mit 1 Km in die erste fM schließen.",
+     "count": 5
+    },
+    {
+     "label_en": "Round 2",
+     "label_de": "Runde 2",
+     "en": "*Ch 3, sl st in the 2nd ch from hook, hdc in the next ch, sl st in the next sc of Round 1.* Repeat from * to * 4 more times. Fasten off, leaving a tail for sewing.",
+     "de": "*3 Lm, 1 Km in die 2. Lm ab Nadel, 1 hStb in die nächste Lm, 1 Km in die nächste fM von Runde 1.* Von * bis * noch 4-mal wiederholen. Faden mit Nähende abschneiden.",
+     "count": 5
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Weave in all ends except the long green tail at the top.",
+   "text_de": "Alle Fäden vernähen, außer dem langen grünen Faden an der Spitze."
+  },
+  {
+   "text_en": "Sew the star to the top point of the tree.",
+   "text_de": "Den Stern an die Baumspitze nähen."
+  },
+  {
+   "text_en": "Optional: sew on small buttons or beads as baubles (not for children under 3).",
+   "text_de": "Optional: kleine Knöpfe oder Perlen als Kugeln annähen (nicht für Kinder unter 3 Jahren)."
+  },
+  {
+   "text_en": "Use the green tail to make a hanging loop, or thread a ribbon through the top.",
+   "text_de": "Mit dem grünen Faden eine Aufhängeschlaufe machen oder ein Band durch die Spitze ziehen."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+# Horgolásminta-gyártósor (Nóra, 2026-11-23)
+
+Cél: PDF horgolásminták az AureliaVenn Etsy-boltba, **angolul és németül** (két külön PDF, egy listingben; a német listing-szöveg a leírás második felében).
+Piaci alap (Alura, 2026-11-23): teknős amigurumi ~254 eladás/hó, virágos maxi ruha ~171/hó, KristinesDayCrafts bolt ~360/hó (7 $ átlagár); „crochet christmas ornament pattern” 34e keresés/hó, közepes verseny.
+
+## Alapszabály: minden mintát ember horgol meg és fotóz le
+- AI nem tudja garantálni a szemszámokat, és AI-fotó egy nem létező darabról megtévesztés → **tilos**.
+- Claude: ötlet + piackutatás, minta-piszkozat (EN), méret- és szemszám-ellenőrzés számolással, PDF EN + DE, listing, SEO, feltöltés, Pinterest.
+- Tesztelő (Nóra anyukás csoportjából vagy FB-horgolós csoportból): megcsinálja a darabot a piszkozat alapján, jelzi a hibákat, és lefotózza (útmutató: `TESZTELO.md`). Díj: 5–10e Ft/minta + fonal, Nóra fizeti.
+- Élesítés csak a tesztelő visszajelzése + valódi fotók után (`statusz: kesz`). Addig `tesztre_var`.
+
+## Ritmus
+- Naponta 2 új minta-**piszkozat**, de a várólista legfeljebb 6 tesztre váró minta lehet (különben csak a teszten átment minták véglegesítése megy).
+- A teszten átment mintákat aznap véglegesítjük és élesítjük (EN + DE PDF, listing, kép a tesztelő fotóiból).
+- Kezdő sorrend (egyszerűtől nehezebbig): lapos dísz → kis amigurumi → sapka/sál → kosár → nagyobb amigurumi → ruhadarab méretekkel (csak ha egy tesztelő vállalja a méretezést).
+
+## Fájlok
+| Mi | Hol |
+|---|---|
+| minta forrás (JSON, EN + DE mezők) | `horgolas/mintak/<slug>/pattern.json` |
+| generátor (HTML → PDF EN + DE) | `scripts/build_crochet_pattern.py horgolas/mintak/<slug>` |
+| tesztelő fotói | `horgolas/mintak/<slug>/fotok/` |
+| várólista és állapot | `horgolas/SOR.md` |
+| tesztelői útmutató (magyar) | `horgolas/TESZTELO.md` |
+
+## Minőségi kapu (élesítés előtt)
+- A szemszámok soronként összeadva stimmelnek (a generátor ellenőrzi, ha a sorban `count` van megadva).
+- US-terminológia az angol PDF-ben (UK-átváltó táblázattal), német rövidítések a németben (fM, Lm, Km, Stb., zun, abn).
+- Valódi fotó: legalább 3 kép (kész darab tiszta háttéren, közeli, méret kézben/vonalzóval) a tesztelőtől.
+- Leírás: „PDF PATTERN ONLY, not the finished item”, nehézségi szint, anyag, horgolótű, kész méret, nyelvek, AI-közlés (a szöveg megírásában AI segített; a mintát kézzel tesztelték).
+- Ár: kis minta 3,99 €, amigurumi 5,49 €, ruhadarab 6,99 €.
