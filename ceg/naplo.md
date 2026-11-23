@@ -197,3 +197,4 @@
 - 2026-11-22 Gentle C) csatorna: Christmas on My Own Planner (Still Lit kísérő, 10 old., 3,99 €) élő az Etsy-n: #4623018281. Heti 2 könyv megvan (EN + DE Yell).
 
 - 2026-11-23 · etsy-empire (napi futás) · 5 listing optimalizálva (Classroom Kindness, Birdmas bögre, Toddler Recipe Cards, Routine Chart, Cat Enrichment). 3 új digitális termék élesítve, 3,99 €/db: Kindness Snowman Kit #4623638153, Valentine Kindness Cupid #4623645842, Freundlichkeits-Wichtel (DE) #4623645932. Új általános generátor: scripts/build_kindness_kit.py. Uploader-javítás: ékezetes fájlnév (ü) 400-at adott → átírás. Mérés: +14 megtekintés nov. 22. óta, 0 eladás. Eredmény: 0 Ft (még).
+- 2026-11-23 · Gentle Life Guides · #4 Who Takes Care of Mom? (the-invisible-load) KÉSZ: 9,9e szó, 60 old., 14 fejezet + 30 napos reset; ALAPANYAG.md (Daminger 2019, Fair Play-kritikák, szülői kiégés); KDP-kapu OK; zip kész. KDP: dec. 7-i hét. Német változat a heti keretben ezen a héten. Eredmény: 0 Ft (még).

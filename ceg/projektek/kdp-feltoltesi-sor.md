@@ -19,6 +19,7 @@ Csomagok: `projects/etsy-empire/books/_zip/2026-11-23/` (ha a konténer újraind
 
 | – | **I Didn't Mean to Yell EN** (kész 11-18) | papír + keménytáblás + Kindle a **nov. 30-i héten** | 139 old.; papír 12,563 × 9,25 in; keménytáblás 14,077 × 10,417 in (becsült); 14,99 / 22,99 / 5,99 $; zip: books/_zip/yell-en-kdp.zip |
 | – | **Ich wollte nicht schreien DE** (kész 11-21) | papír + keménytáblás + Kindle a **nov. 30-i héten** (az EN Yell mellé) | 150 old.; papír 12,587 × 9,25 in; keménytáblás 14,102 × 10,417 in (becsült); 15,99 / 23,99 / 5,99 €; zip: books/_zip/yell-de-kdp.zip; utána tredition-jelölt |
+| – | **Who Takes Care of Mom? EN** (kész 11-23) | papír + Kindle a **dec. 7-i héten** (a nov. 30-i hét 5 helyét a 2 Yell tölti ki) | 60 old.; papír 12,387 × 9,25 in; 10,99 / 4,99 $; zip: books/_zip/invisible-load-en-kdp.zip; DE-változat: következő német tétel |
 
 ### Korábbi terv (2026-11-14)
 | Prior. | Könyv | Piac | Miért most | Hét | Fent? |
