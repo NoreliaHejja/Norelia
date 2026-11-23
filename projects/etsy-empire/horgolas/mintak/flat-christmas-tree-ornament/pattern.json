@@ -69,6 +69,15 @@
     {
      "label_en": "Row 3",
      "label_de": "Reihe 3",
+     "en": "Ch 1, sc in each st across. Turn.",
+     "de": "1 Lm, 1 fM in jede M. Wenden.",
+     "prev": 13,
+     "change": 0,
+     "count": 13
+    },
+    {
+     "label_en": "Row 4",
+     "label_de": "Reihe 4",
      "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
      "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
      "prev": 13,
@@ -76,8 +85,17 @@
      "count": 11
     },
     {
-     "label_en": "Row 4",
-     "label_de": "Reihe 4",
+     "label_en": "Row 5",
+     "label_de": "Reihe 5",
+     "en": "Ch 1, sc in each st across. Turn.",
+     "de": "1 Lm, 1 fM in jede M. Wenden.",
+     "prev": 11,
+     "change": 0,
+     "count": 11
+    },
+    {
+     "label_en": "Row 6",
+     "label_de": "Reihe 6",
      "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
      "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
      "prev": 11,
@@ -85,8 +103,17 @@
      "count": 9
     },
     {
-     "label_en": "Row 5",
-     "label_de": "Reihe 5",
+     "label_en": "Row 7",
+     "label_de": "Reihe 7",
+     "en": "Ch 1, sc in each st across. Turn.",
+     "de": "1 Lm, 1 fM in jede M. Wenden.",
+     "prev": 9,
+     "change": 0,
+     "count": 9
+    },
+    {
+     "label_en": "Row 8",
+     "label_de": "Reihe 8",
      "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
      "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
      "prev": 9,
@@ -94,8 +121,17 @@
      "count": 7
     },
     {
-     "label_en": "Row 6",
-     "label_de": "Reihe 6",
+     "label_en": "Row 9",
+     "label_de": "Reihe 9",
+     "en": "Ch 1, sc in each st across. Turn.",
+     "de": "1 Lm, 1 fM in jede M. Wenden.",
+     "prev": 7,
+     "change": 0,
+     "count": 7
+    },
+    {
+     "label_en": "Row 10",
+     "label_de": "Reihe 10",
      "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
      "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
      "prev": 7,
@@ -103,8 +139,17 @@
      "count": 5
     },
     {
-     "label_en": "Row 7",
-     "label_de": "Reihe 7",
+     "label_en": "Row 11",
+     "label_de": "Reihe 11",
+     "en": "Ch 1, sc in each st across. Turn.",
+     "de": "1 Lm, 1 fM in jede M. Wenden.",
+     "prev": 5,
+     "change": 0,
+     "count": 5
+    },
+    {
+     "label_en": "Row 12",
+     "label_de": "Reihe 12",
      "en": "Ch 1 (does not count as a st). Sc2tog, sc in each st across to last 2 sts, sc2tog. Turn.",
      "de": "1 Lm (zählt nicht als M). 2 fM zus abm, 1 fM in jede M bis auf die letzten 2 M, 2 fM zus abm. Wenden.",
      "prev": 5,
@@ -112,10 +157,19 @@
      "count": 3
     },
     {
-     "label_en": "Row 8",
-     "label_de": "Reihe 8",
+     "label_en": "Row 13",
+     "label_de": "Reihe 13",
+     "en": "Ch 1, sc in each st across. Turn.",
+     "de": "1 Lm, 1 fM in jede M. Wenden.",
+     "prev": 3,
+     "change": 0,
+     "count": 3
+    },
+    {
+     "label_en": "Row 14",
+     "label_de": "Reihe 14",
      "en": "Ch 1. Sc3tog over the remaining 3 sts. Fasten off, leaving a long tail.",
-     "de": "1 Lm. Die letzten 3 M zusammen abmaschen. Faden mit langem Ende abschneiden.",
+     "de": "1 Lm. Die restlichen 3 M zusammen abmaschen. Faden mit langem Ende abschneiden.",
      "prev": 3,
      "change": -2,
      "count": 1
