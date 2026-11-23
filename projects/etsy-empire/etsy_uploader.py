@@ -87,7 +87,7 @@ def upload(folder: Path, data: dict) -> str:
         nice = e["title"].split(",")[0].translate(str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue"})).replace("?", "").replace("&", "and").strip().replace(" ", "-")[:40].rstrip("-")  # Etsy: túl hosszú fájlnév → 400 (2026-11-18)
         for f in data.get("files", []):
             fname = (Path(f).name if f.endswith(".png") else
-                     f"{nice}-PNG-files.zip" if f.endswith(".zip") else
+                     (f"{nice}-English.zip" if f.endswith("-English.zip") else f"{nice}-Deutsch.zip" if f.endswith("-Deutsch.zip") else f"{nice}-PNG-files.zip") if f.endswith(".zip") else
                      f"{nice}-A4.pdf" if f.endswith("-A4.pdf") else f"{nice}-US-Letter.pdf")
             with open(folder / f, "rb") as fh:
                 r = requests.post(f"{API}/shops/{shop}/listings/{listing_id}/files", headers=h,

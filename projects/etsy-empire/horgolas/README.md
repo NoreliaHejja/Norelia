@@ -3,7 +3,10 @@
 Cél: PDF horgolásminták az AureliaVenn Etsy-boltba, **angolul és németül** (két külön PDF, egy listingben; a német listing-szöveg a leírás második felében).
 Piaci alap (Alura, 2026-11-23): teknős amigurumi ~254 eladás/hó, virágos maxi ruha ~171/hó, KristinesDayCrafts bolt ~360/hó (7 $ átlagár); „crochet christmas ornament pattern” 34e keresés/hó, közepes verseny.
 
-## Alapszabály: minden mintát ember horgol meg és fotóz le
+## Kéthetes teszt (nov. 24 – dec. 7, Nóra döntése)
+Naponta 2 minta **tesztelő nélkül is élesíthető**, de a képek csak rajzolt illusztráció, mintaoldal, szemszám-táblázat; a leírásban: „New pattern. Photos are illustrations; a maker-tested photo will be added.” AI-fotó kész darabról tilos. A tesztelői fotók utólag kerülnek fel.
+
+## Alapszabály (a teszt után): minden mintát ember horgol meg és fotóz le
 - AI nem tudja garantálni a szemszámokat, és AI-fotó egy nem létező darabról megtévesztés → **tilos**.
 - Claude: ötlet + piackutatás, minta-piszkozat (EN), méret- és szemszám-ellenőrzés számolással, PDF EN + DE, listing, SEO, feltöltés, Pinterest.
 - Tesztelő (Nóra anyukás csoportjából vagy FB-horgolós csoportból): megcsinálja a darabot a piszkozat alapján, jelzi a hibákat, és lefotózza (útmutató: `TESZTELO.md`). Díj: 5–10e Ft/minta + fonal, Nóra fizeti.

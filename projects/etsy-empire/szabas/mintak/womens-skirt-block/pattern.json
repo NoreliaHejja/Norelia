@@ -1,0 +1,128 @@
+{
+ "slug": "womens-skirt-block",
+ "type": "skirt_block",
+ "sizes": [
+  "XS",
+  "S",
+  "M",
+  "L",
+  "XL",
+  "2X",
+  "3X"
+ ],
+ "params": {
+  "length": 60.0
+ },
+ "name_en": "Women's Straight Skirt Block (Sloper) XS-3X",
+ "name_de": "Grundschnitt gerader Rock (Damen) XS-3X",
+ "labels": {
+  "en": {
+   "front": "Front",
+   "back": "Back",
+   "cut": "Cut",
+   "cut_front": "1 on fold",
+   "cut_back": "2",
+   "fold": "PLACE ON FOLD",
+   "nosa": "No seam allowance included",
+   "hipline": "hip line"
+  },
+  "de": {
+   "front": "Vorderteil",
+   "back": "Rückenteil",
+   "cut": "Zuschnitt",
+   "cut_front": "1x im Stoffbruch",
+   "cut_back": "2x",
+   "fold": "STOFFBRUCH",
+   "nosa": "Ohne Nahtzugabe",
+   "hipline": "Hüftlinie"
+  }
+ },
+ "img": {
+  "title": "Straight Skirt Block · Sloper",
+  "sub": "Women's sizes XS–3X · A4, Letter, A0",
+  "band": "PDF PATTERN · INSTANT DOWNLOAD",
+  "included": [
+   "Nested pattern, sizes XS–3X",
+   "A4 + US Letter print-at-home",
+   "A0 copy shop file",
+   "Front + back with darts",
+   "Test square on page 1",
+   "Guide in English + German",
+   "Size chart in cm and inches"
+  ]
+ },
+ "guide": {
+  "en": {
+   "sub": "Nested sizes XS–3X · no seam allowance · print at home (A4/Letter) or copy shop (A0)",
+   "chart_title": "Size chart (body measurements)",
+   "chart_note": "The block includes 4 cm (1.5 in) ease at the hip and 1 cm at the waist. Skirt length 60 cm (23.5 in); lengthen or shorten at the hem.",
+   "license": "Personal use and small-batch handmade sales. Please don't share or resell the pattern files. Drafted with the help of software from a standard size chart.",
+   "sections": [
+    [
+     "Before you start",
+     "<ul><li>This is a <b>block (sloper)</b>: a basic fitted shape with ease for movement, used as the starting point for your own skirt designs. It has <b>no seam allowance</b> and no waistband or zip.</li><li>Always sew a quick test version (a <i>muslin</i> or <i>toile</i>) in cheap cotton first. Every body is different, and a block is meant to be adjusted to you.</li></ul>"
+    ],
+    [
+     "Printing",
+     "<ol><li>Print the A4 or Letter file at <b>100% / actual size</b> (no 'fit to page').</li><li>Measure the test square on page A1: it must be 5 cm or 2 in.</li><li>Trim one side and one top edge of each page along the grey frame and tape the pages together by their labels (A1, A2, B1...).</li><li>Or send the A0 file to a copy shop.</li></ol>"
+    ],
+    [
+     "Choosing your size",
+     "<p>Measure your hips at the fullest part and your waist at the narrowest. For a skirt, choose the size by your <b>hip</b>. If your waist is a different size, blend between the two size lines from hip line to waist (take in or let out the side seam and the darts).</p>"
+    ],
+    [
+     "Cutting",
+     "<ul><li>Trace your size onto paper first and add your own seam allowance (1.5 cm / 5/8 in is common).</li><li>Front: cut 1 on the fold. Back: cut 2 (centre back seam for a zip).</li><li>Mark darts and the hip line.</li></ul>"
+    ],
+    [
+     "Sewing a test skirt",
+     "<ol><li>Sew the darts, pressing them toward the centre.</li><li>Sew the centre back seam, leaving 20 cm open at the top.</li><li>Sew the side seams.</li><li>Try it on, pinning the back opening closed.</li></ol>"
+    ],
+    [
+     "Fitting tips",
+     "<ul><li><b>Too tight at the hip:</b> let out the side seams evenly.</li><li><b>Gaping at the waist:</b> take in the darts a little more, or the side seam at the waist.</li><li><b>Pulls across the bottom:</b> add a little width to the back at the hip line.</li><li><b>Hem not level:</b> mark a level hem while wearing it, then copy it to the pattern.</li><li>Transfer every change back to your paper block. Now you have a block made for you.</li></ul>"
+    ],
+    [
+     "From block to designs",
+     "<ul><li><b>Pencil skirt:</b> take in the side seam 2–3 cm at the hem.</li><li><b>A-line skirt:</b> close the dart, slash from hem to dart point and open the hem.</li><li><b>Add a waistband:</b> a rectangle as long as your waist + 3 cm, 7 cm wide, folded.</li></ul>"
+    ]
+   ]
+  },
+  "de": {
+   "sub": "Größen XS–3X ineinander · ohne Nahtzugabe · Druck zu Hause (A4/Letter) oder Copyshop (A0)",
+   "chart_title": "Maßtabelle (Körpermaße)",
+   "chart_note": "Bewegungszugabe: 4 cm an der Hüfte, 1 cm an der Taille. Rocklänge 60 cm; am Saum verlängern oder kürzen.",
+   "license": "Privater Gebrauch und kleine handgemachte Mengen. Schnittdateien bitte nicht weitergeben oder verkaufen. Mit Software nach einer Standard-Maßtabelle konstruiert.",
+   "sections": [
+    [
+     "Bevor du anfängst",
+     "<ul><li>Dies ist ein <b>Grundschnitt</b>: eine anliegende Grundform mit Bewegungszugabe als Basis für eigene Rockmodelle. <b>Ohne Nahtzugabe</b>, ohne Bund und Reißverschluss.</li><li>Nähe immer zuerst ein Probeteil aus günstigem Baumwollstoff. Jeder Körper ist anders; ein Grundschnitt wird an dich angepasst.</li></ul>"
+    ],
+    [
+     "Drucken",
+     "<ol><li>Die A4- oder Letter-Datei in <b>100 % / Originalgröße</b> drucken (nicht „an Seite anpassen“).</li><li>Das Testquadrat auf Seite A1 messen: 5 cm bzw. 2 in.</li><li>Seiten entlang des grauen Rahmens beschneiden und nach Beschriftung (A1, A2, B1 …) zusammenkleben.</li><li>Oder die A0-Datei im Copyshop drucken lassen.</li></ol>"
+    ],
+    [
+     "Größe wählen",
+     "<p>Hüfte an der stärksten, Taille an der schmalsten Stelle messen. Beim Rock nach der <b>Hüfte</b> wählen. Passt die Taille zu einer anderen Größe, zwischen den Linien von der Hüftlinie zur Taille übergehen.</p>"
+    ],
+    [
+     "Zuschnitt",
+     "<ul><li>Deine Größe auf Papier abpausen und eigene Nahtzugabe hinzufügen (meist 1,5 cm).</li><li>Vorderteil: 1x im Stoffbruch. Rückenteil: 2x (hintere Mitte für den Reißverschluss).</li><li>Abnäher und Hüftlinie markieren.</li></ul>"
+    ],
+    [
+     "Proberock nähen",
+     "<ol><li>Abnäher nähen und zur Mitte bügeln.</li><li>Hintere Mitte schließen, oben 20 cm offen lassen.</li><li>Seitennähte schließen.</li><li>Anprobieren, die Öffnung hinten zustecken.</li></ol>"
+    ],
+    [
+     "Anpassen",
+     "<ul><li><b>An der Hüfte zu eng:</b> Seitennähte gleichmäßig auslassen.</li><li><b>Taille steht ab:</b> Abnäher etwas tiefer nähen oder Seitennaht an der Taille enger.</li><li><b>Zieht am Po:</b> Rückenteil an der Hüftlinie etwas verbreitern.</li><li><b>Saum ungleich:</b> am Körper gerade markieren und auf den Schnitt übertragen.</li><li>Alle Änderungen auf den Papierschnitt übertragen.</li></ul>"
+    ],
+    [
+     "Vom Grundschnitt zum Modell",
+     "<ul><li><b>Bleistiftrock:</b> Seitennaht am Saum 2–3 cm enger.</li><li><b>A-Linie:</b> Abnäher schließen, vom Saum zur Abnäherspitze einschneiden und den Saum aufspreizen.</li><li><b>Bund:</b> Rechteck Taillenweite + 3 cm, 7 cm breit, gefaltet.</li></ul>"
+    ]
+   ]
+  }
+ }
+}

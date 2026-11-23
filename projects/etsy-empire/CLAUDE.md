@@ -18,7 +18,12 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 | Emily reel (9:16 felirat) | `scripts/reel_overlay.sh`; videókönyvtár: `marketing_szovegek/emily_videok.json` |
 | posztcsomag | `social_poster.py` |
 
-## HORGOLÁSMINTÁK + NAPI 2 PRINTABLE (Nóra, 2026-11-23) – felülírja a napi 3-at
+## KÉTHETES TESZT (Nóra, 2026-11-23 → dec. 7) – felülír minden lenti ritmust
+- **Naponta 1 szabásminta** (`szabas/README.md`, `szabas/SOR.md`) **+ 2 horgolásminta** (`horgolas/README.md`) **+ 2 PDF printable** (lenti szabályok). Napi 5 optimalizálás marad. A termékcsaládokat később szétválogatjuk (külön bolt / rovat).
+- Horgolás most tesztelő nélkül is élesíthető (Nóra döntése), DE: a képek csak rajzolt illusztráció („illustration”), mintaoldal és szemszám-táblázat lehet; AI-*fotó* kész darabról tilos. A leírásban: „New pattern. Photos are illustrations; a maker-tested photo will be added.” A szemszám-kapu kötelező. Tesztelői fotó, ha jön, utólag kerül fel.
+- Dec. 7: kiértékelés termékcsaládonként (megtekintés, kedvelés, eladás / listing) → Nóra dönt a folytatásról.
+
+## HORGOLÁSMINTÁK + NAPI 2 PRINTABLE (Nóra, 2026-11-23) – a fenti kéthetes teszt idejére felfüggesztve
 - **Naponta 2 új printable** (a lenti szabályokkal) **+ 2 horgolásminta-piszkozat** (EN + DE). Részletek: `horgolas/README.md`, sor: `horgolas/SOR.md`.
 - Horgolásmintát **csak tesztelő által elkészített és lefotózott** darab után élesítünk; AI-fotó a kész darabról tilos. Max. 6 minta várhat tesztre.
 
