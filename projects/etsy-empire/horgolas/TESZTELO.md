@@ -4,8 +4,8 @@ Köszönöm, hogy segítesz! A feladat: egy horgolásminta alapján elkészíten
 
 ## Mit kapsz
 - A minta PDF-jét angolul (amerikai jelöléssel; a végén magyar rövidítés-táblázat).
-- Díj: **mintánként [5–10 000] Ft + a fonal ára** (blokk alapján), átutalással, a fotók és a visszajelzés után.
-- A kész darab a tiéd marad.
+- **A fonalat mi álljuk** (megvesszük, vagy a blokk alapján visszafizetjük).
+- **A kész darab a tiéd marad** (ajtódísz, karácsonyfadísz, amigurumi stb.). Pénzbeli díj nincs.
 
 ## Mit kérek
 1. **Készítsd el a darabot** a minta szerint, a megadott tűmérettel és fonallal (vagy hasonlóval).
@@ -27,4 +27,10 @@ A fotókat az AureliaVenn webshopban és közösségi oldalain használjuk a min
 ---
 
 ## Üzenet-sablon, ha valaki jelentkezik (Nóra küldi)
-> Szia! Nagyon köszönöm, hogy jelentkeztél! Röviden: kapsz egy angol nyelvű (amerikai jelölésű) horgolásmintát, ezt kellene elkészítened, szólni, ha valami nem stimmel benne, és lefotózni pár képet a kész darabról. Mintánként [X] Ft-ot fizetek + a fonal árát, a darab a tiéd marad. Az első egy kis lapos karácsonyfadísz, kb. 1–2 óra munka. Küldhetem a mintát?
+> Szia! Nagyon köszönöm, hogy jelentkeztél! Röviden: kapsz egy angol nyelvű (amerikai jelölésű) horgolásmintát, ezt kellene elkészítened, szólni, ha valami nem stimmel benne, és lefotózni pár képet a kész darabról. A fonalat én állom, és a kész darab a tiéd marad. Az első egy kis lapos karácsonyfadísz, kb. 1–2 óra munka. Küldhetem a mintát?
+
+## Felhívás az anyukás csoportba (Nóra, 2026-11-23)
+> Sziasztok! 🧶 Horgoló anyukát keresek! Horgolásmintákat készítünk, és kellene valaki, aki kipróbálja őket.
+> Mit kapsz: a fonalat én állom, és minden elkészült darab a tiéd marad (pl. ajtódísz, karácsonyfadísz, kis horgolt figurák).
+> Mit kérek: készítsd el a darabot **pontosan az általam küldött leírás alapján** (nem saját minta szerint, mert épp azt teszteljük, hogy a leírás működik-e), szólj, ha valahol nem jön ki a szemszám vagy nem érthető, és a végén csinálj 3–4 fotót a kész darabról világos háttér előtt.
+> Az első egy egyszerű karácsonyfadísz, kb. 1 óra munka. Ha kedvet kaptál, írj privátban! 😊
