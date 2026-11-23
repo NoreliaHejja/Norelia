@@ -84,7 +84,7 @@ def upload(folder: Path, data: dict) -> str:
                                   files={"image": (Path(img).name, fh, "image/jpeg")}, data={"rank": rank}, timeout=120)
                 r.raise_for_status()
 
-        nice = e["title"].split(",")[0].replace("?", "").replace("&", "and").strip().replace(" ", "-")[:40].rstrip("-")  # Etsy: túl hosszú fájlnév → 400 (2026-11-18)
+        nice = e["title"].split(",")[0].translate(str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue"})).replace("?", "").replace("&", "and").strip().replace(" ", "-")[:40].rstrip("-")  # Etsy: túl hosszú fájlnév → 400 (2026-11-18)
         for f in data.get("files", []):
             fname = (Path(f).name if f.endswith(".png") else
                      f"{nice}-PNG-files.zip" if f.endswith(".zip") else
