@@ -199,5 +199,58 @@
    "text_hu": "Dolgozd el a szálvégeket a kosár belsején.",
    "text_en": "Weave in ends on the inside."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "basket",
+    "d": {
+     "hu": "≈ 18 cm",
+     "en": "≈ 18 cm (7 in)",
+     "de": "≈ 18 cm (7 in)"
+    },
+    "h": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm",
+     "de": "≈ 12 cm"
+    },
+    "base": {
+     "hu": "alj: 10 kör, 60 szem",
+     "en": "base: 10 rounds, 60 sts",
+     "de": "base: 10 rounds, 60 sts"
+    }
+   },
+   "cap_hu": "Kész forma oldalnézetből",
+   "cap_en": "Finished shape, side view",
+   "cap_de": "Finished shape, side view"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18,
+     24,
+     30,
+     36,
+     42,
+     48,
+     54,
+     60
+    ]
+   },
+   "cap_hu": "Az alj 1–10. köre (szaporítás körönként 6 szemmel)",
+   "cap_en": "Base rounds 1–10 (6 increases per round)",
+   "cap_de": "Base rounds 1–10 (6 increases per round)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "inc",
+  "mr"
  ]
 }

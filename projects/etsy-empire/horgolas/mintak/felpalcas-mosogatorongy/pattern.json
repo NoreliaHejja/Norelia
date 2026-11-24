@@ -80,5 +80,49 @@
    "text_hu": "Dolgozd el a szálvégeket. Mosható 40 °C-on.",
    "text_en": "Weave in ends. Washable at 40 °C."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "square",
+    "w": {
+     "hu": "≈ 20 cm",
+     "en": "≈ 20 cm (8 in)",
+     "de": "≈ 20 cm (8 in)"
+    },
+    "h": {
+     "hu": "≈ 20 cm",
+     "en": "≈ 20 cm",
+     "de": "≈ 20 cm"
+    }
+   },
+   "cap_hu": "Kész forma (szegéllyel)",
+   "cap_en": "Finished shape (with border)",
+   "cap_de": "Finished shape (with border)"
+  },
+  {
+   "fn": "row_chart",
+   "args": {
+    "widths": [
+     30,
+     30,
+     30,
+     30,
+     30,
+     30
+    ],
+    "stitch": "hdc",
+    "found_ch": 32
+   },
+   "cap_hu": "Az első 6 sor; a 22. sorig ugyanígy (30 fp soronként)",
+   "cap_en": "First 6 rows; repeat up to row 22 (30 hdc per row)",
+   "cap_de": "First 6 rows; repeat up to row 22 (30 hdc per row)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "hdc",
+  "sc"
  ]
 }

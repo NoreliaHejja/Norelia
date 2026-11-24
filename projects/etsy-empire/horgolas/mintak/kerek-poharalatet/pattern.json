@@ -114,5 +114,44 @@
    "text_hu": "Dolgozd el a szálvégeket. Ha hullámos, nedvesítsd meg, és laposan szárítsd.",
    "text_en": "Weave in ends. If it ruffles, wet it and dry flat."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "circle",
+    "d": {
+     "hu": "≈ 10 cm",
+     "en": "≈ 10 cm (4 in)",
+     "de": "≈ 10 cm (4 in)"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape",
+   "cap_de": "Finished shape"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18,
+     24,
+     30,
+     36
+    ]
+   },
+   "cap_hu": "Horgolásrajz körönként (a 7. kör ksz-szegély)",
+   "cap_en": "Chart by round (round 7 = sl st edging)",
+   "cap_de": "Chart by round (round 7 = sl st edging)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "inc",
+  "mr"
  ]
 }

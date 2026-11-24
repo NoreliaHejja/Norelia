@@ -49,6 +49,7 @@ table{border-collapse:collapse;width:100%;font-size:9.5pt;margin-bottom:10px}td,
 .row .l{font-weight:700;color:#b8322a}.row .c{text-align:right;color:#6b3f22;font-weight:700}
 .note{background:#eef6ef;border-radius:10px;padding:8px 12px;margin:8px 0}.foot{margin-top:18px;font-size:8.5pt;color:#7a6f68}
 .draft{position:fixed;top:40%;left:5%;transform:rotate(-30deg);font-size:46pt;color:rgba(184,50,42,.12);font-weight:700;white-space:nowrap}
+.figh{page-break-before:always}.figs{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fig{border:1px solid #efd2c6;border-radius:10px;padding:8px;background:#fff;page-break-inside:avoid}.fig .cap{font-size:9pt;color:#6b3f22;text-align:center;margin-top:4px}.leg{margin-top:10px}
 .photos{display:grid;grid-template-columns:1fr 1fr;gap:8px}.photos img{width:100%;border-radius:8px}"""
 
 
@@ -79,6 +80,12 @@ def html(p, lang, folder, draft):
     fin = "".join(f"<li>{g(f, 'text')}</li>" for f in p["finishing"])
     notes = "".join(f"<li>{g(n, 'text')}</li>" for n in p.get("notes", []))
     more = "".join(f'<img src="fotok/{x.name}">' for x in photos[1:5])
+    sys.path.insert(0, str(Path(__file__).resolve().parent)); import crochet_charts as CC
+    FT = {"hu": "Ábrák: kész forma és horgolásrajz", "en": "Diagrams: finished shape and stitch chart", "de": "Diagramme: fertige Form und Häkelschrift"}[lang]
+    figs = "".join(f'<div class="fig">{CC.render(fg, lang)}<div class="cap">{fg.get("cap_" + lang, fg.get("cap_en", ""))}</div></div>' for fg in p.get("figures", []))
+    if figs:
+        kinds = p.get("legend", ["ch", "sl", "sc", "inc", "dec", "mr"])
+        figs = f'<h2 class="figh">{FT}</h2><div class="figs">{figs}</div><div class="fig leg">{CC.legend(kinds, lang)}</div>'
     return f"""<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><title>{g(p, 'name')}</title><style>{CSS}</style></head><body>
 {'<div class="draft">' + t['draft'] + '</div>' if draft else ''}
 <h1>{g(p, 'name')}</h1><div class="sub">{g(p, 'tagline')}</div>{hero}
@@ -87,6 +94,7 @@ def html(p, lang, folder, draft):
 <h2>{t['mat']}</h2><ul>{mats}</ul>
 <h2>{t['abbr']}</h2><table><tr><th></th><th></th><th>{t['uk']}</th><th>{t['hu']}</th></tr>{abbr}</table>
 {('<h2>' + t['notes'] + '</h2><ul>' + notes + '</ul>') if notes else ''}
+{figs}
 {secs}<h2>{t['fin']}</h2><ul>{fin}</ul>{('<div class="photos">' + more + '</div>') if more else ''}
 <div class="foot">© AureliaVenn · {t['copy']}<br>{t['tested'] if not draft else ''}</div></body></html>"""
 

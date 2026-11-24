@@ -150,5 +150,43 @@
    "text_en": "Add a loop of yarn or ribbon for hanging. Not a toy for children under 3 (small parts).",
    "text_de": "Aufhängeschlaufe aus Garn oder Band anbringen. Kein Spielzeug für Kinder unter 3 Jahren (Kleinteile)."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "wreath",
+    "d": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm (4.75 in)",
+     "de": "≈ 12 cm (4.75 in)"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape",
+   "cap_de": "Fertige Form"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     30,
+     36,
+     42,
+     48,
+     48
+    ],
+    "ring_ch": 30
+   },
+   "cap_hu": "Koszorú: 30 lsz-es gyűrű, majd 5 kör",
+   "cap_en": "Wreath: ring of 30 ch, then 5 rounds",
+   "cap_de": "Kranz: Ring aus 30 Lm, dann 5 Runden"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "inc"
  ]
 }

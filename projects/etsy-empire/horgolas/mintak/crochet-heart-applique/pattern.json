@@ -66,5 +66,21 @@
    "text_en": "Glue onto a card, sew onto a bag, or string several onto a garland.",
    "text_de": "Auf eine Karte kleben, auf eine Tasche nähen oder mehrere zur Girlande auffädeln."
   }
+ ],
+ "figures": [
+  {
+   "fn": "heart_chart",
+   "args": {},
+   "cap_hu": "Horgolásrajz: minden szem a varázsgyűrűbe",
+   "cap_en": "Chart: every stitch goes into the magic ring",
+   "cap_de": "Häkelschrift: alle Maschen in den Fadenring"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "hdc",
+  "dc",
+  "mr"
  ]
 }

@@ -238,5 +238,56 @@
    "text_en": "Use the green tail to make a hanging loop, or thread a ribbon through the top.",
    "text_de": "Mit dem grünen Faden eine Aufhängeschlaufe machen oder ein Band durch die Spitze ziehen."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "tree",
+    "w": {
+     "hu": "≈ 7 cm",
+     "en": "≈ 7 cm (2.75 in)",
+     "de": "≈ 7 cm (2.75 in)"
+    },
+    "h": {
+     "hu": "≈ 9 cm",
+     "en": "≈ 9 cm (3.5 in)",
+     "de": "≈ 9 cm (3.5 in)"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape",
+   "cap_de": "Fertige Form"
+  },
+  {
+   "fn": "row_chart",
+   "args": {
+    "widths": [
+     15,
+     13,
+     13,
+     11,
+     11,
+     9,
+     9,
+     7,
+     7,
+     5,
+     5,
+     3,
+     3,
+     1
+    ],
+    "found_ch": 16
+   },
+   "cap_hu": "Fa: 14 sor alulról felfelé, a kék szemek a fogyasztások",
+   "cap_en": "Tree: 14 rows bottom to top, blue = decreases",
+   "cap_de": "Baum: 14 Reihen von unten nach oben, blau = Abnahmen"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sc",
+  "dec"
  ]
 }

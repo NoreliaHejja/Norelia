@@ -164,5 +164,48 @@
    "text_hu": "Fűzd át a fonalat a maradék 6 szem elülső szálán, húzd össze, és dolgozd el. 3 év alattiaknak csak biztonságosan bevarrva.",
    "text_en": "Thread the tail through the front loops of the last 6 sts, pull tight and weave in. For under 3s, make sure everything is sewn securely."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "ball",
+    "d": {
+     "hu": "≈ 8 cm",
+     "en": "≈ 8 cm (3 in)",
+     "de": "≈ 8 cm (3 in)"
+    },
+    "label": {
+     "hu": "36 szem a közepén",
+     "en": "36 sts at the widest",
+     "de": "36 sts at the widest"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape",
+   "cap_de": "Finished shape"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18,
+     24,
+     30,
+     36
+    ]
+   },
+   "cap_hu": "1–6. kör felülről nézve (szaporítás). A 13–17. kör ugyanez visszafelé, kék fogyasztással.",
+   "cap_en": "Rounds 1–6 seen from above (increases). Rounds 13–17 mirror this with decreases.",
+   "cap_de": "Rounds 1–6 seen from above (increases). Rounds 13–17 mirror this with decreases."
+  }
+ ],
+ "legend": [
+  "sc",
+  "inc",
+  "dec",
+  "mr"
  ]
 }

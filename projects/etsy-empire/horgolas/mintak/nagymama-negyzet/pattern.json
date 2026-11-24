@@ -86,5 +86,41 @@
    "text_hu": "Dolgozd el a szálvégeket, és gőzöld/nedvesítsd laposra.",
    "text_en": "Weave in ends and block flat."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "square",
+    "w": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm",
+     "de": "≈ 12 cm"
+    },
+    "h": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm",
+     "de": "≈ 12 cm"
+    }
+   },
+   "cap_hu": "Kész forma (4 kör)",
+   "cap_en": "Finished shape (4 rounds)",
+   "cap_de": "Finished shape (4 rounds)"
+  },
+  {
+   "fn": "granny_chart",
+   "args": {
+    "rounds": 4
+   },
+   "cap_hu": "Horgolásrajz: sarkokban 3 ep, 2 lsz, 3 ep; a csoportok között 1 lsz",
+   "cap_en": "Chart: corners 3 dc, ch 2, 3 dc; ch 1 between groups",
+   "cap_de": "Chart: corners 3 dc, ch 2, 3 dc; ch 1 between groups"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "dc",
+  "mr"
  ]
 }

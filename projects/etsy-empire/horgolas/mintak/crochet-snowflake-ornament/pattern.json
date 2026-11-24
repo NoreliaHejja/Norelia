@@ -81,5 +81,34 @@
    "text_en": "Thread a ribbon through one point to hang.",
    "text_de": "Ein Band durch eine Zacke ziehen zum Aufhängen."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "circle",
+    "d": {
+     "hu": "≈ 9 cm",
+     "en": "≈ 9 cm (3.5 in)",
+     "de": "≈ 9 cm (3.5 in)"
+    }
+   },
+   "cap_hu": "Kész méret",
+   "cap_en": "Finished size",
+   "cap_de": "Fertige Größe"
+  },
+  {
+   "fn": "snowflake_chart",
+   "args": {},
+   "cap_hu": "Horgolásrajz (3 kör)",
+   "cap_en": "Stitch chart (3 rounds)",
+   "cap_de": "Häkelschrift (3 Runden)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "mr"
  ]
 }

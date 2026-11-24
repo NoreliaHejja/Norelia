@@ -180,5 +180,51 @@
    "text_hu": "Bóbita: a fej tetején húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.",
    "text_en": "Tuft: pull 3 strands of yellow through the top of the head, knot and trim to 1.5 cm."
   }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "chick",
+    "eyes": {
+     "hu": "szemek: 8–9. kör, 5 szem távol",
+     "en": "eyes: rounds 8–9, 5 sts apart",
+     "de": "eyes: rounds 8–9, 5 sts apart"
+    },
+    "wings": {
+     "hu": "szárny: 11. kör",
+     "en": "wings: round 11",
+     "de": "wings: round 11"
+    },
+    "h": {
+     "hu": "≈ 7 cm",
+     "en": "≈ 7 cm",
+     "de": "≈ 7 cm"
+    }
+   },
+   "cap_hu": "Kész forma és összeállítás",
+   "cap_en": "Finished shape and assembly",
+   "cap_de": "Finished shape and assembly"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18,
+     24
+    ]
+   },
+   "cap_hu": "Test 1–4. kör felülről (szaporítás)",
+   "cap_en": "Body rounds 1–4 from above (increases)",
+   "cap_de": "Body rounds 1–4 from above (increases)"
+  }
+ ],
+ "legend": [
+  "sc",
+  "inc",
+  "dec",
+  "mr"
  ]
 }

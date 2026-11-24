@@ -12,6 +12,9 @@ Naponta 2 minta **tesztelő nélkül is élesíthető**, de az 1. kép saját, a
 - Tesztelő (Nóra anyukás csoportjából vagy FB-horgolós csoportból): megcsinálja a darabot a piszkozat alapján, jelzi a hibákat, és lefotózza (útmutató: `TESZTELO.md`). Díj: 5–10e Ft/minta + fonal, Nóra fizeti.
 - Élesítés csak a tesztelő visszajelzése + valódi fotók után (`statusz: kesz`). Addig `tesztre_var`.
 
+## Ábrák (Nóra, 2026-11-24) – kötelező minden mintában
+Minden minta PDF-jében kell: (1) kész forma vázlata méretekkel, (2) jelkulcsos horgolásrajz (körös: `circle_chart`, soros: `row_chart`, egyedi: granny/hópehely/szív), (3) jelmagyarázat. A `pattern.json` „figures” + „legend” mezője adja (`scripts/crochet_charts.py`); a meglévő mintákét a `horgolas/abrak.py` írja be. Nyelvek: HU / EN / DE.
+
 ## Ritmus
 - Naponta 2 új minta-**piszkozat**, de a várólista legfeljebb 6 tesztre váró minta lehet (különben csak a teszten átment minták véglegesítése megy).
 - A teszten átment mintákat aznap véglegesítjük és élesítjük (EN + DE PDF, listing, kép a tesztelő fotóiból).
