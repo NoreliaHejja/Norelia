@@ -239,6 +239,83 @@ def build(k):
     print(k["slug"], "wrote", len(pg), "pages")
 
 
+
+
+def _spring(**kw):
+    """14 napos tavaszi kit a CUPID szerkezetére (közös mezők felülírva)."""
+    k = dict(CUPID); k.update(kw); return k
+
+
+LEPRECHAUN = _spring(
+    slug="kindness-leprechaun-kit", name="Kindness Leprechaun Kit", days=14,
+    colors=":root{ --dark:#2f5a3c; --sage:#3e8e4f; --tint:#edf6ef; --line:#cfe5d4; --accent:#d9a441; --warm:#f5faf6; --warmline:#d6e8da; --cream:#fbfdfb; }",
+    ic="#3e8e4f", sig="Love, your Kindness Leprechaun", fn="♥ your Kindness Leprechaun",
+    eyebrow="Printable kit · Ages 3 to 8 · March", h1="Kindness<br>Leprechaun Kit",
+    tg="A cheeky little leprechaun leaves one kind mission a day for the 14 days before St. Patrick's Day. Gold coins for good deeds, no mess, five minutes a morning.",
+    pill="18 pages · US Letter + A4", how_title="How the Kindness Leprechaun works",
+    how_sub="From March 3 to 16, your child finds a note from the Kindness Leprechaun with one small, kind thing to do. After each one, color a gold coin on the tracker. On St. Patrick's Day, the leprechaun leaves a goodbye letter.",
+    steps=[("Meet your leprechaun", "No special doll needed. A paper hat, a green sock or a little drawing can be your leprechaun. Fill in the passport together."),
+           ("Print and cut", "Print the notes on paper or cardstock and cut them apart (4 per page). Keep them in an envelope."),
+           ("One note a day", "Leave a note out each evening, read it together in the morning. Most missions take five minutes."),
+           ("Celebrate", "Color a coin on the tracker. On St. Patrick's Day, read the goodbye letter and give the \"I was kind\" certificate.")],
+    tip1=("Forgot a note?", "Use the lifesaver letters: \"I got lost at the end of the rainbow\" and \"I was counting my gold\"."),
+    tip2=("Make it yours", "Use the 4 gold coin cards as small rewards and the blank notes for your own ideas."),
+    arrive=("Top of the morning!", ["Hello, friend! I'm a little leprechaun, and I collect something more precious than gold: kindness.", "For the next 14 days, I'll leave you one kind mission every morning. Every kind thing you do adds a shiny coin to my pot.", "Let's fill it all the way up by St. Patrick's Day!"]),
+    passport="My leprechaun passport", draw="Draw your leprechaun here", pp=["My leprechaun's name", "Where my leprechaun hides", "My name", "Day my leprechaun arrived"],
+    tracker_sub="After each kind mission, color one gold coin. Fill all 14 before St. Patrick's Day!",
+    life1=("I got lost at the end of the rainbow!", ["Good morning! I followed a rainbow last night and it went on and on.", "Today's kind mission: help someone find something they lost. See you tomorrow!"]),
+    life2=("I was counting my gold!", ["I was so busy counting coins that I forgot your note!", "Today's kind mission: share something you have with someone else. Back tomorrow!"]),
+    mid=("Halfway to the gold!", ["Seven kind missions done! My pot of kindness is getting so full.", "Keep going, little friend. St. Patrick's Day is almost here!"]),
+    extra_title="Gold coin reward cards", extra_sub="Cut out these little cards and give one for an extra-kind moment.",
+    extra_notes=["Kind hands award", "Great helper award", "Super sharer award", "Big heart award"], extra_head="GOLD COIN", extra_foot="for an extra-kind moment",
+    extra_mini="Print on yellow paper for real gold coins. Not for children under 3 if you add small extras.",
+    bye=("Happy St. Patrick's Day!", ["Today I go back to my rainbow with a pot full of your kindness.", "Thank you for every hug, every smile and every kind thing you did.", "Keep being kind all year long!"]),
+    bye_sig="Love forever, your Kindness Leprechaun",
+    cert=("Official rainbow award", "I Was Kind!", "for 14 days of kindness. Every leprechaun is proud of you!", "Signed: Your Kindness Leprechaun"),
+    pair="Our Kindness Snowman (January), Kindness Cupid (February) and Kindness Bunny (Easter) kits follow the same 5-minute idea. Find them in our shop.",
+    foot_names=dict(CUPID["foot_names"], extra="Coin cards", mid="Halfway letter"),
+    labels=dict(CUPID["labels"], trk_h="Color one coin a day", meet="Meet your leprechaun"),
+)
+
+BUNNY = _spring(
+    slug="kindness-bunny-kit", name="Kindness Bunny Kit", days=14,
+    colors=":root{ --dark:#6b4a7a; --sage:#c06a8f; --tint:#fbeff4; --line:#f0d3e0; --accent:#e5b84a; --warm:#f6f2fb; --warmline:#e3d8ee; --cream:#fffbfd; }",
+    ic="#c06a8f", sig="Love, your Kindness Bunny", fn="♥ your Kindness Bunny",
+    eyebrow="Printable kit · Ages 3 to 8 · Easter", h1="Kindness<br>Bunny Kit",
+    tg="A little bunny hops in with one kind mission a day for the 14 days before Easter. Kindness instead of more candy, five minutes a morning.",
+    pill="18 pages · US Letter + A4", how_title="How the Kindness Bunny works",
+    how_sub="For the 14 days before Easter, your child finds a note from the Kindness Bunny with one small, kind thing to do. After each one, color an egg on the tracker. On Easter morning, the bunny leaves a goodbye letter.",
+    steps=[("Meet your bunny", "Any soft toy or a paper bunny can be your Kindness Bunny. Fill in the bunny passport together."),
+           ("Print and cut", "Print the notes and cut them apart (4 per page). Keep them in an envelope or a little basket."),
+           ("One note a day", "Leave a note out each evening, read it together in the morning."),
+           ("Celebrate", "Color an egg on the tracker. On Easter, read the goodbye letter and give the \"I was kind\" certificate.")],
+    tip1=("Forgot a note?", "Use the lifesaver letters: \"I hopped too far\" and \"I was painting eggs\"."),
+    tip2=("Make it yours", "Use the 4 egg hunt clue cards for a kindness egg hunt on Easter morning."),
+    arrive=("Hello, little friend!", ["Hop, hop! I'm a little Kindness Bunny, and I've come to help you get ready for Easter.", "For the next 14 days, I'll leave you one kind mission every morning. Every kind thing you do makes my eggs a little more colorful.", "Let's make this the kindest spring ever!"]),
+    passport="My bunny passport", draw="Draw your bunny here", pp=["My bunny's name", "My bunny's favorite snack", "My name", "Day my bunny arrived"],
+    tracker_sub="After each kind mission, color one egg circle. Fill all 14 before Easter!",
+    life1=("I hopped too far!", ["Good morning! I hopped so far through the meadow that I got back late.", "Today's kind mission: help someone who is in a hurry. See you tomorrow!"]),
+    life2=("I was painting eggs!", ["I painted eggs all night and forgot your note!", "Today's kind mission: make something colorful for someone you love. Back tomorrow!"]),
+    mid=("Halfway to Easter!", ["Seven kind missions done! The meadow is full of colorful eggs thanks to you.", "Keep going, little friend!"]),
+    extra_title="Kindness egg hunt clues", extra_sub="Hide a little treat or a kind note and use these clue cards on Easter morning.",
+    extra_notes=["Look where we brush our teeth", "Look where the books sleep", "Look under something soft", "Look where we eat breakfast"], extra_head="EGG HUNT CLUE", extra_foot="hide a kind note or a treat here",
+    extra_mini="Write your own clues on the blank notes for older kids.",
+    bye=("Happy Easter!", ["Today I hop back to the meadow with a basket full of your kindness.", "Thank you for every hug, every smile and every kind thing you did.", "Keep being kind all year long!"]),
+    bye_sig="Love forever, your Kindness Bunny",
+    cert=("Official meadow award", "I Was Kind!", "for 14 days of kindness. Every bunny is proud of you!", "Signed: Your Kindness Bunny"),
+    pair="Our Kindness Cupid (February) and Kindness Leprechaun (March) kits follow the same 5-minute idea. Find them in our shop.",
+    foot_names=dict(CUPID["foot_names"], extra="Egg hunt clues", mid="Halfway letter"),
+    labels=dict(CUPID["labels"], trk_h="Color one egg a day", meet="Meet your bunny"),
+)
+SPRING_MISSIONS = [("heart", "Tell someone in your family why you love them."), ("hug", "Give a big hug to someone who looks tired."), ("leaf", "Plant a seed or water a plant."),
+    ("child", "Play with someone who is playing alone."), ("spoon", "Help set the table."), ("toy", "Share a toy you really like."), ("book", "Read a story to someone younger."),
+    ("sun", "Give three people a compliment today."), ("window", "Draw a picture for a neighbor's window."), ("cat", "Be extra gentle with a pet or a teddy."),
+    ("bowl", "Help clean up after dinner."), ("star", "Make a card for someone who needs cheering up."), ("leaf", "Pick up one piece of litter outside (with a grown-up)."), ("hug", "Give everyone a thank-you hug tonight.")]
+SPRING_IDEAS = [x for x in CUPID["ideas"] if "Valentine" not in x and "heart" not in x.lower()] + ["Plant flower seeds together", "Make a bird feeder", "Pick a flower for someone (with permission)", "Clean up the garden toys"]
+for _k in (LEPRECHAUN, BUNNY):
+    _k["missions"] = SPRING_MISSIONS; _k["ideas"] = SPRING_IDEAS[:30]
+KITS.update({"leprechaun": LEPRECHAUN, "bunny": BUNNY})
+
 if __name__ == "__main__":
     for a in sys.argv[1:] or KITS:
         build(KITS[a])

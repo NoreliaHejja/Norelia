@@ -22,8 +22,8 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | W3 | **Kindness Reindeer Kit** (rénszarvas érkezik, 24 rénszarvas-cetli, „reindeer food” lap) | elf nélküli családoknak, „kindness reindeer” | 3,99 € | kész (2026-11-20, #4621544025) |
 | W4 | **Kindness Snowman Kit – January** (az elf után januári 24 napos kedvesség-hóember) | jan. szezon, élesítés dec. 15-ig | 3,99 € | kész (2026-11-23, #4623638153) |
 | W5 | **Valentine Kindness Cupid Kit** (14 napos „kindness cupid” cetlik) | febr. szezon, élesítés jan. 5-ig | 3,99 € | kész (2026-11-23, #4623645842) |
-| W6 | **Kindness Leprechaun Kit** (március, csak általános manó, védjegy nélkül) | márc. szezon, élesítés febr. 5-ig | 3,99 € | ötlet |
-| W7 | **Kindness Bunny Kit** (húsvét előtti 14 nap) | ápr. szezon, élesítés márc. 1-ig | 3,99 € | ötlet |
+| W6 | **Kindness Leprechaun Kit** (március, csak általános manó, védjegy nélkül) | márc. szezon, élesítés febr. 5-ig | 3,99 € | kész (2026-11-24), feltöltésre vár |
+| W7 | **Kindness Bunny Kit** (húsvét előtti 14 nap) | ápr. szezon, élesítés márc. 1-ig | 3,99 € | kész (2026-11-24), feltöltésre vár |
 | P1 | **Family Emergency Binder** (családi vészhelyzeti terv: kontaktok, gyógyszer-/allergialista, evakuációs terv, háziállat-lap, dokumentum-leltár, készlet-ellenőrző; szerkeszthető PDF) – Etsy + KDP 8.5x11 | Nóra könyvpiaci kutatása 2026-11-17: túlélés/felkészülés = top volumen; tervező, nem orvosi tanács („planning aid, not medical advice”), forrás: Ready.gov (közkincs) | 5,99 € / KDP 9,99 $ | kész (2026-11-18) #4619984059 |
 | T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | ötlet |
 | T2 | **Reading Journal & Book Tracker** (Etsy printable + KDP) | trendelemzés #2 | 7,90 € | ötlet |

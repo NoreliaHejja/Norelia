@@ -60,7 +60,27 @@ def draft_skirt_block(m, length=60.0):
     return pieces
 
 
-DRAFTS = {"skirt_block": draft_skirt_block}
+def draft_aline_skirt(m, length=58.0, flare=5.0, sa=1.5):
+    """A-vonalú szoknya a blokkból: oldalvarrás a csípővonaltól a szegélyig flare cm-rel kifelé + egyenes derékpánt.
+    Varrásráhagyás nélkül rajzolva (sa csak a leírásban)."""
+    pcs = draft_skirt_block(m, length)
+    for pc in pcs:
+        hd = pc["hipline"][1][1]; hx = pc["w"]
+        pc["outline"] = [pt for pt in pc["outline"] if not (pt[1] == length)]
+        out = []
+        for x, y in pc["outline"]:
+            out.append((x, y))
+            if abs(x - hx) < 1e-9 and abs(y - hd) < 1e-9:
+                out += [(hx + flare, length), (0.0, length)]
+        pc["outline"] = out + [pc["outline"][0]]; pc["w"] = hx + flare
+    wb_len = m["waist"] + 1 + 3          # derék + bőség + átfedés
+    hl = wb_len / 2                      # fél bund, a hajtás az elején (eleje közép)
+    pcs.append(dict(name="waistband", outline=[(0, 0), (7, 0), (7, hl), (0, hl), (0, 0)], darts=[], hipline=None,
+                    grain=((3.5, 4), (3.5, hl - 4)), fold=False, cut="1", w=7, h=hl))
+    return pcs
+
+
+DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt}
 
 
 def layout(p):
@@ -91,15 +111,16 @@ def draw_all(c, p, placed, H, lang="en"):
         c.setDash([]); c.setStrokeColorRGB(0, 0, 0); c.setLineWidth(0.6)
         (a, b) = pc0["grain"]; c.line(*T(ox + a[0], oy + a[1]), *T(ox + b[0], oy + b[1]))
         c.line(*T(ox + b[0], oy + b[1]), *T(ox + b[0] - 0.4, oy + b[1] - 0.8)); c.line(*T(ox + b[0], oy + b[1]), *T(ox + b[0] + 0.4, oy + b[1] - 0.8))
-        c.setDash([3, 3]); (h0, h1) = pc0["hipline"]; c.line(*T(ox, oy + h0[1]), *T(ox + pl["w"], oy + h1[1])); c.setDash([])
+        if pc0["hipline"]:
+            c.setDash([3, 3]); (h0, h1) = pc0["hipline"]; c.line(*T(ox, oy + h0[1]), *T(ox + pl["w"], oy + h1[1])); c.setDash([])
         if pc0["fold"]:
             c.setFont("Helvetica-Bold", 11); c.saveState(); c.translate(*T(ox - 0.7, oy + 35)); c.rotate(90); c.drawString(0, 0, labels["fold"]); c.restoreState()
-        c.setFillColorRGB(0.1, 0.1, 0.1); cx = ox + pl["w"] * 0.3
-        c.setFont("Helvetica-Bold", 22); c.drawString(*T(cx, oy + 26), labels[pc0["name"]].upper())
-        c.setFont("Helvetica", 12)
-        c.drawString(*T(cx, oy + 28), f'{labels["cut"]}: {labels["cut_" + pc0["name"]]}')
-        c.drawString(*T(cx, oy + 29.6), p["name_" + lang]); c.drawString(*T(cx, oy + 31.2), labels["nosa"])
-        c.drawString(*T(cx, oy + h0[1] - 0.4), labels["hipline"])
+        c.setFillColorRGB(0.1, 0.1, 0.1); cx = ox + pl["w"] * 0.3; ly = 26 if pc0["w"] > 12 else 3
+        c.setFont("Helvetica-Bold", 22 if ly > 3 else 10); c.drawString(*T(cx, oy + ly), labels[pc0["name"]].upper())
+        c.setFont("Helvetica", 12 if ly > 3 else 6)
+        c.drawString(*T(cx, oy + ly + (2 if ly > 3 else 1.0)), f'{labels["cut"]}: {labels["cut_" + pc0["name"]]} · {labels["nosa"]}')
+        if ly > 3: c.drawString(*T(cx, oy + ly + 3.6), p["name_" + lang])
+        if pc0["hipline"]: c.drawString(*T(cx, oy + pc0["hipline"][0][1] - 0.4), labels["hipline"])
     # méret-jelmagyarázat
     c.setFont("Helvetica-Bold", 12); y = H - 2.0; x = 3.0
     for s in p["sizes"]:
@@ -145,7 +166,7 @@ def main():
     # méretek ellenőrzése: kész derék/csípő vs. táblázat
     for s in p["sizes"]:
         pcs = DRAFTS[p["type"]](SIZES[s], **p.get("params", {}))
-        hip = 2 * sum(pc["w"] for pc in pcs)
+        hip = 2 * sum(pc["w"] - (p.get("params", {}).get("flare", 5.0) if p["type"] != "skirt_block" else 0) for pc in pcs if pc["name"] in ("front", "back"))
         print(f"{s}: csípő minta {hip:.1f} cm (test {SIZES[s]['hip']} + 4 bőség)")
     print("oldalak:", res, f"· elrendezés {W:.0f} × {H:.0f} cm")
 

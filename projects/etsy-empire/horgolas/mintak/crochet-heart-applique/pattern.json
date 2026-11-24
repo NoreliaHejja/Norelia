@@ -1,0 +1,70 @@
+{
+ "slug": "crochet-heart-applique",
+ "statusz": "kesz_feltoltesre_var",
+ "name_en": "Easy Crochet Heart Applique – Crochet Pattern",
+ "name_de": "Einfaches Häkelherz (Applikation) – Häkelanleitung",
+ "tagline_en": "A one-round heart for cards, garlands and Valentine's gifts. About 10 minutes.",
+ "tagline_de": "Ein Herz in einer Runde für Karten, Girlanden und Valentinsgeschenke. Ca. 10 Minuten.",
+ "level_en": "Easy",
+ "level_de": "Leicht",
+ "size_en": "approx. 5 cm (2 in) with DK cotton",
+ "size_de": "ca. 5 cm mit mittelstarkem Baumwollgarn",
+ "hook": "3.5 mm (US E/4)",
+ "gauge_en": "Not critical.",
+ "gauge_de": "Nicht entscheidend.",
+ "materials": [
+  {
+   "text_en": "Light worsted / DK cotton yarn: red or pink (about 3 g)",
+   "text_de": "Baumwollgarn, mittelstark: rot oder rosa (ca. 3 g)"
+  },
+  {
+   "text_en": "3.5 mm crochet hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 3,5 mm, Wollnadel, Schere"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sl st",
+  "MR",
+  "hdc",
+  "dc",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_en": "Everything is worked into the magic ring. Ch 3 at the start counts as the first dc.",
+   "text_de": "Alles wird in den Fadenring gearbeitet. Die 3 Lm am Anfang zählen als erstes Stb."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Heart",
+   "title_de": "Herz",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "Make a magic ring. Into the ring work: ch 3 (counts as dc), 3 dc, 3 hdc, ch 1, 1 dc (this is the point), ch 1, 3 hdc, 3 dc, ch 3, sl st into the ring. (14 sts, not counting the ch-1s)",
+     "de": "Fadenring. In den Ring arbeiten: 3 Lm (zählen als Stb), 3 Stb, 3 hStb, 1 Lm, 1 Stb (die Spitze), 1 Lm, 3 hStb, 3 Stb, 3 Lm, 1 Km in den Ring. (14 M ohne die einzelnen Lm)",
+     "count": 14
+    },
+    {
+     "label_en": "Shaping",
+     "label_de": "Formen",
+     "en": "Pull the ring tail tight until the top of the heart dips in the middle. Fasten off.",
+     "de": "Den Anfangsfaden festziehen, bis sich oben in der Mitte die Herzform bildet. Faden abschneiden."
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Weave in the ends.",
+   "text_de": "Fäden vernähen."
+  },
+  {
+   "text_en": "Glue onto a card, sew onto a bag, or string several onto a garland.",
+   "text_de": "Auf eine Karte kleben, auf eine Tasche nähen oder mehrere zur Girlande auffädeln."
+  }
+ ]
+}

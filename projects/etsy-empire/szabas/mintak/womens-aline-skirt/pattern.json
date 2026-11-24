@@ -1,0 +1,125 @@
+{
+ "slug": "womens-aline-skirt",
+ "type": "aline_skirt",
+ "sizes": [
+  "XS",
+  "S",
+  "M",
+  "L",
+  "XL",
+  "2X",
+  "3X"
+ ],
+ "params": {
+  "length": 58.0,
+  "flare": 5.0
+ },
+ "name_en": "Women's A-Line Skirt Sewing Pattern XS-3X",
+ "name_de": "Schnittmuster A-Linien-Rock (Damen) XS-3X",
+ "labels": {
+  "en": {
+   "front": "Front",
+   "back": "Back",
+   "cut": "Cut",
+   "cut_front": "1 on fold",
+   "cut_back": "2",
+   "fold": "PLACE ON FOLD",
+   "nosa": "No seam allowance – add 1.5 cm",
+   "hipline": "hip line",
+   "waistband": "Waistband",
+   "cut_waistband": "1 on fold (fold = centre front), fold lengthwise"
+  },
+  "de": {
+   "front": "Vorderteil",
+   "back": "Rückenteil",
+   "cut": "Zuschnitt",
+   "cut_front": "1x im Stoffbruch",
+   "cut_back": "2x",
+   "fold": "STOFFBRUCH",
+   "nosa": "Ohne Nahtzugabe – 1,5 cm zugeben",
+   "hipline": "Hüftlinie",
+   "waistband": "Bund",
+   "cut_waistband": "1x im Bruch (vordere Mitte), längs falten"
+  }
+ },
+ "img": {
+  "title": "A-Line Skirt · Sewing Pattern",
+  "sub": "Women's sizes XS–3X · A4, Letter, A0",
+  "band": "PDF PATTERN · INSTANT DOWNLOAD",
+  "included": [
+   "Nested pattern, sizes XS–3X",
+   "Front, back + waistband",
+   "A4 + US Letter print-at-home",
+   "A0 copy shop file",
+   "Test square on page 1",
+   "Sewing guide in English + German",
+   "Size chart in cm and inches"
+  ]
+ },
+ "guide": {
+  "en": {
+   "sub": "Nested sizes XS–3X · no seam allowance · A4/Letter or A0",
+   "chart_title": "Size chart (body measurements)",
+   "chart_note": "Ease: 4 cm (1.5 in) at the hip, 1 cm at the waist. Hem flare 5 cm per side seam. Length 58 cm (23 in).",
+   "license": "Personal use and small-batch handmade sales. Please don't share or resell the pattern files. Drafted with the help of software from a standard size chart.",
+   "sections": [
+    [
+     "Before you start",
+     "<ul><li>A classic knee-length A-line skirt with darts, a straight waistband and a centre back zip. Length 58 cm (23 in).</li><li><b>No seam allowance included</b>: add 1.5 cm (5/8 in) to all edges and 3 cm at the hem.</li><li>Good fabrics: cotton twill, light denim, linen, corduroy, wool blends.</li></ul>"
+    ],
+    [
+     "Printing",
+     "<ol><li>Print at <b>100% / actual size</b>. Check the test square (5 cm / 2 in) on page A1.</li><li>Trim and tape the pages by their labels, or print the A0 file at a copy shop.</li></ol>"
+    ],
+    [
+     "Choosing your size",
+     "<p>Choose by your <b>hip</b> measurement. If your waist is a different size, blend the lines between hip line and waist. The waistband length follows your waist size.</p>"
+    ],
+    [
+     "You will need",
+     "<ul><li>Fabric: 1.2 m (1.3 yd) of 140 cm (55 in) wide fabric for sizes XS–L, 1.5 m (1.7 yd) for XL–3X</li><li>18–20 cm (7–8 in) invisible or regular zip</li><li>Light fusible interfacing for the waistband, 1 button or hook</li></ul>"
+    ],
+    [
+     "Sewing steps",
+     "<ol><li>Interface half of the waistband.</li><li>Sew the darts and press them toward the centre.</li><li>Sew the centre back seam up to the zip mark, insert the zip.</li><li>Sew the side seams, finish all raw edges.</li><li>Sew the waistband to the skirt, fold it, close it by hand or stitch in the ditch, add the button.</li><li>Try it on, mark the hem, press up 3 cm and stitch.</li></ol>"
+    ],
+    [
+     "Fitting tips",
+     "<ul><li>Sew a quick test version first if you can.</li><li>Waist gaping: take the darts in a little. Hip tight: let out the side seams.</li><li>Want more swing? Add 2–3 cm more flare at the side hem.</li></ul>"
+    ]
+   ]
+  },
+  "de": {
+   "sub": "Größen XS–3X ineinander · ohne Nahtzugabe · A4/Letter oder A0",
+   "chart_title": "Maßtabelle (Körpermaße)",
+   "chart_note": "Bewegungszugabe: 4 cm Hüfte, 1 cm Taille. Saumweite +5 cm pro Seitennaht. Länge 58 cm.",
+   "license": "Privater Gebrauch und kleine handgemachte Mengen. Schnittdateien bitte nicht weitergeben oder verkaufen. Mit Software nach einer Standard-Maßtabelle konstruiert.",
+   "sections": [
+    [
+     "Bevor du anfängst",
+     "<ul><li>Klassischer knielanger A-Linien-Rock mit Abnähern, geradem Bund und Reißverschluss hinten. Länge 58 cm.</li><li><b>Ohne Nahtzugabe</b>: 1,5 cm an allen Kanten und 3 cm am Saum zugeben.</li><li>Stoffe: Baumwoll-Twill, leichter Denim, Leinen, Cord, Wollmischungen.</li></ul>"
+    ],
+    [
+     "Drucken",
+     "<ol><li>In <b>100 % / Originalgröße</b> drucken, Testquadrat (5 cm) auf Seite A1 prüfen.</li><li>Seiten nach Beschriftung zusammenkleben oder A0 im Copyshop drucken.</li></ol>"
+    ],
+    [
+     "Größe wählen",
+     "<p>Nach der <b>Hüfte</b> wählen. Bei anderer Taillengröße zwischen Hüftlinie und Taille die Linien verbinden. Die Bundlänge richtet sich nach der Taille.</p>"
+    ],
+    [
+     "Du brauchst",
+     "<ul><li>Stoff: 1,2 m bei 140 cm Breite für XS–L, 1,5 m für XL–3X</li><li>Reißverschluss 18–20 cm</li><li>Leichte Bügeleinlage für den Bund, 1 Knopf oder Haken</li></ul>"
+    ],
+    [
+     "Nähschritte",
+     "<ol><li>Bundhälfte mit Einlage verstärken.</li><li>Abnäher nähen, zur Mitte bügeln.</li><li>Hintere Mitte bis zur Markierung schließen, Reißverschluss einnähen.</li><li>Seitennähte schließen, Kanten versäubern.</li><li>Bund annähen, falten, schließen, Knopf annähen.</li><li>Anprobieren, Saum markieren, 3 cm umbügeln und nähen.</li></ol>"
+    ],
+    [
+     "Anpassen",
+     "<ul><li>Wenn möglich zuerst ein Probeteil nähen.</li><li>Taille steht ab: Abnäher etwas tiefer. Hüfte eng: Seitennähte auslassen.</li><li>Mehr Schwung: am Saum seitlich 2–3 cm zugeben.</li></ul>"
+    ]
+   ]
+  }
+ }
+}

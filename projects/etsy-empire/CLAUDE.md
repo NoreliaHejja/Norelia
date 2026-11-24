@@ -20,7 +20,7 @@ Termék nyelve: US English. Riport Nórának: magyarul, tömören.
 
 ## KÉTHETES TESZT (Nóra, 2026-11-23 → dec. 7) – felülír minden lenti ritmust
 - **Naponta 1 szabásminta** (`szabas/README.md`, `szabas/SOR.md`) **+ 2 horgolásminta** (`horgolas/README.md`) **+ 2 PDF printable** (lenti szabályok). Napi 5 optimalizálás marad. A termékcsaládokat később szétválogatjuk (külön bolt / rovat).
-- Horgolás most tesztelő nélkül is élesíthető (Nóra döntése), DE: a képek csak rajzolt illusztráció („illustration”), mintaoldal és szemszám-táblázat lehet; AI-*fotó* kész darabról tilos. A leírásban: „New pattern. Photos are illustrations; a maker-tested photo will be added.” A szemszám-kapu kötelező. Tesztelői fotó, ha jön, utólag kerül fel.
+- Horgolás most tesztelő nélkül is élesíthető (Nóra döntése), DE: az 1. kép saját, a mintához hű SÉMA-rajz (PIL, „diagram” felirattal; AI-illusztráció nem, mert díszesebbet mutat, mint ami a mintából kijön), + mintaoldal + tartalom (`scripts/build_crochet_listing_images.py`); AI-*fotó* kész darabról tilos. A leírásban: „New pattern. Photos are illustrations; a maker-tested photo will be added.” A szemszám-kapu kötelező. Tesztelői fotó, ha jön, utólag kerül fel.
 - Dec. 7: kiértékelés termékcsaládonként (megtekintés, kedvelés, eladás / listing) → Nóra dönt a folytatásról.
 
 ## HORGOLÁSMINTÁK + NAPI 2 PRINTABLE (Nóra, 2026-11-23) – a fenti kéthetes teszt idejére felfüggesztve
