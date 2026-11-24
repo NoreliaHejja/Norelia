@@ -18,9 +18,18 @@ ABBR = {  # kulcs: (US, UK, DE, HU, EN magyarázat, DE magyarázat)
     "inc": ("inc", "inc", "zun", "szap.", "2 sc in the same stitch (increase)", "2 fM in eine Masche (Zunahme)"),
     "MR": ("MR", "MR", "MR", "varázsgyűrű", "magic ring", "Fadenring"),
     "st": ("st(s)", "st(s)", "M", "szem", "stitch(es)", "Masche(n)"),
-    "BLO": ("BLO", "BLO", "hMg", "hátsó szál", "back loop only", "nur in das hintere Maschenglied"),
+    "BLO": ("BLO", "BLO", "hMg", "hsz", "back loop only", "nur in das hintere Maschenglied"),
+    "FLO": ("FLO", "FLO", "vMg", "esz", "front loop only", "nur in das vordere Maschenglied"),
+}
+ABBR_HU = {  # magyar rövidítés + magyarázat
+    "ch": ("lsz", "láncszem"), "sl st": ("ksz", "kúszószem (hamis láncszem)"), "sc": ("rp", "rövidpálca"), "hdc": ("fp", "félpálca"),
+    "dc": ("ep", "egyráhajtásos pálca"), "sc2tog": ("fogy", "fogyasztás: 2 rövidpálca összehorgolva"), "inc": ("szap", "szaporítás: 2 rövidpálca ugyanabba a szembe"),
+    "MR": ("vgy", "varázsgyűrű"), "st": ("szem", "szem(ek)"), "BLO": ("hsz", "csak a hátsó szálba"), "FLO": ("esz", "csak az elülső szálba"),
 }
 T = {
+    "hu": dict(level="Nehézség", size="Kész méret", mat="Amire szükséged lesz", hook="Horgolótű", gauge="Sűrűség", abbr="Rövidítések",
+               uk="US", notes="Tudnivalók", fin="Befejezés", copy="A minta saját használatra és kis mennyiségű kézműves eladásra szól, az AureliaVenn megjelölésével. Kérlek, magát a mintát ne oszd meg és ne add el.",
+               draft="TESZTVÁLTOZAT – kérlek, jelezd a hibákat", hu="UK", lang="hu", tested="A mintát valódi horgoló tesztelte. A szöveg AI-eszközök segítségével készült.", sts="szem"),
     "en": dict(level="Skill level", size="Finished size", mat="You will need", hook="Hook", gauge="Gauge", abbr="Abbreviations (US terms)",
                uk="UK", notes="Notes", fin="Finishing", copy="This pattern is for personal use and for selling small handmade batches with credit to AureliaVenn. Please don't share or resell the pattern itself.",
                draft="TEST VERSION – please report any errors", hu="HU", lang="en", tested="Pattern tested by a real maker. Written with the help of AI tools.", sts="sts"),
@@ -36,7 +45,7 @@ h1{font-size:24pt;color:#b8322a;margin:0 0 4px}.sub{color:#6b3f22;font-size:11.5
 .meta b{display:block;color:#b8322a;font-size:9pt;text-transform:uppercase;letter-spacing:.05em}
 h2{font-size:14pt;color:#6b3f22;border-bottom:2px solid #efd2c6;padding-bottom:3px;margin:16px 0 8px;page-break-after:avoid}
 table{border-collapse:collapse;width:100%;font-size:9.5pt;margin-bottom:10px}td,th{border:1px solid #e3d3cc;padding:3px 6px;text-align:left}th{background:#fdf3ee}
-.row{display:grid;grid-template-columns:1.05in 1fr .8in;gap:8px;padding:4px 0;border-bottom:1px dotted #e3d3cc;page-break-inside:avoid}
+.row{display:grid;grid-template-columns:1.0in 1fr 1.0in;gap:8px;padding:4px 0;border-bottom:1px dotted #e3d3cc;page-break-inside:avoid}
 .row .l{font-weight:700;color:#b8322a}.row .c{text-align:right;color:#6b3f22;font-weight:700}
 .note{background:#eef6ef;border-radius:10px;padding:8px 12px;margin:8px 0}.foot{margin-top:18px;font-size:8.5pt;color:#7a6f68}
 .draft{position:fixed;top:40%;left:5%;transform:rotate(-30deg);font-size:46pt;color:rgba(184,50,42,.12);font-weight:700;white-space:nowrap}
@@ -56,8 +65,11 @@ def html(p, lang, folder, draft):
     t = T[lang]; g = lambda d, k: d.get(f"{k}_{lang}", d.get(k, ""))
     photos = sorted((folder / "fotok").glob("*.jpg")) if (folder / "fotok").exists() else []
     hero = f'<img class="hero" src="fotok/{photos[0].name}">' if photos else ""
-    abbr = "".join(f"<tr><td><b>{(v[0] if lang == 'en' else v[2])}</b></td><td>{(v[4] if lang == 'en' else v[5])}</td><td>{(v[1] if lang == 'en' else v[0])}</td><td>{v[3]}</td></tr>"
-                   for k, v in ABBR.items() if k in p["abbr"])
+    if lang == "hu":
+        abbr = "".join(f"<tr><td><b>{ABBR_HU[k][0]}</b></td><td>{ABBR_HU[k][1]}</td><td>{v[0]}</td><td>{v[1]}</td></tr>" for k, v in ABBR.items() if k in p["abbr"])
+    else:
+        abbr = "".join(f"<tr><td><b>{(v[0] if lang == 'en' else v[2])}</b></td><td>{(v[4] if lang == 'en' else v[5])}</td><td>{(v[1] if lang == 'en' else v[0])}</td><td>{ABBR_HU[k][0]}</td></tr>"
+                       for k, v in ABBR.items() if k in p["abbr"])
     mats = "".join(f"<li>{g(m, 'text')}</li>" for m in p["materials"])
     secs = ""
     for s in p["sections"]:
@@ -85,7 +97,7 @@ def main():
     err = check(p)
     if err:
         print("SZEMSZÁM-HIBA:\n" + "\n".join(err)); sys.exit(1)
-    for lang in ("en", "de"):
+    for lang in p.get("langs", ["en", "de"]):
         f = folder / f'{p["slug"]}-{lang.upper()}.html'
         f.write_text(html(p, lang, folder, draft), encoding="utf-8")
         subprocess.run(["node", str(ROOT / "scripts" / "render_pdf.js"), str(f)], check=True)

@@ -1,0 +1,184 @@
+{
+ "langs": [
+  "hu",
+  "en"
+ ],
+ "statusz": "tesztre_var",
+ "slug": "amigurumi-csibe",
+ "name_hu": "Amigurumi csibe – horgolásminta",
+ "name_en": "Amigurumi Chick – Crochet Pattern",
+ "tagline_hu": "Egytestes figura csőrrel, szárnnyal, bóbitával; az összevarrás gyakorlása. Kb. 2 óra.",
+ "tagline_en": "One-piece figure with beak, wings and tuft; practise assembly. About 2 hours.",
+ "level_hu": "5/6 – Közepes",
+ "level_en": "5/6 – Intermediate",
+ "size_hu": "kb. 7 cm magas",
+ "size_en": "approx. 7 cm (2.75 in) tall",
+ "hook": "3,5 mm",
+ "gauge_hu": "Szorosan horgolj.",
+ "gauge_en": "Work tightly.",
+ "materials": [
+  {
+   "text_hu": "Közepes vastagságú fonal: sárga (15 g), narancs (2 g)",
+   "text_en": "Worsted yarn: yellow (15 g), orange (2 g)"
+  },
+  {
+   "text_hu": "2 db 6 mm-es biztonsági szem (vagy fekete fonal hímzéshez), tömőanyag, 3,5 mm tű, szemjelölő, varrótű",
+   "text_en": "Two 6 mm safety eyes (or black yarn to embroider), fibrefill, 3.5 mm hook, marker, tapestry needle"
+  }
+ ],
+ "abbr": [
+  "sc",
+  "inc",
+  "sc2tog",
+  "MR",
+  "st",
+  "sl st",
+  "ch"
+ ],
+ "notes": [
+  {
+   "text_hu": "Csigavonalban (spirálban) horgolunk, a köröket nem zárjuk. Jelöld a kör elejét szemjelölővel.",
+   "text_en": "Worked in a continuous spiral; do not join rounds. Use a stitch marker for the first stitch."
+  },
+  {
+   "text_hu": "3 év alatti gyereknek biztonsági szem helyett hímezd a szemeket.",
+   "text_en": "For children under 3, embroider the eyes instead of using safety eyes."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Test (sárga)",
+   "title_en": "Body (yellow)",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 1 lsz, 6 rp a gyűrűbe. Húzd össze.",
+     "en": "Magic ring, ch 1, 6 sc into the ring. Pull tight.",
+     "count": 6
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "Minden szembe szaporítás.",
+     "en": "Inc in each st around.",
+     "count": 12,
+     "prev": 6,
+     "change": 6
+    },
+    {
+     "label_hu": "3. kör",
+     "label_en": "Round 3",
+     "hu": "*1 rp, 1 szap.* Ismételd 6-szor.",
+     "en": "*Sc in the next 1 sts, inc in the next st.* Repeat 6 times.",
+     "count": 18,
+     "prev": 12,
+     "change": 6
+    },
+    {
+     "label_hu": "4. kör",
+     "label_en": "Round 4",
+     "hu": "*2 rp, 1 szap.* Ismételd 6-szor.",
+     "en": "*Sc in the next 2 sts, inc in the next st.* Repeat 6 times.",
+     "count": 24,
+     "prev": 18,
+     "change": 6
+    },
+    {
+     "label_hu": "5–10. kör",
+     "label_en": "Rounds 5–10",
+     "hu": "Minden szembe 1 rp (6 kör). A 8. és 9. kör között tedd be a szemeket, 5 szem távolságra egymástól.",
+     "en": "Sc in each st around (6 rounds). Insert the eyes between rounds 8 and 9, 5 sts apart.",
+     "count": 24,
+     "prev": 24,
+     "change": 0
+    },
+    {
+     "label_hu": "11. kör",
+     "label_en": "Round 11",
+     "hu": "*2 rp, 1 fogy.* Ismételd 6-szor.",
+     "en": "*Sc in the next 2 sts, sc2tog.* Repeat 6 times.",
+     "count": 18,
+     "prev": 24,
+     "change": -6
+    },
+    {
+     "label_hu": "12. kör",
+     "label_en": "Round 12",
+     "hu": "*1 rp, 1 fogy.* Ismételd 6-szor. Töltsd ki a testet.",
+     "en": "*Sc in the next st, sc2tog.* Repeat 6 times. Stuff the body.",
+     "count": 12,
+     "prev": 18,
+     "change": -6
+    },
+    {
+     "label_hu": "13. kör",
+     "label_en": "Round 13",
+     "hu": "Minden 2 szemet fogyassz össze. Húzd össze a nyílást.",
+     "en": "Sc2tog around. Close the opening.",
+     "count": 6,
+     "prev": 12,
+     "change": -6
+    }
+   ]
+  },
+  {
+   "title_hu": "Csőr (narancs)",
+   "title_en": "Beak (orange)",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 4 rp.",
+     "en": "Magic ring, 4 sc.",
+     "count": 4
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "*1 rp, 1 szap.* Ismételd 2-szer. Vágd el hosszú szállal, ne töltsd ki.",
+     "en": "*Sc in the next st, inc.* Repeat twice. Fasten off with a long tail; do not stuff.",
+     "count": 6,
+     "prev": 4,
+     "change": 2
+    }
+   ]
+  },
+  {
+   "title_hu": "Szárny (sárga, 2 db)",
+   "title_en": "Wing (yellow, make 2)",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 6 rp.",
+     "en": "Magic ring, 6 sc.",
+     "count": 6
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "*1 rp, 1 szap.* Ismételd 3-szor. Hajtsd félbe laposra, vágd el hosszú szállal.",
+     "en": "*Sc in the next st, inc.* Repeat 3 times. Fold flat, fasten off with a long tail.",
+     "count": 9,
+     "prev": 6,
+     "change": 3
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Varrd a csőrt a szemek közé, egy körrel lejjebb.",
+   "text_en": "Sew the beak between the eyes, one round lower."
+  },
+  {
+   "text_hu": "Varrd a szárnyakat a test két oldalára, a 11. kör magasságában.",
+   "text_en": "Sew the wings to the sides at round 11."
+  },
+  {
+   "text_hu": "Bóbita: a fej tetején húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.",
+   "text_en": "Tuft: pull 3 strands of yellow through the top of the head, knot and trim to 1.5 cm."
+  }
+ ]
+}

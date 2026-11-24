@@ -1,0 +1,203 @@
+{
+ "langs": [
+  "hu",
+  "en"
+ ],
+ "statusz": "tesztre_var",
+ "slug": "kerek-kosar-fulekkel",
+ "name_hu": "Kerek kosár fülekkel – horgolásminta",
+ "name_en": "Round Basket with Handles – Crochet Pattern",
+ "tagline_hu": "Lapos alj, hátsó szálas fordulósor, mohaminta-oldal és fülek. Kb. 4 óra.",
+ "tagline_en": "Flat base, back-loop turning round, moss-stitch sides and handles. About 4 hours.",
+ "level_hu": "6/6 – Haladó",
+ "level_en": "6/6 – Advanced beginner+",
+ "size_hu": "kb. 18 cm átmérő, 12 cm magas",
+ "size_en": "approx. 18 cm (7 in) across, 12 cm (4.75 in) tall",
+ "hook": "6 mm",
+ "gauge_hu": "12 rp = 10 cm (dupla szállal). Ha a kosár alja hullámos, válts kisebb tűre.",
+ "gauge_en": "12 sc = 10 cm with yarn held double. If the base ruffles, go down a hook size.",
+ "materials": [
+  {
+   "text_hu": "Vastag (chunky) pamut- vagy pólófonal, kb. 250 g, vagy közepes fonal duplán",
+   "text_en": "Chunky cotton or T-shirt yarn, about 250 g, or worsted yarn held double"
+  },
+  {
+   "text_hu": "6 mm horgolótű, szemjelölő, varrótű",
+   "text_en": "6 mm hook, stitch marker, tapestry needle"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sl st",
+  "sc",
+  "inc",
+  "MR",
+  "st",
+  "BLO"
+ ],
+ "notes": [
+  {
+   "text_hu": "Az alj körei zártak. A mohamintás körökben a szemszám: 30 rp + 30 lsz = 60.",
+   "text_en": "Base rounds are joined. In moss-stitch rounds the count is 30 sc + 30 ch = 60."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Alj",
+   "title_en": "Base",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 1 lsz, 6 rp. Zárd 1 ksz-mel.",
+     "en": "Magic ring, ch 1, 6 sc. Join with a sl st.",
+     "count": 6
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "1 lsz. Minden szembe szaporítás. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. Inc in each st around. Join with a sl st to the first sc.",
+     "count": 12,
+     "prev": 6,
+     "change": 6
+    },
+    {
+     "label_hu": "3. kör",
+     "label_en": "Round 3",
+     "hu": "1 lsz. *1 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 1 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 18,
+     "prev": 12,
+     "change": 6
+    },
+    {
+     "label_hu": "4. kör",
+     "label_en": "Round 4",
+     "hu": "1 lsz. *2 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 2 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 24,
+     "prev": 18,
+     "change": 6
+    },
+    {
+     "label_hu": "5. kör",
+     "label_en": "Round 5",
+     "hu": "1 lsz. *3 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 3 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 30,
+     "prev": 24,
+     "change": 6
+    },
+    {
+     "label_hu": "6. kör",
+     "label_en": "Round 6",
+     "hu": "1 lsz. *4 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 4 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 36,
+     "prev": 30,
+     "change": 6
+    },
+    {
+     "label_hu": "7. kör",
+     "label_en": "Round 7",
+     "hu": "1 lsz. *5 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 5 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 42,
+     "prev": 36,
+     "change": 6
+    },
+    {
+     "label_hu": "8. kör",
+     "label_en": "Round 8",
+     "hu": "1 lsz. *6 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 6 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 48,
+     "prev": 42,
+     "change": 6
+    },
+    {
+     "label_hu": "9. kör",
+     "label_en": "Round 9",
+     "hu": "1 lsz. *7 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 7 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 54,
+     "prev": 48,
+     "change": 6
+    },
+    {
+     "label_hu": "10. kör",
+     "label_en": "Round 10",
+     "hu": "1 lsz. *8 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 8 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 60,
+     "prev": 54,
+     "change": 6
+    }
+   ]
+  },
+  {
+   "title_hu": "Oldal",
+   "title_en": "Sides",
+   "rows": [
+    {
+     "label_hu": "11. kör",
+     "label_en": "Round 11",
+     "hu": "1 lsz, minden szembe 1 rp csak a hátsó szálba (ettől fordul fel az oldal). Zárd.",
+     "en": "Ch 1, sc in the back loop only of each st (this turns the side up). Join.",
+     "count": 60,
+     "prev": 60,
+     "change": 0
+    },
+    {
+     "label_hu": "12–21. kör",
+     "label_en": "Rounds 12–21",
+     "hu": "1 lsz, *1 rp, 1 lsz, ugorj át 1 szemet* körbe; a következő körökben az rp-t mindig az előző kör lsz-ívébe horgold. Zárd 1 ksz-mel.",
+     "en": "Ch 1, *sc, ch 1, skip 1* around; on later rounds work each sc into the ch-1 space of the round below. Join with a sl st.",
+     "count": 60,
+     "prev": 60,
+     "change": 0
+    }
+   ]
+  },
+  {
+   "title_hu": "Fülek és szegély",
+   "title_en": "Handles and edge",
+   "rows": [
+    {
+     "label_hu": "22. kör",
+     "label_en": "Round 22",
+     "hu": "1 lsz, 10 rp, 10 lsz, ugorj át 10 szemet, 20 rp, 10 lsz, ugorj át 10 szemet, 10 rp. Zárd.",
+     "en": "Ch 1, sc 10, ch 10, skip 10, sc 20, ch 10, skip 10, sc 10. Join.",
+     "count": 60,
+     "prev": 60,
+     "change": 0
+    },
+    {
+     "label_hu": "23. kör",
+     "label_en": "Round 23",
+     "hu": "1 lsz, minden szembe 1 rp, a 10 lsz-es ívekbe 10-10 rp. Zárd.",
+     "en": "Ch 1, sc in each st, 10 sc into each ch-10 space. Join.",
+     "count": 60,
+     "prev": 60,
+     "change": 0
+    },
+    {
+     "label_hu": "24. kör",
+     "label_en": "Round 24",
+     "hu": "Rákszem (rövidpálca balról jobbra) vagy ksz minden szembe. Vágd el a fonalat.",
+     "en": "Reverse sc (crab stitch) or sl st in each st around. Fasten off.",
+     "count": 60,
+     "prev": 60,
+     "change": 0
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Dolgozd el a szálvégeket a kosár belsején.",
+   "text_en": "Weave in ends on the inside."
+  }
+ ]
+}

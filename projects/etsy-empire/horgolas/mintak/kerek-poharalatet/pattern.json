@@ -1,0 +1,118 @@
+{
+ "langs": [
+  "hu",
+  "en"
+ ],
+ "statusz": "tesztre_var",
+ "slug": "kerek-poharalatet",
+ "name_hu": "Kerek poháralátét – horgolásminta",
+ "name_en": "Round Crochet Coaster – Crochet Pattern",
+ "tagline_hu": "Az első kerek darabod: csak rövidpálca és szaporítás. Kb. 30 perc.",
+ "tagline_en": "Your first circle: only single crochet and increases. About 30 minutes.",
+ "level_hu": "1/6 – Kezdő",
+ "level_en": "1/6 – Beginner",
+ "size_hu": "kb. 10 cm átmérő",
+ "size_en": "approx. 10 cm (4 in) across",
+ "hook": "4 mm",
+ "gauge_hu": "Nem lényeges, de horgolj szorosan, hogy laposan feküdjön.",
+ "gauge_en": "Not critical; work tightly so it lies flat.",
+ "materials": [
+  {
+   "text_hu": "Közepes vastagságú pamutfonal, kb. 15 g, bármilyen színben",
+   "text_en": "Worsted cotton yarn, about 15 g, any colour"
+  },
+  {
+   "text_hu": "4 mm horgolótű, varrótű, olló",
+   "text_en": "4 mm hook, tapestry needle, scissors"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sl st",
+  "sc",
+  "inc",
+  "MR",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_hu": "A kör végén zárunk, és minden kört 1 lsz-mel kezdünk (nem számít szemnek).",
+   "text_en": "Each round is joined; the ch 1 at the start does not count as a stitch."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Alátét",
+   "title_en": "Coaster",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 1 lsz, 6 rp a gyűrűbe. Húzd össze, zárd 1 ksz-mel.",
+     "en": "Magic ring, ch 1, 6 sc into the ring. Pull tight, join with a sl st.",
+     "count": 6
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "1 lsz. Minden szembe szaporítás. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. Inc in each st around. Join with a sl st to the first sc.",
+     "count": 12,
+     "prev": 6,
+     "change": 6
+    },
+    {
+     "label_hu": "3. kör",
+     "label_en": "Round 3",
+     "hu": "1 lsz. *1 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 1 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 18,
+     "prev": 12,
+     "change": 6
+    },
+    {
+     "label_hu": "4. kör",
+     "label_en": "Round 4",
+     "hu": "1 lsz. *2 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 2 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 24,
+     "prev": 18,
+     "change": 6
+    },
+    {
+     "label_hu": "5. kör",
+     "label_en": "Round 5",
+     "hu": "1 lsz. *3 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 3 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 30,
+     "prev": 24,
+     "change": 6
+    },
+    {
+     "label_hu": "6. kör",
+     "label_en": "Round 6",
+     "hu": "1 lsz. *4 rp, 1 szap.* A *-tól *-ig ismételd még 5-ször. Zárd a kört 1 ksz-mel az első rp-ba.",
+     "en": "Ch 1. *Sc in the next 4 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "count": 36,
+     "prev": 30,
+     "change": 6
+    },
+    {
+     "label_hu": "7. kör",
+     "label_en": "Round 7",
+     "hu": "Szegély: minden szembe 1 ksz, lazán. Vágd el a fonalat.",
+     "en": "Edging: sl st loosely in each st around. Fasten off.",
+     "count": 36,
+     "prev": 36,
+     "change": 0
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Dolgozd el a szálvégeket. Ha hullámos, nedvesítsd meg, és laposan szárítsd.",
+   "text_en": "Weave in ends. If it ruffles, wet it and dry flat."
+  }
+ ]
+}

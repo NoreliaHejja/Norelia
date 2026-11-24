@@ -14,6 +14,18 @@ Max. 6 minta lehet egyszerre `tesztre_var` állapotban.
 | 5 | – | Chunky Beanie (felnőtt S/M/L) | kezdő | 4,49 € | ötlet |
 | 6 | – | Granny Square Basket | kezdő+ | 4,49 € | ötlet |
 
+## Magyar tesztcsomag – 6 nehézségi szint (Nóra, 2026-11-24)
+Magyar + angol PDF (`<slug>-HU.pdf`, `<slug>-EN.pdf`), „TESZTVÁLTOZAT” felirattal. Mindegyik szemszáma generátorral ellenőrizve.
+
+| Szint | Slug | Minta | Idő | Fonal |
+|---|---|---|---|---|
+| 1/6 Kezdő | kerek-poharalatet | Kerek poháralátét | 30 perc | 15 g pamut |
+| 2/6 Kezdő | felpalcas-mosogatorongy | Félpálcás mosogatórongy | 1,5 óra | 45 g pamut |
+| 3/6 Könnyű | nagymama-negyzet | Klasszikus nagymama-négyzet | 40 perc | 15 g, 2–4 szín |
+| 4/6 Közepes | amigurumi-labda | Amigurumi labda | 1,5 óra | 20 g + tömőanyag |
+| 5/6 Közepes | amigurumi-csibe | Amigurumi csibe | 2 óra | 15 g sárga + 2 g narancs, szemek |
+| 6/6 Haladó | kerek-kosar-fulekkel | Kerek kosár fülekkel | 4 óra | 250 g chunky |
+
 ## Tesztelők (Nóra anyukás csoportja, 2026-11-23 – sokan jelentkeztek)
 Szabály: egy tesztelő egyszerre 1 mintát kap; ugyanazt a mintát 2 ember tesztelje (ha mindkettőnél kijön, biztos jó). Fonalat Nóra állja, a darab a tesztelőé.
 

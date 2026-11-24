@@ -1,0 +1,84 @@
+{
+ "langs": [
+  "hu",
+  "en"
+ ],
+ "statusz": "tesztre_var",
+ "slug": "felpalcas-mosogatorongy",
+ "name_hu": "Félpálcás mosogatórongy – horgolásminta",
+ "name_en": "Half Double Crochet Dishcloth – Crochet Pattern",
+ "tagline_hu": "Egyenes sorok félpálcával, szegéllyel. Kb. 1,5 óra.",
+ "tagline_en": "Straight rows of half double crochet with a border. About 1.5 hours.",
+ "level_hu": "2/6 – Kezdő",
+ "level_en": "2/6 – Beginner",
+ "size_hu": "kb. 20 × 20 cm",
+ "size_en": "approx. 20 × 20 cm (8 × 8 in)",
+ "hook": "4,5 mm",
+ "gauge_hu": "15 fp = 10 cm",
+ "gauge_en": "15 hdc = 10 cm (4 in)",
+ "materials": [
+  {
+   "text_hu": "Közepes vastagságú 100% pamutfonal, kb. 45 g",
+   "text_en": "Worsted 100% cotton yarn, about 45 g"
+  },
+  {
+   "text_hu": "4,5 mm horgolótű, varrótű, olló",
+   "text_en": "4.5 mm hook, tapestry needle, scissors"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sl st",
+  "sc",
+  "hdc",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_hu": "A sor eleji 2 lsz nem számít szemnek.",
+   "text_en": "The ch 2 at the start of a row does not count as a stitch."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Rongy",
+   "title_en": "Dishcloth",
+   "rows": [
+    {
+     "label_hu": "1. sor",
+     "label_en": "Row 1",
+     "hu": "Horgolj 32 lsz-t. A tűtől számított 3. lsz-be 1 fp, majd minden további lsz-be 1 fp. Fordítsd meg.",
+     "en": "Ch 32. Hdc in the 3rd ch from hook and in each ch across. Turn.",
+     "count": 30
+    },
+    {
+     "label_hu": "2–22. sor",
+     "label_en": "Rows 2–22",
+     "hu": "2 lsz, minden szembe 1 fp. Fordítsd meg.",
+     "en": "Ch 2, hdc in each st across. Turn.",
+     "count": 30,
+     "prev": 30,
+     "change": 0
+    }
+   ]
+  },
+  {
+   "title_hu": "Szegély",
+   "title_en": "Border",
+   "rows": [
+    {
+     "label_hu": "Szegély",
+     "label_en": "Border",
+     "hu": "1 lsz, rövidpálcával horgold körbe: az oldalakon minden sorvégbe 1 rp, minden sarokba 3 rp. Zárd 1 ksz-mel, vágd el a fonalat.",
+     "en": "Ch 1, sc evenly around: 1 sc in each row end on the sides, 3 sc in each corner. Join with a sl st and fasten off."
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Dolgozd el a szálvégeket. Mosható 40 °C-on.",
+   "text_en": "Weave in ends. Washable at 40 °C."
+  }
+ ]
+}
