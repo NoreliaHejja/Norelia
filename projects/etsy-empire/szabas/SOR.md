@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 | 1 | womens-skirt-block | Women's Straight Skirt Block XS–3X | skirt_block | 7,99 € | kész, feltöltésre vár (Etsy-token megújítás) |
 | 2 | womens-aline-skirt | A-Line Skirt XS–3X (blokkból) | aline_skirt | 6,99 € | kész, feltöltésre vár (2026-11-24) |
-| 3 | – | Circle Skirt + Half Circle (derékbőség szerinti kalkulátorral) | circle_skirt | 5,99 € | ötlet |
+| 3 | womens-circle-skirt | Circle Skirt XS–3X (derékív méretenként számolva) | circle_skirt | 5,99 € | kész, feltöltésre vár (2026-11-25) |
 | 4 | – | Gathered Elastic Waist Skirt (felnőtt + gyerek) | rect_skirt | 4,99 € | ötlet |
 | 5 | – | Lined Tote Bag with Pockets (3 méret) | tote | 3,99 € | ötlet |
 | 6 | – | Envelope Pillow Cover (8 méret, cm + in) | pillow | 3,49 € | ötlet |

@@ -80,7 +80,22 @@ def draft_aline_skirt(m, length=58.0, flare=5.0, sa=1.5):
     return pcs
 
 
-DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt}
+def draft_circle_skirt(m, length=55.0, ease=1.0):
+    """Teljes körszoknya: 1 negyedkör-darab, 2x hajtásra szabva (= 2 félkör). Derékív r = (derék+bőség)/(2π).
+    Varrásráhagyás nélkül. + fél bund (álló, hajtás az elején)."""
+    wc = m["waist"] + ease; r = wc / (2 * math.pi); R = r + length
+    waist = [(r * math.cos(math.radians(a)), r * math.sin(math.radians(a))) for a in range(0, 91, 3)]
+    hem = [(R * math.cos(math.radians(a)), R * math.sin(math.radians(a))) for a in range(90, -1, -3)]
+    outline = waist + hem + [waist[0]]
+    panel = dict(name="panel", outline=outline, darts=[], hipline=None, grain=((R * 0.35, r + 6), (R * 0.35, R - 8)), fold=True,
+                 cut="2", w=R, h=R, waist_arc=wc)
+    hl = (wc + 3) / 2
+    band = dict(name="waistband", outline=[(0, 0), (7, 0), (7, hl), (0, hl), (0, 0)], darts=[], hipline=None,
+                grain=((3.5, 4), (3.5, hl - 4)), fold=False, cut="1", w=7, h=hl)
+    return [panel, band]
+
+
+DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt}
 
 
 def layout(p):
@@ -166,6 +181,10 @@ def main():
     # méretek ellenőrzése: kész derék/csípő vs. táblázat
     for s in p["sizes"]:
         pcs = DRAFTS[p["type"]](SIZES[s], **p.get("params", {}))
+        if p["type"] == "circle_skirt":
+            pn = pcs[0]; arc = sum(math.dist(a, b) for a, b in zip(pn["outline"][:31], pn["outline"][1:31])) * 4
+            print(f"{s}: derékív a mintán {arc:.1f} cm (test {SIZES[s]['waist']} + 1 bőség), darab {pn['w']:.0f} cm")
+            continue
         hip = 2 * sum(pc["w"] - (p.get("params", {}).get("flare", 5.0) if p["type"] != "skirt_block" else 0) for pc in pcs if pc["name"] in ("front", "back"))
         print(f"{s}: csípő minta {hip:.1f} cm (test {SIZES[s]['hip']} + 4 bőség)")
     print("oldalak:", res, f"· elrendezés {W:.0f} × {H:.0f} cm")

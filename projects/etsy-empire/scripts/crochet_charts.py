@@ -6,8 +6,8 @@ import math
 INK = "#3a2e28"; INC = "#c8102e"; DEC = "#1f5fa8"; SOFT = "#b9a89c"
 LEG = {
     "hu": dict(ch="láncszem (lsz)", sl="kúszószem (ksz)", sc="rövidpálca (rp)", hdc="félpálca (fp)", dc="egyráhajtásos pálca (ep)", inc="szaporítás (piros)", dec="fogyasztás (kék)", mr="varázsgyűrű", start="kezdés", rnd="kör", row="sor", title="Jelmagyarázat"),
-    "en": dict(ch="chain (ch)", sl="slip stitch (sl st)", sc="single crochet (sc)", hdc="half double crochet (hdc)", dc="double crochet (dc)", inc="increase (red)", dec="decrease (blue)", mr="magic ring", start="start", rnd="round", row="row", title="Symbol key"),
-    "de": dict(ch="Luftmasche (Lm)", sl="Kettmasche (Km)", sc="feste Masche (fM)", hdc="halbes Stäbchen (hStb)", dc="Stäbchen (Stb)", inc="Zunahme (rot)", dec="Abnahme (blau)", mr="Fadenring", start="Start", rnd="Runde", row="Reihe", title="Zeichenerklärung"),
+    "en": dict(ch="chain (ch)", sl="slip stitch (sl st)", sc="single crochet (sc)", hdc="half double crochet (hdc)", dc="double crochet (dc)", inc="increase (red)", dec="decrease (blue)", mr="magic ring", start="start", rnd="rounds", row="row", title="Symbol key"),
+    "de": dict(ch="Luftmasche (Lm)", sl="Kettmasche (Km)", sc="feste Masche (fM)", hdc="halbes Stäbchen (hStb)", dc="Stäbchen (Stb)", inc="Zunahme (rot)", dec="Abnahme (blau)", mr="Fadenring", start="Start", rnd="Runden", row="Reihe", title="Zeichenerklärung"),
 }
 
 

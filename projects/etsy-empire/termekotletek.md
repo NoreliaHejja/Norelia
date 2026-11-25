@@ -25,11 +25,11 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | W6 | **Kindness Leprechaun Kit** (március, csak általános manó, védjegy nélkül) | márc. szezon, élesítés febr. 5-ig | 3,99 € | kész (2026-11-24), feltöltésre vár |
 | W7 | **Kindness Bunny Kit** (húsvét előtti 14 nap) | ápr. szezon, élesítés márc. 1-ig | 3,99 € | kész (2026-11-24), feltöltésre vár |
 | P1 | **Family Emergency Binder** (családi vészhelyzeti terv: kontaktok, gyógyszer-/allergialista, evakuációs terv, háziállat-lap, dokumentum-leltár, készlet-ellenőrző; szerkeszthető PDF) – Etsy + KDP 8.5x11 | Nóra könyvpiaci kutatása 2026-11-17: túlélés/felkészülés = top volumen; tervező, nem orvosi tanács („planning aid, not medical advice”), forrás: Ready.gov (közkincs) | 5,99 € / KDP 9,99 $ | kész (2026-11-18) #4619984059 |
-| T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | ötlet |
+| T1 | **Large Print Word Search for Seniors** (50 rejtvény, nagybetűs; Etsy PDF + KDP) | trendelemzés #1 (8e találat) | 4,99 € / KDP 7,99 $ | kész (2026-11-25), feltöltésre vár – 3,99 €, 25 rejtvény, KDP-képes (34 old.) |
 | T2 | **Reading Journal & Book Tracker** (Etsy printable + KDP) | trendelemzés #2 | 7,90 € | ötlet |
 | T3 | **Self-Compassion / Mental Health Journal** | trendelemzés #3 | 6,90 € | ötlet |
 | T4 | **Bold & Easy Cozy Coloring Pages** (Etsy + KDP felnőtt kifestő) | trendelemzés #4 | 3,99 € / KDP 8,99 $ | ötlet |
-| A1 | Christmas Family Games Bundle (bingo, scavenger hunt, would you rather, charades) | top karácsonyi printable, családi est | 5,90 € | ötlet |
+| A1 | Christmas Family Games Bundle (bingo, scavenger hunt, would you rather, charades) | top karácsonyi printable, családi est | 5,90 € | kész (2026-11-25), feltöltésre vár – 4,99 € |
 | A2 | Letter from Santa + Nice List Certificate + Reindeer Food tag (szerkeszthető név) | perszonalizálás = top kereslet | 4,90 € | kész (2026-11-16) – a K4 Nice List Kitben |
 | A3 | Christmas Gift Tags & Wrapping Labels (60 db, 4 stílus, színes) | magas volumen, olcsó, impulzusvásárlás | 3,90 € | ötlet |
 | A4 | Kids Christmas Activity Book (30 oldal: színező, labirintus, pontösszekötő) | magas kereslet + KDP-képes (24+ oldal) | 5,90 € | ötlet |

@@ -1,7 +1,8 @@
 {
  "langs": [
-  "hu",
-  "en"
+  "en",
+  "de",
+  "hu"
  ],
  "statusz": "tesztre_var",
  "slug": "kerek-poharalatet",
@@ -19,11 +20,13 @@
  "materials": [
   {
    "text_hu": "Közepes vastagságú pamutfonal, kb. 15 g, bármilyen színben",
-   "text_en": "Worsted cotton yarn, about 15 g, any colour"
+   "text_en": "Worsted cotton yarn, about 15 g, any colour",
+   "text_de": "Mittelstarkes Baumwollgarn, ca. 15 g, beliebige Farbe"
   },
   {
    "text_hu": "4 mm horgolótű, varrótű, olló",
-   "text_en": "4 mm hook, tapestry needle, scissors"
+   "text_en": "4 mm hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4 mm, Wollnadel, Schere"
   }
  ],
  "abbr": [
@@ -37,7 +40,8 @@
  "notes": [
   {
    "text_hu": "A kör végén zárunk, és minden kört 1 lsz-mel kezdünk (nem számít szemnek).",
-   "text_en": "Each round is joined; the ch 1 at the start does not count as a stitch."
+   "text_en": "Each round is joined; the ch 1 at the start does not count as a stitch.",
+   "text_de": "Jede Runde wird geschlossen; die 1 Lm am Anfang zählt nicht als Masche."
   }
  ],
  "sections": [
@@ -50,7 +54,9 @@
      "label_en": "Round 1",
      "hu": "Varázsgyűrű, 1 lsz, 6 rp a gyűrűbe. Húzd össze, zárd 1 ksz-mel.",
      "en": "Magic ring, ch 1, 6 sc into the ring. Pull tight, join with a sl st.",
-     "count": 6
+     "count": 6,
+     "label_de": "Runde 1",
+     "de": "Fadenring, 1 Lm, 6 fM in den Ring. Festziehen, mit 1 Km schließen."
     },
     {
      "label_hu": "2. kör",
@@ -59,7 +65,9 @@
      "en": "Ch 1. Inc in each st around. Join with a sl st to the first sc.",
      "count": 12,
      "prev": 6,
-     "change": 6
+     "change": 6,
+     "label_de": "Runde 2",
+     "de": "1 Lm. 2 fM in jede Masche. Mit 1 Km in die erste fM schließen."
     },
     {
      "label_hu": "3. kör",
@@ -68,7 +76,9 @@
      "en": "Ch 1. *Sc in the next 1 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 18,
      "prev": 12,
-     "change": 6
+     "change": 6,
+     "label_de": "Runde 3",
+     "de": "1 Lm. *1 fM in die nächsten 1 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen."
     },
     {
      "label_hu": "4. kör",
@@ -77,7 +87,9 @@
      "en": "Ch 1. *Sc in the next 2 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 24,
      "prev": 18,
-     "change": 6
+     "change": 6,
+     "label_de": "Runde 4",
+     "de": "1 Lm. *1 fM in die nächsten 2 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen."
     },
     {
      "label_hu": "5. kör",
@@ -86,7 +98,9 @@
      "en": "Ch 1. *Sc in the next 3 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 30,
      "prev": 24,
-     "change": 6
+     "change": 6,
+     "label_de": "Runde 5",
+     "de": "1 Lm. *1 fM in die nächsten 3 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen."
     },
     {
      "label_hu": "6. kör",
@@ -95,7 +109,9 @@
      "en": "Ch 1. *Sc in the next 4 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 36,
      "prev": 30,
-     "change": 6
+     "change": 6,
+     "label_de": "Runde 6",
+     "de": "1 Lm. *1 fM in die nächsten 4 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen."
     },
     {
      "label_hu": "7. kör",
@@ -104,15 +120,19 @@
      "en": "Edging: sl st loosely in each st around. Fasten off.",
      "count": 36,
      "prev": 36,
-     "change": 0
+     "change": 0,
+     "label_de": "Runde 7",
+     "de": "Abschluss: locker 1 Km in jede Masche. Faden abschneiden."
     }
-   ]
+   ],
+   "title_de": "Untersetzer"
   }
  ],
  "finishing": [
   {
    "text_hu": "Dolgozd el a szálvégeket. Ha hullámos, nedvesítsd meg, és laposan szárítsd.",
-   "text_en": "Weave in ends. If it ruffles, wet it and dry flat."
+   "text_en": "Weave in ends. If it ruffles, wet it and dry flat.",
+   "text_de": "Fäden vernähen. Wellt er sich, anfeuchten und flach trocknen lassen."
   }
  ],
  "figures": [
@@ -153,5 +173,10 @@
   "sc",
   "inc",
   "mr"
- ]
+ ],
+ "name_de": "Runder Untersetzer – Häkelanleitung",
+ "tagline_de": "Dein erstes rundes Teil: nur feste Maschen und Zunahmen. Ca. 30 Minuten.",
+ "level_de": "1/6 – Anfänger",
+ "size_de": "ca. 10 cm Durchmesser",
+ "gauge_de": "Nicht entscheidend; fest häkeln, damit er flach liegt."
 }

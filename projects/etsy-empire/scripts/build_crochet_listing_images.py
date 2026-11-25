@@ -17,7 +17,7 @@ def main():
     il = Image.open(k / "illustration.jpg").convert("RGB"); il.thumbnail((1500, 1350)); c.paste(il, ((2000 - il.width) // 2, 330))
     d.text((1000, 120), title, font=ImageFont.truetype(FB, 78), fill=RED, anchor="mm")
     d.text((1000, 230), "Crochet pattern · PDF · English + Deutsch", font=ImageFont.truetype(FR, 52), fill=DARK, anchor="mm")
-    d.text((1000 + il.width // 2 - 20, 330 + il.height - 20), "diagram", font=ImageFont.truetype(FR, 34), fill=(120, 120, 120), anchor="rd")
+    d.text((1000 + il.width // 2 - 20, 330 + il.height - 20), "stitch chart", font=ImageFont.truetype(FR, 34), fill=(120, 120, 120), anchor="rd")
     d.rounded_rectangle([330, 1820, 1670, 1940], 55, fill=RED); d.text((1000, 1880), f'{p["level_en"].upper()} · PDF PATTERN ONLY', font=ImageFont.truetype(FB, 52), fill="white", anchor="mm")
     c.save(k / "01-cover-square.jpg", quality=92)
     subprocess.run(["pdftoppm", "-r", "150", "-png", "-f", "1", "-l", "1", "-singlefile", str(f / f'{p["slug"]}-EN.pdf'), str(k / "pg1")], check=True)

@@ -1,0 +1,128 @@
+{
+ "slug": "womens-circle-skirt",
+ "type": "circle_skirt",
+ "sizes": [
+  "XS",
+  "S",
+  "M",
+  "L",
+  "XL",
+  "2X",
+  "3X"
+ ],
+ "params": {
+  "length": 55.0
+ },
+ "name_en": "Women's Circle Skirt Sewing Pattern XS-3X",
+ "name_de": "Schnittmuster Tellerrock (Damen) XS-3X",
+ "labels": {
+  "en": {
+   "front": "Front",
+   "back": "Back",
+   "cut": "Cut",
+   "cut_front": "1 on fold",
+   "cut_back": "2",
+   "fold": "PLACE ON FOLD",
+   "nosa": "No seam allowance – add 1.5 cm, hem 1 cm",
+   "hipline": "hip line",
+   "waistband": "Waistband",
+   "cut_waistband": "1 on fold (fold = centre front), fold lengthwise",
+   "panel": "Skirt panel",
+   "cut_panel": "2 on fold (front + back)"
+  },
+  "de": {
+   "front": "Vorderteil",
+   "back": "Rückenteil",
+   "cut": "Zuschnitt",
+   "cut_front": "1x im Stoffbruch",
+   "cut_back": "2x",
+   "fold": "STOFFBRUCH",
+   "nosa": "Ohne Nahtzugabe – 1,5 cm zugeben, Saum 1 cm",
+   "hipline": "Hüftlinie",
+   "waistband": "Bund",
+   "cut_waistband": "1x im Bruch (vordere Mitte), längs falten",
+   "panel": "Rockteil",
+   "cut_panel": "2x im Stoffbruch (vorne + hinten)"
+  }
+ },
+ "img": {
+  "title": "Circle Skirt · Sewing Pattern",
+  "sub": "Women's sizes XS–3X · A4, Letter, A0",
+  "band": "PDF PATTERN · INSTANT DOWNLOAD",
+  "included": [
+   "Nested pattern, sizes XS–3X",
+   "Quarter-circle panel + waistband",
+   "Waist arc calculated per size",
+   "A4 + US Letter print-at-home",
+   "A0 copy shop file",
+   "Sewing guide in English + German",
+   "Size chart in cm and inches"
+  ]
+ },
+ "guide": {
+  "en": {
+   "sub": "Nested sizes XS–3X · no seam allowance · A4/Letter or A0",
+   "chart_title": "Size chart (body measurements)",
+   "chart_note": "Choose by waist. Waist ease 1 cm. Length 55 cm (21.5 in).",
+   "license": "Personal use and small-batch handmade sales. Please don't share or resell the pattern files. Drafted with the help of software from a standard size chart.",
+   "sections": [
+    [
+     "Before you start",
+     "<ul><li>A full circle skirt that twirls: one quarter-circle panel cut twice on the fold, a straight waistband and a side or back zip. Length 55 cm (21.5 in).</li><li><b>No seam allowance included</b>: add 1.5 cm (5/8 in) to straight edges and the waist, 1 cm at the hem.</li><li>Good fabrics: cotton poplin, viscose, light crepe, chambray. Avoid stiff fabrics.</li></ul>"
+    ],
+    [
+     "Printing",
+     "<ol><li>Print at <b>100% / actual size</b>. Check the test square (5 cm / 2 in) on page A1.</li><li>Tape the pages by their labels, or print the A0 file at a copy shop.</li></ol>"
+    ],
+    [
+     "Choosing your size",
+     "<p>Choose by your <b>waist</b> measurement: the waist arc of each size is calculated so the full circle equals your waist + 1 cm ease. Hips don't matter for a circle skirt.</p>"
+    ],
+    [
+     "You will need",
+     "<ul><li>Fabric: about 2.2 m (2.4 yd) of 150 cm (59 in) wide fabric for XS–L, 2.6 m (2.8 yd) for XL–3X</li><li>18–20 cm zip, light interfacing for the waistband, 1 button or hook</li></ul>"
+    ],
+    [
+     "Sewing steps",
+     "<ol><li>Fold the fabric twice so you have a folded edge; cut 2 panels with the straight edge on the fold.</li><li>Stay-stitch the waist curve so it doesn't stretch.</li><li>Sew one side seam; on the other side insert the zip, then close the rest.</li><li>Interface the waistband, sew it on, fold, close and add the button.</li><li><b>Let the skirt hang for 24 hours</b> before hemming (the bias parts drop), then level the hem and sew a narrow 1 cm hem.</li></ol>"
+    ],
+    [
+     "Tips",
+     "<ul><li>For a shorter or longer skirt, change the hem line evenly all round.</li><li>For a half-circle skirt, cut one panel on the fold for the front and one for the back from a half-circle drawn with double the waist radius.</li></ul>"
+    ]
+   ]
+  },
+  "de": {
+   "sub": "Größen XS–3X ineinander · ohne Nahtzugabe · A4/Letter oder A0",
+   "chart_title": "Maßtabelle (Körpermaße)",
+   "chart_note": "Nach der Taille wählen. Bewegungszugabe Taille 1 cm. Länge 55 cm.",
+   "license": "Privater Gebrauch und kleine handgemachte Mengen. Schnittdateien bitte nicht weitergeben oder verkaufen. Mit Software nach einer Standard-Maßtabelle konstruiert.",
+   "sections": [
+    [
+     "Bevor du anfängst",
+     "<ul><li>Ein Tellerrock, der schwingt: ein Viertelkreis-Teil, zweimal im Stoffbruch zugeschnitten, ein gerader Bund und ein Reißverschluss seitlich oder hinten. Länge 55 cm.</li><li><b>Ohne Nahtzugabe</b>: 1,5 cm an geraden Kanten und Taille, 1 cm am Saum zugeben.</li><li>Stoffe: Popeline, Viskose, leichter Crêpe, Chambray. Keine steifen Stoffe.</li></ul>"
+    ],
+    [
+     "Drucken",
+     "<ol><li>In <b>100 % / Originalgröße</b> drucken, Testquadrat (5 cm) auf Seite A1 prüfen.</li><li>Seiten nach Beschriftung zusammenkleben oder A0 im Copyshop drucken.</li></ol>"
+    ],
+    [
+     "Größe wählen",
+     "<p>Nach der <b>Taille</b> wählen: Der Taillenbogen jeder Größe ist so berechnet, dass der ganze Kreis Taille + 1 cm ergibt. Die Hüfte spielt beim Tellerrock keine Rolle.</p>"
+    ],
+    [
+     "Du brauchst",
+     "<ul><li>Stoff: ca. 2,2 m bei 150 cm Breite für XS–L, 2,6 m für XL–3X</li><li>Reißverschluss 18–20 cm, leichte Einlage für den Bund, 1 Knopf oder Haken</li></ul>"
+    ],
+    [
+     "Nähschritte",
+     "<ol><li>Stoff zweimal falten; 2 Rockteile mit der geraden Kante am Bruch zuschneiden.</li><li>Taillenrundung mit Geradstich sichern, damit sie sich nicht dehnt.</li><li>Eine Seitennaht schließen, auf der anderen den Reißverschluss einnähen, Rest schließen.</li><li>Bund verstärken, annähen, falten, schließen, Knopf annähen.</li><li><b>Den Rock 24 Stunden hängen lassen</b>, bevor du säumst (die schrägen Stellen hängen nach), dann den Saum ausgleichen und 1 cm schmal säumen.</li></ol>"
+    ],
+    [
+     "Tipps",
+     "<ul><li>Für kürzer oder länger die Saumlinie rundum gleichmäßig ändern.</li><li>Für einen Halbtellerrock je ein Teil vorne und hinten im Bruch aus einem Halbkreis mit doppeltem Taillenradius zuschneiden.</li></ul>"
+    ]
+   ]
+  }
+ }
+}
