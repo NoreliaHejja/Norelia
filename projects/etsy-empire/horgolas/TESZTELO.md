@@ -15,7 +15,8 @@ Köszönöm, hogy segítesz! A feladat: egy horgolásminta alapján elkészíten
    - **közeli kép** a szemekről;
    - **méret**: a darab kézben vagy egy vonalzó mellett;
    - ha van: 1 „hangulatos” kép (karácsonyfán, polcon, gyerek kezében arc nélkül).
-   - 2–3 kép **munka közben** (félkész állapot) – ezek a vevőknek sokat segítenek.
+   - 2–3 kép **munka közben**: a mintában megjelölt ellenőrzőpontoknál (pl. „a szaporítások után”, „a szem behelyezése után”, „összeállítás előtt az összes rész egymás mellett”). Ezek lépésfotóként bekerülnek a mintába, és a vevőknek ezek segítenek a legtöbbet.
+   - Ha valamit **máshová tennél** (szem, csőr, fül helye), írd meg, melyik körbe. A csibénél így lett jobb a minta.
 4. **Mennyi ideig tartott** nagyjából, és milyen fonalat használtál (márka, vastagság).
 
 ## Határidő

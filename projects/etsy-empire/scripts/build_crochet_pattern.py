@@ -59,6 +59,12 @@ def check(p):
         for r in s["rows"]:
             if "prev" in r and "change" in r and "count" in r and r["prev"] + r["change"] != r["count"]:
                 err.append(f'{s["title_en"]} {r["label_en"]}: {r["prev"]} + {r["change"]} != {r["count"]}')
+    # Pozíció-kapu (STILUS.md, 2026-11-26): minden felvarrás / szembehelyezés körszámmal
+    import re as _re
+    for f in p.get("finishing", []):
+        en = f.get("text_en", "")
+        if _re.search(r"\b(sew|attach|insert)\b", en, _re.I) and _re.search(r"\b(eye|beak|wing|ear|arm|leg|nose|tail|head|handle)s?\b", en, _re.I) and not _re.search(r"\d", en):
+            err.append(f"összeállítás körszám nélkül: {en[:60]}")
     return err
 
 

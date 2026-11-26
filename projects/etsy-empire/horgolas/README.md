@@ -12,6 +12,9 @@ Naponta 2 minta **tesztelő nélkül is élesíthető**, de az 1. kép saját, a
 - Tesztelő (Nóra anyukás csoportjából vagy FB-horgolós csoportból): megcsinálja a darabot a piszkozat alapján, jelzi a hibákat, és lefotózza (útmutató: `TESZTELO.md`). Díj: 5–10e Ft/minta + fonal, Nóra fizeti.
 - Élesítés csak a tesztelő visszajelzése + valódi fotók után (`statusz: kesz`). Addig `tesztre_var`.
 
+## Mintaleírás-szabályok (2026-11-26)
+Kötelező: `horgolas/STILUS.md` (kezdőpont és irány, minden felvarrás körszámmal, színváltás, tömés időpontja, méretezési tipp, fonal pontosan). Gép ellenőrzi a felvarrások körszámát.
+
 ## Ábrák (Nóra, 2026-11-24) – kötelező minden mintában
 Minden minta PDF-jében kell: (1) kész forma vázlata méretekkel, (2) jelkulcsos horgolásrajz (körös: `circle_chart`, soros: `row_chart`, egyedi: granny/hópehely/szív), (3) jelmagyarázat. A `pattern.json` „figures” + „legend” mezője adja (`scripts/crochet_charts.py`); a meglévő mintákét a `horgolas/abrak.py` írja be. Nyelvek: HU / EN / DE.
 
@@ -25,7 +28,7 @@ Minden minta PDF-jében kell: (1) kész forma vázlata méretekkel, (2) jelkulcs
 |---|---|
 | minta forrás (JSON, EN + DE mezők) | `horgolas/mintak/<slug>/pattern.json` |
 | generátor (HTML → PDF EN + DE) | `scripts/build_crochet_pattern.py horgolas/mintak/<slug>` |
-| tesztelő fotói | `horgolas/mintak/<slug>/fotok/` |
+| tesztelő fotói (az első a PDF borítója) | `horgolas/mintak/<slug>/fotok/` |
 | várólista és állapot | `horgolas/SOR.md` |
 | tesztelői útmutató (magyar) | `horgolas/TESZTELO.md` |
 
