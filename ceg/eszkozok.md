@@ -12,6 +12,18 @@
 | Iroda | Gmail, Naptár, Drive, Sheets, Docs, Microsoft 365 | e-mail piszkozat, adatok, riportok |
 | Design | Figma | |
 
+## Marketing-skillek (boring-marketing-skills, MIT, telepítve 2026-11-26)
+32 skill a `.claude/skills/` alatt (forrás: `.claude/skills/BORING-MARKETING-FORRAS.txt`). Hookok és ütemezett rutinok NINCSENEK telepítve.
+Több cég → „agency mód”: márkafájlok `./brands/<slug>/` (pl. `reinigungsfirma-os`, `pk-tech`, `pedexan`, `aureliavenn`). Indítás: `/start-here <cég>`.
+| Cég / projekt | Első skillek (sorrendben) | Mit hoz |
+|---|---|---|
+| Reinigungsfirma OS + Kalkulator (DACH) | positioning-angles → direct-response-copy → landing-page (teardown) → lead-magnet (kalkulátor) → email-sequences | a landing konverziója, e-mail-lista |
+| PK-Tech (helyi ipari takarítás) | google-business-profile → reviews → first-screen-check → speed-to-lead → local-seo-plan | több hívás és ajánlatkérés helyi keresésből |
+| Pedexan / Knowtech (B2B) | competitive-intel → positioning-angles → email-sequences (cold outbound) → ai-search | munkavédelmi boltok és gyárak megkeresése |
+| AureliaVenn / Etsy, Gentle-könyvek | audience-research → keyword-research → content-atomizer → performance-review | vevői szóhasználat, Pinterest/social |
+| Minden cég havonta | performance-review, ai-search | mérés, AI-ajánlások figyelése |
+Fizetős API csak ha Nóra kéri (Firecrawl, Replicate, Google Places, Meta) – nélkülük is működnek.
+
 ## Félig bekötve – Nórának kell befejezni (claude.ai → Beállítások → Connectors)
 | Eszköz | Állapot | Miért kell |
 |---|---|---|
