@@ -1,6 +1,6 @@
 # Szabásminta-gyártósor (Nóra, 2026-11-23)
 
-Kétheti teszt (nov. 24 – dec. 7): naponta **1 szabásminta + 2 horgolásminta + 2 printable**. Dec. 7-én kiértékelés (megtekintés, kedvelés, eladás termékcsaládonként).
+Kétheti teszt (nov. 26 – dec. 9, eltolva): naponta **1 szabásminta + 2 horgolásminta + 2 printable**. Dec. 10-én kiértékelés (megtekintés, kedvelés, eladás termékcsaládonként).
 
 ## Menet
 1. `szabas/mintak/<slug>/pattern.json` (type, sizes, labels EN/DE, img, guide EN/DE) – minta: `womens-skirt-block`.
