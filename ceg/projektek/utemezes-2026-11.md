@@ -52,3 +52,4 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 
 ## 2026-11-22 (Emily; reel kihagyva – kredit- és időspórolás, a fókusz a Reinigungsfirma-indítás)
 - 01:30 pin Kindness Advent Cards #436934571 · 12:30 pin Classroom Kindness Calendar #437324492 · 23:00 pin Easy Elf Ideas (pin-2) #437340329
+- 2026-11-27 (Black Friday): kézi pin-csomag, 3 pin (Kindness Elf Kit új pin, Christmas Gift Tags, Family Games), Metricool nélkül, 0 kredit: projects/etsy-empire/marketing_szovegek/pin-csomag-2026-11-27.md
