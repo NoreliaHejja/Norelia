@@ -87,8 +87,8 @@
     {
      "label_hu": "5–10. kör",
      "label_en": "Rounds 5–10",
-     "hu": "Minden szembe 1 rp (6 kör). A 8. és 9. kör között tedd be a szemeket, 5 szem távolságra egymástól.",
-     "en": "Sc in each st around (6 rounds). Insert the eyes between rounds 8 and 9, 5 sts apart.",
+     "hu": "Minden szembe 1 rp (6 kör). A 4. és 5. kör között tedd be a szemeket, 5 szem távolságra egymástól (a varázsgyűrű a fej teteje).",
+     "en": "Sc in each st around (6 rounds). Insert the eyes between rounds 4 and 5, 5 sts apart (the magic ring is the top of the head).",
      "count": 24,
      "prev": 24,
      "change": 0
@@ -169,16 +169,16 @@
  ],
  "finishing": [
   {
-   "text_hu": "Varrd a csőrt a szemek közé, egy körrel lejjebb.",
-   "text_en": "Sew the beak between the eyes, one round lower."
+   "text_hu": "Varrd a csőrt a 6. körbe, középre a két szem alá.",
+   "text_en": "Sew the beak onto round 6, centred below the eyes."
   },
   {
-   "text_hu": "Varrd a szárnyakat a test két oldalára, a 11. kör magasságában.",
-   "text_en": "Sew the wings to the sides at round 11."
+   "text_hu": "Varrd a szárnyakat a test két oldalára, a 7. kör magasságában.",
+   "text_en": "Sew the wings to the sides at round 7."
   },
   {
-   "text_hu": "Bóbita: a fej tetején húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.",
-   "text_en": "Tuft: pull 3 strands of yellow through the top of the head, knot and trim to 1.5 cm."
+   "text_hu": "Bóbita: a fej tetején (a varázsgyűrűnél) húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.",
+   "text_en": "Tuft: pull 3 strands of yellow through the top of the head (the magic ring), knot and trim to 1.5 cm."
   }
  ],
  "figures": [
@@ -187,14 +187,14 @@
    "args": {
     "kind": "chick",
     "eyes": {
-     "hu": "szemek: 8–9. kör, 5 szem távol",
-     "en": "eyes: rounds 8–9, 5 sts apart",
-     "de": "eyes: rounds 8–9, 5 sts apart"
+     "hu": "szemek: 4–5. kör, 5 szem távol",
+     "en": "eyes: rounds 4–5, 5 sts apart",
+     "de": "eyes: rounds 4–5, 5 sts apart"
     },
     "wings": {
-     "hu": "szárny: 11. kör",
-     "en": "wings: round 11",
-     "de": "wings: round 11"
+     "hu": "szárny: 7. kör",
+     "en": "wings: round 7",
+     "de": "wings: round 7"
     },
     "h": {
      "hu": "≈ 7 cm",

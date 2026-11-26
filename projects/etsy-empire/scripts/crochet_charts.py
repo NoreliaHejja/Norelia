@@ -205,10 +205,10 @@ def shape(kind, lang, **k):
         b += f'<circle cx="210" cy="140" r="100" fill="{F}" stroke="{S}" stroke-width="2"/>' + "".join(f'<ellipse cx="210" cy="140" rx="{rx}" ry="100" fill="none" stroke="{SOFT}" stroke-dasharray="4 3"/>' for rx in (40, 75)) + text(210, 145, k.get("label", ""), 12) + dim(110, 262, 310, 262, k["d"])
     elif kind == "chick":
         b += (f'<ellipse cx="210" cy="150" rx="90" ry="100" fill="#f6dc6e" stroke="{S}" stroke-width="2"/><circle cx="180" cy="125" r="6" fill="#222"/><circle cx="240" cy="125" r="6" fill="#222"/>'
-              f'<path d="M200,140 L220,140 L210,158z" fill="#f0912f" stroke="{S}"/><ellipse cx="118" cy="175" rx="16" ry="30" fill="#eec94f" stroke="{S}"/><ellipse cx="302" cy="175" rx="16" ry="30" fill="#eec94f" stroke="{S}"/>'
+              f'<path d="M200,140 L220,140 L210,158z" fill="#f0912f" stroke="{S}"/><ellipse cx="118" cy="162" rx="16" ry="30" fill="#eec94f" stroke="{S}"/><ellipse cx="302" cy="162" rx="16" ry="30" fill="#eec94f" stroke="{S}"/>'
               f'<path d="M205,52 q-6,-22 5,-26 M210,52 q2,-24 12,-22" stroke="#d9b23a" stroke-width="3" fill="none"/>'
               + text(330, 120, k["eyes"], 10, INK, "start") + f'<path d="M246,124L326,116" stroke="{SOFT}"/>'
-              + text(330, 180, k["wings"], 10, INK, "start") + f'<path d="M318,175L326,176" stroke="{SOFT}"/>' + dim(345, 50, 345, 250, k["h"], 26))
+              + text(330, 166, k["wings"], 10, INK, "start") + f'<path d="M318,162L326,163" stroke="{SOFT}"/>' + dim(345, 50, 345, 250, k["h"], 26))
         W = 480
     elif kind == "basket":
         b += (f'<path d="M90,70 L330,70 L330,240 Q330,250 320,250 L100,250 Q90,250 90,240z" fill="{F}" stroke="{S}" stroke-width="2"/>'

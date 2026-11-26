@@ -1,43 +1,45 @@
 {
- "slug": "womens-circle-skirt",
- "status": "kesz",
- "created": "2026-11-25",
- "theme": "sewing sloper, skirt block, women XS-3X",
- "files": [
-  "womens-circle-skirt-English.zip",
-  "womens-circle-skirt-Deutsch.zip"
- ],
- "images": [
-  "kepek/01-cover-square.jpg",
-  "kepek/02-size-chart.jpg",
-  "kepek/03-included.jpg",
-  "kepek/04-guide.jpg"
- ],
- "etsy": {
-  "title": "Circle Skirt Sewing Pattern PDF, Women's Full Circle Skirt XS-3X, Twirl Skirt with Waistband, Beginner Sewing Pattern A4 Letter A0",
-  "price": 5.99,
-  "currency": "EUR",
-  "quantity": 999,
-  "who_made": "i_did",
-  "when_made": "made_to_order",
-  "is_supply": true,
-  "type": "download",
-  "taxonomy_id": 6343,
-  "tags": [
-   "circle skirt",
-   "circle skirt pattern",
-   "twirl skirt",
-   "full circle skirt",
-   "skirt sewing pattern",
-   "beginner sewing",
-   "sewing pattern pdf",
-   "women skirt pattern",
-   "a0 sewing pattern",
-   "plus size skirt",
-   "tellerrock",
-   "rock schnittmuster",
-   "swing skirt"
+  "slug": "womens-circle-skirt",
+  "status": "etsy_aktiv",
+  "created": "2026-11-25",
+  "theme": "sewing sloper, skirt block, women XS-3X",
+  "files": [
+    "womens-circle-skirt-English.zip",
+    "womens-circle-skirt-Deutsch.zip"
   ],
-  "description": "A full circle skirt that twirls. One quarter-circle panel, cut twice on the fold, plus a straight waistband. The waist arc is calculated for every size, so the circle matches your waist exactly. Nested sizes XS to 3X.\n\nWHAT'S INCLUDED\n• Quarter-circle skirt panel (cut 2 on fold) and waistband\n• Nested sizes XS, S, M, L, XL, 2X, 3X (choose by waist; see the size chart image)\n• A4 and US Letter print-at-home files with a test square\n• A0 copy shop file\n• Sewing guide: fabric amounts, step-by-step sewing, how to hem a circle skirt\n• Everything in English AND German (Deutsch): two downloads\n\nGOOD TO KNOW\n• No seam allowance included: add 1.5 cm (5/8 in), and 1 cm at the hem.\n• Length 55 cm (21.5 in). Waist ease 1 cm.\n• Drafted with the help of software from a standard size chart.\n• Skill level: beginner.\n\nDEUTSCH: Tellerrock mit Viertelkreis-Schnitt und Bund, Größen XS–3X, A4/Letter und A0, Nähanleitung auf Deutsch. Ohne Nahtzugabe.\n\nINSTANT DIGITAL DOWNLOAD. PDF pattern only, no physical item will be shipped.\nFor personal use and small-batch handmade sales. Please don't share or resell the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
- }
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-size-chart.jpg",
+    "kepek/03-included.jpg",
+    "kepek/04-guide.jpg"
+  ],
+  "etsy": {
+    "title": "Circle Skirt Sewing Pattern PDF, Women's Full Circle Skirt XS-3X, Twirl Skirt with Waistband, Beginner Sewing Pattern A4 Letter A0",
+    "price": 5.99,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": true,
+    "type": "download",
+    "taxonomy_id": 6343,
+    "tags": [
+      "circle skirt",
+      "circle skirt pattern",
+      "twirl skirt",
+      "full circle skirt",
+      "skirt sewing pattern",
+      "beginner sewing",
+      "sewing pattern pdf",
+      "women skirt pattern",
+      "a0 sewing pattern",
+      "plus size skirt",
+      "tellerrock",
+      "rock schnittmuster",
+      "swing skirt"
+    ],
+    "description": "A full circle skirt that twirls. One quarter-circle panel, cut twice on the fold, plus a straight waistband. The waist arc is calculated for every size, so the circle matches your waist exactly. Nested sizes XS to 3X.\n\nWHAT'S INCLUDED\n• Quarter-circle skirt panel (cut 2 on fold) and waistband\n• Nested sizes XS, S, M, L, XL, 2X, 3X (choose by waist; see the size chart image)\n• A4 and US Letter print-at-home files with a test square\n• A0 copy shop file\n• Sewing guide: fabric amounts, step-by-step sewing, how to hem a circle skirt\n• Everything in English AND German (Deutsch): two downloads\n\nGOOD TO KNOW\n• No seam allowance included: add 1.5 cm (5/8 in), and 1 cm at the hem.\n• Length 55 cm (21.5 in). Waist ease 1 cm.\n• Drafted with the help of software from a standard size chart.\n• Skill level: beginner.\n\nDEUTSCH: Tellerrock mit Viertelkreis-Schnitt und Bund, Größen XS–3X, A4/Letter und A0, Nähanleitung auf Deutsch. Ohne Nahtzugabe.\n\nINSTANT DIGITAL DOWNLOAD. PDF pattern only, no physical item will be shipped.\nFor personal use and small-batch handmade sales. Please don't share or resell the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "etsy_listing_id": "4626004578",
+  "etsy_url": "https://www.etsy.com/listing/4626004578"
 }

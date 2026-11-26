@@ -38,3 +38,4 @@ Szabály: egy tesztelő egyszerre 1 mintát kap; ugyanazt a mintát 2 ember tesz
 
 - 2026-11-25: kerek-poharalatet (2,99 €) és nagymama-negyzet (2,99 €) Etsy-kész EN+DE+HU PDF-fel, borító = horgolásrajz (scripts/chart_cover.py); feltöltésre vár.
 - 2026-11-26: amigurumi-labda és felpalcas-mosogatorongy (2,99 €) Etsy-kész EN+DE+HU PDF-fel, borító = horgolásrajz; feltöltésre vár.
+- 2026-11-26: amigurumi-csibe TESZTELVE (tesztelői fotó: mintak/amigurumi-csibe/teszt-fotok/). Javítás a tesztelő szerint: szemek 4–5. kör között (varázsgyűrű = fej teteje), csőr 6. kör, szárny 7. kör, bóbita a varázsgyűrűnél. Következő: DE szöveg + listing, 1. kép = tesztelői fotó.

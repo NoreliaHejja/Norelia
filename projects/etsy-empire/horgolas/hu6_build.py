@@ -105,7 +105,7 @@ P.append(dict(BASE, slug="amigurumi-csibe", name_hu="Amigurumi csibe – horgol�
   abbr=["sc", "inc", "sc2tog", "MR", "st", "sl st", "ch"], notes=[SPIRAL_NOTE, {"text_hu": "3 év alatti gyereknek biztonsági szem helyett hímezd a szemeket.", "text_en": "For children under 3, embroider the eyes instead of using safety eyes."}],
   sections=[
    {"title_hu": "Test (sárga)", "title_en": "Body (yellow)", "rows": [MR6] + b + [
-     R(f"{r}–{r + 5}. kör", f"Rounds {r}–{r + 5}", "Minden szembe 1 rp (6 kör). A 8. és 9. kör között tedd be a szemeket, 5 szem távolságra egymástól.", "Sc in each st around (6 rounds). Insert the eyes between rounds 8 and 9, 5 sts apart.", 24, 24, 0),
+     R(f"{r}–{r + 5}. kör", f"Rounds {r}–{r + 5}", "Minden szembe 1 rp (6 kör). A 4. és 5. kör között tedd be a szemeket, 5 szem távolságra egymástól (a varázsgyűrű a fej teteje).", "Sc in each st around (6 rounds). Insert the eyes between rounds 4 and 5, 5 sts apart (the magic ring is the top of the head).", 24, 24, 0),
      R(f"{r + 6}. kör", f"Round {r + 6}", "*2 rp, 1 fogy.* Ismételd 6-szor.", "*Sc in the next 2 sts, sc2tog.* Repeat 6 times.", 18, 24, -6),
      R(f"{r + 7}. kör", f"Round {r + 7}", "*1 rp, 1 fogy.* Ismételd 6-szor. Töltsd ki a testet.", "*Sc in the next st, sc2tog.* Repeat 6 times. Stuff the body.", 12, 18, -6),
      R(f"{r + 8}. kör", f"Round {r + 8}", "Minden 2 szemet fogyassz össze. Húzd össze a nyílást.", "Sc2tog around. Close the opening.", 6, 12, -6)]},
@@ -115,9 +115,9 @@ P.append(dict(BASE, slug="amigurumi-csibe", name_hu="Amigurumi csibe – horgol�
    {"title_hu": "Szárny (sárga, 2 db)", "title_en": "Wing (yellow, make 2)", "rows": [
      R("1. kör", "Round 1", "Varázsgyűrű, 6 rp.", "Magic ring, 6 sc.", 6),
      R("2. kör", "Round 2", "*1 rp, 1 szap.* Ismételd 3-szor. Hajtsd félbe laposra, vágd el hosszú szállal.", "*Sc in the next st, inc.* Repeat 3 times. Fold flat, fasten off with a long tail.", 9, 6, 3)]}],
-  finishing=[{"text_hu": "Varrd a csőrt a szemek közé, egy körrel lejjebb.", "text_en": "Sew the beak between the eyes, one round lower."},
-             {"text_hu": "Varrd a szárnyakat a test két oldalára, a 11. kör magasságában.", "text_en": "Sew the wings to the sides at round 11."},
-             {"text_hu": "Bóbita: a fej tetején húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.", "text_en": "Tuft: pull 3 strands of yellow through the top of the head, knot and trim to 1.5 cm."}]))
+  finishing=[{"text_hu": "Varrd a csőrt a 6. körbe, középre a két szem alá.", "text_en": "Sew the beak onto round 6, centred below the eyes."},
+             {"text_hu": "Varrd a szárnyakat a test két oldalára, a 7. kör magasságában.", "text_en": "Sew the wings to the sides at round 7."},
+             {"text_hu": "Bóbita: a fej tetején (a varázsgyűrűnél) húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.", "text_en": "Tuft: pull 3 strands of yellow through the top of the head (the magic ring), knot and trim to 1.5 cm."}]))
 # 6 – HALADÓ: kerek kosár fülekkel
 k, r, n = inc_rounds(2, 6, 60)
 moss_hu = "1 lsz, *1 rp, 1 lsz, ugorj át 1 szemet* körbe; a következő körökben az rp-t mindig az előző kör lsz-ívébe horgold. Zárd 1 ksz-mel."
@@ -140,5 +140,8 @@ P.append(dict(BASE, slug="kerek-kosar-fulekkel", name_hu="Kerek kosár fülekkel
 
 for p in P:
     (M / p["slug"]).mkdir(parents=True, exist_ok=True)
+    old = M / p["slug"] / "pattern.json"
+    if old.exists() and "de" in json.load(open(old)).get("langs", []):
+        print("kihagyva (már van DE szöveg, kézzel szerkeszd):", p["slug"]); continue
     json.dump(p, open(M / p["slug"] / "pattern.json", "w"), ensure_ascii=False, indent=1)
 print([p["slug"] for p in P])
