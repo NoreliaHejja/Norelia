@@ -37,3 +37,4 @@ Szabály: egy tesztelő egyszerre 1 mintát kap; ugyanazt a mintát 2 ember tesz
 | | mini-door-wreath | | | |
 
 - 2026-11-25: kerek-poharalatet (2,99 €) és nagymama-negyzet (2,99 €) Etsy-kész EN+DE+HU PDF-fel, borító = horgolásrajz (scripts/chart_cover.py); feltöltésre vár.
+- 2026-11-26: amigurumi-labda és felpalcas-mosogatorongy (2,99 €) Etsy-kész EN+DE+HU PDF-fel, borító = horgolásrajz; feltöltésre vár.

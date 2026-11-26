@@ -95,7 +95,16 @@ def draft_circle_skirt(m, length=55.0, ease=1.0):
     return [panel, band]
 
 
-DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt}
+def draft_rect_skirt(m, length=60.0, fullness=1.5, casing=3.5):
+    """Gumis derekú ráncolt szoknya: 2 téglalap (eleje, háta), mindkettő hajtásra. Teljes bőség = (csípő+4) × fullness.
+    Fél darab szélessége w = (csípő+4)·fullness/4; magasság = hossz + gumialagút. Varrásráhagyás nélkül."""
+    w = (m["hip"] + 4) * fullness / 4; h = length + casing
+    pc = dict(name="panel", outline=[(0, 0), (w, 0), (w, h), (0, h), (0, 0)], darts=[], hipline=((0, casing), (w, casing)),
+              grain=((w * 0.55, 6), (w * 0.55, h - 6)), fold=True, cut="2", w=w, h=h, elastic=m["waist"] - 5)
+    return [pc]
+
+
+DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt, "rect_skirt": draft_rect_skirt}
 
 
 def layout(p):
@@ -181,6 +190,8 @@ def main():
     # méretek ellenőrzése: kész derék/csípő vs. táblázat
     for s in p["sizes"]:
         pcs = DRAFTS[p["type"]](SIZES[s], **p.get("params", {}))
+        if p["type"] == "rect_skirt":
+            pn = pcs[0]; print(f"{s}: teljes bőség {pn['w'] * 4:.1f} cm = (csípő {SIZES[s]['hip']} + 4) × 1,5; gumi {pn['elastic']} cm"); continue
         if p["type"] == "circle_skirt":
             pn = pcs[0]; arc = sum(math.dist(a, b) for a, b in zip(pn["outline"][:31], pn["outline"][1:31])) * 4
             print(f"{s}: derékív a mintán {arc:.1f} cm (test {SIZES[s]['waist']} + 1 bőség), darab {pn['w']:.0f} cm")

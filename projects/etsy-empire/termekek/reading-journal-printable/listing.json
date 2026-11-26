@@ -1,0 +1,54 @@
+{
+  "slug": "reading-journal-printable",
+  "status": "feltoltesre_var",
+  "created": "2026-11-26",
+  "files": [
+    "reading-journal-printable.pdf",
+    "reading-journal-printable-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "My Reading Journal",
+    "cim2": "What's inside",
+    "al2": "52-book tracker · reviews · logs",
+    "cim3": "Your year in books",
+    "al3": "Any year, undated",
+    "gyerekoldalak": [
+      3,
+      7
+    ]
+  },
+  "etsy": {
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12479,
+    "title": "Reading Journal Printable, 52 Book Tracker, Book Review Pages, Reading Log PDF, TBR List, Bookish Gift, Undated Instant Download",
+    "price": 3.99,
+    "tags": [
+      "reading journal",
+      "book tracker",
+      "reading log",
+      "book review page",
+      "52 book challenge",
+      "tbr list",
+      "bookish gift",
+      "book lover gift",
+      "reading tracker pdf",
+      "book journal",
+      "reading challenge",
+      "undated planner",
+      "printable journal"
+    ],
+    "description": "Remember every book you read, not just the title. 📚\n\nAn undated printable reading journal for any year: set your goals, colour in the 52-book tracker, log each month and write short reviews of the books you loved.\n\nWHAT'S INSIDE (15 pages)\n• Reading goals page\n• 52 books tracker\n• Monthly reading log (2 pages)\n• 8 book review pages (rating, quote, recommend to)\n• To-be-read list\n• My year in books summary\n\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped.\nYou get 2 PDFs: US Letter and A4. Print at home or at a print shop. For personal use only.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  }
+}

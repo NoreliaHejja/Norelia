@@ -1,7 +1,8 @@
 {
  "langs": [
-  "hu",
-  "en"
+  "en",
+  "de",
+  "hu"
  ],
  "statusz": "tesztre_var",
  "slug": "felpalcas-mosogatorongy",
@@ -19,11 +20,13 @@
  "materials": [
   {
    "text_hu": "Közepes vastagságú 100% pamutfonal, kb. 45 g",
-   "text_en": "Worsted 100% cotton yarn, about 45 g"
+   "text_en": "Worsted 100% cotton yarn, about 45 g",
+   "text_de": "Mittelstarkes Garn aus 100 % Baumwolle, ca. 45 g"
   },
   {
    "text_hu": "4,5 mm horgolótű, varrótű, olló",
-   "text_en": "4.5 mm hook, tapestry needle, scissors"
+   "text_en": "4.5 mm hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4,5 mm, Wollnadel, Schere"
   }
  ],
  "abbr": [
@@ -36,7 +39,8 @@
  "notes": [
   {
    "text_hu": "A sor eleji 2 lsz nem számít szemnek.",
-   "text_en": "The ch 2 at the start of a row does not count as a stitch."
+   "text_en": "The ch 2 at the start of a row does not count as a stitch.",
+   "text_de": "Die 2 Lm am Reihenanfang zählen nicht als Masche."
   }
  ],
  "sections": [
@@ -49,7 +53,9 @@
      "label_en": "Row 1",
      "hu": "Horgolj 32 lsz-t. A tűtől számított 3. lsz-be 1 fp, majd minden további lsz-be 1 fp. Fordítsd meg.",
      "en": "Ch 32. Hdc in the 3rd ch from hook and in each ch across. Turn.",
-     "count": 30
+     "count": 30,
+     "label_de": "Reihe 1",
+     "de": "32 Lm anschlagen. 1 hStb in die 3. Lm ab Nadel und in jede weitere Lm. Wenden."
     },
     {
      "label_hu": "2–22. sor",
@@ -58,9 +64,12 @@
      "en": "Ch 2, hdc in each st across. Turn.",
      "count": 30,
      "prev": 30,
-     "change": 0
+     "change": 0,
+     "label_de": "Reihen 2–22",
+     "de": "2 Lm, 1 hStb in jede Masche. Wenden."
     }
-   ]
+   ],
+   "title_de": "Spültuch"
   },
   {
    "title_hu": "Szegély",
@@ -70,15 +79,19 @@
      "label_hu": "Szegély",
      "label_en": "Border",
      "hu": "1 lsz, rövidpálcával horgold körbe: az oldalakon minden sorvégbe 1 rp, minden sarokba 3 rp. Zárd 1 ksz-mel, vágd el a fonalat.",
-     "en": "Ch 1, sc evenly around: 1 sc in each row end on the sides, 3 sc in each corner. Join with a sl st and fasten off."
+     "en": "Ch 1, sc evenly around: 1 sc in each row end on the sides, 3 sc in each corner. Join with a sl st and fasten off.",
+     "label_de": "Rand",
+     "de": "1 Lm, gleichmäßig feste Maschen rundherum: an den Seiten 1 fM in jedes Reihenende, in jede Ecke 3 fM. Mit 1 Km schließen, Faden abschneiden."
     }
-   ]
+   ],
+   "title_de": "Rand"
   }
  ],
  "finishing": [
   {
    "text_hu": "Dolgozd el a szálvégeket. Mosható 40 °C-on.",
-   "text_en": "Weave in ends. Washable at 40 °C."
+   "text_en": "Weave in ends. Washable at 40 °C.",
+   "text_de": "Fäden vernähen. Waschbar bei 40 °C."
   }
  ],
  "figures": [
@@ -124,5 +137,10 @@
   "ch",
   "hdc",
   "sc"
- ]
+ ],
+ "name_de": "Spültuch aus halben Stäbchen – Häkelanleitung",
+ "tagline_de": "Gerade Reihen aus halben Stäbchen mit Rand. Ca. 1,5 Stunden.",
+ "level_de": "2/6 – Anfänger",
+ "size_de": "ca. 20 × 20 cm",
+ "gauge_de": "15 hStb = 10 cm"
 }
