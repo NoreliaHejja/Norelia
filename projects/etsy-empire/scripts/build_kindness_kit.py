@@ -316,6 +316,48 @@ for _k in (LEPRECHAUN, BUNNY):
     _k["missions"] = SPRING_MISSIONS; _k["ideas"] = SPRING_IDEAS[:30]
 KITS.update({"leprechaun": LEPRECHAUN, "bunny": BUNNY})
 
+# ---------------------------------------------------------------- ELF (december, 24 nap) – a bestseller #4586400098 v2 (2026-11-26, vevői panasz:
+# a régi kitben a felnőtteknek szóló napi utasítás a kivágandó cetli keretén BELÜL volt. Itt minden felnőtt-szöveg csak a „For grown-ups” oldalakon.)
+ELF = dict(SNOWMAN,
+    slug="the-kindness-elf-kit", name="The Kindness Elf Kit",
+    colors=":root{ --dark:#1f4d3a; --sage:#b8322a; --tint:#fdf1ee; --line:#efd2c6; --accent:#d9a441; --warm:#eef6ef; --warmline:#cfe3d2; --cream:#fffaf3; }",
+    ic="#b8322a", sig="Love, your Kindness Elf", fn="♥ your Kindness Elf",
+    eyebrow="Printable kit · Ages 3 to 8 · December", h1="The Kindness<br>Elf Kit",
+    tg="The elf tradition you'll actually enjoy. Any little toy becomes your Kindness Elf, with one tiny kind mission each morning. No mess, no midnight flour, no special doll.",
+    pill="20 pages · US Letter + A4", how_title="How the Kindness Elf works",
+    how_sub="From December 1 to 24, your child finds a note from the Kindness Elf with one small, kind thing to do. Read it together, do it together, and color one circle on the tracker. Everything on the cut-out notes is written for your child, so they can read it themselves.",
+    steps=[("Choose your elf", "Any soft toy or figure you already have can be your Kindness Elf. Fill in the elf passport together."),
+           ("Print and cut", "Print the notes on paper or cardstock and cut them apart (4 per page). Keep them in an envelope out of sight."),
+           ("One note a day", "Each evening, put the next note next to the elf. In the morning, read it together. Most missions take five minutes and cost nothing."),
+           ("Celebrate", "Color a circle on the tracker. On Christmas Eve, read the goodbye letter and give the \"I was kind\" certificate.")],
+    tip1=("Forgot a note?", "Use the lifesaver letters: \"I was running late\" and \"Don't worry, my magic is fine\" (for when someone touches the elf)."),
+    tip2=("Make it yours", "Start any day in December. Skip any mission that doesn't fit and use the blank notes and 30 extra ideas."),
+    arrive=("Hello from the North Pole!", ["Hi, friend! Santa sent me to visit you this December. I'm not here to watch, I'm here to help.", "Every morning I'll leave you one kind mission. Every kind thing you do fills the North Pole with Christmas magic.", "Let's make this the kindest Christmas ever!"]),
+    passport="Our elf's passport", draw="Draw your elf here", pp=["My elf's name", "My elf's favorite treat", "My name", "Day my elf arrived"],
+    missions=[("hug", "Give someone a big good-morning hug."), ("toy", "Tidy up your toys before dinner."), ("heart", "Say “thank you” to your teacher."),
+              ("star", "Draw a Christmas picture for a grandparent."), ("leaf", "Put out seeds for the winter birds."), ("child", "Invite someone new to play."),
+              ("shoe", "Line up everyone's shoes by the door."), ("cat", "Help feed or brush a pet."), ("sun", "Smile and wave at a neighbor."),
+              ("book", "Read a Christmas story to someone younger."), ("spoon", "Help bake or decorate cookies."), ("heart", "Make a card for someone who feels sick."),
+              ("shirt", "Pick a toy or coat to give to a child who needs one."), ("bowl", "Help clear the table after dinner."), ("star", "Give three compliments today."),
+              ("hug", "Tell someone why you love them."), ("toy", "Share your favorite toy for a whole game."), ("window", "Make a thank-you note for the mail carrier."),
+              ("sun", "Sing a Christmas song to cheer someone up."), ("child", "Help a friend put on their coat."), ("star", "Make a paper snowflake for a friend."),
+              ("leaf", "Pick up one piece of litter on a walk (with a grown-up)."), ("bowl", "Leave a treat and a thank-you note for Santa."), ("heart", "Give everyone a good-night hug.")],
+    tracker_sub="After each kind mission, color one circle. Can you fill all 24 before Christmas?",
+    life1=("I was running late!", ["Good morning! The reindeer and I were practicing for the big night and I lost track of time.", "Today's kind mission: help someone without being asked. I'll be on time tomorrow!"]),
+    life2=("Don't worry, my magic is fine!", ["Someone touched me yesterday, but don't worry: kindness magic is strong, and a hug never hurts an elf.", "Today's kind mission: say something kind to the person who touched me. See you tomorrow!"]),
+    mid=("A note from Santa's workshop", ["Twelve kind missions done! Everyone at the workshop is talking about you.", "Keep going, little friend. Your kindness is the best present under the tree."]),
+    extra_title="Christmas kindness cards", extra_sub="Bonus missions for a cozy day at home. Pick one and do it together.",
+    extra_notes=["Make hot cocoa for the family", "Wrap a present for someone else", "Make a card for a neighbor", "Sing carols for a grandparent (on a video call too)"],
+    extra_head="BONUS MISSION", extra_foot="Do it together",
+    extra_mini="Cut out the cards and keep them for a quiet day.",
+    bye=("Merry Christmas!", ["Tonight I fly back to the North Pole with Santa, with a sack full of your kindness.", "Thank you for every hug, every smile and every kind thing you did. Keep being kind all year long.", "See you next December!"]),
+    bye_sig="Love forever, your Kindness Elf",
+    cert=("Official North Pole award", "I Was Kind!", "for 24 days of December kindness. Everyone at the North Pole is proud of you!", "Signed: Your Kindness Elf"),
+    pair="Our Kindness Snowman (January), Kindness Cupid (February) and Kindness Reindeer kits follow the same 5-minute idea. Find them in our shop.",
+    labels=dict(SNOWMAN["labels"], meet="Meet your elf"),
+)
+KITS["elf"] = ELF
+
 if __name__ == "__main__":
     for a in sys.argv[1:] or KITS:
         build(KITS[a])
