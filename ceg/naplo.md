@@ -213,3 +213,4 @@
 - 2026-11-27 · Gentle Life Guides csatorna · Etsy: Mental Load Reset Planner (EN, 9 old., 3,99 €) ÉLES #4626735051 (a Mom-könyv kísérője). Heti könyvkeret betelt. Jövő heti KDP: Yell EN + DE. Eredmény: 0 Ft (még).
 - 2026-11-27 · Nóra döntése · Metricool-ütemezés újra mehet (a nov. 23-i elutasítás feloldva): az Emily napi feladat ismét automatikusan ütemez Pinterestre. Első kör: 3 pin nov. 28-ra.
 - 2026-11-27 · Nóra · Etsy Ads: napi 2,50 $, csak 5 listing hirdet (Add-Your-Face Christmas Characters, Kindness Elf Kit, December Classroom Kindness Calendar, Screen Free…, Amigurumi Chick). Mérés: nov. 30. (hirdetési költés vs. a hirdetett listingek eladásai).
+- 2026-11-27 · Borító-teszt (Nóra jóváhagyta): Kindness Elf Kit és Screen Free Advent új színes életképes borítót kapott (rank 1), részletek: projects/etsy-empire/bolt/borito-teszt/README.md. Mérés nov. 30. és dec. 4.
