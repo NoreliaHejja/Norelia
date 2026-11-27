@@ -1,0 +1,19 @@
+# Reinigungsfirma OS
+
+> Kalkulationsvorlagen (Excel und Google Sheets) und ein kostenloser Stundensatz-Rechner für Reinigungsfirmen in Deutschland, Österreich und der Schweiz. Sprache: Deutsch.
+
+Kernaussagen:
+- Mindest-Stundensatz netto = Stundenlohn × (1 + Lohnnebenkosten) ÷ produktiver Zeitanteil + Gemeinkosten ÷ verrechenbare Stunden + Material je Stunde, plus Wagnis und Gewinn. Beispiel (Beispielwerte): 15,00 €, 28 %, 80 %, 2.500 €, 800 h, 0,90 €, 12 % ergibt 31,39 €/h.
+- Monatspreis Büroreinigung = Fläche ÷ Leistungswert × Reinigungen pro Woche × 4,33 × Stundensatz. Beispiel: 300 m², 200 m²/h, 5×/Woche, 31,39 €/h ergibt 1.019,39 € netto (ca. 3,40 €/m²).
+- Leistungswerte (Richtwerte m²/h): Büro Hartboden 200, Büro Teppich 180, Flur 300, Treppenhaus 150, Sanitär 60, Teeküche 110.
+- Kalkulations-Kit: 29 € einmalig inkl. MwSt., Sofort-Download, Verkauf über Digistore24, 30 Tage Geld-zurück-Garantie.
+- Katrin ist eine KI-generierte Figur; Personenbilder auf der Website sind KI-generiert.
+
+## Seiten
+- [Stundensatz-Rechner (kostenlos)](https://reinigung-kalkulieren.de/#rechner)
+- [Kalkulations-Kit für Reinigungsfirmen](https://reinigung-kalkulieren.de/kalkulations-kit/)
+- [Ratgeber: Stundensatz berechnen](https://reinigung-kalkulieren.de/ratgeber/stundensatz-reinigungsfirma-berechnen/)
+- [Ratgeber: Büroreinigung Preis pro m²](https://reinigung-kalkulieren.de/ratgeber/bueroreinigung-preis-pro-qm/)
+- [Ratgeber: Leistungswerte Unterhaltsreinigung](https://reinigung-kalkulieren.de/ratgeber/leistungswerte-unterhaltsreinigung/)
+- [Lieferung und Garantie](https://reinigung-kalkulieren.de/garantie/)
+- [Kontakt](https://reinigung-kalkulieren.de/kontakt/): info@reinigung-kalkulieren.de

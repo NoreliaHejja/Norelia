@@ -1,0 +1,49 @@
+{
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1399
+  },
+  "scale": 0.33,
+  "y": 0.5,
+  "slug": "merry-birdmas-mug",
+  "design": "merry-birdmas.png",
+  "title": "Merry Birdmas Mug, Christmas Bird Watching Coffee Mug, Cardinal Chickadee Mug, Bird Lover Gift, Birder Christmas Gift, 11 oz",
+  "tags": [
+    "merry birdmas",
+    "bird watching mug",
+    "cardinal mug",
+    "bird lover gift",
+    "christmas bird mug",
+    "birder gift",
+    "chickadee mug",
+    "folk art mug",
+    "christmas mug",
+    "gift for birder",
+    "bird nerd",
+    "stocking stuffer",
+    "bird mom gift"
+  ],
+  "description": "Merry Birdmas! A red cardinal and a chickadee in Santa hats on a snowy holly branch, printed on both sides of an 11 oz white ceramic mug. A cozy gift for bird watchers and backyard birders.\n\n11 oz ceramic mug, dishwasher and microwave safe. Printed on demand.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools.",
+  "printify_image_id": "6afaa729e4503628f7fc7a1d",
+  "printify_product_id": "6afaa7300b09e21fe5039c5f",
+  "mockups": [
+    "https://images.printify.com/mockup/6afaa7300b09e21fe5039c5f/33719/6400/merry-birdmas-mug-christmas-bird-watching-coffee-mug-cardinal-chickadee-mug-bird-lover-gift-birder-christmas-gift-11-oz.jpg?camera_label=front",
+    "https://images.printify.com/mockup/6afaa7300b09e21fe5039c5f/33719/6402/merry-birdmas-mug-christmas-bird-watching-coffee-mug-cardinal-chickadee-mug-bird-lover-gift-birder-christmas-gift-11-oz.jpg?camera_label=left",
+    "https://images.printify.com/mockup/6afaa7300b09e21fe5039c5f/33719/10395/merry-birdmas-mug-christmas-bird-watching-coffee-mug-cardinal-chickadee-mug-bird-lover-gift-birder-christmas-gift-11-oz.jpg?camera_label=right",
+    "https://images.printify.com/mockup/6afaa7300b09e21fe5039c5f/33719/10393/merry-birdmas-mug-christmas-bird-watching-coffee-mug-cardinal-chickadee-mug-bird-lover-gift-birder-christmas-gift-11-oz.jpg?camera_label=context-1",
+    "https://images.printify.com/mockup/6afaa7300b09e21fe5039c5f/33719/10394/merry-birdmas-mug-christmas-bird-watching-coffee-mug-cardinal-chickadee-mug-bird-lover-gift-birder-christmas-gift-11-oz.jpg?camera_label=context-2",
+    "https://images.printify.com/mockup/6afaa7300b09e21fe5039c5f/33719/6568/merry-birdmas-mug-christmas-bird-watching-coffee-mug-cardinal-chickadee-mug-bird-lover-gift-birder-christmas-gift-11-oz.jpg?camera_label=context-3"
+  ],
+  "status": "publikalas_elinditva",
+  "etsy_listing_id": "4618349558",
+  "etsy_custom_images": [
+    "pod/mockups/merry-birdmas-2.jpg",
+    "pod/mockups/merry-birdmas-1.jpg",
+    "pod/mockups/merry-birdmas-3.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
+}

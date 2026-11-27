@@ -1,0 +1,145 @@
+{
+ "langs": [
+  "en",
+  "de",
+  "hu"
+ ],
+ "statusz": "tesztre_var",
+ "slug": "nagymama-negyzet",
+ "name_hu": "Klasszikus nagymama-négyzet – horgolásminta",
+ "name_en": "Classic Granny Square – Crochet Pattern",
+ "tagline_hu": "Pálca-csoportok és sarkok: a takarók és táskák alapja. Kb. 40 perc.",
+ "tagline_en": "Dc clusters and corners: the base of blankets and bags. About 40 minutes.",
+ "level_hu": "3/6 – Könnyű",
+ "level_en": "3/6 – Easy",
+ "size_hu": "kb. 12 × 12 cm (4 kör)",
+ "size_en": "approx. 12 × 12 cm (4 rounds)",
+ "hook": "4 mm",
+ "gauge_hu": "Nem lényeges.",
+ "gauge_en": "Not critical.",
+ "materials": [
+  {
+   "text_hu": "Közepes vastagságú fonal, 2–4 szín, összesen kb. 15 g",
+   "text_en": "Worsted yarn, 2–4 colours, about 15 g in total",
+   "text_de": "Mittelstarkes Garn, 2–4 Farben, insgesamt ca. 15 g"
+  },
+  {
+   "text_hu": "4 mm horgolótű, varrótű, olló",
+   "text_en": "4 mm hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4 mm, Wollnadel, Schere"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sl st",
+  "dc",
+  "MR",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_hu": "A kör eleji 3 lsz 1 ep-nak számít. A szemszám a pálcák száma (az ívek nélkül). Színt minden kör végén válthatsz.",
+   "text_en": "Ch 3 at the start counts as a dc. Stitch counts are dc only. You may change colour at the end of any round.",
+   "text_de": "Die 3 Lm am Rundenanfang zählen als Stb. Die Maschenzahl zählt nur Stäbchen. Farbwechsel am Ende jeder Runde möglich."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Négyzet",
+   "title_en": "Square",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű. 3 lsz (1 ep-nak számít), 2 ep, 2 lsz, *3 ep, 2 lsz* – ezt még 2-szer. Zárd 1 ksz-mel a 3. lsz-be.",
+     "en": "Magic ring. Ch 3 (counts as dc), 2 dc, ch 2, *3 dc, ch 2* 2 more times. Join with a sl st to the top of ch 3.",
+     "count": 12,
+     "label_de": "Runde 1",
+     "de": "Fadenring. 3 Lm (zählen als Stb), 2 Stb, 2 Lm, *3 Stb, 2 Lm* noch 2-mal. Mit 1 Km in die 3. Lm schließen."
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "Ksz-mel menj be az első sarokívbe. 3 lsz, 2 ep, 2 lsz, 3 ep ugyanabba az ívbe (sarok). Minden további sarokívbe: 3 ep, 2 lsz, 3 ep. A sarokcsoportok közé 1 lsz-t horgolj. Zárd 1 ksz-mel.",
+     "en": "Sl st into the first corner space. Ch 3, 2 dc, ch 2, 3 dc in the same space (corner). In every other corner space: 3 dc, ch 2, 3 dc. Ch 1 between the corner groups. Join with a sl st.",
+     "count": 24,
+     "prev": 12,
+     "change": 12,
+     "label_de": "Runde 2",
+     "de": "Mit Km in den ersten Eckbogen. 3 Lm, 2 Stb, 2 Lm, 3 Stb in denselben Bogen (Ecke). In jeden weiteren Eckbogen: 3 Stb, 2 Lm, 3 Stb. Zwischen den Eckgruppen 1 Lm. Mit 1 Km schließen."
+    },
+    {
+     "label_hu": "3. kör",
+     "label_en": "Round 3",
+     "hu": "Ksz-mel menj be az első sarokívbe. 3 lsz, 2 ep, 2 lsz, 3 ep ugyanabba az ívbe (sarok). Minden további sarokívbe: 3 ep, 2 lsz, 3 ep. A csoportok között mindig 1 lsz; az oldalakon minden 1 lsz-es ívbe 3 ep (oldalanként 1 csoport). Zárd 1 ksz-mel.",
+     "en": "Sl st into the first corner space. Ch 3, 2 dc, ch 2, 3 dc in the same space (corner). In every other corner space: 3 dc, ch 2, 3 dc. Ch 1 between all groups; along each side work 3 dc in every ch-1 space (1 group(s) per side). Join with a sl st.",
+     "count": 36,
+     "prev": 24,
+     "change": 12,
+     "label_de": "Runde 3",
+     "de": "Mit Km in den ersten Eckbogen. 3 Lm, 2 Stb, 2 Lm, 3 Stb in denselben Bogen (Ecke). In jeden weiteren Eckbogen: 3 Stb, 2 Lm, 3 Stb. Zwischen allen Gruppen 1 Lm; an den Seiten in jeden 1-Lm-Bogen 3 Stb (1 Gruppe(n) pro Seite). Mit 1 Km schließen."
+    },
+    {
+     "label_hu": "4. kör",
+     "label_en": "Round 4",
+     "hu": "Ksz-mel menj be az első sarokívbe. 3 lsz, 2 ep, 2 lsz, 3 ep ugyanabba az ívbe (sarok). Minden további sarokívbe: 3 ep, 2 lsz, 3 ep. A csoportok között mindig 1 lsz; az oldalakon minden 1 lsz-es ívbe 3 ep (oldalanként 2 csoport). Zárd 1 ksz-mel.",
+     "en": "Sl st into the first corner space. Ch 3, 2 dc, ch 2, 3 dc in the same space (corner). In every other corner space: 3 dc, ch 2, 3 dc. Ch 1 between all groups; along each side work 3 dc in every ch-1 space (2 group(s) per side). Join with a sl st.",
+     "count": 48,
+     "prev": 36,
+     "change": 12,
+     "label_de": "Runde 4",
+     "de": "Mit Km in den ersten Eckbogen. 3 Lm, 2 Stb, 2 Lm, 3 Stb in denselben Bogen (Ecke). In jeden weiteren Eckbogen: 3 Stb, 2 Lm, 3 Stb. Zwischen allen Gruppen 1 Lm; an den Seiten in jeden 1-Lm-Bogen 3 Stb (2 Gruppe(n) pro Seite). Mit 1 Km schließen."
+    }
+   ],
+   "title_de": "Quadrat"
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Dolgozd el a szálvégeket, és gőzöld/nedvesítsd laposra.",
+   "text_en": "Weave in ends and block flat.",
+   "text_de": "Fäden vernähen und das Quadrat flach spannen."
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "square",
+    "w": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm",
+     "de": "≈ 12 cm"
+    },
+    "h": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm",
+     "de": "≈ 12 cm"
+    }
+   },
+   "cap_hu": "Kész forma (4 kör)",
+   "cap_en": "Finished shape (4 rounds)",
+   "cap_de": "Finished shape (4 rounds)"
+  },
+  {
+   "fn": "granny_chart",
+   "args": {
+    "rounds": 4
+   },
+   "cap_hu": "Horgolásrajz: sarkokban 3 ep, 2 lsz, 3 ep; a csoportok között 1 lsz",
+   "cap_en": "Chart: corners 3 dc, ch 2, 3 dc; ch 1 between groups",
+   "cap_de": "Chart: corners 3 dc, ch 2, 3 dc; ch 1 between groups"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "dc",
+  "mr"
+ ],
+ "name_de": "Klassisches Granny Square – Häkelanleitung",
+ "tagline_de": "Stäbchengruppen und Ecken: die Basis für Decken und Taschen. Ca. 40 Minuten.",
+ "level_de": "3/6 – Leicht",
+ "size_de": "ca. 12 × 12 cm (4 Runden)",
+ "gauge_de": "Nicht entscheidend."
+}

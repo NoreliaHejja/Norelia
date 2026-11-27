@@ -1,0 +1,192 @@
+{
+ "slug": "mini-door-wreath",
+ "statusz": "tesztre_var",
+ "name_en": "Mini Christmas Door Wreath – Crochet Pattern",
+ "name_de": "Mini-Türkranz zu Weihnachten – Häkelanleitung",
+ "tagline_en": "A flat little wreath with a bow and berries for your door, window or tree. About 1.5 hours.",
+ "tagline_de": "Ein flacher kleiner Kranz mit Schleife und Beeren für Tür, Fenster oder Baum. Ca. 1,5 Stunden.",
+ "level_en": "Beginner",
+ "level_de": "Anfänger",
+ "size_en": "approx. 12 cm (4.75 in) across with worsted yarn",
+ "size_de": "ca. 12 cm Durchmesser mit mittelstarkem Garn",
+ "hook": "4 mm (US G/6)",
+ "gauge_en": "Not critical. Keep stitches firm so the wreath lies flat.",
+ "gauge_de": "Nicht entscheidend. Fest häkeln, damit der Kranz flach liegt.",
+ "materials": [
+  {
+   "text_en": "Worsted / aran weight yarn: green (about 15 g), red (5 g)",
+   "text_de": "Mittelstarkes Garn: grün (ca. 15 g), rot (5 g)"
+  },
+  {
+   "text_en": "4 mm hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4 mm, Wollnadel, Schere"
+  },
+  {
+   "text_en": "Optional: a ring or ribbon for hanging",
+   "text_de": "Optional: Ring oder Band zum Aufhängen"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sc",
+  "sl st",
+  "MR",
+  "st",
+  "inc",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_en": "Written in US crochet terms. The number in brackets is the stitch count at the end of the round.",
+   "text_de": "Die Zahl in Klammern ist die Maschenzahl am Ende der Runde."
+  },
+  {
+   "text_en": "If the wreath starts to ruffle, go down a hook size; if it cups, go up a size.",
+   "text_de": "Wellt sich der Kranz, eine Nadelstärke kleiner nehmen; wölbt er sich, eine größer."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Wreath (green)",
+   "title_de": "Kranz (grün)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "With green, ch 30 and join with a sl st to the first ch to form a ring (don't twist). Ch 1, sc in each ch around. Join with a sl st to the first sc.",
+     "de": "Mit Grün 30 Lm anschlagen und mit 1 Km zur ersten Lm zum Ring schließen (nicht verdrehen). 1 Lm, 1 fM in jede Lm. Mit 1 Km in die erste fM schließen.",
+     "count": 30
+    },
+    {
+     "label_en": "Round 2",
+     "label_de": "Runde 2",
+     "en": "Ch 1. *Sc in the next 4 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "de": "1 Lm. *1 fM in die nächsten 4 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "prev": 30,
+     "change": 6,
+     "count": 36
+    },
+    {
+     "label_en": "Round 3",
+     "label_de": "Runde 3",
+     "en": "Ch 1. *Sc in the next 5 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "de": "1 Lm. *1 fM in die nächsten 5 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "prev": 36,
+     "change": 6,
+     "count": 42
+    },
+    {
+     "label_en": "Round 4",
+     "label_de": "Runde 4",
+     "en": "Ch 1. *Sc in the next 6 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
+     "de": "1 Lm. *1 fM in die nächsten 6 M, 2 fM in die nächste M.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "prev": 42,
+     "change": 6,
+     "count": 48
+    },
+    {
+     "label_en": "Round 5",
+     "label_de": "Runde 5",
+     "en": "Ch 1. Sc in each st around, working in the front loop only for a leafy edge. Join and fasten off.",
+     "de": "1 Lm. 1 fM in jede M, nur ins vordere Maschenglied (Blattkante). Schließen und Faden abschneiden.",
+     "prev": 48,
+     "change": 0,
+     "count": 48
+    }
+   ]
+  },
+  {
+   "title_en": "Bow (red)",
+   "title_de": "Schleife (rot)",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Ch 21. Sc in 2nd ch from hook and in each ch across. Turn.",
+     "de": "21 Lm. 1 fM in die 2. Lm ab Nadel und in jede weitere Lm. Wenden.",
+     "count": 20
+    },
+    {
+     "label_en": "Rows 2–3",
+     "label_de": "Reihen 2–3",
+     "en": "Ch 1, sc in each st across. Turn. Fasten off after Row 3, leaving a long tail.",
+     "de": "1 Lm, 1 fM in jede M. Wenden. Nach Reihe 3 mit langem Faden abschneiden.",
+     "prev": 20,
+     "change": 0,
+     "count": 20
+    },
+    {
+     "label_en": "Shaping",
+     "label_de": "Formen",
+     "en": "Fold both short ends to the middle and wrap the long tail tightly around the centre 6–8 times to make a bow.",
+     "de": "Beide kurzen Enden zur Mitte falten und die Mitte 6–8-mal fest mit dem Faden umwickeln."
+    }
+   ]
+  },
+  {
+   "title_en": "Berries (red, make 3)",
+   "title_de": "Beeren (rot, 3 Stück)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "Make a magic ring, ch 1, 6 sc into the ring. Pull tight, join and fasten off. Weave the tail through the stitches and pull to make a little ball.",
+     "de": "Fadenring, 1 Lm, 6 fM in den Ring. Festziehen, schließen, abschneiden. Faden durch die Maschen ziehen und zu einer kleinen Kugel zusammenziehen.",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Weave in the ends of the wreath.",
+   "text_de": "Fäden am Kranz vernähen."
+  },
+  {
+   "text_en": "Sew the bow to the bottom or top of the wreath and the berries next to it.",
+   "text_de": "Schleife unten oder oben annähen, die Beeren daneben."
+  },
+  {
+   "text_en": "Add a loop of yarn or ribbon for hanging. Not a toy for children under 3 (small parts).",
+   "text_de": "Aufhängeschlaufe aus Garn oder Band anbringen. Kein Spielzeug für Kinder unter 3 Jahren (Kleinteile)."
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "wreath",
+    "d": {
+     "hu": "≈ 12 cm",
+     "en": "≈ 12 cm (4.75 in)",
+     "de": "≈ 12 cm (4.75 in)"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape",
+   "cap_de": "Fertige Form"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     30,
+     36,
+     42,
+     48,
+     48
+    ],
+    "ring_ch": 30
+   },
+   "cap_hu": "Koszorú: 30 lsz-es gyűrű, majd 5 kör",
+   "cap_en": "Wreath: ring of 30 ch, then 5 rounds",
+   "cap_de": "Kranz: Ring aus 30 Lm, dann 5 Runden"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "inc"
+ ]
+}

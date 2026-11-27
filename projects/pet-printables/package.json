@@ -1,0 +1,13 @@
+{
+  "name": "pet-printables",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Print-ready dog/cat printable PDF products for Etsy & KDP.",
+  "scripts": {
+    "build": "node scripts/render_pdf.js \"products/**/*.html\"",
+    "render": "node scripts/render_pdf.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}

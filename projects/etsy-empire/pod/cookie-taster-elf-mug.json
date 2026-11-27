@@ -1,0 +1,49 @@
+{
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1399
+  },
+  "scale": 0.33,
+  "y": 0.5,
+  "slug": "cookie-taster-elf-mug",
+  "design": "cookie-taster-elf.png",
+  "title": "I'm the Cookie Taster Elf Mug, Funny Christmas Elf Coffee Mug, Matching Family Elf Gift, Christmas Cocoa Mug, Stocking Stuffer, 11 oz",
+  "tags": [
+    "cookie taster elf",
+    "cookie elf shirt",
+    "baking elf",
+    "elf mug",
+    "christmas mug",
+    "funny elf mug",
+    "family elf gift",
+    "cocoa mug",
+    "stocking stuffer",
+    "christmas coffee",
+    "holiday mug",
+    "gift for mom",
+    "secret santa gift"
+  ],
+  "description": "\"I'm the Cookie Taster Elf\" with a hand-drawn elf hat, printed on both sides of an 11 oz white ceramic mug. Perfect for cocoa, stocking stuffers and the family gift exchange.\n\n11 oz ceramic mug, dishwasher and microwave safe. Printed on demand.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Not affiliated with any elf doll brand.",
+  "printify_image_id": "6af9566e6005c6e4427be857",
+  "printify_product_id": "6af956776d67bf35520d0d01",
+  "mockups": [
+    "https://images.printify.com/mockup/6af956776d67bf35520d0d01/33719/6400/im-the-cookie-taster-elf-mug-funny-christmas-elf-coffee-mug-matching-family-elf-gift-christmas-cocoa-mug-stocking-stuffer-11-oz.jpg?camera_label=front",
+    "https://images.printify.com/mockup/6af956776d67bf35520d0d01/33719/6402/im-the-cookie-taster-elf-mug-funny-christmas-elf-coffee-mug-matching-family-elf-gift-christmas-cocoa-mug-stocking-stuffer-11-oz.jpg?camera_label=left",
+    "https://images.printify.com/mockup/6af956776d67bf35520d0d01/33719/10395/im-the-cookie-taster-elf-mug-funny-christmas-elf-coffee-mug-matching-family-elf-gift-christmas-cocoa-mug-stocking-stuffer-11-oz.jpg?camera_label=right",
+    "https://images.printify.com/mockup/6af956776d67bf35520d0d01/33719/10393/im-the-cookie-taster-elf-mug-funny-christmas-elf-coffee-mug-matching-family-elf-gift-christmas-cocoa-mug-stocking-stuffer-11-oz.jpg?camera_label=context-1",
+    "https://images.printify.com/mockup/6af956776d67bf35520d0d01/33719/10394/im-the-cookie-taster-elf-mug-funny-christmas-elf-coffee-mug-matching-family-elf-gift-christmas-cocoa-mug-stocking-stuffer-11-oz.jpg?camera_label=context-2",
+    "https://images.printify.com/mockup/6af956776d67bf35520d0d01/33719/6568/im-the-cookie-taster-elf-mug-funny-christmas-elf-coffee-mug-matching-family-elf-gift-christmas-cocoa-mug-stocking-stuffer-11-oz.jpg?camera_label=context-3"
+  ],
+  "status": "publikalas_elinditva",
+  "etsy_listing_id": "4617661285",
+  "etsy_custom_images": [
+    "pod/mockups/cookie-taster-elf-3.jpg",
+    "pod/mockups/cookie-taster-elf-1.jpg",
+    "pod/mockups/cookie-taster-elf-2.jpg"
+  ],
+  "megjegyzes_kepek": "Printify csak 1 (üres közepű) mockupot ad a kétoldalas bögréhez -> saját mockupok az Etsy-n. Újrapublikálásnál images:false!"
+}

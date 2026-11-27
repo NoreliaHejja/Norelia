@@ -1,0 +1,285 @@
+{
+ "langs": [
+  "en",
+  "de",
+  "hu"
+ ],
+ "statusz": "tesztelve",
+ "slug": "amigurumi-csibe",
+ "name_hu": "Amigurumi csibe – horgolásminta",
+ "name_en": "Amigurumi Chick – Crochet Pattern",
+ "tagline_hu": "Egytestes figura csőrrel, szárnnyal, bóbitával; az összevarrás gyakorlása. Kb. 2 óra.",
+ "tagline_en": "One-piece figure with beak, wings and tuft; practise assembly. About 2 hours.",
+ "level_hu": "5/6 – Közepes",
+ "level_en": "5/6 – Intermediate",
+ "size_hu": "kb. 7 cm magas",
+ "size_en": "approx. 7 cm (2.75 in) tall",
+ "hook": "3,5 mm",
+ "gauge_hu": "Szorosan horgolj.",
+ "gauge_en": "Work tightly.",
+ "materials": [
+  {
+   "text_hu": "Közepes vastagságú fonal: sárga (15 g), narancs (2 g); plüssfonallal is megy (akkor nagyobb lesz)",
+   "text_en": "Worsted yarn: yellow (15 g), orange (2 g); plush or chenille yarn also works (the chick comes out bigger)",
+   "text_de": "Mittelstarkes Garn: Gelb (15 g), Orange (2 g); auch Plüsch- oder Chenillegarn funktioniert (dann größer)"
+  },
+  {
+   "text_hu": "2 db 6 mm-es biztonsági szem (vagy fekete fonal hímzéshez), tömőanyag, 3,5 mm tű, szemjelölő, varrótű",
+   "text_en": "Two 6 mm safety eyes (or black yarn to embroider), fibrefill, 3.5 mm hook, marker, tapestry needle",
+   "text_de": "Zwei 6-mm-Sicherheitsaugen (oder schwarzes Garn zum Aufsticken), Füllwatte, Häkelnadel 3,5 mm, Maschenmarkierer, Sticknadel"
+  }
+ ],
+ "abbr": [
+  "sc",
+  "inc",
+  "sc2tog",
+  "MR",
+  "st",
+  "sl st",
+  "ch"
+ ],
+ "notes": [
+  {
+   "text_hu": "Kezdés: a varázsgyűrű a fej teteje; innen lefelé haladsz, a 13. kör a talp.",
+   "text_en": "Start: the magic ring is the top of the head; you work downwards and round 13 is the base.",
+   "text_de": "Anfang: Der Fadenring ist die Oberseite des Kopfes; du häkelst nach unten, Runde 13 ist die Unterseite."
+  },
+  {
+   "text_hu": "Csigavonalban (spirálban) horgolunk, a köröket nem zárjuk. Jelöld a kör elejét szemjelölővel.",
+   "text_en": "Worked in a continuous spiral; do not join rounds. Use a stitch marker for the first stitch.",
+   "text_de": "In Spiralrunden häkeln, Runden nicht schließen. Den Rundenanfang mit einem Maschenmarkierer kennzeichnen."
+  },
+  {
+   "text_hu": "3 év alatti gyereknek biztonsági szem helyett hímezd a szemeket.",
+   "text_en": "For children under 3, embroider the eyes instead of using safety eyes.",
+   "text_de": "Für Kinder unter 3 Jahren die Augen aufsticken statt Sicherheitsaugen zu verwenden."
+  },
+  {
+   "text_hu": "Nagyobb csibe: tegyél még 1–2 szaporító kört (mindig +1 rp a szaporítások között), és ugyanennyi fogyasztó kört a végére.",
+   "text_en": "Bigger chick: add 1–2 more increase rounds (one more sc between increases each time) and the same number of decrease rounds at the end.",
+   "text_de": "Größeres Küken: 1–2 weitere Zunahmerunden (jeweils 1 fM mehr zwischen den Zunahmen) und am Ende ebenso viele Abnahmerunden."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Test (sárga)",
+   "title_en": "Body (yellow)",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 1 lsz, 6 rp a gyűrűbe. Húzd össze.",
+     "en": "Magic ring, ch 1, 6 sc into the ring. Pull tight.",
+     "count": 6,
+     "de": "Fadenring, 1 Lm, 6 fM in den Ring. Festziehen.",
+     "label_de": "Runde 1"
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "Minden szembe szaporítás.",
+     "en": "Inc in each st around.",
+     "count": 12,
+     "prev": 6,
+     "change": 6,
+     "de": "In jede M 2 fM (Zunahme).",
+     "label_de": "Runde 2"
+    },
+    {
+     "label_hu": "3. kör",
+     "label_en": "Round 3",
+     "hu": "*1 rp, 1 szap.* Ismételd 6-szor.",
+     "en": "*Sc in the next 1 sts, inc in the next st.* Repeat 6 times.",
+     "count": 18,
+     "prev": 12,
+     "change": 6,
+     "de": "*1 fM, 1 Zunahme.* 6-mal wiederholen.",
+     "label_de": "Runde 3"
+    },
+    {
+     "label_hu": "4. kör",
+     "label_en": "Round 4",
+     "hu": "*2 rp, 1 szap.* Ismételd 6-szor.",
+     "en": "*Sc in the next 2 sts, inc in the next st.* Repeat 6 times.",
+     "count": 24,
+     "prev": 18,
+     "change": 6,
+     "de": "*2 fM, 1 Zunahme.* 6-mal wiederholen.",
+     "label_de": "Runde 4"
+    },
+    {
+     "label_hu": "5–10. kör",
+     "label_en": "Rounds 5–10",
+     "hu": "Minden szembe 1 rp (6 kör). A 4. és 5. kör között tedd be a szemeket, 5 szem távolságra egymástól (a varázsgyűrű a fej teteje).",
+     "en": "Sc in each st around (6 rounds). Insert the eyes between rounds 4 and 5, 5 sts apart (the magic ring is the top of the head).",
+     "count": 24,
+     "prev": 24,
+     "change": 0,
+     "de": "In jede M 1 fM (6 Runden). Die Augen zwischen Runde 4 und 5 einsetzen, 5 M Abstand (der Fadenring ist die Oberseite des Kopfes).",
+     "label_de": "Runden 5–10"
+    },
+    {
+     "label_hu": "11. kör",
+     "label_en": "Round 11",
+     "hu": "*2 rp, 1 fogy.* Ismételd 6-szor.",
+     "en": "*Sc in the next 2 sts, sc2tog.* Repeat 6 times.",
+     "count": 18,
+     "prev": 24,
+     "change": -6,
+     "de": "*2 fM, 1 Abnahme.* 6-mal wiederholen.",
+     "label_de": "Runde 11"
+    },
+    {
+     "label_hu": "12. kör",
+     "label_en": "Round 12",
+     "hu": "*1 rp, 1 fogy.* Ismételd 6-szor. Legkésőbb most töltsd ki a testet.",
+     "en": "*Sc in the next st, sc2tog.* Repeat 6 times. Stuff the body now at the latest.",
+     "count": 12,
+     "prev": 18,
+     "change": -6,
+     "de": "*1 fM, 1 Abnahme.* 6-mal wiederholen. Spätestens jetzt den Körper ausstopfen.",
+     "label_de": "Runde 12"
+    },
+    {
+     "label_hu": "13. kör",
+     "label_en": "Round 13",
+     "hu": "Minden 2 szemet fogyassz össze. Húzd össze a nyílást.",
+     "en": "Sc2tog around. Close the opening.",
+     "count": 6,
+     "prev": 12,
+     "change": -6,
+     "de": "Je 2 M zusammen abmaschen. Die Öffnung zusammenziehen.",
+     "label_de": "Runde 13"
+    }
+   ],
+   "title_de": "Körper (gelb)"
+  },
+  {
+   "title_hu": "Csőr (narancs)",
+   "title_en": "Beak (orange)",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 4 rp.",
+     "en": "Magic ring, 4 sc.",
+     "count": 4,
+     "de": "Fadenring, 4 fM.",
+     "label_de": "Runde 1"
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "*1 rp, 1 szap.* Ismételd 2-szer. Vágd el hosszú szállal, ne töltsd ki.",
+     "en": "*Sc in the next st, inc.* Repeat twice. Fasten off with a long tail; do not stuff.",
+     "count": 6,
+     "prev": 4,
+     "change": 2,
+     "de": "*1 fM, 1 Zunahme.* 2-mal wiederholen. Mit langem Faden abschneiden, nicht ausstopfen.",
+     "label_de": "Runde 2"
+    }
+   ],
+   "title_de": "Schnabel (orange)"
+  },
+  {
+   "title_hu": "Szárny (sárga, 2 db)",
+   "title_en": "Wing (yellow, make 2)",
+   "rows": [
+    {
+     "label_hu": "1. kör",
+     "label_en": "Round 1",
+     "hu": "Varázsgyűrű, 6 rp.",
+     "en": "Magic ring, 6 sc.",
+     "count": 6,
+     "de": "Fadenring, 6 fM.",
+     "label_de": "Runde 1"
+    },
+    {
+     "label_hu": "2. kör",
+     "label_en": "Round 2",
+     "hu": "*1 rp, 1 szap.* Ismételd 3-szor. Hajtsd félbe laposra, vágd el hosszú szállal.",
+     "en": "*Sc in the next st, inc.* Repeat 3 times. Fold flat, fasten off with a long tail.",
+     "count": 9,
+     "prev": 6,
+     "change": 3,
+     "de": "*1 fM, 1 Zunahme.* 3-mal wiederholen. Flach falten, mit langem Faden abschneiden.",
+     "label_de": "Runde 2"
+    }
+   ],
+   "title_de": "Flügel (gelb, 2 Stück)"
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Varrd a csőrt a 6. körbe, középre a két szem alá.",
+   "text_en": "Sew the beak onto round 6, centred below the eyes.",
+   "text_de": "Den Schnabel auf Runde 6 annähen, mittig unter den Augen."
+  },
+  {
+   "text_hu": "Varrd a szárnyakat a test két oldalára, a 7. kör magasságában.",
+   "text_en": "Sew the wings to the sides at round 7.",
+   "text_de": "Die Flügel seitlich auf Höhe von Runde 7 annähen."
+  },
+  {
+   "text_hu": "Bóbita: a fej tetején (a varázsgyűrűnél) húzz át 3 sárga szálat, csomózd meg, és vágd 1,5 cm-esre.",
+   "text_en": "Tuft: pull 3 strands of yellow through the top of the head (the magic ring), knot and trim to 1.5 cm.",
+   "text_de": "Haarbüschel: 3 gelbe Fäden oben am Kopf (am Fadenring) durchziehen, verknoten und auf 1,5 cm kürzen."
+  },
+  {
+   "text_hu": "Jó horgolást!",
+   "text_en": "Happy hooking!",
+   "text_de": "Viel Spaß beim Häkeln!"
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "chick",
+    "eyes": {
+     "hu": "szemek: 4–5. kör, 5 szem távol",
+     "en": "eyes: rounds 4–5, 5 sts apart",
+     "de": "Augen: Runde 4–5, 5 M Abstand"
+    },
+    "wings": {
+     "hu": "szárny: 7. kör",
+     "en": "wings: round 7",
+     "de": "Flügel: Runde 7"
+    },
+    "h": {
+     "hu": "≈ 7 cm",
+     "en": "≈ 7 cm",
+     "de": "≈ 7 cm"
+    }
+   },
+   "cap_hu": "Kész forma és összeállítás",
+   "cap_en": "Finished shape and assembly",
+   "cap_de": "Fertige Form und Zusammennähen"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18,
+     24
+    ]
+   },
+   "cap_hu": "Test 1–4. kör felülről (szaporítás)",
+   "cap_en": "Body rounds 1–4 from above (increases)",
+   "cap_de": "Körper Runde 1–4 von oben (Zunahmen)"
+  }
+ ],
+ "legend": [
+  "sc",
+  "inc",
+  "dec",
+  "mr"
+ ],
+ "name_de": "Amigurumi-Küken – Häkelanleitung",
+ "tagline_de": "Ein Körper mit Schnabel, Flügeln und Haarbüschel; ideal zum Üben des Zusammennähens. Ca. 2 Stunden.",
+ "level_de": "5/6 – Mittel",
+ "size_de": "ca. 7 cm hoch",
+ "gauge_de": "Fest häkeln."
+}

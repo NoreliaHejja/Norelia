@@ -1,0 +1,43 @@
+{
+  "slug": "cozy-season-mug",
+  "design": "cozy-season.png",
+  "blueprint_id": 68,
+  "print_provider_id": 1,
+  "variant_ids": [
+    33719
+  ],
+  "price_cents": {
+    "default": 1399
+  },
+  "scale": 0.4,
+  "y": 0.5,
+  "title": "Cozy Season Mug, Hot Cocoa Cat Mug, Christmas Coffee Cup, Winter Cat Lover Gift, Cute Holiday Mug Stocking Stuffer",
+  "tags": [
+    "cozy season",
+    "hot cocoa mug",
+    "cat mug",
+    "christmas mug",
+    "winter mug",
+    "cat lover gift",
+    "stocking stuffer",
+    "holiday mug",
+    "cozy gift",
+    "gift for her",
+    "cocoa cup",
+    "sleeping cat mug",
+    "secret santa gift"
+  ],
+  "description": "Blankets, cocoa and a sleepy cat: that's cozy season. A sweet winter mug for slow mornings.\n\n11oz white ceramic mug, glossy finish, printed design. Dishwasher and microwave safe. A sweet little gift for cozy winter mornings. Printed on demand.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools. Printed design.",
+  "printify_image_id": "6af5cc730276f0e93d65e693",
+  "printify_product_id": "6af5cc760fa5f22d5805b3f1",
+  "mockups": [
+    "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/6400/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=front",
+    "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/6402/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=left",
+    "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/10395/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=right",
+    "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/10393/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=context-1",
+    "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/10394/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=context-2",
+    "https://images-api.printify.com/mockup/6af5cc760fa5f22d5805b3f1/33719/6568/cozy-season-mug-hot-cocoa-cat-mug-christmas-coffee-cup-winter-cat-lover-gift-cute-holiday-mug-stocking-stuffer.jpg?camera_label=context-3"
+  ],
+  "status": "publikalas_elinditva",
+  "mug_mindket_oldal": true
+}

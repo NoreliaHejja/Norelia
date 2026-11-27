@@ -1,0 +1,7 @@
+node_modules/
+# Rendered output and verification artifacts
+products/**/*.pdf
+prev/
+*.png
+!docs/**/*.png
+.DS_Store

@@ -1,0 +1,69 @@
+{
+  "slug": "classroom-kindness-calendar",
+  "status": "etsy_aktiv",
+  "created": "2026-11-16",
+  "theme": "karácsony – osztálykedvesség tanároknak (manó nélkül)",
+  "files": [
+    "classroom-kindness-calendar.pdf",
+    "classroom-kindness-calendar-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Classroom Kindness Calendar",
+    "cim2": "What's inside",
+    "al2": "24 mission cards · wall poster · tracker · certificates",
+    "cim3": "5 minutes a day",
+    "al3": "Morning meeting ready, no shopping",
+    "gyerekoldalak": [
+      7,
+      10
+    ]
+  },
+  "social": {
+    "pin_title": "Classroom kindness calendar for December – 24 class kindness missions for teachers",
+    "pin_text": "24 whole-class kindness missions with teacher tips, a printable wall calendar, class tracker, Kindness Champion certificates and a family letter. Grades K–5.",
+    "ig_text": "Teacher friends: a December countdown that fills the room with kindness instead of sugar. 24 missions, a wall poster and certificates for the last day. Link in bio.",
+    "fb_text": "Classroom Kindness Calendar for teachers: 24 missions, wall poster, tracker, certificates and a letter for families.",
+    "tt_hook": "My class's December countdown has no candy",
+    "tt_script": "1) Poster on the wall. 2) Mission card at morning meeting. 3) Thank-you cards for custodian. CTA."
+  },
+  "etsy": {
+    "title": "Classroom Kindness Calendar, December Kindness Challenge for Students, 24 Class Kindness Activities, Teacher Christmas Printable K-5",
+    "price": 4.9,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12479,
+    "tags": [
+      "classroom kindness",
+      "kindness calendar",
+      "kindness challenge",
+      "teacher printable",
+      "december classroom",
+      "kindness activities",
+      "morning meeting",
+      "sel activities",
+      "classroom advent",
+      "kindness bulletin",
+      "christmas classroom",
+      "teacher resource",
+      "acts of kindness"
+    ],
+    "description": "A December countdown for your classroom that grows kind hearts – no elf and no candy needed. 🍎🎄\n\n24 whole-class kindness missions, each with a quick teacher tip. Most take 5–20 minutes at morning meeting and need no shopping: thank-you cards for school helpers, compliment circles, reading buddies, gratitude chains and more.\n\n✨ WHAT'S INSIDE (11 pages)\n• 24 kindness mission cards with teacher tips\n• Printable wall calendar poster (color a square each day)\n• 2-page class kindness tracker\n• Kindness Champion student certificates (2 per page)\n• Ready-to-send letter for families\n• How-to page for teachers\n\n🍎 For grades K–5, homeschool groups and clubs.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included.\n\nLICENSE\nFor use in one classroom. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "etsy_listing_id": "4618343587",
+  "etsy_url": "https://www.etsy.com/listing/4618343587",
+  "kdp": {
+    "eligible": false,
+    "reason": "classroom-kindness-calendar: 11 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  }
+}

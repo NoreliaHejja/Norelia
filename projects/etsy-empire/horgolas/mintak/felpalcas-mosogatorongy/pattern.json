@@ -1,0 +1,146 @@
+{
+ "langs": [
+  "en",
+  "de",
+  "hu"
+ ],
+ "statusz": "tesztre_var",
+ "slug": "felpalcas-mosogatorongy",
+ "name_hu": "Félpálcás mosogatórongy – horgolásminta",
+ "name_en": "Half Double Crochet Dishcloth – Crochet Pattern",
+ "tagline_hu": "Egyenes sorok félpálcával, szegéllyel. Kb. 1,5 óra.",
+ "tagline_en": "Straight rows of half double crochet with a border. About 1.5 hours.",
+ "level_hu": "2/6 – Kezdő",
+ "level_en": "2/6 – Beginner",
+ "size_hu": "kb. 20 × 20 cm",
+ "size_en": "approx. 20 × 20 cm (8 × 8 in)",
+ "hook": "4,5 mm",
+ "gauge_hu": "15 fp = 10 cm",
+ "gauge_en": "15 hdc = 10 cm (4 in)",
+ "materials": [
+  {
+   "text_hu": "Közepes vastagságú 100% pamutfonal, kb. 45 g",
+   "text_en": "Worsted 100% cotton yarn, about 45 g",
+   "text_de": "Mittelstarkes Garn aus 100 % Baumwolle, ca. 45 g"
+  },
+  {
+   "text_hu": "4,5 mm horgolótű, varrótű, olló",
+   "text_en": "4.5 mm hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4,5 mm, Wollnadel, Schere"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sl st",
+  "sc",
+  "hdc",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_hu": "A sor eleji 2 lsz nem számít szemnek.",
+   "text_en": "The ch 2 at the start of a row does not count as a stitch.",
+   "text_de": "Die 2 Lm am Reihenanfang zählen nicht als Masche."
+  }
+ ],
+ "sections": [
+  {
+   "title_hu": "Rongy",
+   "title_en": "Dishcloth",
+   "rows": [
+    {
+     "label_hu": "1. sor",
+     "label_en": "Row 1",
+     "hu": "Horgolj 32 lsz-t. A tűtől számított 3. lsz-be 1 fp, majd minden további lsz-be 1 fp. Fordítsd meg.",
+     "en": "Ch 32. Hdc in the 3rd ch from hook and in each ch across. Turn.",
+     "count": 30,
+     "label_de": "Reihe 1",
+     "de": "32 Lm anschlagen. 1 hStb in die 3. Lm ab Nadel und in jede weitere Lm. Wenden."
+    },
+    {
+     "label_hu": "2–22. sor",
+     "label_en": "Rows 2–22",
+     "hu": "2 lsz, minden szembe 1 fp. Fordítsd meg.",
+     "en": "Ch 2, hdc in each st across. Turn.",
+     "count": 30,
+     "prev": 30,
+     "change": 0,
+     "label_de": "Reihen 2–22",
+     "de": "2 Lm, 1 hStb in jede Masche. Wenden."
+    }
+   ],
+   "title_de": "Spültuch"
+  },
+  {
+   "title_hu": "Szegély",
+   "title_en": "Border",
+   "rows": [
+    {
+     "label_hu": "Szegély",
+     "label_en": "Border",
+     "hu": "1 lsz, rövidpálcával horgold körbe: az oldalakon minden sorvégbe 1 rp, minden sarokba 3 rp. Zárd 1 ksz-mel, vágd el a fonalat.",
+     "en": "Ch 1, sc evenly around: 1 sc in each row end on the sides, 3 sc in each corner. Join with a sl st and fasten off.",
+     "label_de": "Rand",
+     "de": "1 Lm, gleichmäßig feste Maschen rundherum: an den Seiten 1 fM in jedes Reihenende, in jede Ecke 3 fM. Mit 1 Km schließen, Faden abschneiden."
+    }
+   ],
+   "title_de": "Rand"
+  }
+ ],
+ "finishing": [
+  {
+   "text_hu": "Dolgozd el a szálvégeket. Mosható 40 °C-on.",
+   "text_en": "Weave in ends. Washable at 40 °C.",
+   "text_de": "Fäden vernähen. Waschbar bei 40 °C."
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "square",
+    "w": {
+     "hu": "≈ 20 cm",
+     "en": "≈ 20 cm (8 in)",
+     "de": "≈ 20 cm (8 in)"
+    },
+    "h": {
+     "hu": "≈ 20 cm",
+     "en": "≈ 20 cm",
+     "de": "≈ 20 cm"
+    }
+   },
+   "cap_hu": "Kész forma (szegéllyel)",
+   "cap_en": "Finished shape (with border)",
+   "cap_de": "Finished shape (with border)"
+  },
+  {
+   "fn": "row_chart",
+   "args": {
+    "widths": [
+     30,
+     30,
+     30,
+     30,
+     30,
+     30
+    ],
+    "stitch": "hdc",
+    "found_ch": 32
+   },
+   "cap_hu": "Az első 6 sor; a 22. sorig ugyanígy (30 fp soronként)",
+   "cap_en": "First 6 rows; repeat up to row 22 (30 hdc per row)",
+   "cap_de": "First 6 rows; repeat up to row 22 (30 hdc per row)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "hdc",
+  "sc"
+ ],
+ "name_de": "Spültuch aus halben Stäbchen – Häkelanleitung",
+ "tagline_de": "Gerade Reihen aus halben Stäbchen mit Rand. Ca. 1,5 Stunden.",
+ "level_de": "2/6 – Anfänger",
+ "size_de": "ca. 20 × 20 cm",
+ "gauge_de": "15 hStb = 10 cm"
+}

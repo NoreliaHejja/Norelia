@@ -1,0 +1,36 @@
+{
+  "slug": "family-meal-planner",
+  "status": "jovahagyasra_var",
+  "link": "[Etsy-link az élesítés után]",
+  "posts": [
+    {
+      "platform": "pinterest",
+      "date": "2026-11-12",
+      "title": "Weekly family meal planner + grocery list by aisle",
+      "text": "Plan a week of family dinners in 15 minutes: weekly meal plan, grocery list by aisle, kids' menu picker, 20 easy dinners and a Sunday prep checklist. Printable.",
+      "image": "kepek/01-cover.jpg",
+      "isAiGenerated": true
+    },
+    {
+      "platform": "instagram",
+      "date": "2026-11-13",
+      "text": "Sunday, 15 minutes, one coffee: that's my whole meal plan now. And Theo picks one veggie, one fruit and one favorite - he eats way more when it was his idea. Link in bio. · AI-generated character\n#mealplanner #weeklymealplan #familymealplanner #grocerylist #mealprepchecklist #kidsmenu",
+      "image": "kepek/02-inside.jpg",
+      "isAiGenerated": true
+    },
+    {
+      "platform": "facebook",
+      "date": "2026-11-14",
+      "text": "'What's for dinner?' - answered for the whole week. Printable family meal planner with a kids' menu picker. [Etsy-link az élesítés után] · AI-generated character",
+      "isAiGenerated": true
+    },
+    {
+      "platform": "tiktok",
+      "date": "2026-11-15",
+      "hook": "The 15-minute Sunday reset that saves my weeknights",
+      "script": "1) Coffee + planner. 2) Kid colors the menu picker. 3) Grocery list by aisle. 4) Prepped fridge shelf. CTA: link in bio.",
+      "caption": "Weekly Meal Planner for Families · AI-generated character #mealplanner #weeklymealplan #familymealplanner #grocerylist",
+      "isAiGenerated": true
+    }
+  ]
+}

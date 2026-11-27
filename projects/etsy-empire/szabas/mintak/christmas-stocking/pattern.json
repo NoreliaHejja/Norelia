@@ -1,0 +1,146 @@
+{
+ "slug": "christmas-stocking",
+ "type": "stocking",
+ "sizes": [
+  "S",
+  "M",
+  "L"
+ ],
+ "params": {},
+ "name_en": "Christmas Stocking Sewing Pattern, 3 Sizes",
+ "name_de": "Schnittmuster Nikolausstiefel / Weihnachtsstrumpf, 3 Größen",
+ "labels": {
+  "en": {
+   "stocking": "Stocking",
+   "cut_stocking": "2 outer (mirror) + 2 lining (mirror)",
+   "cuff": "Cuff",
+   "cut_cuff": "1 (fold lengthwise on dashed line)",
+   "loop": "Loop",
+   "cut_loop": "1",
+   "cut": "Cut",
+   "fold": "PLACE ON FOLD",
+   "nosa": "No seam allowance – add 1 cm",
+   "hipline": "fold line",
+   "front": "Front",
+   "back": "Back"
+  },
+  "de": {
+   "stocking": "Stiefel",
+   "cut_stocking": "2 Außenstoff (gegengleich) + 2 Futter (gegengleich)",
+   "cuff": "Umschlag",
+   "cut_cuff": "1x (längs an der gestrichelten Linie falten)",
+   "loop": "Aufhänger",
+   "cut_loop": "1x",
+   "cut": "Zuschnitt",
+   "fold": "STOFFBRUCH",
+   "nosa": "Ohne Nahtzugabe – 1 cm zugeben",
+   "hipline": "Faltlinie",
+   "front": "Vorderteil",
+   "back": "Rückenteil"
+  }
+ },
+ "img": {
+  "title": "Christmas Stocking · Sewing Pattern",
+  "sub": "3 sizes: 25, 40 and 50 cm · A4, Letter, A0",
+  "band": "PDF PATTERN · INSTANT DOWNLOAD",
+  "included": [
+   "Nested pattern, 3 sizes (S, M, L)",
+   "Lined stocking + folded cuff + loop",
+   "Beginner friendly, about 1 hour",
+   "A4 + US Letter print-at-home",
+   "A0 copy shop file",
+   "Sewing guide in English + German",
+   "Great for gifts and fairs"
+  ]
+ },
+ "size_rows": {
+  "title": "Finished sizes",
+  "sub": "Height · leg width · foot length",
+  "head": [
+   "Size",
+   "Height",
+   "Leg",
+   "Foot"
+  ],
+  "rows": [
+   [
+    "S",
+    "25 cm / 10\"",
+    "11 cm / 4.3\"",
+    "17 cm / 6.7\""
+   ],
+   [
+    "M",
+    "40 cm / 16\"",
+    "16 cm / 6.3\"",
+    "25 cm / 9.8\""
+   ],
+   [
+    "L",
+    "50 cm / 20\"",
+    "20 cm / 7.9\"",
+    "31 cm / 12.2\""
+   ]
+  ]
+ },
+ "guide": {
+  "en": {
+   "sub": "3 nested sizes · no seam allowance · A4/Letter or A0",
+   "chart_title": "Finished sizes",
+   "chart_html": "<table><tr><th>Size</th><th>Height</th><th>Leg width</th><th>Foot length</th><th>Cuff (cut)</th></tr><tr><td><b>S</b></td><td>25 cm</td><td>11 cm</td><td>17 cm</td><td>22 × 16 cm</td></tr><tr><td><b>M</b></td><td>40 cm</td><td>16 cm</td><td>25 cm</td><td>32 × 16 cm</td></tr><tr><td><b>L</b></td><td>50 cm</td><td>20 cm</td><td>31 cm</td><td>40 × 16 cm</td></tr></table>",
+   "chart_note": "S is a small ornament or gift-card stocking, M is the classic fireplace size, L holds big gifts. Cuff = 2 × leg width, 16 cm tall before folding.",
+   "license": "Personal use and small-batch handmade sales. Please don't share or resell the pattern files. Drafted with the help of software.",
+   "sections": [
+    [
+     "Before you start",
+     "<ul><li>A lined Christmas stocking with a folded cuff and a hanging loop. Beginner friendly: straight seams and one curve. About 1 hour.</li><li><b>No seam allowance included</b>: add 1 cm (3/8 in) on all edges.</li><li>Fabrics: cotton, quilting cotton, flannel, felt, velvet or faux fur for the cuff. Lining: plain cotton.</li></ul>"
+    ],
+    [
+     "Printing",
+     "<ol><li>Print at <b>100% / actual size</b> and check the test square on page A1.</li><li>Tape the pages together or print the A0 file at a copy shop.</li></ol>"
+    ],
+    [
+     "You will need",
+     "<ul><li>Outer fabric: 30 × 60 cm (S), 50 × 90 cm (M), 60 × 110 cm (L)</li><li>Same amount of lining, cuff fabric 45 × 20 cm</li><li>Optional: fusible fleece for a sturdier stocking</li></ul>"
+    ],
+    [
+     "Sewing steps",
+     "<ol><li>Cut 2 outer and 2 lining pieces, each pair mirrored (fold the fabric right sides together and cut through both layers).</li><li>Sew the two outer pieces right sides together, leaving the top open. Clip the curves and turn right side out.</li><li>Sew the lining the same way, leaving a 8 cm gap in the back seam. Do not turn.</li><li>Fold the loop strip lengthwise, sew, turn and fold it in half. Pin it to the back seam at the top.</li><li>Sew the cuff into a ring (short ends together), fold it in half lengthwise wrong sides together and pin it around the top of the outer stocking, raw edges even.</li><li>Slip the outer stocking inside the lining, right sides together, and sew around the top through all layers.</li><li>Pull everything through the gap, close the gap, push the lining in and fold the cuff down.</li></ol>"
+    ],
+    [
+     "Make it yours",
+     "<ul><li>Add a name on the cuff with felt letters or embroidery.</li><li>Use faux fur or a pom-pom trim on the cuff.</li><li>Make a set of three sizes for the whole family.</li></ul>"
+    ]
+   ]
+  },
+  "de": {
+   "sub": "3 Größen ineinander · ohne Nahtzugabe · A4/Letter oder A0",
+   "chart_title": "Fertigmaße",
+   "chart_html": "<table><tr><th>Größe</th><th>Höhe</th><th>Schaftbreite</th><th>Fußlänge</th><th>Umschlag (Zuschnitt)</th></tr><tr><td><b>S</b></td><td>25 cm</td><td>11 cm</td><td>17 cm</td><td>22 × 16 cm</td></tr><tr><td><b>M</b></td><td>40 cm</td><td>16 cm</td><td>25 cm</td><td>32 × 16 cm</td></tr><tr><td><b>L</b></td><td>50 cm</td><td>20 cm</td><td>31 cm</td><td>40 × 16 cm</td></tr></table>",
+   "chart_note": "S ist ein kleiner Anhänger oder Gutschein-Stiefel, M die klassische Kamingröße, L passt für große Geschenke. Umschlag = 2 × Schaftbreite, 16 cm hoch vor dem Falten.",
+   "license": "Privater Gebrauch und kleine handgemachte Mengen. Schnittdateien bitte nicht weitergeben oder verkaufen. Mit Software konstruiert.",
+   "sections": [
+    [
+     "Bevor du anfängst",
+     "<ul><li>Ein gefütterter Nikolausstiefel mit Umschlag und Aufhänger. Anfängerfreundlich: gerade Nähte und eine Rundung. Etwa 1 Stunde.</li><li><b>Ohne Nahtzugabe</b>: an allen Kanten 1 cm zugeben.</li><li>Stoffe: Baumwolle, Patchworkstoff, Flanell, Filz, Samt oder Webpelz für den Umschlag. Futter: einfache Baumwolle.</li></ul>"
+    ],
+    [
+     "Drucken",
+     "<ol><li>In <b>100 % / Originalgröße</b> drucken, Testquadrat auf Seite A1 prüfen.</li><li>Seiten zusammenkleben oder A0 im Copyshop drucken.</li></ol>"
+    ],
+    [
+     "Du brauchst",
+     "<ul><li>Außenstoff: 30 × 60 cm (S), 50 × 90 cm (M), 60 × 110 cm (L)</li><li>Gleich viel Futter, Umschlagstoff 45 × 20 cm</li><li>Optional: Volumenvlies für einen festeren Stiefel</li></ul>"
+    ],
+    [
+     "Nähschritte",
+     "<ol><li>2 Außen- und 2 Futterteile zuschneiden, jeweils gegengleich (Stoff rechts auf rechts legen und doppelt schneiden).</li><li>Außenteile rechts auf rechts zusammennähen, oben offen lassen. Rundungen einschneiden, wenden.</li><li>Futter genauso nähen, in der hinteren Naht 8 cm Wendeöffnung lassen. Nicht wenden.</li><li>Aufhänger längs falten, nähen, wenden, zur Schlaufe legen und oben an die hintere Naht stecken.</li><li>Umschlag zum Ring nähen, längs links auf links falten und oben um den Außenstiefel stecken, Kanten bündig.</li><li>Außenstiefel in das Futter schieben (rechts auf rechts), oben rundherum durch alle Lagen nähen.</li><li>Durch die Öffnung wenden, Öffnung schließen, Futter hineinschieben, Umschlag umlegen.</li></ol>"
+    ],
+    [
+     "Ideen",
+     "<ul><li>Namen mit Filzbuchstaben oder Stickerei auf den Umschlag.</li><li>Webpelz oder Bommelborte am Umschlag.</li><li>Ein Set in drei Größen für die ganze Familie.</li></ul>"
+    ]
+   ]
+  }
+ }
+}

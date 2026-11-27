@@ -1,0 +1,114 @@
+{
+ "slug": "crochet-snowflake-ornament",
+ "statusz": "kesz_feltoltesre_var",
+ "name_en": "Easy Crochet Snowflake Ornament – Crochet Pattern",
+ "name_de": "Einfache Häkel-Schneeflocke – Häkelanleitung",
+ "tagline_en": "A quick 3-round snowflake for your tree, gift tags or window. About 30 minutes.",
+ "tagline_de": "Eine schnelle Schneeflocke in 3 Runden für Baum, Geschenkanhänger oder Fenster. Ca. 30 Minuten.",
+ "level_en": "Easy",
+ "level_de": "Leicht",
+ "size_en": "approx. 9 cm (3.5 in) across with DK cotton",
+ "size_de": "ca. 9 cm Durchmesser mit mittelstarkem Baumwollgarn",
+ "hook": "3.5 mm (US E/4)",
+ "gauge_en": "Not critical.",
+ "gauge_de": "Nicht entscheidend.",
+ "materials": [
+  {
+   "text_en": "Light worsted / DK cotton yarn: white (about 5 g)",
+   "text_de": "Baumwollgarn, mittelstark: weiß (ca. 5 g)"
+  },
+  {
+   "text_en": "3.5 mm crochet hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 3,5 mm, Wollnadel, Schere"
+  },
+  {
+   "text_en": "Optional: starch spray to stiffen, ribbon to hang",
+   "text_de": "Optional: Wäschestärke, Band zum Aufhängen"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sc",
+  "sl st",
+  "MR",
+  "st"
+ ],
+ "notes": [
+  {
+   "text_en": "Written in US crochet terms. A ch-5 space is the gap made by 5 chains.",
+   "text_de": "Ein 5-Lm-Bogen ist der Bogen aus 5 Luftmaschen."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Snowflake (white)",
+   "title_de": "Schneeflocke (weiß)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "Make a magic ring. Ch 1, 12 sc into the ring. Pull tight and join with a sl st to the first sc.",
+     "de": "Fadenring. 1 Lm, 12 fM in den Ring. Festziehen und mit 1 Km in die erste fM schließen.",
+     "count": 12
+    },
+    {
+     "label_en": "Round 2",
+     "label_de": "Runde 2",
+     "en": "Ch 1. *Sc in the next st, ch 5, skip the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc. (6 sc and 6 ch-5 spaces)",
+     "de": "1 Lm. *1 fM in die nächste M, 5 Lm, 1 M überspringen.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen. (6 fM und 6 Lm-Bögen)",
+     "count": 6
+    },
+    {
+     "label_en": "Round 3",
+     "label_de": "Runde 3",
+     "en": "Sl st into the first ch-5 space. *In the ch-5 space work (3 sc, ch 3, 3 sc); sl st in the next sc of Round 2.* Repeat from * to * 5 more times. Fasten off. (6 points, 36 sc)",
+     "de": "Mit 1 Km in den ersten Lm-Bogen. *In den Bogen (3 fM, 3 Lm, 3 fM); 1 Km in die nächste fM der Runde 2.* Von * bis * noch 5-mal wiederholen. Faden abschneiden. (6 Zacken, 36 fM)",
+     "count": 36
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Weave in the ends.",
+   "text_de": "Fäden vernähen."
+  },
+  {
+   "text_en": "Pin the snowflake flat on a towel, open each point, spray with starch and let it dry.",
+   "text_de": "Flach auf ein Handtuch stecken, Zacken ausrichten, mit Stärke besprühen und trocknen lassen."
+  },
+  {
+   "text_en": "Thread a ribbon through one point to hang.",
+   "text_de": "Ein Band durch eine Zacke ziehen zum Aufhängen."
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "circle",
+    "d": {
+     "hu": "≈ 9 cm",
+     "en": "≈ 9 cm (3.5 in)",
+     "de": "≈ 9 cm (3.5 in)"
+    }
+   },
+   "cap_hu": "Kész méret",
+   "cap_en": "Finished size",
+   "cap_de": "Fertige Größe"
+  },
+  {
+   "fn": "snowflake_chart",
+   "args": {},
+   "cap_hu": "Horgolásrajz (3 kör)",
+   "cap_en": "Stitch chart (3 rounds)",
+   "cap_de": "Häkelschrift (3 Runden)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "mr"
+ ]
+}

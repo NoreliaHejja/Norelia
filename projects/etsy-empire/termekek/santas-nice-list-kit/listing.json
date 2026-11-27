@@ -1,0 +1,69 @@
+{
+  "slug": "santas-nice-list-kit",
+  "status": "etsy_aktiv",
+  "created": "2026-11-16",
+  "theme": "karácsony – Nice List / levél a Mikulástól (perszonalizálás)",
+  "files": [
+    "santas-nice-list-kit.pdf",
+    "santas-nice-list-kit-A4.pdf"
+  ],
+  "images": [
+    "kepek/01-cover-square.jpg",
+    "kepek/02-inside.jpg",
+    "kepek/03-kids.jpg",
+    "kepek/04-detail.jpg",
+    "kepek/05-how-it-works.jpg"
+  ],
+  "kepszoveg": {
+    "cim1": "Santa's Nice List Kit",
+    "cim2": "What's inside",
+    "al2": "2 certificates · Santa letter · reindeer food tags · labels",
+    "cim3": "Christmas Eve magic",
+    "al3": "Ten minutes to set up, remembered all year",
+    "gyerekoldalak": [
+      6,
+      10
+    ]
+  },
+  "social": {
+    "pin_title": "Santa's Nice List kit – printable certificate, letter from Santa, reindeer food tags",
+    "pin_text": "Official Nice List certificate, a letter from Santa with blanks to personalize, a good-things checklist, reindeer food tags + recipe and special delivery labels. Instant download.",
+    "ig_text": "Theo asked me three times this week if he's on the Nice List. On Christmas Eve he'll find out – officially, with a gold star and Santa's signature. Link in bio.",
+    "fb_text": "Printable Santa's Nice List Kit: certificate, letter from Santa, reindeer food tags and special delivery labels.",
+    "tt_hook": "POV your kid finds the Nice List certificate",
+    "tt_script": "1) Envelope by the tree. 2) Kid opens: NICE. 3) Reindeer food on the lawn. CTA."
+  },
+  "etsy": {
+    "title": "Santa Nice List Certificate Printable, Letter from Santa, Reindeer Food Tags, Christmas Eve Box Fillers, Nice List Kit for Kids",
+    "price": 3.99,
+    "currency": "EUR",
+    "quantity": 999,
+    "who_made": "i_did",
+    "when_made": "made_to_order",
+    "is_supply": false,
+    "type": "download",
+    "taxonomy_id": 12479,
+    "tags": [
+      "nice list",
+      "nice list printable",
+      "letter from santa",
+      "santa letter",
+      "reindeer food tag",
+      "christmas eve box",
+      "santa certificate",
+      "nice list kit",
+      "christmas printable",
+      "kids christmas",
+      "christmas eve",
+      "santa printable",
+      "reindeer food"
+    ],
+    "description": "Make Christmas Eve a little more magical in ten minutes. 🎄✨\n\nYour child's name goes on Santa's Nice List – officially, with a gold star, a letter from Santa and reindeer food for the lawn.\n\n✨ WHAT'S INSIDE (10 pages)\n• Official Santa's Nice List certificate in 2 styles (red & gold, green)\n• A Letter from Santa with blanks to write your child's name and a kind thing they did\n• \"Good things I did this year\" checklist to fill in together\n• 6 reindeer food tags + magic reindeer food recipe (no glitter – safe for birds)\n• 3 special delivery envelope labels from the North Pole\n• Santa's Elf Report kindness award\n\nWrite the names by hand with a gold or red pen – it looks lovely on card stock.\n\n👧👦 For kids ages 2 to 10. Perfect for Christmas Eve boxes.\n\nHOW IT WORKS\nINSTANT DIGITAL DOWNLOAD. No physical item will be shipped. US Letter + A4 PDF included.\n\nPLEASE NOTE\nFor personal use only. Please do not resell or share the files.\n\nDesigned by our small shop, AureliaVenn, with the help of AI tools."
+  },
+  "etsy_listing_id": "4618343531",
+  "etsy_url": "https://www.etsy.com/listing/4618343531",
+  "kdp": {
+    "eligible": false,
+    "reason": "santas-nice-list-kit: 10 oldal < 24 → KDP paperbackre nem alkalmas. Javaslat: 3 rokon termék összevonása egy 24+ oldalas workbookba."
+  }
+}

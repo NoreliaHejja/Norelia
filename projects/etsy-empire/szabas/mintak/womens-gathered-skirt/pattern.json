@@ -1,0 +1,128 @@
+{
+ "slug": "womens-gathered-skirt",
+ "type": "rect_skirt",
+ "sizes": [
+  "XS",
+  "S",
+  "M",
+  "L",
+  "XL",
+  "2X",
+  "3X"
+ ],
+ "params": {
+  "length": 60.0
+ },
+ "name_en": "Women's Gathered Elastic Waist Skirt Pattern XS-3X",
+ "name_de": "Schnittmuster Gummizugrock (Damen) XS-3X",
+ "labels": {
+  "en": {
+   "front": "Front",
+   "back": "Back",
+   "cut": "Cut",
+   "cut_front": "1 on fold",
+   "cut_back": "2",
+   "fold": "PLACE ON FOLD",
+   "nosa": "No seam allowance – add 1.5 cm, hem 3 cm",
+   "hipline": "casing fold line",
+   "waistband": "Waistband",
+   "cut_waistband": "1 on fold (fold = centre front), fold lengthwise",
+   "panel": "Skirt panel",
+   "cut_panel": "2 on fold (front + back)"
+  },
+  "de": {
+   "front": "Vorderteil",
+   "back": "Rückenteil",
+   "cut": "Zuschnitt",
+   "cut_front": "1x im Stoffbruch",
+   "cut_back": "2x",
+   "fold": "STOFFBRUCH",
+   "nosa": "Ohne Nahtzugabe – 1,5 cm zugeben, Saum 3 cm",
+   "hipline": "Tunnelbruchkante",
+   "waistband": "Bund",
+   "cut_waistband": "1x im Bruch (vordere Mitte), längs falten",
+   "panel": "Rockteil",
+   "cut_panel": "2x im Stoffbruch (vorne + hinten)"
+  }
+ },
+ "img": {
+  "title": "Gathered Skirt · Sewing Pattern",
+  "sub": "Women's sizes XS–3X · A4, Letter, A0",
+  "band": "PDF PATTERN · INSTANT DOWNLOAD",
+  "included": [
+   "Nested pattern, sizes XS–3X",
+   "Front + back panel, cut on fold",
+   "Elastic length for every size",
+   "A4 + US Letter print-at-home",
+   "A0 copy shop file",
+   "Sewing guide in English + German",
+   "Easiest first sewing project"
+  ]
+ },
+ "guide": {
+  "en": {
+   "sub": "Nested sizes XS–3X · no seam allowance · A4/Letter or A0",
+   "chart_title": "Size chart (body measurements)",
+   "chart_note": "Choose by hip. Total width = (hip + 4 cm) × 1.5. Elastic = waist − 5 cm. Length 60 cm (23.5 in). Elastic: XS 57 · S 63 · M 69 · L 77 · XL 85 · 2X 93 · 3X 101 cm.",
+   "license": "Personal use and small-batch handmade sales. Please don't share or resell the pattern files. Drafted with the help of software from a standard size chart.",
+   "sections": [
+    [
+     "Before you start",
+     "<ul><li>The easiest skirt there is: two rectangles, an elastic casing and a hem. No zip, no darts. Length 60 cm (23.5 in) plus casing.</li><li><b>No seam allowance included</b>: add 1.5 cm (5/8 in) to the side seams and 3 cm to the hem.</li><li>Good fabrics: cotton lawn, poplin, viscose, linen, double gauze.</li></ul>"
+    ],
+    [
+     "Printing",
+     "<ol><li>Print at <b>100% / actual size</b> and check the test square on page A1.</li><li>Tape the pages together, or print the A0 file at a copy shop. Tip: you can also draw the rectangle straight onto the fabric with the measurements below.</li></ol>"
+    ],
+    [
+     "Choosing your size",
+     "<p>Choose by your <b>hip</b>: the total width is your hip + 4 cm, times 1.5, so the skirt slides over the hips and gathers softly. Cut the elastic to your <b>waist minus 5 cm</b> (XS 57 · S 63 · M 69 · L 77 · XL 85 · 2X 93 · 3X 101 cm).</p>"
+    ],
+    [
+     "You will need",
+     "<ul><li>Fabric: 1.4 m (1.5 yd) of 140 cm (55 in) wide fabric for XS–L, 1.8 m (2 yd) for XL–3X</li><li>3 cm (1.25 in) wide soft knit elastic, safety pin</li></ul>"
+    ],
+    [
+     "Sewing steps",
+     "<ol><li>Cut 2 panels on the fold.</li><li>Sew both side seams and finish the edges.</li><li>Fold the top edge down 1 cm, then again along the casing fold line. Stitch close to the edge, leaving a 5 cm gap.</li><li>Thread the elastic through with a safety pin, overlap the ends 2 cm and sew them together. Close the gap.</li><li>Spread the gathers evenly, try it on, then sew a 3 cm double-fold hem.</li></ol>"
+    ],
+    [
+     "Make it yours",
+     "<ul><li>Add patch pockets, a tie belt or a ruffle at the hem.</li><li>For a fuller skirt use fullness 2 (width = hip + 4 cm, times 2).</li><li>Kids' version: use the same method with the child's hip measurement.</li></ul>"
+    ]
+   ]
+  },
+  "de": {
+   "sub": "Größen XS–3X ineinander · ohne Nahtzugabe · A4/Letter oder A0",
+   "chart_title": "Maßtabelle (Körpermaße)",
+   "chart_note": "Nach der Hüfte wählen. Gesamtweite = (Hüfte + 4 cm) × 1,5. Gummi = Taille − 5 cm. Länge 60 cm. Gummi: XS 57 · S 63 · M 69 · L 77 · XL 85 · 2X 93 · 3X 101 cm.",
+   "license": "Privater Gebrauch und kleine handgemachte Mengen. Schnittdateien bitte nicht weitergeben oder verkaufen. Mit Software nach einer Standard-Maßtabelle konstruiert.",
+   "sections": [
+    [
+     "Bevor du anfängst",
+     "<ul><li>Der einfachste Rock überhaupt: zwei Rechtecke, ein Gummizug und ein Saum. Kein Reißverschluss, keine Abnäher. Länge 60 cm plus Tunnel.</li><li><b>Ohne Nahtzugabe</b>: 1,5 cm an den Seitennähten und 3 cm am Saum zugeben.</li><li>Stoffe: Batist, Popeline, Viskose, Leinen, Musselin.</li></ul>"
+    ],
+    [
+     "Drucken",
+     "<ol><li>In <b>100 % / Originalgröße</b> drucken, Testquadrat auf Seite A1 prüfen.</li><li>Seiten zusammenkleben oder A0 im Copyshop drucken. Tipp: Das Rechteck kannst du auch direkt mit den Maßen auf den Stoff zeichnen.</li></ol>"
+    ],
+    [
+     "Größe wählen",
+     "<p>Nach der <b>Hüfte</b> wählen: Die Gesamtweite ist Hüfte + 4 cm mal 1,5, damit der Rock über die Hüfte gleitet und weich fällt. Den Gummi auf <b>Taille minus 5 cm</b> zuschneiden (XS 57 · S 63 · M 69 · L 77 · XL 85 · 2X 93 · 3X 101 cm).</p>"
+    ],
+    [
+     "Du brauchst",
+     "<ul><li>Stoff: 1,4 m bei 140 cm Breite für XS–L, 1,8 m für XL–3X</li><li>3 cm breiter, weicher Gummi, Sicherheitsnadel</li></ul>"
+    ],
+    [
+     "Nähschritte",
+     "<ol><li>2 Rockteile im Bruch zuschneiden.</li><li>Beide Seitennähte schließen, Kanten versäubern.</li><li>Oberkante 1 cm umbügeln, dann an der Tunnelbruchkante nochmals. Knappkantig absteppen, 5 cm offen lassen.</li><li>Gummi mit der Sicherheitsnadel einziehen, Enden 2 cm überlappen und zusammennähen. Öffnung schließen.</li><li>Kräuselung gleichmäßig verteilen, anprobieren, 3 cm doppelt umgeschlagen säumen.</li></ol>"
+    ],
+    [
+     "Ideen",
+     "<ul><li>Aufgesetzte Taschen, Bindegürtel oder Rüsche am Saum ergänzen.</li><li>Für mehr Weite Faktor 2 nehmen (Hüfte + 4 cm mal 2).</li><li>Kinderversion: gleiche Methode mit der Hüftweite des Kindes.</li></ul>"
+    ]
+   ]
+  }
+ }
+}
