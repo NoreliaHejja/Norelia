@@ -54,3 +54,4 @@ Napi rács (Budapest): 01:30 pin · 05:00 IG+FB+pin · 07:30 REEL (IG+FB+TikTok)
 - 01:30 pin Kindness Advent Cards #436934571 · 12:30 pin Classroom Kindness Calendar #437324492 · 23:00 pin Easy Elf Ideas (pin-2) #437340329
 - 2026-11-27 (Black Friday): kézi pin-csomag, 3 pin (Kindness Elf Kit új pin, Christmas Gift Tags, Family Games), Metricool nélkül, 0 kredit: projects/etsy-empire/marketing_szovegek/pin-csomag-2026-11-27.md
 - 2026-11-28: kézi pin-csomag, 3 pin (Toddler Kindness Elf pin-2, Christmas Wall Art új pin, Elf Excuse Letters pin-1), 0 kredit: projects/etsy-empire/marketing_szovegek/pin-csomag-2026-11-28.md
+- 2026-11-28: Metricool-ütemezés (Nóra jóváhagyta 11-27: „Metricool mehet”): 3 pin, ID 444730091 (01:30 Toddler Kindness Elf), 444730168 (12:30 Christmas Wall Art), 444730349 (23:00 Elf Excuse Letters). 0 kredit.
