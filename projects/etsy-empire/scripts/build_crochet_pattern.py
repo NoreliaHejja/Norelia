@@ -29,13 +29,13 @@ ABBR_HU = {  # magyar rövidítés + magyarázat
 T = {
     "hu": dict(level="Nehézség", size="Kész méret", mat="Amire szükséged lesz", hook="Horgolótű", gauge="Sűrűség", abbr="Rövidítések",
                uk="US", notes="Tudnivalók", fin="Befejezés", copy="A minta saját használatra és kis mennyiségű kézműves eladásra szól, az AureliaVenn megjelölésével. Kérlek, magát a mintát ne oszd meg és ne add el.",
-               draft="TESZTVÁLTOZAT – kérlek, jelezd a hibákat", hu="UK", lang="hu", tested="A mintát valódi horgoló tesztelte. A szöveg AI-eszközök segítségével készült.", sts="szem"),
+               draft="TESZTVÁLTOZAT – kérlek, jelezd a hibákat", hu="UK", lang="hu", tested="A mintát valódi horgoló tesztelte. A szöveg AI-eszközök segítségével készült.", untested="Új minta: a szemszámokat körönként ellenőriztük. A szöveg AI-eszközök segítségével készült.", sts="szem"),
     "en": dict(level="Skill level", size="Finished size", mat="You will need", hook="Hook", gauge="Gauge", abbr="Abbreviations (US terms)",
                uk="UK", notes="Notes", fin="Finishing", copy="This pattern is for personal use and for selling small handmade batches with credit to AureliaVenn. Please don't share or resell the pattern itself.",
-               draft="TEST VERSION – please report any errors", hu="HU", lang="en", tested="Pattern tested by a real maker. Written with the help of AI tools.", sts="sts"),
+               draft="TEST VERSION – please report any errors", hu="HU", lang="en", tested="Pattern tested by a real maker. Written with the help of AI tools.", untested="New pattern: stitch counts checked row by row. Written with the help of AI tools.", sts="sts"),
     "de": dict(level="Schwierigkeit", size="Größe", mat="Du brauchst", hook="Häkelnadel", gauge="Maschenprobe", abbr="Abkürzungen",
                uk="US", notes="Hinweise", fin="Fertigstellen", copy="Diese Anleitung ist für den privaten Gebrauch und den Verkauf kleiner handgemachter Mengen mit Hinweis auf AureliaVenn. Bitte die Anleitung selbst nicht weitergeben oder verkaufen.",
-               draft="TESTVERSION", hu="HU", lang="de", tested="Anleitung von einer echten Häklerin getestet. Mit Hilfe von KI-Werkzeugen geschrieben.", sts="M"),
+               draft="TESTVERSION", hu="HU", lang="de", tested="Anleitung von einer echten Häklerin getestet. Mit Hilfe von KI-Werkzeugen geschrieben.", untested="Neue Anleitung: Maschenzahlen Reihe für Reihe geprüft. Mit Hilfe von KI-Werkzeugen geschrieben.", sts="M"),
 }
 
 CSS = """@page{size:Letter;margin:.6in .65in}body{font-family:'DejaVu Sans',sans-serif;font-size:10.5pt;color:#2f2a26;line-height:1.45}
@@ -102,7 +102,7 @@ def html(p, lang, folder, draft):
 {('<h2>' + t['notes'] + '</h2><ul>' + notes + '</ul>') if notes else ''}
 {figs}
 {secs}<h2>{t['fin']}</h2><ul>{fin}</ul>{('<div class="photos">' + more + '</div>') if more else ''}
-<div class="foot">© AureliaVenn · {t['copy']}<br>{t['tested'] if not draft else ''}</div></body></html>"""
+<div class="foot">© AureliaVenn · {t['copy']}<br>{'' if draft else (t['tested'] if p.get('statusz') == 'tesztelve' else t['untested'])}</div></body></html>"""
 
 
 def main():

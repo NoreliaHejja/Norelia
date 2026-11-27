@@ -1,16 +1,17 @@
 {
  "langs": [
-  "hu",
-  "en"
+  "en",
+  "de",
+  "hu"
  ],
- "statusz": "tesztre_var",
+ "statusz": "kesz",
  "slug": "kerek-kosar-fulekkel",
  "name_hu": "Kerek kosár fülekkel – horgolásminta",
  "name_en": "Round Basket with Handles – Crochet Pattern",
  "tagline_hu": "Lapos alj, hátsó szálas fordulósor, mohaminta-oldal és fülek. Kb. 4 óra.",
  "tagline_en": "Flat base, back-loop turning round, moss-stitch sides and handles. About 4 hours.",
- "level_hu": "6/6 – Haladó",
- "level_en": "6/6 – Advanced beginner+",
+ "level_hu": "6/6 – Közepes+",
+ "level_en": "6/6 – Intermediate",
  "size_hu": "kb. 18 cm átmérő, 12 cm magas",
  "size_en": "approx. 18 cm (7 in) across, 12 cm (4.75 in) tall",
  "hook": "6 mm",
@@ -19,11 +20,13 @@
  "materials": [
   {
    "text_hu": "Vastag (chunky) pamut- vagy pólófonal, kb. 250 g, vagy közepes fonal duplán",
-   "text_en": "Chunky cotton or T-shirt yarn, about 250 g, or worsted yarn held double"
+   "text_en": "Chunky cotton or T-shirt yarn, about 250 g, or worsted yarn held double",
+   "text_de": "Dickes Baumwoll- oder Textilgarn (T-Shirt-Garn), ca. 250 g, oder mittelstarkes Garn doppelt"
   },
   {
    "text_hu": "6 mm horgolótű, szemjelölő, varrótű",
-   "text_en": "6 mm hook, stitch marker, tapestry needle"
+   "text_en": "6 mm hook, stitch marker, tapestry needle",
+   "text_de": "Häkelnadel 6 mm, Maschenmarkierer, Wollnadel"
   }
  ],
  "abbr": [
@@ -37,8 +40,19 @@
  ],
  "notes": [
   {
+   "text_hu": "Kezdés: a varázsgyűrű az alj közepe; a 11. körtől az oldal felfelé nő.",
+   "text_en": "Start: the magic ring is the centre of the base; from round 11 the sides grow upwards.",
+   "text_de": "Anfang: Der Fadenring ist die Mitte des Bodens; ab Runde 11 wachsen die Seiten nach oben."
+  },
+  {
    "text_hu": "Az alj körei zártak. A mohamintás körökben a szemszám: 30 rp + 30 lsz = 60.",
-   "text_en": "Base rounds are joined. In moss-stitch rounds the count is 30 sc + 30 ch = 60."
+   "text_en": "Base rounds are joined. In moss-stitch rounds the count is 30 sc + 30 ch = 60.",
+   "text_de": "Die Bodenrunden werden geschlossen. In den Moosstich-Runden: 30 fM + 30 Lm = 60."
+  },
+  {
+   "text_hu": "Nagyobb kosár: folytasd a szaporítást (+1 rp a szaporítások között) a 11. kör előtt; minden plusz kör kb. +1,5 cm átmérő.",
+   "text_en": "Bigger basket: keep increasing before round 11 (one more sc between increases each round); each extra round adds about 1.5 cm across. Keep the stitch count a multiple of 6.",
+   "text_de": "Größerer Korb: vor Runde 11 weiter zunehmen (jeweils 1 fM mehr zwischen den Zunahmen); jede Runde mehr ergibt ca. 1,5 cm mehr Durchmesser."
   }
  ],
  "sections": [
@@ -51,7 +65,9 @@
      "label_en": "Round 1",
      "hu": "Varázsgyűrű, 1 lsz, 6 rp. Zárd 1 ksz-mel.",
      "en": "Magic ring, ch 1, 6 sc. Join with a sl st.",
-     "count": 6
+     "count": 6,
+     "de": "Fadenring, 1 Lm, 6 fM. Mit 1 Km schließen.",
+     "label_de": "Runde 1"
     },
     {
      "label_hu": "2. kör",
@@ -60,7 +76,9 @@
      "en": "Ch 1. Inc in each st around. Join with a sl st to the first sc.",
      "count": 12,
      "prev": 6,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. In jede M 2 fM (Zunahme). Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 2"
     },
     {
      "label_hu": "3. kör",
@@ -69,7 +87,9 @@
      "en": "Ch 1. *Sc in the next 1 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 18,
      "prev": 12,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *1 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 3"
     },
     {
      "label_hu": "4. kör",
@@ -78,7 +98,9 @@
      "en": "Ch 1. *Sc in the next 2 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 24,
      "prev": 18,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *2 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 4"
     },
     {
      "label_hu": "5. kör",
@@ -87,7 +109,9 @@
      "en": "Ch 1. *Sc in the next 3 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 30,
      "prev": 24,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *3 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 5"
     },
     {
      "label_hu": "6. kör",
@@ -96,7 +120,9 @@
      "en": "Ch 1. *Sc in the next 4 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 36,
      "prev": 30,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *4 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 6"
     },
     {
      "label_hu": "7. kör",
@@ -105,7 +131,9 @@
      "en": "Ch 1. *Sc in the next 5 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 42,
      "prev": 36,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *5 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 7"
     },
     {
      "label_hu": "8. kör",
@@ -114,7 +142,9 @@
      "en": "Ch 1. *Sc in the next 6 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 48,
      "prev": 42,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *6 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 8"
     },
     {
      "label_hu": "9. kör",
@@ -123,7 +153,9 @@
      "en": "Ch 1. *Sc in the next 7 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 54,
      "prev": 48,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *7 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 9"
     },
     {
      "label_hu": "10. kör",
@@ -132,9 +164,12 @@
      "en": "Ch 1. *Sc in the next 8 sts, inc in the next st.* Repeat from * to * 5 more times. Join with a sl st to the first sc.",
      "count": 60,
      "prev": 54,
-     "change": 6
+     "change": 6,
+     "de": "1 Lm. *8 fM, 1 Zunahme.* Von * bis * noch 5-mal wiederholen. Mit 1 Km in die erste fM schließen.",
+     "label_de": "Runde 10"
     }
-   ]
+   ],
+   "title_de": "Boden"
   },
   {
    "title_hu": "Oldal",
@@ -147,7 +182,9 @@
      "en": "Ch 1, sc in the back loop only of each st (this turns the side up). Join.",
      "count": 60,
      "prev": 60,
-     "change": 0
+     "change": 0,
+     "de": "1 Lm, 1 fM nur ins hintere Maschenglied jeder M (dadurch stellt sich die Seite auf). Schließen.",
+     "label_de": "Runde 11"
     },
     {
      "label_hu": "12–21. kör",
@@ -156,9 +193,12 @@
      "en": "Ch 1, *sc, ch 1, skip 1* around; on later rounds work each sc into the ch-1 space of the round below. Join with a sl st.",
      "count": 60,
      "prev": 60,
-     "change": 0
+     "change": 0,
+     "de": "1 Lm, *1 fM, 1 Lm, 1 M überspringen* rundherum; in den nächsten Runden jede fM in den Lm-Bogen der Vorrunde. Mit 1 Km schließen.",
+     "label_de": "Runden 12–21"
     }
-   ]
+   ],
+   "title_de": "Seiten"
   },
   {
    "title_hu": "Fülek és szegély",
@@ -171,7 +211,9 @@
      "en": "Ch 1, sc 10, ch 10, skip 10, sc 20, ch 10, skip 10, sc 10. Join.",
      "count": 60,
      "prev": 60,
-     "change": 0
+     "change": 0,
+     "de": "1 Lm, 10 fM, 10 Lm, 10 M überspringen, 20 fM, 10 Lm, 10 M überspringen, 10 fM. Schließen.",
+     "label_de": "Runde 22"
     },
     {
      "label_hu": "23. kör",
@@ -180,7 +222,9 @@
      "en": "Ch 1, sc in each st, 10 sc into each ch-10 space. Join.",
      "count": 60,
      "prev": 60,
-     "change": 0
+     "change": 0,
+     "de": "1 Lm, 1 fM in jede M, 10 fM in jeden 10-Lm-Bogen. Schließen.",
+     "label_de": "Runde 23"
     },
     {
      "label_hu": "24. kör",
@@ -189,15 +233,24 @@
      "en": "Reverse sc (crab stitch) or sl st in each st around. Fasten off.",
      "count": 60,
      "prev": 60,
-     "change": 0
+     "change": 0,
+     "de": "Krebsmaschen (fM von links nach rechts) oder Km in jede M. Faden abschneiden.",
+     "label_de": "Runde 24"
     }
-   ]
+   ],
+   "title_de": "Griffe und Rand"
   }
  ],
  "finishing": [
   {
    "text_hu": "Dolgozd el a szálvégeket a kosár belsején.",
-   "text_en": "Weave in ends on the inside."
+   "text_en": "Weave in ends on the inside.",
+   "text_de": "Fäden innen vernähen."
+  },
+  {
+   "text_hu": "Jó horgolást!",
+   "text_en": "Happy hooking!",
+   "text_de": "Viel Spaß beim Häkeln!"
   }
  ],
  "figures": [
@@ -218,12 +271,12 @@
     "base": {
      "hu": "alj: 10 kör, 60 szem",
      "en": "base: 10 rounds, 60 sts",
-     "de": "base: 10 rounds, 60 sts"
+     "de": "Boden: 10 Runden, 60 M"
     }
    },
    "cap_hu": "Kész forma oldalnézetből",
    "cap_en": "Finished shape, side view",
-   "cap_de": "Finished shape, side view"
+   "cap_de": "Fertige Form, Seitenansicht"
   },
   {
    "fn": "circle_chart",
@@ -243,7 +296,7 @@
    },
    "cap_hu": "Az alj 1–10. köre (szaporítás körönként 6 szemmel)",
    "cap_en": "Base rounds 1–10 (6 increases per round)",
-   "cap_de": "Base rounds 1–10 (6 increases per round)"
+   "cap_de": "Boden Runde 1–10 (6 Zunahmen pro Runde)"
   }
  ],
  "legend": [
@@ -252,5 +305,10 @@
   "sc",
   "inc",
   "mr"
- ]
+ ],
+ "name_de": "Runder Korb mit Griffen – Häkelanleitung",
+ "tagline_de": "Flacher Boden, Wenderunde im hinteren Maschenglied, Seiten im Moosstich und Griffe. Ca. 4 Stunden.",
+ "level_de": "6/6 – Mittel",
+ "size_de": "ca. 18 cm Durchmesser, 12 cm hoch",
+ "gauge_de": "12 fM = 10 cm mit doppeltem Faden. Wellt sich der Boden, eine Nadelstärke kleiner nehmen."
 }

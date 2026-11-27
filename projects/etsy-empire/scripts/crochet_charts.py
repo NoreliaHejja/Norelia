@@ -104,6 +104,25 @@ def row_chart(widths, lang, stitch="sc", found_ch=None, dec_ends=True, label_eve
     return svg(W, H, body)
 
 
+def stocking_chart(rows, lang, found_ch=None):
+    """Mini csizma soros munka FELÜLRŐL LEFELÉ (1. sor = szár teteje). rows: [[szemszám, jel]], jel: "" | "inc" (szaporítás
+    a lábfej/orr felőli, jobb szélen, piros) | "dec" (fogyasztás mindkét szélen, kék). Balra igazítva: a szár bal oldalt, az orr jobbra."""
+    gap = 14; rowh = 22; maxw = max(r[0] for r in rows); n = len(rows)
+    W = maxw * gap + 130; H = (n + (1 if found_ch else 0)) * rowh + 40; body = ""; y = 26
+    if found_ch:
+        for j in range(found_ch): body += sym("ch", 60 + j * gap + gap / 2, y, math.pi / 2, 6)
+        body += text(20, y + 4, "lsz" if lang == "hu" else ("Lm" if lang == "de" else "ch"), 9, SOFT); y += rowh
+    for i, (w, mark) in enumerate(rows):
+        for j in range(w):
+            col = INK
+            if mark == "inc" and j == w - 1: col = INC
+            if mark == "dec" and (j == 0 or j == w - 1): col = DEC
+            body += sym("sc", 60 + j * gap + gap / 2, y + i * rowh, -math.pi / 2, 5.5, col)
+        if i == 0 or (i + 1) % 2 == 0 or i == n - 1:
+            body += text(52, y + i * rowh + 4, str(i + 1), 10, SOFT, "end")
+    return svg(W, H, body)
+
+
 def granny_chart(rounds, lang):
     """Klasszikus nagymama-négyzet. 1. kör: oldalanként 1 csoport (3 ep), sarkokban 2 lsz.
     n. kör (n≥2): sarkokban 3 ep, 2 lsz, 3 ep; oldalanként n-2 közbenső 3 ep-csoport; a csoportok között 1 lsz."""
@@ -210,6 +229,11 @@ def shape(kind, lang, **k):
               + text(330, 120, k["eyes"], 10, INK, "start") + f'<path d="M246,124L326,116" stroke="{SOFT}"/>'
               + text(330, 166, k["wings"], 10, INK, "start") + f'<path d="M318,162L326,163" stroke="{SOFT}"/>' + dim(345, 50, 345, 250, k["h"], 26))
         W = 480
+    elif kind == "stocking":
+        b += (f'<path d="M150,40 L230,40 L230,170 Q300,165 310,205 Q312,250 270,252 L180,252 Q150,252 150,220 Z" fill="#d94a3d" stroke="{S}" stroke-width="2"/>'
+              f'<rect x="146" y="34" width="88" height="30" rx="4" fill="#ffffff" stroke="{S}" stroke-width="2"/>'
+              f'<path d="M150,36 q-14,-26 10,-30" fill="none" stroke="{S}" stroke-width="2"/>'
+              + dim(150, 272, 312, 272, k["w"]) + dim(340, 34, 340, 252, k["h"], 26))
     elif kind == "basket":
         b += (f'<path d="M90,70 L330,70 L330,240 Q330,250 320,250 L100,250 Q90,250 90,240z" fill="{F}" stroke="{S}" stroke-width="2"/>'
               f'<rect x="130" y="82" width="40" height="14" rx="7" fill="white" stroke="{S}"/><rect x="250" y="82" width="40" height="14" rx="7" fill="white" stroke="{S}"/>'
@@ -222,4 +246,4 @@ def render(fig, lang):
     f = fig["fn"]; a = dict(fig.get("args", {}))
     if f == "shape":
         kind = a.pop("kind"); lab = {kk: (v[lang] if isinstance(v, dict) else v) for kk, v in a.items()}; return shape(kind, lang, **lab)
-    return {"circle_chart": circle_chart, "row_chart": row_chart, "granny_chart": granny_chart, "snowflake_chart": snowflake_chart, "heart_chart": heart_chart}[f](lang=lang, **a)
+    return {"circle_chart": circle_chart, "row_chart": row_chart, "granny_chart": granny_chart, "snowflake_chart": snowflake_chart, "heart_chart": heart_chart, "stocking_chart": stocking_chart}[f](lang=lang, **a)

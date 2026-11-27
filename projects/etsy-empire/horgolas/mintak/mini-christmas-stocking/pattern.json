@@ -1,0 +1,307 @@
+{
+ "slug": "mini-christmas-stocking",
+ "statusz": "kesz",
+ "langs": [
+  "en",
+  "de"
+ ],
+ "name_en": "Mini Christmas Stocking Ornament – Crochet Pattern",
+ "name_de": "Mini-Nikolausstiefel Anhänger – Häkelanleitung",
+ "tagline_en": "Two flat pieces in single crochet, joined and finished with a white cuff and a hanging loop. About 1 hour.",
+ "tagline_de": "Zwei flache Teile in festen Maschen, zusammengehäkelt, mit weißem Umschlag und Aufhänger. Ca. 1 Stunde.",
+ "level_en": "2/6 – Easy",
+ "level_de": "2/6 – Leicht",
+ "size_en": "approx. 6.5 cm wide × 10 cm tall (2.5 × 4 in) with worsted yarn",
+ "size_de": "ca. 6,5 cm breit × 10 cm hoch mit mittelstarkem Garn",
+ "hook": "4 mm (US G/6)",
+ "gauge_en": "Not critical. Keep stitches firm.",
+ "gauge_de": "Nicht entscheidend. Fest häkeln.",
+ "materials": [
+  {
+   "text_en": "Worsted / aran weight cotton or acrylic yarn: red (about 8 g), white (3 g)",
+   "text_de": "Mittelstarkes Baumwoll- oder Acrylgarn: rot (ca. 8 g), weiß (3 g)"
+  },
+  {
+   "text_en": "4 mm crochet hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4 mm, Wollnadel, Schere"
+  },
+  {
+   "text_en": "Optional: a small bell or a mini candy cane to tuck inside",
+   "text_de": "Optional: ein kleines Glöckchen oder eine Mini-Zuckerstange zum Hineinstecken"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sc",
+  "sc2tog",
+  "sl st",
+  "st",
+  "inc"
+ ],
+ "notes": [
+  {
+   "text_en": "Start: Row 1 is the top edge of the leg; you work downwards and the foot grows to one side. Written in US terms; a UK table is above.",
+   "text_de": "Anfang: Reihe 1 ist der obere Rand des Schafts; du häkelst nach unten, der Fuß wächst zu einer Seite."
+  },
+  {
+   "text_en": "The number in brackets is the stitch count at the end of the row. The turning ch 1 does not count as a stitch.",
+   "text_de": "Die Zahl in Klammern ist die Maschenzahl am Reihenende. Die Wende-Lm zählt nicht als Masche."
+  },
+  {
+   "text_en": "Bigger stocking: use chunky yarn and a 5–6 mm hook; the same rows give about 9 × 14 cm.",
+   "text_de": "Größerer Stiefel: dickes Garn und Nadel 5–6 mm; dieselben Reihen ergeben ca. 9 × 14 cm."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Stocking piece (red, make 2)",
+   "title_de": "Stiefelteil (rot, 2x häkeln)",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Ch 9. Sc in 2nd ch from hook and in each ch across. Turn. This is the top of the leg.",
+     "de": "9 Lm anschlagen. 1 fM in die 2. Lm ab Nadel und in jede weitere Lm. Wenden. Das ist der obere Rand des Schafts.",
+     "count": 8
+    },
+    {
+     "label_en": "Rows 2–10",
+     "label_de": "Reihen 2–10",
+     "en": "Ch 1 (does not count as a st), sc in each st across. Turn. (9 rows)",
+     "de": "1 Lm (zählt nicht als M), 1 fM in jede M. Wenden. (9 Reihen)",
+     "count": 8,
+     "prev": 8,
+     "change": 0
+    },
+    {
+     "label_en": "Row 11",
+     "label_de": "Reihe 11",
+     "en": "Ch 1, sc in the next 7 sts, 2 sc in the last st. Turn. The increases always go on the same edge: this edge becomes the toe.",
+     "de": "1 Lm, 7 fM, 2 fM in die letzte M. Wenden. Die Zunahmen liegen immer am selben Rand: Dieser Rand wird die Spitze.",
+     "count": 9,
+     "prev": 8,
+     "change": 1
+    },
+    {
+     "label_en": "Row 12",
+     "label_de": "Reihe 12",
+     "en": "Ch 1, 2 sc in the first st (toe edge), sc in each st across. Turn.",
+     "de": "1 Lm, 2 fM in die erste M (Spitzenrand), 1 fM in jede weitere M. Wenden.",
+     "count": 10,
+     "prev": 9,
+     "change": 1
+    },
+    {
+     "label_en": "Row 13",
+     "label_de": "Reihe 13",
+     "en": "Ch 1, sc in the next 9 sts, 2 sc in the last st. Turn.",
+     "de": "1 Lm, 9 fM, 2 fM in die letzte M. Wenden.",
+     "count": 11,
+     "prev": 10,
+     "change": 1
+    },
+    {
+     "label_en": "Row 14",
+     "label_de": "Reihe 14",
+     "en": "Ch 1, 2 sc in the first st, sc in each st across. Turn.",
+     "de": "1 Lm, 2 fM in die erste M, 1 fM in jede weitere M. Wenden.",
+     "count": 12,
+     "prev": 11,
+     "change": 1
+    },
+    {
+     "label_en": "Rows 15–16",
+     "label_de": "Reihen 15–16",
+     "en": "Ch 1, sc in each st across. Turn. (2 rows)",
+     "de": "1 Lm, 1 fM in jede M. Wenden. (2 Reihen)",
+     "count": 12,
+     "prev": 12,
+     "change": 0
+    },
+    {
+     "label_en": "Row 17",
+     "label_de": "Reihe 17",
+     "en": "Ch 1, sc2tog, sc in the next 8 sts, sc2tog. Turn. This rounds the heel and the toe.",
+     "de": "1 Lm, 2 fM zus abm, 8 fM, 2 fM zus abm. Wenden. So werden Ferse und Spitze rund.",
+     "count": 10,
+     "prev": 12,
+     "change": -2
+    },
+    {
+     "label_en": "Row 18",
+     "label_de": "Reihe 18",
+     "en": "Ch 1, sc2tog, sc in the next 6 sts, sc2tog. Fasten off. Make a second piece exactly the same.",
+     "de": "1 Lm, 2 fM zus abm, 6 fM, 2 fM zus abm. Faden abschneiden. Ein zweites Teil genauso häkeln.",
+     "count": 8,
+     "prev": 10,
+     "change": -2
+    }
+   ]
+  },
+  {
+   "title_en": "Joining",
+   "title_de": "Zusammenhäkeln",
+   "rows": [
+    {
+     "label_en": "Edge",
+     "label_de": "Rand",
+     "en": "Lay piece 2 exactly on top of piece 1 with both toes pointing the same way. With red, sc through both layers along the back edge, around the heel, along the sole and around the toe and up the front edge, leaving the top (rows 1) open. Work 3 sc into each corner of the toe. Fasten off.",
+     "de": "Teil 2 genau auf Teil 1 legen, beide Spitzen zeigen in dieselbe Richtung. Mit Rot durch beide Lagen fM häkeln: hinterer Rand, Ferse, Sohle, Spitze und vorderer Rand; oben (Reihe 1) offen lassen. In jede Ecke der Spitze 3 fM. Faden abschneiden."
+    }
+   ]
+  },
+  {
+   "title_en": "Cuff (white)",
+   "title_de": "Umschlag (weiß)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "With white, join at the back top corner. Sc in each st along the top of both pieces (8 + 8). Join with a sl st.",
+     "de": "Mit Weiß an der hinteren oberen Ecke anschlingen. 1 fM in jede M am oberen Rand beider Teile (8 + 8). Mit 1 Km schließen.",
+     "count": 16
+    },
+    {
+     "label_en": "Rounds 2–3",
+     "label_de": "Runden 2–3",
+     "en": "Ch 1, sc in each st around. Join with a sl st. (2 rounds)",
+     "de": "1 Lm, 1 fM in jede M. Mit 1 Km schließen. (2 Runden)",
+     "count": 16,
+     "prev": 16,
+     "change": 0
+    },
+    {
+     "label_en": "Loop",
+     "label_de": "Aufhänger",
+     "en": "Ch 12, sl st into the same st at the back corner. Fasten off and weave in.",
+     "de": "12 Lm, 1 Km in dieselbe M an der hinteren Ecke. Faden abschneiden und vernähen."
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Weave in all ends on the inside.",
+   "text_de": "Alle Fäden innen vernähen."
+  },
+  {
+   "text_en": "Optional: sew a small bell to the cuff at round 2 of the cuff (not for children under 3).",
+   "text_de": "Optional: ein kleines Glöckchen an Runde 2 des Umschlags nähen (nicht für Kinder unter 3)."
+  },
+  {
+   "text_en": "Happy hooking!",
+   "text_de": "Viel Spaß beim Häkeln!"
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "stocking",
+    "w": {
+     "hu": "≈ 6,5 cm",
+     "en": "≈ 6.5 cm (2.5 in)",
+     "de": "≈ 6,5 cm"
+    },
+    "h": {
+     "hu": "≈ 10 cm",
+     "en": "≈ 10 cm (4 in)",
+     "de": "≈ 10 cm"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape",
+   "cap_de": "Fertige Form"
+  },
+  {
+   "fn": "stocking_chart",
+   "args": {
+    "rows": [
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      8,
+      ""
+     ],
+     [
+      9,
+      "inc"
+     ],
+     [
+      10,
+      "inc"
+     ],
+     [
+      11,
+      "inc"
+     ],
+     [
+      12,
+      "inc"
+     ],
+     [
+      12,
+      ""
+     ],
+     [
+      12,
+      ""
+     ],
+     [
+      10,
+      "dec"
+     ],
+     [
+      8,
+      "dec"
+     ]
+    ],
+    "found_ch": 9
+   },
+   "cap_hu": "Csizmadarab felülről lefelé, piros = szaporítás az orr felé, kék = fogyasztás",
+   "cap_en": "Stocking piece, worked top down: red = increases at the toe edge, blue = decreases",
+   "cap_de": "Stiefelteil von oben nach unten: rot = Zunahmen am Spitzenrand, blau = Abnahmen"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "inc",
+  "dec"
+ ]
+}

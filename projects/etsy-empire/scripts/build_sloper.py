@@ -104,7 +104,31 @@ def draft_rect_skirt(m, length=60.0, fullness=1.5, casing=3.5):
     return [pc]
 
 
-DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt, "rect_skirt": draft_rect_skirt}
+# Karácsonyi zokni (2026-11-27): nem testméretes, 3 méret. A méretkulcsot (S/M/L) a SIZES csípőértékéből vesszük, hogy a közös layout működjön.
+STOCKING = {94: ("S", 25.0, 11.0, 17.0), 100: ("M", 40.0, 16.0, 25.0), 108: ("L", 50.0, 20.0, 31.0)}  # név, magasság, szár szélesség, talphossz (kész, cm)
+
+
+def draft_stocking(m, cuff=8.0):
+    """Csizma alakú karácsonyi zokni: zoknitest (2 külső tükrözve + 2 bélés), hajtott mandzsetta, akasztó. Varrásráhagyás nélkül."""
+    name, H, w, L = STOCKING[m["hip"]]
+    fh = w * 0.62                                    # lábfej magassága
+    out = [(0.0, 0.0), (w, 0.0), (w, H - fh)]
+    out += qbez((w, H - fh), (L - fh * 0.25, H - fh), (L, H - fh * 0.45))[1:]
+    out += qbez((L, H - fh * 0.45), (L, H), (L - fh * 0.5, H))[1:]
+    out += [(fh * 0.5, H)]
+    out += qbez((fh * 0.5, H), (0.0, H), (0.0, H - fh * 0.6))[1:]
+    out += [(0.0, 0.0)]
+    body = dict(name="stocking", outline=out, darts=[], hipline=None, grain=((w * 0.5, 3), (w * 0.5, H - fh - 2)), fold=False,
+                cut="2+2", w=L, h=H, size=name, height=H, width=w, foot=L)
+    cw = 2 * w; ch = 2 * cuff
+    band = dict(name="cuff", outline=[(0, 0), (cw, 0), (cw, ch), (0, ch), (0, 0)], darts=[], hipline=((0, cuff), (cw, cuff)),
+                grain=((cw * 0.5, 2), (cw * 0.5, ch - 2)), fold=False, cut="1", w=cw, h=ch)
+    loop = dict(name="loop", outline=[(0, 0), (3, 0), (3, 15), (0, 15), (0, 0)], darts=[], hipline=None,
+                grain=((1.5, 2), (1.5, 13)), fold=False, cut="1", w=3, h=15)
+    return [body, band, loop]
+
+
+DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt, "rect_skirt": draft_rect_skirt, "stocking": draft_stocking}
 
 
 def layout(p):
@@ -190,6 +214,8 @@ def main():
     # méretek ellenőrzése: kész derék/csípő vs. táblázat
     for s in p["sizes"]:
         pcs = DRAFTS[p["type"]](SIZES[s], **p.get("params", {}))
+        if p["type"] == "stocking":
+            b, cf, _ = pcs; print(f"{b['size']}: zokni {b['height']:.0f} cm magas, szár {b['width']:.0f} cm, talp {b['foot']:.0f} cm; mandzsetta {cf['w']:.0f}×{cf['h']:.0f} cm (= 2×szár)"); continue
         if p["type"] == "rect_skirt":
             pn = pcs[0]; print(f"{s}: teljes bőség {pn['w'] * 4:.1f} cm = (csípő {SIZES[s]['hip']} + 4) × 1,5; gumi {pn['elastic']} cm"); continue
         if p["type"] == "circle_skirt":

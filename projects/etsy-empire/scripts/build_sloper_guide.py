@@ -30,7 +30,7 @@ def main():
         secs = "".join(f"<h2>{t}</h2>{body}" for t, body in g["sections"])
         html = f"""<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><title>{p['name_' + lang]}</title><style>{CSS}</style></head><body>
 <h1>{p['name_' + lang]}</h1><div class="sub">{g['sub']}</div><img src="layout.png">
-<h2>{g['chart_title']}</h2>{chart(lang, p['sizes'])}<div class="box">{g['chart_note']}</div>{secs}
+<h2>{g['chart_title']}</h2>{g.get('chart_html') or chart(lang, p['sizes'])}<div class="box">{g['chart_note']}</div>{secs}
 <p style="font-size:8.5pt;color:#777;margin-top:20px">© AureliaVenn · {g['license']}</p></body></html>"""
         f = folder / f"{slug}-Guide-{lang.upper()}.html"; f.write_text(html, encoding="utf-8")
         subprocess.run(["node", str(ROOT / "scripts" / "render_pdf.js"), str(f)], check=True)
@@ -44,14 +44,22 @@ def main():
     im = lay.copy(); im.thumbnail((1800, 1500)); c.paste(im, ((2000 - im.width) // 2, 300))
     d.rounded_rectangle([350, 1850, 1650, 1960], 50, fill=(63, 95, 115)); d.text((1000, 1905), p["img"]["band"], font=ImageFont.truetype(FB, 52), fill="white", anchor="mm")
     c.save(k / "01-cover-square.jpg", quality=92)
-    c, d = canvas_("Size chart (body measurements)", "XS to 3X · cm and inches"); y = 360
-    f1 = ImageFont.truetype(FB, 54); f2 = ImageFont.truetype(FR, 52)
-    for i, h in enumerate(("Size", "Bust", "Waist", "Hip")): d.text((300 + i * 430, y), h, font=f1, fill=(63, 95, 115), anchor="mm")
-    for s in p["sizes"]:
-        y += 170; m = SIZES[s]
-        for i, v in enumerate((s, f"{m['bust']} / {m['bust']/2.54:.0f}\"", f"{m['waist']} / {m['waist']/2.54:.0f}\"", f"{m['hip']} / {m['hip']/2.54:.0f}\"")):
-            d.text((300 + i * 430, y), v, font=f1 if i == 0 else f2, fill=(40, 40, 40), anchor="mm")
-    d.text((1000, 1880), "Choose by hip measurement for skirts", font=f2, fill=(90, 90, 90), anchor="mm"); c.save(k / "02-size-chart.jpg", quality=92)
+    if p.get("size_rows"):
+        c, d = canvas_(p["size_rows"]["title"], p["size_rows"]["sub"]); f1 = ImageFont.truetype(FB, 54); f2 = ImageFont.truetype(FR, 52); y = 420
+        for i, h in enumerate(p["size_rows"]["head"]): d.text((300 + i * 470, y), h, font=f1, fill=(63, 95, 115), anchor="mm")
+        for row in p["size_rows"]["rows"]:
+            y += 200
+            for i, v in enumerate(row): d.text((300 + i * 470, y), v, font=f1 if i == 0 else f2, fill=(40, 40, 40), anchor="mm")
+        c.save(k / "02-size-chart.jpg", quality=92)
+    else:
+      c, d = canvas_("Size chart (body measurements)", "XS to 3X · cm and inches"); y = 360
+      f1 = ImageFont.truetype(FB, 54); f2 = ImageFont.truetype(FR, 52)
+      for i, h in enumerate(("Size", "Bust", "Waist", "Hip")): d.text((300 + i * 430, y), h, font=f1, fill=(63, 95, 115), anchor="mm")
+      for s in p["sizes"]:
+          y += 170; m = SIZES[s]
+          for i, v in enumerate((s, f"{m['bust']} / {m['bust']/2.54:.0f}\"", f"{m['waist']} / {m['waist']/2.54:.0f}\"", f"{m['hip']} / {m['hip']/2.54:.0f}\"")):
+              d.text((300 + i * 430, y), v, font=f1 if i == 0 else f2, fill=(40, 40, 40), anchor="mm")
+      d.text((1000, 1880), "Choose by hip measurement for skirts", font=f2, fill=(90, 90, 90), anchor="mm"); c.save(k / "02-size-chart.jpg", quality=92)
     c, d = canvas_("What's included", "Instant PDF download")
     for i, t in enumerate(p["img"]["included"]): d.text((220, 420 + i * 175), "✓  " + t, font=ImageFont.truetype(FR, 62), fill=(40, 40, 40))
     c.save(k / "03-included.jpg", quality=92)
