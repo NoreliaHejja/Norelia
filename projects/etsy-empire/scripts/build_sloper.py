@@ -128,7 +128,29 @@ def draft_stocking(m, cuff=8.0):
     return [body, band, loop]
 
 
-DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt, "rect_skirt": draft_rect_skirt, "stocking": draft_stocking}
+# Bélelt vászontáska (2026-11-28): 3 méret, a méretkulcs a SIZES csípőértékéből (mint a zoknié).
+TOTE = {94: ("S", 30.0, 32.0, 0.0, 55.0), 100: ("M", 38.0, 38.0, 8.0, 60.0), 108: ("L", 44.0, 40.0, 12.0, 65.0)}  # név, kész szélesség, magasság, talpmélység, fülhossz
+
+
+def draft_tote(m):
+    """Táskatest (külső 2 + bélés 2, kivágott sarkokkal a talphoz), belső zseb, 2 fül. Varrásráhagyás nélkül."""
+    name, W, H, D, strap = TOTE[m["hip"]]
+    pw = W + D; ph = H + D / 2; c = D / 2
+    if c > 0:
+        out = [(0, 0), (pw, 0), (pw, ph - c), (pw - c, ph - c), (pw - c, ph), (c, ph), (c, ph - c), (0, ph - c), (0, 0)]
+    else:
+        out = [(0, 0), (pw, 0), (pw, ph), (0, ph), (0, 0)]
+    body = dict(name="body", outline=out, darts=[], hipline=None, grain=((pw * 0.5, 4), (pw * 0.5, ph - c - 4)), fold=False,
+                cut="2+2", w=pw, h=ph, size=name, W=W, H=H, D=D)
+    zw, zh = round(W * 0.55), round(H * 0.45)
+    pocket = dict(name="pocket", outline=[(0, 0), (zw, 0), (zw, zh), (0, zh), (0, 0)], darts=[], hipline=None,
+                  grain=((zw * 0.5, 2), (zw * 0.5, zh - 2)), fold=False, cut="1", w=zw, h=zh)
+    st = dict(name="strap", outline=[(0, 0), (10, 0), (10, strap), (0, strap), (0, 0)], darts=[], hipline=None,
+              grain=((5, 4), (5, strap - 4)), fold=False, cut="2", w=10, h=strap, strap=strap)
+    return [body, pocket, st]
+
+
+DRAFTS = {"skirt_block": draft_skirt_block, "aline_skirt": draft_aline_skirt, "circle_skirt": draft_circle_skirt, "rect_skirt": draft_rect_skirt, "stocking": draft_stocking, "tote": draft_tote}
 
 
 def layout(p):
@@ -214,6 +236,8 @@ def main():
     # méretek ellenőrzése: kész derék/csípő vs. táblázat
     for s in p["sizes"]:
         pcs = DRAFTS[p["type"]](SIZES[s], **p.get("params", {}))
+        if p["type"] == "tote":
+            b, pk, st = pcs; print(f"{b['size']}: kész táska {b['W']:.0f}×{b['H']:.0f} cm, talp {b['D']:.0f} cm; szabott test {b['w']:.0f}×{b['h']:.0f} cm (= szél.+talp × mag.+talp/2); zseb {pk['w']}×{pk['h']}; fül 10×{st['strap']:.0f}"); continue
         if p["type"] == "stocking":
             b, cf, _ = pcs; print(f"{b['size']}: zokni {b['height']:.0f} cm magas, szár {b['width']:.0f} cm, talp {b['foot']:.0f} cm; mandzsetta {cf['w']:.0f}×{cf['h']:.0f} cm (= 2×szár)"); continue
         if p["type"] == "rect_skirt":

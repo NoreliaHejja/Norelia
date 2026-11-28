@@ -1,0 +1,146 @@
+{
+ "slug": "lined-tote-bag",
+ "type": "tote",
+ "sizes": [
+  "S",
+  "M",
+  "L"
+ ],
+ "params": {},
+ "name_en": "Lined Tote Bag Sewing Pattern with Pocket, 3 Sizes",
+ "name_de": "Schnittmuster gefütterte Stofftasche mit Innentasche, 3 Größen",
+ "labels": {
+  "en": {
+   "body": "Bag body",
+   "cut_body": "2 outer + 2 lining",
+   "pocket": "Pocket",
+   "cut_pocket": "1 (or 2 for a lined pocket)",
+   "strap": "Strap",
+   "cut_strap": "2",
+   "cut": "Cut",
+   "fold": "PLACE ON FOLD",
+   "nosa": "No seam allowance – add 1 cm",
+   "hipline": "",
+   "front": "Front",
+   "back": "Back"
+  },
+  "de": {
+   "body": "Taschenteil",
+   "cut_body": "2x Außenstoff + 2x Futter",
+   "pocket": "Innentasche",
+   "cut_pocket": "1x (oder 2x gefüttert)",
+   "strap": "Henkel",
+   "cut_strap": "2x",
+   "cut": "Zuschnitt",
+   "fold": "STOFFBRUCH",
+   "nosa": "Ohne Nahtzugabe – 1 cm zugeben",
+   "hipline": "",
+   "front": "Vorderteil",
+   "back": "Rückenteil"
+  }
+ },
+ "img": {
+  "title": "Lined Tote Bag · Sewing Pattern",
+  "sub": "3 sizes: S, M, L · A4, Letter, A0",
+  "band": "PDF PATTERN · INSTANT DOWNLOAD",
+  "included": [
+   "Nested pattern, 3 sizes (S, M, L)",
+   "Boxed corners for M and L",
+   "Inside pocket + 2 straps",
+   "Beginner friendly, about 2 hours",
+   "A4 + US Letter + A0 files",
+   "Sewing guide in English + German",
+   "Great for gifts and markets"
+  ]
+ },
+ "size_rows": {
+  "title": "Finished sizes",
+  "sub": "Width · height · base depth",
+  "head": [
+   "Size",
+   "Width",
+   "Height",
+   "Base"
+  ],
+  "rows": [
+   [
+    "S",
+    "30 cm / 12\"",
+    "32 cm / 12.5\"",
+    "flat"
+   ],
+   [
+    "M",
+    "38 cm / 15\"",
+    "38 cm / 15\"",
+    "8 cm / 3\""
+   ],
+   [
+    "L",
+    "44 cm / 17\"",
+    "40 cm / 16\"",
+    "12 cm / 4.7\""
+   ]
+  ]
+ },
+ "guide": {
+  "en": {
+   "sub": "3 nested sizes · no seam allowance · A4/Letter or A0",
+   "chart_title": "Finished sizes",
+   "chart_html": "<table><tr><th>Size</th><th>Width</th><th>Height</th><th>Base depth</th><th>Strap (cut)</th></tr><tr><td><b>S</b></td><td>30 cm</td><td>32 cm</td><td>flat</td><td>10 × 55 cm</td></tr><tr><td><b>M</b></td><td>38 cm</td><td>38 cm</td><td>8 cm</td><td>10 × 60 cm</td></tr><tr><td><b>L</b></td><td>44 cm</td><td>40 cm</td><td>12 cm</td><td>10 × 65 cm</td></tr></table>",
+   "chart_note": "S is a flat library or kids' bag, M is an everyday tote, L holds groceries or a laptop. Cut each body piece as wide as width + base and as tall as height + half the base.",
+   "license": "Personal use and small-batch handmade sales. Please don't share or resell the pattern files. Drafted with the help of software.",
+   "sections": [
+    [
+     "Before you start",
+     "<ul><li>A fully lined tote with an inside pocket and two shoulder straps. Sizes M and L have boxed corners so the bag stands. Beginner friendly, about 2 hours.</li><li><b>No seam allowance included</b>: add 1 cm (3/8 in) on all edges.</li><li>Outer fabric: canvas, denim, heavy cotton or linen. Lining: quilting cotton.</li></ul>"
+    ],
+    [
+     "Printing",
+     "<ol><li>Print at <b>100% / actual size</b> and check the test square on page A1.</li><li>All pieces are rectangles, so you can also draw them straight onto the fabric with the measurements in the table.</li></ol>"
+    ],
+    [
+     "You will need",
+     "<ul><li>Outer fabric: 0.5 m (S), 0.7 m (M), 0.8 m (L) of 140 cm wide fabric (straps included)</li><li>Lining: 0.4 m (S), 0.5 m (M), 0.6 m (L)</li><li>Optional: medium fusible interfacing for the outer fabric</li></ul>"
+    ],
+    [
+     "Sewing steps",
+     "<ol><li>Fold each strap lengthwise into quarters (to 2.5 cm), press and topstitch both long edges.</li><li>Hem the top of the pocket, press the other edges under 1 cm and sew it to one lining piece, 8 cm below the top edge.</li><li>Sew the two outer pieces right sides together along the sides and the bottom. Do the same with the lining, leaving a 12 cm gap in the bottom seam.</li><li>Boxed corners (M, L): pull each cut-out corner open so the side seam lies on the bottom seam and sew straight across.</li><li>Turn the outer bag right side out. Pin the straps to the top edge, 8 cm from each side seam (S: 6 cm), loops hanging down.</li><li>Slip the outer bag into the lining, right sides together, and sew around the top edge.</li><li>Turn through the gap, close the gap, push the lining in and topstitch around the top 0.5 cm from the edge.</li></ol>"
+    ],
+    [
+     "Make it yours",
+     "<ul><li>Add a magnetic snap or a zip pocket.</li><li>Use a contrast fabric for the base (cut the bottom 10 cm separately).</li><li>Sew a set of three sizes as a gift.</li></ul>"
+    ]
+   ]
+  },
+  "de": {
+   "sub": "3 Größen ineinander · ohne Nahtzugabe · A4/Letter oder A0",
+   "chart_title": "Fertigmaße",
+   "chart_html": "<table><tr><th>Größe</th><th>Breite</th><th>Höhe</th><th>Bodentiefe</th><th>Henkel (Zuschnitt)</th></tr><tr><td><b>S</b></td><td>30 cm</td><td>32 cm</td><td>flat</td><td>10 × 55 cm</td></tr><tr><td><b>M</b></td><td>38 cm</td><td>38 cm</td><td>8 cm</td><td>10 × 60 cm</td></tr><tr><td><b>L</b></td><td>44 cm</td><td>40 cm</td><td>12 cm</td><td>10 × 65 cm</td></tr></table>",
+   "chart_note": "S ist eine flache Bücher- oder Kindertasche, M die Alltagstasche, L passt für Einkäufe oder den Laptop. Jedes Taschenteil ist so breit wie Breite + Boden und so hoch wie Höhe + halber Boden.",
+   "license": "Privater Gebrauch und kleine handgemachte Mengen. Schnittdateien bitte nicht weitergeben oder verkaufen. Mit Software konstruiert.",
+   "sections": [
+    [
+     "Bevor du anfängst",
+     "<ul><li>Eine komplett gefütterte Stofftasche mit Innentasche und zwei Schulterhenkeln. M und L haben einen Boden, damit die Tasche steht. Anfängerfreundlich, etwa 2 Stunden.</li><li><b>Ohne Nahtzugabe</b>: an allen Kanten 1 cm zugeben.</li><li>Außenstoff: Canvas, Jeans, feste Baumwolle oder Leinen. Futter: Patchworkstoff.</li></ul>"
+    ],
+    [
+     "Drucken",
+     "<ol><li>In <b>100 % / Originalgröße</b> drucken, Testquadrat auf Seite A1 prüfen.</li><li>Alle Teile sind Rechtecke: Du kannst sie auch direkt mit den Maßen aus der Tabelle auf den Stoff zeichnen.</li></ol>"
+    ],
+    [
+     "Du brauchst",
+     "<ul><li>Außenstoff: 0,5 m (S), 0,7 m (M), 0,8 m (L) bei 140 cm Breite (inkl. Henkel)</li><li>Futter: 0,4 m (S), 0,5 m (M), 0,6 m (L)</li><li>Optional: mittelfeste Bügeleinlage für den Außenstoff</li></ul>"
+    ],
+    [
+     "Nähschritte",
+     "<ol><li>Henkel längs auf ein Viertel falten (2,5 cm), bügeln, beide Längskanten absteppen.</li><li>Innentasche oben säumen, übrige Kanten 1 cm umbügeln und 8 cm unter der Oberkante auf ein Futterteil nähen.</li><li>Außenteile rechts auf rechts an Seiten und Boden zusammennähen. Futter genauso, im Boden 12 cm Wendeöffnung lassen.</li><li>Boden (M, L): jede ausgeschnittene Ecke auseinanderziehen, Seitennaht auf Bodennaht legen und quer abnähen.</li><li>Außentasche wenden. Henkel 8 cm neben jeder Seitennaht (S: 6 cm) an die Oberkante stecken, Schlaufen nach unten.</li><li>Außentasche ins Futter schieben (rechts auf rechts), Oberkante rundum nähen.</li><li>Durch die Öffnung wenden, Öffnung schließen, Futter hineinschieben, Oberkante 0,5 cm knappkantig absteppen.</li></ol>"
+    ],
+    [
+     "Ideen",
+     "<ul><li>Magnetverschluss oder Reißverschlusstasche ergänzen.</li><li>Boden aus Kontraststoff (untere 10 cm separat zuschneiden).</li><li>Ein Set in drei Größen als Geschenk nähen.</li></ul>"
+    ]
+   ]
+  }
+ }
+}

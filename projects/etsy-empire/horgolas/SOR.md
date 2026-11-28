@@ -9,9 +9,9 @@ Max. 6 minta lehet egyszerre `tesztre_var` állapotban.
 | 2 | mini-door-wreath | Mini Christmas Door Wreath (EN + DE) | kezdő, ~1,5 óra | 3,99 € | tesztre_var (2026-11-23) |
 | 2b | crochet-snowflake-ornament | Easy Crochet Snowflake (3 kör) | könnyű | 3,99 € | kész, feltöltésre vár (2026-11-24) |
 | 2c | crochet-heart-applique | Easy Crochet Heart Applique (1 kör) | könnyű | 2,99 € | kész, feltöltésre vár (2026-11-24) |
-| 3 | – | Mini Gingerbread Man Ornament | kezdő | 3,99 € | ötlet |
+| 3 | gingerbread-man-ornament | Mini Gingerbread Man Ornament | kezdő | 2,99 € | ÉLES 2026-11-28 #4627372952 |
 | 4 | – | Small Amigurumi Turtle (12 cm) | kezdő+ | 5,49 € | ötlet |
-| 5 | – | Chunky Beanie (felnőtt S/M/L) | kezdő | 4,49 € | ötlet |
+| 5 | chunky-beanie | Chunky Beanie (felnőtt S/M/L) | kezdő | 4,49 € | ÉLES 2026-11-28 #4627372906 |
 | 6 | – | Granny Square Basket | kezdő+ | 4,49 € | ötlet |
 
 ## Magyar tesztcsomag – 6 nehézségi szint (Nóra, 2026-11-24)

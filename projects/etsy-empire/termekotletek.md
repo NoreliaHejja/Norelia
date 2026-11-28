@@ -34,8 +34,8 @@ Hét minden napján: 2 új termék (a két legfelső „ötlet” sor) + 1 kieg�
 | A3 | Christmas Gift Tags & Wrapping Labels (60 db, 4 stílus, színes) | magas volumen, olcsó, impulzusvásárlás | 3,90 € | kész (2026-11-26, 2,99 €, 5 stílus, feltöltésre vár) |
 | A4 | Kids Christmas Activity Book (30 oldal: színező, labirintus, pontösszekötő) | magas kereslet + KDP-képes (24+ oldal) | 5,90 € | ötlet |
 | A5 | Christmas Wall Art Set (3 nyomtatható kép, cozy vintage, több méret) | falikép = legnagyobb volumenű digitális kategória | 6,90 € | kész (2026-11-27, 3,99 €, #4626653348) |
-| A6 | Christmas Dinner & Holiday Hosting Planner | ünnepi szervezés, Emily-persona | 4,90 € | ötlet |
-| A7 | Kids Christmas Wish List + Thank-You Notes | gyors, olcsó, dec. közepéig fut | 3,90 € | ötlet |
+| A6 | Christmas Dinner & Holiday Hosting Planner | ünnepi szervezés, Emily-persona | 4,90 € | kész (2026-11-28, 3,99 €, #4627360723) |
+| A7 | Kids Christmas Wish List + Thank-You Notes | gyors, olcsó, dec. közepéig fut | 3,90 € | kész (2026-11-28, 3,99 €, #4627360673) |
 | A8 | Christmas Coloring Pages for Kids (25 oldal) | örökzöld, alacsony ár | 3,90 € | kész (2026-11-13) |
 
 ## Dec. 10-től: új év, 2027

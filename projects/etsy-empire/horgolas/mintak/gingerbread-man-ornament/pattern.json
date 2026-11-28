@@ -1,0 +1,227 @@
+{
+ "slug": "gingerbread-man-ornament",
+ "statusz": "kesz",
+ "langs": [
+  "en",
+  "de"
+ ],
+ "name_en": "Mini Gingerbread Man Ornament – Crochet Pattern",
+ "name_de": "Mini-Lebkuchenmann Anhänger – Häkelanleitung",
+ "tagline_en": "Flat pieces in single crochet (head, body, arms, legs) sewn together, with white yarn details. About 1.5 hours.",
+ "tagline_de": "Flache Teile in festen Maschen (Kopf, Körper, Arme, Beine), zusammengenäht, mit weißen Details. Ca. 1,5 Stunden.",
+ "level_en": "2/6 – Easy",
+ "level_de": "2/6 – Leicht",
+ "size_en": "approx. 9 cm wide × 11 cm tall (3.5 × 4.3 in) with worsted yarn",
+ "size_de": "ca. 9 cm breit × 11 cm hoch mit mittelstarkem Garn",
+ "hook": "4 mm (US G/6)",
+ "gauge_en": "Not critical. Keep stitches firm.",
+ "gauge_de": "Nicht entscheidend. Fest häkeln.",
+ "materials": [
+  {
+   "text_en": "Worsted / aran weight cotton or acrylic yarn: light brown (about 10 g), white (2 g) for details; optional red for a bow",
+   "text_de": "Mittelstarkes Garn: hellbraun (ca. 10 g), weiß (2 g) für Details; optional rot für eine Schleife"
+  },
+  {
+   "text_en": "4 mm hook, tapestry needle, scissors",
+   "text_de": "Häkelnadel 4 mm, Wollnadel, Schere"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "sc",
+  "sl st",
+  "st",
+  "inc",
+  "MR"
+ ],
+ "notes": [
+  {
+   "text_en": "Start: make all pieces first (head, body, 2 arms, 2 legs), then sew them together. Row 1 of the body is the neck.",
+   "text_de": "Anfang: Erst alle Teile häkeln (Kopf, Körper, 2 Arme, 2 Beine), dann zusammennähen. Reihe 1 des Körpers ist der Hals."
+  },
+  {
+   "text_en": "Leave a long tail on every piece for sewing. The turning ch 1 does not count as a stitch.",
+   "text_de": "An jedem Teil einen langen Faden zum Annähen lassen. Die Wende-Lm zählt nicht als Masche."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Head (brown)",
+   "title_de": "Kopf (braun)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "Magic ring, ch 1, 6 sc into the ring. Join with a sl st.",
+     "de": "Fadenring, 1 Lm, 6 fM in den Ring. Mit 1 Km schließen.",
+     "count": 6
+    },
+    {
+     "label_en": "Round 2",
+     "label_de": "Runde 2",
+     "en": "Ch 1, 2 sc in each st around. Join.",
+     "de": "1 Lm, in jede M 2 fM. Schließen.",
+     "count": 12,
+     "prev": 6,
+     "change": 6
+    },
+    {
+     "label_en": "Round 3",
+     "label_de": "Runde 3",
+     "en": "Ch 1, *sc in the next st, 2 sc in the next st.* Repeat 6 times. Join. Fasten off with a long tail.",
+     "de": "1 Lm, *1 fM, 2 fM in die nächste M.* 6-mal wiederholen. Schließen. Langen Faden lassen.",
+     "count": 18,
+     "prev": 12,
+     "change": 6
+    }
+   ]
+  },
+  {
+   "title_en": "Body (brown)",
+   "title_de": "Körper (braun)",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Ch 7. Sc in 2nd ch from hook and in each ch across. Turn.",
+     "de": "7 Lm. 1 fM in die 2. Lm ab Nadel und in jede weitere Lm. Wenden.",
+     "count": 6
+    },
+    {
+     "label_en": "Rows 2–6",
+     "label_de": "Reihen 2–6",
+     "en": "Ch 1, sc in each st across. Turn. (5 rows) Fasten off with a long tail.",
+     "de": "1 Lm, 1 fM in jede M. Wenden. (5 Reihen) Langen Faden lassen.",
+     "count": 6,
+     "prev": 6,
+     "change": 0
+    }
+   ]
+  },
+  {
+   "title_en": "Arm (brown, make 2)",
+   "title_de": "Arm (braun, 2x)",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Ch 6. Sc in 2nd ch from hook and in each ch across. Turn.",
+     "de": "6 Lm. 1 fM in die 2. Lm ab Nadel und in jede weitere Lm. Wenden.",
+     "count": 5
+    },
+    {
+     "label_en": "Row 2",
+     "label_de": "Reihe 2",
+     "en": "Ch 1, sc in each st across. Fasten off with a long tail.",
+     "de": "1 Lm, 1 fM in jede M. Langen Faden lassen.",
+     "count": 5,
+     "prev": 5,
+     "change": 0
+    }
+   ]
+  },
+  {
+   "title_en": "Leg (brown, make 2)",
+   "title_de": "Bein (braun, 2x)",
+   "rows": [
+    {
+     "label_en": "Row 1",
+     "label_de": "Reihe 1",
+     "en": "Ch 7. Sc in 2nd ch from hook and in each ch across. Turn.",
+     "de": "7 Lm. 1 fM in die 2. Lm ab Nadel und in jede weitere Lm. Wenden.",
+     "count": 6
+    },
+    {
+     "label_en": "Row 2",
+     "label_de": "Reihe 2",
+     "en": "Ch 1, sc in each st across. Fasten off with a long tail.",
+     "de": "1 Lm, 1 fM in jede M. Langen Faden lassen.",
+     "count": 6,
+     "prev": 6,
+     "change": 0
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Sew the head to row 1 of the body, centred, overlapping the body by about 0.5 cm.",
+   "text_de": "Den Kopf mittig an Reihe 1 des Körpers nähen, ca. 0,5 cm überlappend."
+  },
+  {
+   "text_en": "Sew one arm to each side of the body at rows 1–2, pointing slightly down.",
+   "text_de": "Je einen Arm seitlich an Reihe 1–2 des Körpers nähen, leicht nach unten zeigend."
+  },
+  {
+   "text_en": "Sew the legs to row 6 of the body: one at the left edge, one at the right edge.",
+   "text_de": "Die Beine an Reihe 6 des Körpers nähen: eines am linken, eines am rechten Rand."
+  },
+  {
+   "text_en": "With white yarn, embroider two eyes and a smile on round 2 of the head, two buttons on rows 2 and 4 of the body, and a zigzag line across the end of each arm and leg.",
+   "text_de": "Mit weißem Garn zwei Augen und ein Lächeln auf Runde 2 des Kopfes sticken, zwei Knöpfe auf Reihe 2 und 4 des Körpers und eine Zickzacklinie am Ende jedes Arms und Beins."
+  },
+  {
+   "text_en": "Hanging loop: ch 12 at the top of round 3 of the head and sl st back into the same st. Happy hooking!",
+   "text_de": "Aufhänger: 12 Lm oben an Runde 3 des Kopfes, mit 1 Km in dieselbe M zurück. Viel Spaß beim Häkeln!"
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "gingerbread",
+    "w": {
+     "hu": "≈ 9 cm",
+     "en": "≈ 9 cm (3.5 in)",
+     "de": "≈ 9 cm"
+    },
+    "h": {
+     "hu": "≈ 11 cm",
+     "en": "≈ 11 cm (4.3 in)",
+     "de": "≈ 11 cm"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape and assembly",
+   "cap_de": "Fertige Form und Zusammennähen"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18
+    ]
+   },
+   "cap_hu": "Fej",
+   "cap_en": "Head: 3 rounds",
+   "cap_de": "Kopf: 3 Runden"
+  },
+  {
+   "fn": "row_chart",
+   "args": {
+    "widths": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "found_ch": 7,
+    "dec_ends": false
+   },
+   "cap_hu": "Test",
+   "cap_en": "Body: 6 rows of 6 sc",
+   "cap_de": "Körper: 6 Reihen à 6 fM"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "sc",
+  "inc",
+  "mr"
+ ]
+}

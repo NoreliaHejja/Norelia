@@ -234,6 +234,21 @@ def shape(kind, lang, **k):
               f'<rect x="146" y="34" width="88" height="30" rx="4" fill="#ffffff" stroke="{S}" stroke-width="2"/>'
               f'<path d="M150,36 q-14,-26 10,-30" fill="none" stroke="{S}" stroke-width="2"/>'
               + dim(150, 272, 312, 272, k["w"]) + dim(340, 34, 340, 252, k["h"], 26))
+    elif kind == "beanie":
+        b += (f'<path d="M110,210 Q110,60 210,55 Q310,60 310,210 Z" fill="#c9d6e3" stroke="{S}" stroke-width="2"/>'
+              f'<rect x="104" y="200" width="212" height="44" rx="6" fill="#aebfd1" stroke="{S}" stroke-width="2"/>'
+              + "".join(f'<path d="M{x},204 L{x},240" stroke="{S}" stroke-width="1" opacity=".5"/>' for x in range(116, 312, 10))
+              + f'<circle cx="210" cy="44" r="18" fill="#e8eef5" stroke="{S}" stroke-width="2"/>'
+              + dim(104, 266, 316, 266, k["w"]) + dim(340, 55, 340, 244, k["h"], 26))
+    elif kind == "gingerbread":
+        C = "#c68a52"
+        b += (f'<circle cx="210" cy="70" r="34" fill="{C}" stroke="{S}" stroke-width="2"/>'
+              f'<rect x="178" y="104" width="64" height="70" rx="10" fill="{C}" stroke="{S}" stroke-width="2"/>'
+              f'<rect x="128" y="110" width="52" height="24" rx="12" fill="{C}" stroke="{S}" stroke-width="2"/><rect x="240" y="110" width="52" height="24" rx="12" fill="{C}" stroke="{S}" stroke-width="2"/>'
+              f'<rect x="180" y="172" width="24" height="60" rx="12" fill="{C}" stroke="{S}" stroke-width="2"/><rect x="216" y="172" width="24" height="60" rx="12" fill="{C}" stroke="{S}" stroke-width="2"/>'
+              f'<circle cx="198" cy="64" r="4" fill="#fff"/><circle cx="222" cy="64" r="4" fill="#fff"/><path d="M198,80 Q210,90 222,80" stroke="#fff" stroke-width="3" fill="none"/>'
+              f'<circle cx="210" cy="124" r="4" fill="#fff"/><circle cx="210" cy="144" r="4" fill="#fff"/>'
+              + dim(128, 256, 292, 256, k["w"]) + dim(330, 36, 330, 232, k["h"], 26))
     elif kind == "basket":
         b += (f'<path d="M90,70 L330,70 L330,240 Q330,250 320,250 L100,250 Q90,250 90,240z" fill="{F}" stroke="{S}" stroke-width="2"/>'
               f'<rect x="130" y="82" width="40" height="14" rx="7" fill="white" stroke="{S}"/><rect x="250" y="82" width="40" height="14" rx="7" fill="white" stroke="{S}"/>'

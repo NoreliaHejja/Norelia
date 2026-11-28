@@ -1,0 +1,233 @@
+{
+ "slug": "chunky-beanie",
+ "statusz": "kesz",
+ "langs": [
+  "en",
+  "de"
+ ],
+ "name_en": "Chunky Ribbed Beanie – Crochet Pattern (Adult S/M/L)",
+ "name_de": "Grobe Mütze mit Rippenbündchen – Häkelanleitung (Erwachsene S/M/L)",
+ "tagline_en": "Worked top down in half double crochet with a stretchy post-stitch brim. A quick gift in about 2 hours.",
+ "tagline_de": "Von oben nach unten in halben Stäbchen mit dehnbarem Reliefbündchen. Ein schnelles Geschenk in ca. 2 Stunden.",
+ "level_en": "3/6 – Easy+",
+ "level_de": "3/6 – Leicht+",
+ "size_en": "S head 50–53 cm · M 54–57 cm · L 58–61 cm; about 21–23 cm tall",
+ "size_de": "S Kopf 50–53 cm · M 54–57 cm · L 58–61 cm; ca. 21–23 cm hoch",
+ "hook": "8 mm (US L/11)",
+ "gauge_en": "9 hdc = 10 cm (4 in) in rounds. Check it: a bigger gauge makes a bigger hat.",
+ "gauge_de": "9 hStb = 10 cm in Runden. Bitte prüfen: Eine andere Maschenprobe ändert die Größe.",
+ "materials": [
+  {
+   "text_en": "Chunky / bulky weight yarn (#5), about 100 g (S) to 130 g (L), e.g. wool blend or acrylic",
+   "text_de": "Dickes Garn (Stärke 5), ca. 100 g (S) bis 130 g (L), z. B. Wollmischung oder Acryl"
+  },
+  {
+   "text_en": "8 mm hook, stitch marker, tapestry needle; optional faux fur pom-pom",
+   "text_de": "Häkelnadel 8 mm, Maschenmarkierer, Wollnadel; optional Kunstfell-Bommel"
+  }
+ ],
+ "abbr": [
+  "ch",
+  "hdc",
+  "sl st",
+  "st",
+  "inc"
+ ],
+ "notes": [
+  {
+   "text_en": "Start: the magic ring is the top of the crown; you work downwards in joined rounds. The ch 2 at the start of a round does not count as a stitch.",
+   "text_de": "Anfang: Der Fadenring ist die Mitte des Oberkopfs; du häkelst in geschlossenen Runden nach unten. Die 2 Lm am Rundenanfang zählen nicht als Masche."
+  },
+  {
+   "text_en": "Sizes: all sizes work rounds 1–7. Size M adds round 8, size L adds rounds 8 and 9. Then everyone works the body and the brim.",
+   "text_de": "Größen: Alle Größen häkeln Runde 1–7. Größe M zusätzlich Runde 8, Größe L Runde 8 und 9. Danach für alle Körper und Bündchen."
+  },
+  {
+   "text_en": "Front post dc / back post dc: a double crochet worked around the post of the stitch below, from the front or from the back. This makes the stretchy rib.",
+   "text_de": "Reliefstäbchen von vorne / hinten: ein Stäbchen um den Stamm der Masche der Vorrunde, von vorne oder hinten gestochen. So entsteht das dehnbare Rippenmuster."
+  },
+  {
+   "text_en": "Longer slouchy beanie: work 3–4 more body rounds before the brim.",
+   "text_de": "Längere Beanie: vor dem Bündchen 3–4 Körperrunden mehr häkeln."
+  }
+ ],
+ "sections": [
+  {
+   "title_en": "Crown (all sizes)",
+   "title_de": "Oberkopf (alle Größen)",
+   "rows": [
+    {
+     "label_en": "Round 1",
+     "label_de": "Runde 1",
+     "en": "Magic ring, ch 2 (does not count as a st), 6 hdc into the ring. Join with a sl st to the first hdc.",
+     "de": "Fadenring, 2 Lm (zählen nicht als M), 6 hStb in den Ring. Mit 1 Km in das erste hStb schließen.",
+     "count": 6
+    },
+    {
+     "label_en": "Round 2",
+     "label_de": "Runde 2",
+     "en": "Ch 2, 2 hdc in each st around. Join.",
+     "de": "2 Lm, in jede M 2 hStb. Schließen.",
+     "count": 12,
+     "prev": 6,
+     "change": 6
+    },
+    {
+     "label_en": "Round 3",
+     "label_de": "Runde 3",
+     "en": "Ch 2, *hdc in the next 1 st, 2 hdc in the next st.* Repeat 6 times. Join.",
+     "de": "2 Lm, *1 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen.",
+     "count": 18,
+     "prev": 12,
+     "change": 6
+    },
+    {
+     "label_en": "Round 4",
+     "label_de": "Runde 4",
+     "en": "Ch 2, *hdc in the next 2 sts, 2 hdc in the next st.* Repeat 6 times. Join.",
+     "de": "2 Lm, *2 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen.",
+     "count": 24,
+     "prev": 18,
+     "change": 6
+    },
+    {
+     "label_en": "Round 5",
+     "label_de": "Runde 5",
+     "en": "Ch 2, *hdc in the next 3 sts, 2 hdc in the next st.* Repeat 6 times. Join.",
+     "de": "2 Lm, *3 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen.",
+     "count": 30,
+     "prev": 24,
+     "change": 6
+    },
+    {
+     "label_en": "Round 6",
+     "label_de": "Runde 6",
+     "en": "Ch 2, *hdc in the next 4 sts, 2 hdc in the next st.* Repeat 6 times. Join.",
+     "de": "2 Lm, *4 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen.",
+     "count": 36,
+     "prev": 30,
+     "change": 6
+    },
+    {
+     "label_en": "Round 7",
+     "label_de": "Runde 7",
+     "en": "Ch 2, *hdc in the next 5 sts, 2 hdc in the next st.* Repeat 6 times. Join.",
+     "de": "2 Lm, *5 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen.",
+     "count": 42,
+     "prev": 36,
+     "change": 6
+    }
+   ]
+  },
+  {
+   "title_en": "Size M and L",
+   "title_de": "Größe M und L",
+   "rows": [
+    {
+     "label_en": "Round 8",
+     "label_de": "Runde 8",
+     "en": "Size M and L only: ch 2, *hdc in the next 6 sts, 2 hdc in the next st.* Repeat 6 times. Join. (Size S: skip to the body.)",
+     "de": "Nur M und L: 2 Lm, *6 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen. (Größe S: weiter mit dem Körper.)",
+     "count": 48,
+     "prev": 42,
+     "change": 6
+    }
+   ]
+  },
+  {
+   "title_en": "Size L",
+   "title_de": "Größe L",
+   "rows": [
+    {
+     "label_en": "Round 9",
+     "label_de": "Runde 9",
+     "en": "Size L only: ch 2, *hdc in the next 7 sts, 2 hdc in the next st.* Repeat 6 times. Join.",
+     "de": "Nur L: 2 Lm, *7 hStb, 2 hStb in die nächste M.* 6-mal wiederholen. Schließen.",
+     "count": 54,
+     "prev": 48,
+     "change": 6
+    }
+   ]
+  },
+  {
+   "title_en": "Body and brim (all sizes)",
+   "title_de": "Körper und Bündchen (alle Größen)",
+   "rows": [
+    {
+     "label_en": "Body",
+     "label_de": "Körper",
+     "en": "Ch 2, hdc in each st around, join. Work 8 rounds even: S 42 sts, M 48 sts, L 54 sts. Try the hat on: it should reach about 3 cm above the ears.",
+     "de": "2 Lm, in jede M 1 hStb, schließen. 8 Runden ohne Zunahme: S 42 M, M 48 M, L 54 M. Anprobieren: Die Mütze sollte etwa 3 cm über den Ohren enden."
+    },
+    {
+     "label_en": "Brim (4 rounds)",
+     "label_de": "Bündchen (4 Runden)",
+     "en": "Ch 2, *front post dc around the next st, back post dc around the next st* around. Join. Repeat for 4 rounds, keeping fronts over fronts. Fasten off.",
+     "de": "2 Lm, *1 Reliefstäbchen von vorne, 1 Reliefstäbchen von hinten* rundherum. Schließen. 4 Runden so arbeiten, Reliefmaschen übereinander. Faden abschneiden."
+    }
+   ]
+  }
+ ],
+ "finishing": [
+  {
+   "text_en": "Weave in the ends on the inside.",
+   "text_de": "Fäden innen vernähen."
+  },
+  {
+   "text_en": "Optional: attach a pom-pom to the centre of round 1 (the magic ring).",
+   "text_de": "Optional: Bommel in der Mitte von Runde 1 (Fadenring) annähen."
+  },
+  {
+   "text_en": "Happy hooking!",
+   "text_de": "Viel Spaß beim Häkeln!"
+  }
+ ],
+ "figures": [
+  {
+   "fn": "shape",
+   "args": {
+    "kind": "beanie",
+    "w": {
+     "hu": "≈ 23–27 cm",
+     "en": "≈ 23–27 cm flat (9–10.5 in)",
+     "de": "≈ 23–27 cm flach"
+    },
+    "h": {
+     "hu": "≈ 21–23 cm",
+     "en": "≈ 21–23 cm",
+     "de": "≈ 21–23 cm"
+    }
+   },
+   "cap_hu": "Kész forma",
+   "cap_en": "Finished shape (flat width S–L)",
+   "cap_de": "Fertige Form (flache Breite S–L)"
+  },
+  {
+   "fn": "circle_chart",
+   "args": {
+    "counts": [
+     6,
+     12,
+     18,
+     24,
+     30,
+     36,
+     42,
+     48,
+     54
+    ],
+    "stitch": "hdc"
+   },
+   "cap_hu": "Korona",
+   "cap_en": "Crown rounds 1–9 (S stops at 7, M at 8)",
+   "cap_de": "Oberkopf Runde 1–9 (S endet bei 7, M bei 8)"
+  }
+ ],
+ "legend": [
+  "ch",
+  "sl",
+  "hdc",
+  "inc",
+  "mr"
+ ]
+}
